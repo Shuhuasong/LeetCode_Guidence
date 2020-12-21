@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="Two Pointer">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Easy/_169_MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_154_FindMinimumInRotatedSortedArrayII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_50_PowXN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/BST/BST_Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/BST/_285_InorderSuccessorInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/BST/_510_InorderSuccessorInBSTII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/BST/_98_ValidateBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap/_451_SortCharacterByFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Medium/_451_SortCharacterByFrequency.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1lnubZJTsM53Bjk8BtROZw8jLBz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="" />
+      <created>1608245248524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608245248524</updated>
+      <workItem from="1608245249862" duration="1621000" />
+      <workItem from="1608246987017" duration="56000" />
+      <workItem from="1608247120874" duration="385000" />
+      <workItem from="1608247569790" duration="689000" />
+      <workItem from="1608250027945" duration="582000" />
+      <workItem from="1608319620801" duration="4556000" />
+      <workItem from="1608355947198" duration="71000" />
+      <workItem from="1608408697926" duration="2076000" />
+      <workItem from="1608431395015" duration="63000" />
+      <workItem from="1608488773211" duration="6469000" />
+    </task>
+    <task id="LOCAL-00001" summary="Demo">
+      <created>1608247699896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608247699896</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Demo">
+      <created>1608249177758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608249177758</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Demo">
+      <created>1608250140134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608250140134</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Two Pointer">
+      <created>1608355978393</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608355978394</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Two Pointer">
+      <created>1608431420560</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608431420560</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Demo" />
+    <MESSAGE value="Two Pointer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two Pointer" />
+  </component>
+</project>
