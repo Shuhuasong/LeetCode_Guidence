@@ -1,17 +1,16 @@
 
-public int longestSubstring(String s){
-   if(s==null || s.length()==0) return -1;
-   int result = 0, n = s.length();
-   int i=0;
-   Set<Character> set = new HashSet<>();
-   for(int j=0; j<n; ){
-       char ch = s.charAt(j);
-       if(set.add(ch)){
-          j++;
-          result = Math.max(result, j-i);
-       }
-       set.remove(s.charAt(i));
-       i++;
-   }
-   return result;
-}
+  int max;
+  public int diameterOfBinaryTree(TreeNode root){
+     if(root==null) return 0;
+     max = 0;
+     depth(root);
+     return max;
+  }
+
+  private void depth(TreeNode root){
+     if(root==null);
+     int left = depth(root.left);
+     int right = depth(root.right);
+     max = Math.max(max, left + right);
+     return Math.max(left, right)+1;
+  }
