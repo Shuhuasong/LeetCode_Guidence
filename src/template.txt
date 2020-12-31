@@ -1,16 +1,15 @@
 
-  int max;
-  public int diameterOfBinaryTree(TreeNode root){
-     if(root==null) return 0;
-     max = 0;
-     depth(root);
-     return max;
-  }
-
-  private void depth(TreeNode root){
-     if(root==null);
-     int left = depth(root.left);
-     int right = depth(root.right);
-     max = Math.max(max, left + right);
-     return Math.max(left, right)+1;
-  }
+public int lengthOfLastWord(String s){
+     if(s==null || s.length()==0) return 0;
+     s = s.trim();
+     int p = s.length()-1, len = 0;
+     while(p>=0){
+        if(p>=0 && s.charAt(p) !=' '){
+           len++;
+           p--;
+        }else if(len>0){
+           return len;
+        }
+     }
+     return len;
+}
