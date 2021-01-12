@@ -1,4 +1,4 @@
-package Depth_First_Search.Medium;
+package DFS_and_BFS.Medium;
 
 import java.util.ArrayList;
 import java.util.HashMap;
