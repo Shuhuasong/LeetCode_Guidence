@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="Two Pointer">
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="LeetCode">
       <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
@@ -10,14 +10,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Easy/_169_MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_154_FindMinimumInRotatedSortedArrayII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_50_PowXN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/BST/BST_Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/BST/_285_InorderSuccessorInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/BST/_510_InorderSuccessorInBSTII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/BST/_98_ValidateBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/_451_SortCharacterByFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Medium/_451_SortCharacterByFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -61,7 +55,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -94,7 +88,32 @@
       <workItem from="1608355947198" duration="71000" />
       <workItem from="1608408697926" duration="2076000" />
       <workItem from="1608431395015" duration="63000" />
-      <workItem from="1608488773211" duration="6469000" />
+      <workItem from="1608488773211" duration="6938000" />
+      <workItem from="1608581633785" duration="4448000" />
+      <workItem from="1608667358535" duration="5140000" />
+      <workItem from="1608682307394" duration="2321000" />
+      <workItem from="1608766446787" duration="2528000" />
+      <workItem from="1608871110519" duration="780000" />
+      <workItem from="1608878394536" duration="30000" />
+      <workItem from="1608917060541" duration="84000" />
+      <workItem from="1608948044551" duration="1041000" />
+      <workItem from="1609004999639" duration="3104000" />
+      <workItem from="1609088278752" duration="2442000" />
+      <workItem from="1609177385412" duration="3521000" />
+      <workItem from="1609287348658" duration="853000" />
+      <workItem from="1609382505534" duration="217000" />
+      <workItem from="1609484399014" duration="980000" />
+      <workItem from="1609526640771" duration="4203000" />
+      <workItem from="1609627034014" duration="1231000" />
+      <workItem from="1609795192038" duration="3312000" />
+      <workItem from="1609871074060" duration="1559000" />
+      <workItem from="1609965105387" duration="3316000" />
+      <workItem from="1610043720511" duration="2494000" />
+      <workItem from="1610241756458" duration="446000" />
+      <workItem from="1610303718982" duration="2859000" />
+      <workItem from="1610386063292" duration="1033000" />
+      <workItem from="1610430693622" duration="56000" />
+      <workItem from="1610487948564" duration="815000" />
     </task>
     <task id="LOCAL-00001" summary="Demo">
       <created>1608247699896</created>
@@ -131,15 +150,149 @@
       <option name="project" value="LOCAL" />
       <updated>1608431420560</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Two Pointer">
+      <created>1608510094567</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608510094568</updated>
+    </task>
+    <task id="LOCAL-00007" summary="LeetCode">
+      <created>1608510139150</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608510139150</updated>
+    </task>
+    <task id="LOCAL-00008" summary="LeetCode">
+      <created>1608618156467</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608618156467</updated>
+    </task>
+    <task id="LOCAL-00009" summary="LeetCode">
+      <created>1608705853967</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608705853967</updated>
+    </task>
+    <task id="LOCAL-00010" summary="leetcode">
+      <created>1608788196995</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608788196995</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Two Pointer">
+      <created>1608878372911</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608878372911</updated>
+    </task>
+    <task id="LOCAL-00012" summary="LeetCode">
+      <created>1608960252790</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608960252790</updated>
+    </task>
+    <task id="LOCAL-00013" summary="LeetCode">
+      <created>1609130423737</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609130423738</updated>
+    </task>
+    <task id="LOCAL-00014" summary="LeetCode">
+      <created>1609382565917</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609382565917</updated>
+    </task>
+    <task id="LOCAL-00015" summary="LeetCode">
+      <created>1609485724963</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609485724963</updated>
+    </task>
+    <task id="LOCAL-00016" summary="LeetCode">
+      <created>1609567446418</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609567446418</updated>
+    </task>
+    <task id="LOCAL-00017" summary="LeetCode">
+      <created>1609908207687</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609908207687</updated>
+    </task>
+    <task id="LOCAL-00018" summary="LeetCode">
+      <created>1609992245255</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609992245256</updated>
+    </task>
+    <task id="LOCAL-00019" summary="LeetCode">
+      <created>1610082084821</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610082084821</updated>
+    </task>
+    <task id="LOCAL-00020" summary="LeetCode">
+      <created>1610321494403</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1610321494403</updated>
+    </task>
+    <task id="LOCAL-00021" summary="LeetCode">
+      <created>1610430727900</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610430727900</updated>
+    </task>
+    <task id="LOCAL-00022" summary="LeetCode">
+      <created>1610503551682</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1610503551682</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Demo" />
+    <MESSAGE value="leetcode" />
     <MESSAGE value="Two Pointer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Two Pointer" />
+    <MESSAGE value="LeetCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode" />
   </component>
 </project>
