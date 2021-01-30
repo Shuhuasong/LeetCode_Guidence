@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="LeetCode">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/_139_WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Topological_Sort/_207_CourseSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Topological_Sort/_210_CourseScheduleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Topological_Sort/_310_MinimumHeightTrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,6 +110,13 @@
       <workItem from="1610386063292" duration="1033000" />
       <workItem from="1610430693622" duration="56000" />
       <workItem from="1610487948564" duration="815000" />
+      <workItem from="1610579995294" duration="2229000" />
+      <workItem from="1610656335866" duration="1529000" />
+      <workItem from="1610829271646" duration="2537000" />
+      <workItem from="1611029450871" duration="615000" />
+      <workItem from="1611089774746" duration="1757000" />
+      <workItem from="1611205931354" duration="1554000" />
+      <workItem from="1611979972825" duration="1876000" />
     </task>
     <task id="LOCAL-00001" summary="Demo">
       <created>1608247699896</created>
@@ -269,7 +272,35 @@
       <option name="project" value="LOCAL" />
       <updated>1610503551682</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="LeetCode">
+      <created>1610580045381</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610580045381</updated>
+    </task>
+    <task id="LOCAL-00024" summary="LeetCode">
+      <created>1610696612792</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1610696612792</updated>
+    </task>
+    <task id="LOCAL-00025" summary="LeetCode">
+      <created>1610842562387</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610842562387</updated>
+    </task>
+    <task id="LOCAL-00026" summary="LeetCode">
+      <created>1611207524498</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1611207524498</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
