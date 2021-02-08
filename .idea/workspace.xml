@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_647_PalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Medium/_131_PalindromePartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Medium/_6_ZigzagConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +113,7 @@
       <workItem from="1611979972825" duration="1896000" />
       <workItem from="1612204293160" duration="1898000" />
       <workItem from="1612390894037" duration="1349000" />
-      <workItem from="1612564555450" duration="987000" />
+      <workItem from="1612564555450" duration="1105000" />
     </task>
     <task id="LOCAL-00001" summary="Demo">
       <created>1608247699896</created>
@@ -323,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612414339618</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="LeetCode">
+      <created>1612573258040</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1612573258040</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
