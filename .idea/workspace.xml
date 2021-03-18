@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_714_Best_Time_to_Buy_and_Sell_Sock_With_Transaction_Fee/BestTimetoBuyAndSellStockWithTransactionFee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_714_Best_Time_to_Buy_and_Sell_Sock_With_Transaction_Fee/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_24_SwapNodeinPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_92_ReverseLinkedListII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +120,13 @@
       <workItem from="1612204293160" duration="1898000" />
       <workItem from="1612390894037" duration="1349000" />
       <workItem from="1612564555450" duration="1105000" />
+      <workItem from="1612760100975" duration="574000" />
+      <workItem from="1613252451479" duration="1371000" />
+      <workItem from="1613502903691" duration="979000" />
+      <workItem from="1613970098896" duration="1118000" />
+      <workItem from="1614825919137" duration="159000" />
+      <workItem from="1615511626400" duration="2221000" />
+      <workItem from="1616048272813" duration="1115000" />
     </task>
     <task id="LOCAL-00001" summary="Demo">
       <created>1608247699896</created>
@@ -325,7 +338,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612573258040</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="LeetCode">
+      <created>1612760178420</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1612760178421</updated>
+    </task>
+    <task id="LOCAL-00032" summary="LeetCode">
+      <created>1613974050710</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1613974050710</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +377,17 @@
     <MESSAGE value="Two Pointer" />
     <MESSAGE value="LeetCode" />
     <option name="LAST_COMMIT_MESSAGE" value="LeetCode" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/Medium/_24_SwapNodeinPairs.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
