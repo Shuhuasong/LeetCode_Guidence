@@ -5,8 +5,8 @@ import java.util.HashMap;
 public class _105_ConstructBinaryTreeFromPreorderInorder {
     public class TreeNode {
         int val;
-       TreeNode left;
-       TreeNode right;
+        TreeNode left;
+        TreeNode right;
         TreeNode() {}
         TreeNode(int val) { this.val = val; }
         TreeNode(int val, TreeNode left, TreeNode right) {
@@ -38,4 +38,6 @@ public class _105_ConstructBinaryTreeFromPreorderInorder {
         root.right = build(rootIdx+1, right);
         return root;
     }
+
+
 }

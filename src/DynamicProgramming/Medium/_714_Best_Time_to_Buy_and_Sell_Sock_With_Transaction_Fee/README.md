@@ -16,3 +16,4 @@
 #### notice :
 ##### 1. the initial value :  sold = 0, 表示刚开始没有股票， 所以利润维0
 ###### 2. hold = Math.MIN_VALUE, 初始状态下， 没有任何股票， 为了在之后更新hold 时， 保证当前的最小值不会被考虑
+###### 类似的题目还有：376.Wiggle-Subsequence，487.Max-Consecutive-Ones-II
