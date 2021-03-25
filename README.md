@@ -2,5 +2,5 @@
 # LeetCode Solution And Explaination
 
 ### Array
-#167. [Two SumII ] (./src
+#167. [Two SumII ] (./src/Array/Easy/_167_twoSumII.java) <br/>
 
