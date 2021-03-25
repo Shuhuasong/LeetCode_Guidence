@@ -1,3 +1,3 @@
-<img src="image/leetcode.png" /> 
+<img src="image/leetcode.png" width=20% aligh=right /> 
 # LeetCode Guidence
 
