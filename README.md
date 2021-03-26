@@ -17,4 +17,5 @@
 #238. [Product Of Array Except Self ](./src/Array/Easy/_238_ProductOfArrayExceptSelef.java) <br />
 #611. [_Valid Triangle Number](./src/Array/Easy/_611_ValidTriangleNumber.java) <br />
 #692. [Top K Frequent Words](./src/Array/Easy/_692_TopKFrequentWords.java) <br />
+#88. (https://gist.github.com/Shuhuasong/3f5810c268c3a0ccc0d8c9cb6cd2d00b)
 
