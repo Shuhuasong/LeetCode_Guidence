@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="LeetCode">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Easy/_1608_SpecialArrayWithXElementGreaterThanOrEqualX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_714_Best_Time_to_Buy_and_Sell_Sock_With_Transaction_Fee/BestTimetoBuyAndSellStockWithTransactionFee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_714_Best_Time_to_Buy_and_Sell_Sock_With_Transaction_Fee/BestTimetoBuyAndSellStockWithTransactionFee.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +36,11 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1lnubZJTsM53Bjk8BtROZw8jLBz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -124,7 +127,11 @@
       <workItem from="1614825919137" duration="159000" />
       <workItem from="1615511626400" duration="2221000" />
       <workItem from="1616048272813" duration="1422000" />
-      <workItem from="1616123762983" duration="187000" />
+      <workItem from="1616123762983" duration="2405000" />
+      <workItem from="1616540226872" duration="1566000" />
+      <workItem from="1616696173433" duration="2641000" />
+      <workItem from="1617308300982" duration="1279000" />
+      <workItem from="1617315671583" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="Demo">
       <created>1608247699896</created>
@@ -357,7 +364,56 @@
       <option name="project" value="LOCAL" />
       <updated>1616049507172</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="LeetCode">
+      <created>1616124112982</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1616124112982</updated>
+    </task>
+    <task id="LOCAL-00035" summary="LeetCode">
+      <created>1616124284998</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1616124284998</updated>
+    </task>
+    <task id="LOCAL-00036" summary="LeetCode">
+      <created>1616124403820</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1616124403820</updated>
+    </task>
+    <task id="LOCAL-00037" summary="LeetCode">
+      <created>1616125797894</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1616125797894</updated>
+    </task>
+    <task id="LOCAL-00038" summary="LeetCode">
+      <created>1616545618301</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1616545618302</updated>
+    </task>
+    <task id="LOCAL-00039" summary="LeetCode">
+      <created>1616697040895</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1616697040895</updated>
+    </task>
+    <task id="LOCAL-00040" summary="LeetCode">
+      <created>1616697387605</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1616697387605</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,6 +433,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Demo" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="Two Pointer" />
