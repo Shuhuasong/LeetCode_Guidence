@@ -25,6 +25,7 @@ public class _1647_MinimumDeleteToMakeCharFrequencyUnique {
             seen.add(val);
 
         }
+        System.out.println("Test");
         return res;
     }
 }
