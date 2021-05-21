@@ -1,0 +1,34 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+# Compiled class file
+*.class
+.idea
+.DS_Store
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+out/production/LeetCode(New)/Backtrack/backtracking_algorithm.docx
+out/production/LeetCode(New)/DynamicProgramming/DP_Algorithm.docx
+out/production/LeetCode(New)/DynamicProgramming/Medium/_714_Best_Time_to_Buy_and_Sell_Sock_With_Transaction_Fee/README.md
+out/production/LeetCode(New)/String/KMP-Algorithm.docx
+src/.DS_Store
+src/DFS_and_BFS/Easy/
+src/String/KMP-Algorithm.docx
