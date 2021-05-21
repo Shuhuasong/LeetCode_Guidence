@@ -1,22 +1,25 @@
 package DynamicProgramming.Medium;
 
+/*
+Note: At first glance, the solution seems to be greedy, but if you try to greedily
+take the largest value from the beginning or the end, this will not be optimal.
+ */
+
 public class _1770_MaximumScoreFromMultiplyOperations {
 
-    int n, m;
-    int[] nums, muls;
-    Integer[][] memo;
     public int maximumScore(int[] nums, int[] multipliers) {
-        n = nums.length; m = multipliers.length;
-        this.nums = nums;
-        this.muls = multipliers;
-        this.memo = new Integer[m][m];
-        return dp(0, 0);
+        int  n = nums.length, m = multipliers.length;
+        Integer memo[][] = new Integer[m][m];
+        return dp(nums, multipliers, 0, 0, n-1, memo);
     }
-    private int dp(int left, int i){
-        if(i==m) return 0;
-        if(memo[left][i] != null) return memo[left][i];
-        int leftPick = dp(left+1, i+1) + nums[left] * muls[i];
-        int rightPick = dp(left, i+1) + nums[n-(i-left)-1] * muls[i];
-        return memo[left][i] = Math.max(leftPick, rightPick);
+
+
+    private int dp(int[] nums, int[] muls, int curr, int start, int end, Integer[][] memo){
+        if(curr==muls.length) return 0;
+        if(memo[start][curr] != null) return memo[start][curr];
+        int leftPick = nums[start] * muls[curr] + dp(nums, muls, curr+1, start+1, end, memo);
+        int rightPick = nums[end] * muls[curr] + dp(nums, muls, curr+1, start, end-1, memo);
+        memo[start][curr] = Math.max(leftPick, rightPick);
+        return memo[start][curr];
     }
 }
