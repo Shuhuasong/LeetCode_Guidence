@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="LeetCode">
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_900_RLE_Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_907_SumOfSubarrayMinimums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1770_MaximumScoreFromMultiplyOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1770_MaximumScoreFromMultiplyOperations.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,14 +145,8 @@
       <workItem from="1619986353798" duration="50000" />
       <workItem from="1619986427822" duration="119000" />
       <workItem from="1620967723437" duration="1685000" />
-      <workItem from="1621563607165" duration="1054000" />
-    </task>
-    <task id="LOCAL-00003" summary="Demo">
-      <created>1608250140134</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1608250140134</updated>
+      <workItem from="1621563607165" duration="1182000" />
+      <workItem from="1622145461784" duration="1618000" />
     </task>
     <task id="LOCAL-00004" summary="Two Pointer">
       <created>1608355978393</created>
@@ -489,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621569525238</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="LeetCode">
+      <created>1621571275128</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1621571275128</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,6 +525,11 @@
           <url>file://$PROJECT_DIR$/src/LinkedList/Medium/_24_SwapNodeinPairs.java</url>
           <line>54</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/Medium/_907_SumOfSubarrayMinimums.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
