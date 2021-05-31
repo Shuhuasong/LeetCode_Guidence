@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Kadane's algorithm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_128_LongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_795_NumberOfSubarraysWithBounded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_914_XofAkindInAdeckOfCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_945_MinimumIncrementToMakeArrayUnique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_153_FindMinimumInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_153_FindMinimumInRotatedSortedArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,14 +148,8 @@
       <workItem from="1621563607165" duration="1182000" />
       <workItem from="1622145461784" duration="2409000" />
       <workItem from="1622238498866" duration="2801000" />
-      <workItem from="1622326936360" duration="1082000" />
-    </task>
-    <task id="LOCAL-00006" summary="Two Pointer">
-      <created>1608510094567</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1608510094568</updated>
+      <workItem from="1622326936360" duration="2168000" />
+      <workItem from="1622482663184" duration="1513000" />
     </task>
     <task id="LOCAL-00007" summary="LeetCode">
       <created>1608510139150</created>
@@ -495,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622177914418</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="LeetCode">
+      <created>1622328893699</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1622328893700</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
