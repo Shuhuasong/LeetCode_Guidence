@@ -1,27 +1,33 @@
 package BinarySearch.Medium;
 
 public class _33_SearchInRotatedSortedArray {
-    public int search(int[] nums, int target) {
-
-        int start = 0, end = nums.length-1;
-        while(start + 1 < end){
-            int mid = start + (end-start)/2;
-            if(nums[mid] > nums[start]){
-                if(nums[start]<=target && target<nums[mid]){
-                    end = mid;
+    public int search(int[] A, int target) {
+        // write your code here
+        if(A==null || A.length==0){
+            return -1;
+        }
+        int left = 0, right = A.length-1;
+        while(left + 1 < right){
+            int mid = left + (right-left)/2;
+            if(A[mid] > A[left]){ //increase part
+                //left and mid are the acending  array side
+                if((A[left] <= target) && (target < A[mid])){
+                    right = mid; //find in left part
                 }else{
-                    start = mid;
+                    left =  mid; //find in right part
                 }
             }else{
-                if(nums[mid]<target && target <= nums[end]){
-                    start = mid;
+                //left is on the left acending half array, mid is on the right acending half array
+                // so the mid->right is in acending order
+                if((A[mid] < target) && target <= A[right] ){
+                    left = mid; //find in mid < target < right
                 }else{
-                    end = mid;
+                    right = mid; //find in left < target < mid
                 }
             }
         }
-        if(nums[start]==target) return start;
-        if(nums[end]==target) return end;
+        if(A[left] == target) return left;
+        if(A[right] == target) return right;
         return -1;
     }
 }
