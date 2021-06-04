@@ -1,0 +1,72 @@
+
+1- The most common variants of linked lists are:
+    Singly Linked List
+    Doubly Linked List
+    Circular Linked List
+
+2- Time and Space Complexity
+    Best cases: Accessing / Search : O(1) Inserting at head: O(1) Deleting at head: O(1)
+    Worst cases: Accessing / Searching : O(N) Inserting: O(N) Deleting: O(N)
+    Best Case occurs when the node is at the head of the list and Worst Case is when the node is at the end of the list.
+
+3- Reverse a list-Tips:
+   1) store the next node
+   2) store the current node's previous node
+
+    public ListNode reverseList(ListNode head) {
+           if(head==null || head.next==null) return head;
+           ListNode prev = null;
+           ListNode cur = head, temp = head;
+           while(cur != null){
+               temp = cur.next;
+               cur.next = prev;
+               prev = cur;
+               cur =  temp;
+           }
+           return prev;
+       }
+
+4- Common Operation
+     Insert
+          insert(head, val):
+              node = new ListNode(val)
+              head.next = node
+              return node;
+
+     Delete
+          delete(head, val):
+               dummy = new ListNode("dummy")
+               dummy.next = head;
+               prev = dummy;
+               cur =  head;
+               while(cur != null){
+                  if(cur.val == val){
+                      prev.next = cur.next;
+                      return dummy.next;
+                  }
+                  prev = cur;
+                  cur = cur.next;
+               }
+
+      Length of List
+            lenght(head)
+               cur = head;
+               len = 0;
+               while(cur != null){
+                   len += 1;
+                   cur = cur.next;
+               }
+
+
+5- Check if there is a Cycle in two list:
+   Tips: if there is a cycle, the slow and fast pointer will encounter eventually
+   public boolean hasCycle(ListNode head) {
+           if(head==null) return false;
+           ListNode slow = head, fast = head.next;
+           while(slow != fast){
+               if(fast==null || fast.next==null) return false;
+               slow = slow.next;
+               fast = fast.next.next;
+           }
+           return true;
+       }
