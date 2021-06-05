@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_752_OpenTheLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList-overview" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BINARYSEARCH_Web/DynamicProgramming/_BrokerOfWallStreet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Medium/_1465_MaximumAreaOfCakeAfterCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Medium/_1465_MaximumAreaOfCakeAfterCut.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,14 +152,7 @@
       <workItem from="1622570042429" duration="662000" />
       <workItem from="1622675363927" duration="2965000" />
       <workItem from="1622758960287" duration="2156000" />
-      <workItem from="1622829690765" duration="657000" />
-    </task>
-    <task id="LOCAL-00010" summary="leetcode">
-      <created>1608788196995</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1608788196995</updated>
+      <workItem from="1622829690765" duration="2587000" />
     </task>
     <task id="LOCAL-00011" summary="Two Pointer">
       <created>1608878372911</created>
@@ -499,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622759119788</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="LeetCode">
+      <created>1622830400655</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1622830400656</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
