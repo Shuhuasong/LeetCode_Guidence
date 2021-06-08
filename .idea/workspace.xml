@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HashTable/_202_HappyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Medium/_373_FindKPairsWithSmallestSums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Medium/_692_TopKFrequentWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_138_CopyListWithRandomPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/_205_IsomorphicStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Easy/_155_MinStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/_142_LinkedListCycleII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/_142_LinkedListCycleII.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,14 +157,8 @@
       <workItem from="1622923914196" duration="1379000" />
       <workItem from="1623006260193" duration="1649000" />
       <workItem from="1623019382798" duration="139000" />
-      <workItem from="1623096339188" duration="905000" />
-    </task>
-    <task id="LOCAL-00013" summary="LeetCode">
-      <created>1609130423737</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1609130423738</updated>
+      <workItem from="1623096339188" duration="1570000" />
+      <workItem from="1623192667189" duration="910000" />
     </task>
     <task id="LOCAL-00014" summary="LeetCode">
       <created>1609382565917</created>
@@ -505,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622931716217</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="LeetCode">
+      <created>1623102937832</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1623102937834</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,9 +527,9 @@
     <MESSAGE value="Demo" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="Two Pointer" />
-    <MESSAGE value="LeetCode" />
     <MESSAGE value="BinarySearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinarySearch" />
+    <MESSAGE value="LeetCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
