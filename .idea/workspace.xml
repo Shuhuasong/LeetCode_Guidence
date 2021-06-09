@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HashTable/_205_IsomorphicStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Easy/_155_MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_946_ValidateStackSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,14 +157,7 @@
       <workItem from="1623006260193" duration="1649000" />
       <workItem from="1623019382798" duration="139000" />
       <workItem from="1623096339188" duration="1570000" />
-      <workItem from="1623192667189" duration="910000" />
-    </task>
-    <task id="LOCAL-00014" summary="LeetCode">
-      <created>1609382565917</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1609382565917</updated>
+      <workItem from="1623192667189" duration="1641000" />
     </task>
     <task id="LOCAL-00015" summary="LeetCode">
       <created>1609485724963</created>
@@ -503,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623102937834</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="LeetCode">
+      <created>1623195942662</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1623195942663</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
