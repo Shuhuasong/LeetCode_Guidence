@@ -76,4 +76,20 @@ I copy some of my codes from this solution.
 Complexity:
 All elements will be pushed twice and popped at most twice
 O(n) time, O(n) space
+
+Eg.  nums = {2, 9, 7, 8, 3, 4, 6, 1}
+  hom many subarray with minimum value 3?  since there are 3 numbers(9,7,8) on left of 3 and two numbers(4, 6) greater than 3
+  so: (left+1) * (right+1) = (3+1) * (2+1) = 4 * 3 = 12(subarray)
+  9, 7, 8, 3,
+  9, 7, 8, 3, 4
+  9, 7, 8, 3, 4, 6
+  7, 8, 3
+  7, 8, 3, 4
+  7, 8, 3, 4, 6
+  8, 3
+  8, 3, 4
+  8, 3, 4, 6
+  3,
+  3, 4
+  3, 4, 6
  */
