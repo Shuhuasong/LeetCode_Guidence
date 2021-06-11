@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1690_StoneGame_VII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1696_JumpGameVI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_45_JumpGame_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_55_JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_554_BrickWall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_729_MyCalendar_I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_277_FindTheCelebrity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Medium/_907_SumOfSubarrayMinimums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Medium/_907_SumOfSubarrayMinimums.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,14 +160,7 @@
       <workItem from="1623192667189" duration="1656000" />
       <workItem from="1623282047681" duration="2655000" />
       <workItem from="1623342848381" duration="2847000" />
-      <workItem from="1623427301447" duration="2154000" />
-    </task>
-    <task id="LOCAL-00016" summary="LeetCode">
-      <created>1609567446418</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1609567446418</updated>
+      <workItem from="1623427301447" duration="3593000" />
     </task>
     <task id="LOCAL-00017" summary="LeetCode">
       <created>1609908207687</created>
@@ -511,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623209529664</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="LeetCode">
+      <created>1623448870678</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1623448870678</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
