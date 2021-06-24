@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_277_FindTheCelebrity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BINARYSEARCH_Web/Tree/_921_LengthOfTheLongestPathInAnNAryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_22_GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_473_MatchsticksToSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_576_OutofBoundaryPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/_871_MinimumNumberOfRefuelingStops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_792_NumberOfMatchingSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/Medium/_554_BrickWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/Medium/_554_BrickWall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Medium/_114_FlattenBinaryTreeToLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Medium/_114_FlattenBinaryTreeToLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +71,15 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BINARYSEARCH_Web.Tree._921_LengthOfTheLongestPathInAnNAryTree" />
+      <module name="LeetCode(New)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -160,14 +176,15 @@
       <workItem from="1623192667189" duration="1656000" />
       <workItem from="1623282047681" duration="2655000" />
       <workItem from="1623342848381" duration="2847000" />
-      <workItem from="1623427301447" duration="3593000" />
-    </task>
-    <task id="LOCAL-00017" summary="LeetCode">
-      <created>1609908207687</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1609908207687</updated>
+      <workItem from="1623427301447" duration="3818000" />
+      <workItem from="1623520700736" duration="9000" />
+      <workItem from="1623521778882" duration="1462000" />
+      <workItem from="1623797001114" duration="841000" />
+      <workItem from="1623857355682" duration="471000" />
+      <workItem from="1624072934192" duration="3633000" />
+      <workItem from="1624400363359" duration="284000" />
+      <workItem from="1624420526982" duration="1000" />
+      <workItem from="1624559245848" duration="223000" />
     </task>
     <task id="LOCAL-00018" summary="LeetCode">
       <created>1609992245255</created>
@@ -505,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623448870678</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="LeetCode">
+      <created>1623453893998</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1623453893998</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
