@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graph/_684_RedundantConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pramp/String/BracketMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pramp/Tree/LargestSmallerBST_key.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,14 +179,8 @@
       <workItem from="1624400363359" duration="284000" />
       <workItem from="1624420526982" duration="1000" />
       <workItem from="1624559245848" duration="1289000" />
-      <workItem from="1624650942501" duration="682000" />
-    </task>
-    <task id="LOCAL-00020" summary="LeetCode">
-      <created>1610321494403</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1610321494403</updated>
+      <workItem from="1624650942501" duration="1325000" />
+      <workItem from="1624820097979" duration="649000" />
     </task>
     <task id="LOCAL-00021" summary="LeetCode">
       <created>1610430727900</created>
@@ -523,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624576335526</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="LeetCode">
+      <created>1624652448856</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1624652448856</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
