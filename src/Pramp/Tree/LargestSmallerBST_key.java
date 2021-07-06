@@ -52,7 +52,7 @@ public class LargestSmallerBST_key {
 
         Node root;
 
-        int findLargestSmallerKey(int num) {
+    /*    int findLargestSmallerKey(int num) {
             // your code goes here
             int result = -1;
             while(root!=null){
@@ -64,9 +64,28 @@ public class LargestSmallerBST_key {
                 }
             }
             return result;
-        }
+        } */
 
-        //  inserts a new node with the given number in the
+
+            int findLargestSmallerKey(int num) {
+                // your code goes here
+                int max = Integer.MIN_VALUE;
+
+                while (root != null) {
+                    if (root.key < num) {
+                        max = Math.max(max, root.key);
+                    }
+                    if (root.key < num) {
+                        root = root.right;
+                    } else {
+                        root = root.left;
+                    }
+                }
+                return max==Integer.MIN_VALUE?-1:max;
+            }
+
+
+            //  inserts a new node with the given number in the
         //  correct place in the tree
         void insert(int key) {
 
@@ -120,7 +139,7 @@ public class LargestSmallerBST_key {
         bst.insert(11);
         bst.insert(14);
 
-        int result = bst.findLargestSmallerKey(17);
+        int result = bst.findLargestSmallerKey(10);
         System.out.println("Largest smaller number is " + result);
 
     }

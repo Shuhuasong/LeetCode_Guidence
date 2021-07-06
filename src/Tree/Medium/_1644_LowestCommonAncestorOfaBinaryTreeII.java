@@ -1,11 +1,9 @@
 package Tree.Medium;
 
+public class _1644_LowestCommonAncestorOfaBinaryTreeII {
 
-import java.util.*;
-
-/*
-
-e.g. : p = 9, q = 25
+    /*
+    e.g. : p = 9, q = 25 (p, q are not gurantee in the tree, if either one is not exist, need to return null
 
                 20
               /   \
@@ -16,25 +14,21 @@ e.g. : p = 9, q = 25
               11 14
 
 output: 20
-
-Constraints:
-
-The number of nodes in the tree is in the range [2, 105].
--109 <= Node.val <= 109
-All Node.val are unique.
-p != q
-p and q will exist in the tree.
-
- */
+     */
 
 
-public class _236_LowestCommonAncestorForBinaryTree {
     public class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
         TreeNode(int val, TreeNode left, TreeNode right) {
             this.val = val;
             this.left = left;
@@ -43,46 +37,27 @@ public class _236_LowestCommonAncestorForBinaryTree {
     }
 
 
-    TreeNode result;
-    public _236_LowestCommonAncestorForBinaryTree(){
-        result = null;
-    }
-   // Solution #1 : recursive
-    // Time = O(n) Space = O(n)
+    TreeNode res = null;
+
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         dfs(root, p, q);
-        return result;
+        return res;
     }
 
-    public boolean dfs(TreeNode root, TreeNode p, TreeNode q){
-        if(root==null) return false;
-        int mid = (root==p || root==q) ? 1 : 0;
-        int leftSide = dfs(root.left, p, q) ? 1 : 0;
-        int rightSide = dfs(root.right, p, q) ? 1 : 0;
-        if(mid+leftSide+rightSide >= 2){
-            result = root;
+    public boolean dfs(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null) return false;
+        int mid = (root == p || root == q) ? 1 : 0;
+        int left = dfs(root.left, p, q) ? 1 : 0;
+        int right = dfs(root.right, p, q) ? 1 : 0;
+        if (mid + left + right >= 2) {
+            res = root;
         }
-        return mid+leftSide+rightSide > 0;
+        return (mid + left + right) > 0;
     }
 
-
-    /* Solution #2 :  preOrder traversal
+    /*
+     //Iterative : Time = O(n) Space  = O(n)
       public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-         return dfs(root, p, q);
-    }
-
-    public TreeNode dfs(TreeNode root, TreeNode p, TreeNode q){
-       if(root==null || root==p || root==q) return root;
-       TreeNode left = dfs(root.left, p, q);
-       TreeNode right = dfs(root.right, p, q);
-       if(left!=null && right!=null) return root;
-       return left==null ? right : left;
-    }
-     */
-
-    //Solution #3: Iterative with parent pointer
-    // Time = O(n) Space = O(n)
-   /* public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         Queue<TreeNode> queue = new LinkedList<>();
         Map<TreeNode, TreeNode> parents = new HashMap<>();
         parents.put(root, null);
@@ -106,11 +81,10 @@ public class _236_LowestCommonAncestorForBinaryTree {
         }
         while(!ancesters.contains(q)){
             q = parents.get(q);
+            if(q==null) break; //check this to prevent the infinite loop
         }
         return q;
     }
-
-    */
-
+     */
 
 }
