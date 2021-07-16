@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tree/BST/_450_DeleteNodeInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pramp/Array/_ArrayQuadruplet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -189,13 +189,8 @@
       <workItem from="1626031901383" duration="479000" />
       <workItem from="1626151220095" duration="1251000" />
       <workItem from="1626231373745" duration="542000" />
-    </task>
-    <task id="LOCAL-00025" summary="LeetCode">
-      <created>1610842562387</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1610842562387</updated>
+      <workItem from="1626243780337" duration="21000" />
+      <workItem from="1626303714792" duration="307000" />
     </task>
     <task id="LOCAL-00026" summary="LeetCode">
       <created>1611207524498</created>
@@ -533,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626153371180</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="LeetCode">
+      <created>1626243790803</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1626243790804</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
