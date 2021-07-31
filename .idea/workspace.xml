@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pramp/Array/_ArrayQuadruplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_100Sum_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trie/Medium/_677_MapSumPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -191,13 +192,8 @@
       <workItem from="1626231373745" duration="542000" />
       <workItem from="1626243780337" duration="21000" />
       <workItem from="1626303714792" duration="307000" />
-    </task>
-    <task id="LOCAL-00026" summary="LeetCode">
-      <created>1611207524498</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1611207524498</updated>
+      <workItem from="1626463941741" duration="924000" />
+      <workItem from="1627667190063" duration="625000" />
     </task>
     <task id="LOCAL-00027" summary="LeetCode">
       <created>1611989980454</created>
@@ -535,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626243790804</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="LeetCode">
+      <created>1626464109795</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1626464109796</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
