@@ -23,4 +23,26 @@ public class _139_WordBreak {
         }
         return dp[s.length()];
     }
+    /*
+      //Time = O(n^3)
+    //Space = O(n)
+    public boolean wordBreak(String s, List<String> wordDict) {
+        return helper(s, new HashSet<>(wordDict), 0, new Boolean[s.length()]);
+    }
+
+    public boolean helper(String s, HashSet<String> wordSet, int start, Boolean[] memo){
+        if(start == s.length()){
+            return true;
+        }
+        if(memo[start] != null) return memo[start];
+        for(int end=start+1; end<=s.length(); end++){
+            String newS = s.substring(start, end);
+            if(wordSet.contains(newS) && helper(s, wordSet, end, memo)){
+                return memo[start] = true;
+            }
+        }
+        return memo[start] = false;
+    }
+
+     */
 }

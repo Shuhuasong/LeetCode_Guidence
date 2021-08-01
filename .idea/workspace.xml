@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_100Sum_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Medium/_677_MapSumPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_516_LongestPalindromeSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_647_PalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_647_PalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/_139_WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/_139_WordBreak.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,13 +195,9 @@
       <workItem from="1626303714792" duration="307000" />
       <workItem from="1626463941741" duration="924000" />
       <workItem from="1627667190063" duration="625000" />
-    </task>
-    <task id="LOCAL-00027" summary="LeetCode">
-      <created>1611989980454</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1611989980454</updated>
+      <workItem from="1627706415261" duration="31000" />
+      <workItem from="1627782452402" duration="195000" />
+      <workItem from="1627849872402" duration="1644000" />
     </task>
     <task id="LOCAL-00028" summary="LeetCode">
       <created>1612222039933</created>
@@ -538,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626464109796</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="LeetCode">
+      <created>1627706429566</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1627706429566</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
