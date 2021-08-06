@@ -1,0 +1,95 @@
+ adjacency list: the best graph representation when #Edges < #nodes
+ adjacency matrix: the best graph representation when #Edges > #nodes
+ linked representation: not commonly used in interview questions.
+
+
+1. create a graph
+
+    // Create a new list of lists.
+    List<List<Integer>> adjacencyList = new ArrayList<>();
+    // Initialise an empty list for each node.
+    for (int i = 0; i < n; i++) {
+        adjacencyList.add(new ArrayList<>());
+    }
+    // Go through the edge list, populating the adjacency list.
+    for (int[] edge : edges) {
+        adjacencyList.get(edge[0]).add(edge[1]);
+        adjacencyList.get(edge[1]).add(edge[0]);
+    }
+
+2. DFS a graph
+
+    // Use a stack to keep track of unexplored nodes.
+    Stack<Integer> stack = new Stack<>();
+    stack.push(0);
+    // Use a set to keep track of already seen nodes to
+    // avoid infinite looping.
+    Set<Integer> seen = new HashSet<>();
+    seen.add(0);
+
+    // While there are nodes remaining on the stack...
+    while (!stack.isEmpty()) {
+        int node = stack.pop(); // Take one off to visit.
+        // Check for unseen neighbours of this node:
+        for (int neighbour : adjacencyList.get(node)) {
+            if (seen.contains(neighbour)) {
+                continue; // Already seen this node.
+            }
+            // Otherwise, put this neighbour onto stack
+            // and record that it has been seen.
+            stack.push(neighbour);
+            seen.add(neighbour);
+        }
+    }
+
+3. Strategies of detecting an underected graph contains cycles
+   (1) The first strategy is to simply delete the opposite direction edges from the adjacency list.
+       In other words, when we follow an edge A → B, we should lookup Bs adjacency list and delete A
+       from it, effectively removing the opposite edge of B → A.
+
+       // While there are nodes remaining on the stack...
+       while (!stack.isEmpty()) {
+           int node = stack.pop(); // Take one off to visit.
+           // Check for unseen neighbours of this node:
+           for (int neighbour : adjacencyList.get(node)) {
+               // Check if we've already seen this node.
+               if (seen.contains(neighbour)) {
+                   return false;
+               }
+               // Otherwise, put this neighbour onto stack
+               // and record that it has been seen.
+               stack.push(neighbour);
+               seen.add(neighbour);
+               // Remove the link that goes in the opposite direction.
+               adjacencyList.get(neighbour).remove(node);
+           }
+       }
+
+   (2) instead of using a seen set, to use a seen map that also keeps track of the "parent" node
+       that we got to a node from. We'll call this map parent.
+
+     // Use a map to keep track of how we got into each node.
+     Map<Integer, Integer> parent = new HashMap<>();
+     parent.put(0, -1);
+
+     // While there are nodes remaining on the stack...
+     while (!stack.isEmpty()) {
+         int node = stack.pop(); // Take one off to visit.
+         // Check for unseen neighbours of this node:
+         for (int neighbour : adjacencyList.get(node)) {
+             // Don't look at the trivial cycle.
+             if (parent.get(node) == neighbour) {
+                 continue;
+             }
+             // Check if we've already seen this node.
+             if (parent.containsKey(neighbour)) {
+                 return false; // There must be a cycle.
+             }
+             // Otherwise, put this neighbour onto stack
+             // and record that it has been seen.
+             stack.push(neighbour);
+             parent.put(neighbour, node);
+         }
+     }
+
+

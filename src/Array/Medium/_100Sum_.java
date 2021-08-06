@@ -5,9 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class _100Sum_ {
-
-    class Solution {
-
+/*
     public List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
 
@@ -53,6 +51,7 @@ public class _100Sum_ {
 
         return list;
     }
+    */
 }
 
 /*

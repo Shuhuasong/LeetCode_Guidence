@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_516_LongestPalindromeSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_877_StoneGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/CompetitiveGaming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_1041_RobotBoundedInCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_166_FractionToRecurringDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_1836_RemoveDuplicateFromUnsortedLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_1865_FindingPairsWithACertainSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_724_FindPivotIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_740_DeleteAndEarn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_82_RemoveDuplicatesFromSortedListII_deleteAllDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_83_RemoveDuplicateFromSortedList_keep_one.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_OfficeDesign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_ProfitTargets_twoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_WordCompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_113_PathSumII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_647_PalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_647_PalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/_139_WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/_139_WordBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Medium/_100Sum_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Medium/_100Sum_.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +79,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application._WordCompression">
+    <configuration name="CompetitiveGaming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Golden_Sach_21FallOA.CompetitiveGaming" />
+      <module name="LeetCode(New)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Golden_Sach_21FallOA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
@@ -75,6 +100,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_OfficeDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Golden_Sach_21FallOA._OfficeDesign" />
+      <module name="LeetCode(New)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Golden_Sach_21FallOA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_WordCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Golden_Sach_21FallOA._WordCompression" />
+      <module name="LeetCode(New)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Golden_Sach_21FallOA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application._WordCompression" />
+        <item itemvalue="Application._OfficeDesign" />
+        <item itemvalue="Application.CompetitiveGaming" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -197,14 +255,11 @@
       <workItem from="1627667190063" duration="625000" />
       <workItem from="1627706415261" duration="31000" />
       <workItem from="1627782452402" duration="195000" />
-      <workItem from="1627849872402" duration="1644000" />
-    </task>
-    <task id="LOCAL-00028" summary="LeetCode">
-      <created>1612222039933</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1612222039934</updated>
+      <workItem from="1627849872402" duration="1761000" />
+      <workItem from="1628122148343" duration="10000" />
+      <workItem from="1628122182367" duration="434000" />
+      <workItem from="1628207445057" duration="6686000" />
+      <workItem from="1628263930528" duration="4204000" />
     </task>
     <task id="LOCAL-00029" summary="LeetCode">
       <created>1612414339618</created>
@@ -542,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627706429566</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="LeetCode">
+      <created>1627853845358</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1627853845358</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

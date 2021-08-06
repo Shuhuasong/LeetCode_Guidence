@@ -1,0 +1,24 @@
+Kadane's Algorithm
+
+Kadane's algorithm can be used to find the maximum sum of the subarrays of A. Here, we only consider non-empty subarrays.
+Kadane's algorithm is based on dynamic programming. Let dp[j] be the maximum sum of a subarray that ends in A[j]. That is,
+
+dp[j] = max (A[i] + A[i+1] + ... + A[j])
+Then, a subarray ending in j+1 (such as A[i], A[i+1] + ... + A[j+1]) maximizes the A[i] + ... + A[j] part of the sum by being
+ equal to dp[j] if it is non-empty, and 0 if it is. Thus, we have the recurrence:
+
+dp[j+1]=A[j+1]+max(dp[j],0)
+
+Since a subarray must end somewhere, max dp[j] must be the desired answer.
+
+To compute dp efficiently, Kadane's algorithm is usually written in the form that reduces space complexity. We maintain
+two variables: ans as max dp[j], and cur as dp[j]; and update them as j iterates from 0 to A.length−1.
+
+Then, Kadane's algorithm is given by the following psuedocode:
+
+#Kadane's algorithm
+ans = cur = None
+for x in A:
+    cur = x + max(cur, 0)
+    ans = max(ans, cur)
+return ans
