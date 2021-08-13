@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="LeetCode">
-      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_131_PalindromePartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_Efficient_Harvest_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_GameWinner_Bob_Wendy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_MeaderingArray.java" afterDir="false" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_getLengthOfRibbons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_132_PalindromePartitionII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_870_AdvantageShuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_128_LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_49_GroupAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_740_DeleteAndEarn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_740_DeleteAndEarn.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._740_DeleteAndEarn">
+  <component name="RunManager" selected="Application._getLengthOfRibbons">
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
@@ -129,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_WordCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Golden_Sach_21FallOA._WordCompression" />
+    <configuration name="_getLengthOfRibbons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeSignal._getLengthOfRibbons" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Golden_Sach_21FallOA.*" />
+          <option name="PATTERN" value="CodeSignal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._getLengthOfRibbons" />
         <item itemvalue="Application._740_DeleteAndEarn" />
         <item itemvalue="Application._MeaderingArray" />
         <item itemvalue="Application._Efficient_Harvest_" />
         <item itemvalue="Application._GameWinner_Bob_Wendy" />
-        <item itemvalue="Application._WordCompression" />
       </list>
     </recent_temporary>
   </component>
@@ -278,14 +278,9 @@
       <workItem from="1628122182367" duration="434000" />
       <workItem from="1628207445057" duration="6686000" />
       <workItem from="1628263930528" duration="6419000" />
-      <workItem from="1628365801882" duration="7941000" />
-    </task>
-    <task id="LOCAL-00029" summary="LeetCode">
-      <created>1612414339618</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1612414339618</updated>
+      <workItem from="1628365801882" duration="9111000" />
+      <workItem from="1628453984191" duration="1273000" />
+      <workItem from="1628792912664" duration="833000" />
     </task>
     <task id="LOCAL-00030" summary="LeetCode">
       <created>1612573258040</created>
@@ -623,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627853845358</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="LeetCode">
+      <created>1628397377037</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1628397377039</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
