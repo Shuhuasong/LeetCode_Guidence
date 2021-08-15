@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_getLengthOfRibbons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_132_PalindromePartitionII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_870_AdvantageShuffle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_128_LongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_49_GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_AlmostIncreasingSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_312_BurstBallons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/_546_RemoveBoxes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -280,7 +278,9 @@
       <workItem from="1628263930528" duration="6419000" />
       <workItem from="1628365801882" duration="9111000" />
       <workItem from="1628453984191" duration="1273000" />
-      <workItem from="1628792912664" duration="833000" />
+      <workItem from="1628792912664" duration="972000" />
+      <workItem from="1628879007863" duration="1973000" />
+      <workItem from="1628960163120" duration="1545000" />
     </task>
     <task id="LOCAL-00030" summary="LeetCode">
       <created>1612573258040</created>
