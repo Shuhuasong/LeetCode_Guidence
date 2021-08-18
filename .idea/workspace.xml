@@ -5,6 +5,9 @@
       <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/CheckSum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/numberAndPatter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtrack/_39_CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_39_CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtrack/_46_Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_46_Permutations.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -291,7 +294,7 @@
       <workItem from="1628960163120" duration="1908000" />
       <workItem from="1629141196139" duration="2696000" />
       <workItem from="1629223577682" duration="561000" />
-      <workItem from="1629302487674" duration="5906000" />
+      <workItem from="1629302487674" duration="6632000" />
     </task>
     <task id="LOCAL-00030" summary="LeetCode">
       <created>1612573258040</created>
