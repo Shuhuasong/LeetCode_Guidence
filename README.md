@@ -19,3 +19,16 @@
 #692. [Top K Frequent Words](./src/Array/Easy/_692_TopKFrequentWords.java) <br />
 #88. (https://gist.github.com/Shuhuasong/3f5810c268c3a0ccc0d8c9cb6cd2d00b)
 
+### Backtrack
+#### Medium
+#22. [GenerateParentheses](./src/Backtrack/Medium/_22_GenerateParentheses) <br />
+#39. [CombinationSum](./src/Backtrack/Medium/_39_CombinationSum) <br />
+#46. [Permutation](./src/Backtrack/Medium/_46_Permutation) <br />
+#78. [Subsets](./src/Backtrack/Medium/_78_Subsets) <br />
+#79. [WordSearch](./src/Backtrack/Medium/_79_WordSearch) <br />
+#90. [SubsetsII](./src/Backtrack/Medium/_90_SubsetsII) <br />
+#131. [PalindromePartition](./src/Backtrack/Medium/_131_PalindromePartition) <br />
+#131. [PalindromPartition](./src/Backtrack/Medium/_131_PalindromPartition) <br />
+#473. [MatchsticksToSquare](./src/Backtrack/Medium/_473_MatchsticksToSquare) <br />
+
+
