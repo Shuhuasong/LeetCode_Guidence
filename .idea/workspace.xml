@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_AlmostIncreasingSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_312_BurstBallons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/_546_RemoveBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/Tips" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_ArrayShift_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_BounsingDiagonals_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_DiagonalsArranging_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_DivisorSubstrings_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_GoodTuples_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_IncrementBinaryNumber_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_MergingLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_NumberSigingSum_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_PairSummingToPowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_PrefixStrings_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_PushAndFall_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_RestoreNumberOnCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_SortChessSubsquares_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_SplitTowersIntoPairs_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_SumOfReversed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/_almostSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Hard/_84_LargestRectangleInHistogram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -280,7 +295,9 @@
       <workItem from="1628453984191" duration="1273000" />
       <workItem from="1628792912664" duration="972000" />
       <workItem from="1628879007863" duration="1973000" />
-      <workItem from="1628960163120" duration="1545000" />
+      <workItem from="1628960163120" duration="1908000" />
+      <workItem from="1629141196139" duration="2696000" />
+      <workItem from="1629223577682" duration="504000" />
     </task>
     <task id="LOCAL-00030" summary="LeetCode">
       <created>1612573258040</created>
