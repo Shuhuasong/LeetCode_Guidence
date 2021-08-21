@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/CheckSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/numberAndPatter.java" afterDir="false" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="LeetCode">
+      <change afterPath="$PROJECT_DIR$/src/Design/_981_TimeBasedKeyValueStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/_CamelCaseSentence_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/_MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/_SelfDescriptiveNumber_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_1339_MaximumProductOfSplitted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/_39_CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_39_CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/_46_Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_46_Permutations.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckSum">
+  <component name="RunManager" selected="Application._CamelCaseSentence_">
     <configuration name="CheckSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.CheckSum" />
       <module name="LeetCode(New)" />
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_740_DeleteAndEarn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Golden_Sach_21FallOA._740_DeleteAndEarn" />
+    <configuration name="_CamelCaseSentence_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege._CamelCaseSentence_" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Golden_Sach_21FallOA.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_MeaderingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Golden_Sach_21FallOA._MeaderingArray" />
+    <configuration name="_SelfDescriptiveNumber_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege._SelfDescriptiveNumber_" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Golden_Sach_21FallOA.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,19 +145,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application._740_DeleteAndEarn" />
       <item itemvalue="Application._getLengthOfRibbons" />
-      <item itemvalue="Application._MeaderingArray" />
       <item itemvalue="Application.numberAndPatter" />
       <item itemvalue="Application.CheckSum" />
+      <item itemvalue="Application._SelfDescriptiveNumber_" />
+      <item itemvalue="Application._CamelCaseSentence_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._CamelCaseSentence_" />
+        <item itemvalue="Application._SelfDescriptiveNumber_" />
         <item itemvalue="Application.CheckSum" />
         <item itemvalue="Application.numberAndPatter" />
         <item itemvalue="Application._getLengthOfRibbons" />
-        <item itemvalue="Application._740_DeleteAndEarn" />
-        <item itemvalue="Application._MeaderingArray" />
       </list>
     </recent_temporary>
   </component>
@@ -294,14 +294,11 @@
       <workItem from="1628960163120" duration="1908000" />
       <workItem from="1629141196139" duration="2696000" />
       <workItem from="1629223577682" duration="561000" />
-      <workItem from="1629302487674" duration="6632000" />
-    </task>
-    <task id="LOCAL-00030" summary="LeetCode">
-      <created>1612573258040</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1612573258040</updated>
+      <workItem from="1629302487674" duration="7028000" />
+      <workItem from="1629349776700" duration="4000" />
+      <workItem from="1629395661643" duration="236000" />
+      <workItem from="1629413888796" duration="1065000" />
+      <workItem from="1629487260189" duration="2618000" />
     </task>
     <task id="LOCAL-00031" summary="LeetCode">
       <created>1612760178420</created>
@@ -639,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628397377039</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="LeetCode">
+      <created>1629330912226</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1629330912227</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
