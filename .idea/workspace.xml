@@ -1,98 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="LeetCode">
-      <change afterPath="$PROJECT_DIR$/src/Array/Easy/_1287_ElementAppearingMoreThan25PercentInSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Easy/_204_CountPrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Easy/_263_UglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_1539_KthMissingPositiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_287_FindTheDuplicateNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_36_ValidSoduku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_565_ArrayNesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BINARYSEARCH_Web/BinarySearch/_CheckIfNumberIsPerfect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BINARYSEARCH_Web/TwoPointer/_RemoveDuplicateOccuringMoreThanTwice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_37_SodokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bitwise/_191_NumberOf1Bits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/Practice/OneLampLightendPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_994_RottingOrange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design/_284_PeekingIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/BreakPrison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/DisckSpaceAnalyse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/DivisibilityOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/GroupingDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/ProcessSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_1423_MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_CountAnalogousArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_DoubleOnMatch_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Hard/_330_PatchingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Stdin_and_Stdout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_234_PalindromeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/_25_ReverseNodesInKGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1043_PartitionArrayForMaximu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1395_CountNumberOfTeams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1465_MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1799_MaximumScoreAfterNOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_937_ReOrderDataInLogFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_973_KclosestPointsToOrigin_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_BoxWeight_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_ChooseAFlask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_CutOffRank_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_DemolitionRobot_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_EarliestTimeToCompleteDelivery_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FillTheTruck_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindAllCombinationOfNumbersThatSumToTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindCriticalConnection_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindHighestProfit_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindPairsCloseToTarget_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_LRUCache_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_LabelSystem_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MaximumAverageNode_HighestTenure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MergeTwoSortedList_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MinimumDifficultyOfAJobSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MusicPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_NearestCity_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_OptimalUtilization_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_RobotBoundedInCircleSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_ShoppingOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_ShoppingPatternMinimumDegreeOfAConnectedTrioInAGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_SlowestKey_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_SplitIntoTwo_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_SplitStringIntoPrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_UniqueDeviceName_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_WinningSequence_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_121_BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_191_NumberOf1Bits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_198_HouseRobber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_204_CountPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_212_WordSearchII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_394_DecodeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_468_ValidateIPAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_48_RotateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_53_MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_79_WordSearch_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_EqualLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_MeanAndMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_SumOfDigitEqualTarget_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/JPmorgan/_423_ReconstructOriginalDigitsFromEnglish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/JPmorgan/_CamelCaseSentence_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/_1288_RemoveCoveredIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/_435_NonOverlappingIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Medium/_468_ValidateIPAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_617_MergeTwoBinaryTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_199_BinaryTreeRightSideView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_75_SortColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/_633_SumOfSquareNumbers.java" afterDir="false" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_494_TargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_621_TaskSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Medium/_848_ShiftingLetters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_154_FindMinimumInRotatedSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_154_FindMinimumInRotatedSortedArrayII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_264_UglyNumberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_264_UglyNumberII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/CompetitiveGaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/CompetitiveGaming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_ProfitTargets_twoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_ProfitTargets_twoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/CheckSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/JPmorgan/CheckSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/_CamelCaseSentence_.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/_MaximumPointsYouCanObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/JPmorgan/_1423_MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/_SelfDescriptiveNumber_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/JPmorgan/_SelfDescriptiveNumber_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/numberAndPatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/JPmorgan/numberAndPatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/Easy/_696_CountBinarySubstrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Easy/_696_CountBinarySubstrings.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -402,14 +315,8 @@
       <workItem from="1630782717221" duration="4054000" />
       <workItem from="1630860326389" duration="4172000" />
       <workItem from="1630943415049" duration="1550000" />
-      <workItem from="1631079259997" duration="238000" />
-    </task>
-    <task id="LOCAL-00031" summary="LeetCode">
-      <created>1612760178420</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1612760178421</updated>
+      <workItem from="1631079259997" duration="520000" />
+      <workItem from="1631125050143" duration="2524000" />
     </task>
     <task id="LOCAL-00032" summary="LeetCode">
       <created>1613974050710</created>
@@ -747,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629330912227</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Algorithm">
+      <created>1631079631000</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1631079631002</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -773,7 +687,8 @@
     <MESSAGE value="Two Pointer" />
     <MESSAGE value="BinarySearch" />
     <MESSAGE value="LeetCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode" />
+    <MESSAGE value="Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
