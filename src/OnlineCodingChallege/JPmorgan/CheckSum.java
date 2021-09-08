@@ -1,4 +1,4 @@
-package OnlineCodingChallege;
+package OnlineCodingChallege.JPmorgan;
 
 /**
  * Created by Shuhua Song

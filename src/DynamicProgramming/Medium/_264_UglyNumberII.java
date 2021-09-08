@@ -3,63 +3,33 @@ package DynamicProgramming.Medium;
 
 //Time = O(1)
 //Space = O(1690)
-class Ugly{
-    public int[] nums = new int[1690];
-    public Ugly(){
-        nums[0] = 1;
-        int ugly, i2 = 0, i3 = 0, i5 = 0;
 
-        for(int i=1; i<1690; i++){
-            ugly = Math.min(nums[i2] * 2, Math.min(nums[i3] * 3, nums[i5] * 5));
-            nums[i] = ugly;
-            if(ugly == nums[i2] * 2) i2++;
-            if(ugly == nums[i3] * 3) i3++;
-            if(ugly == nums[i5] * 5) i5++;
-        }
-    }
-}
 
 public class _264_UglyNumberII {
-
-    public static Ugly ugly = new Ugly();
     public int nthUglyNumber(int n) {
-        return ugly.nums[n-1];
+        int[] nums = new int[n];
+        nums[0] = 1;
+        int curr = 0, i2 = 0, i3 = 0, i5 = 0;
+        for(int i=1; i<n; i++){
+            int ugly = Math.min(nums[i2]*2, Math.min(nums[i3]*3, nums[i5]*5));
+            nums[i] = ugly;
+            if(nums[i2] * 2 == ugly) i2++; //i2 = 1
+            if(nums[i3] * 3 == ugly) i3++;
+            if(nums[i5] * 5 == ugly) i5++;
+        }
+        return nums[n-1];
     }
 
 }
-
-
 
 /*
-class Ugly{
-    public int[] nums = new int[1690];
-    public Ugly(){
-        PriorityQueue<Long> pq = new PriorityQueue<>();
-        Set<Long> seen = new HashSet<>();
-        pq.add(1L);
-        seen.add(1L);
-        int k=0;
-        int[] factors = {2, 3, 5};
-        long curUgly = 0, newUgly = 0;
-        for(int i=0; i<1690; i++){
-            curUgly = pq.poll();
-            nums[k++] = (int)curUgly;
-            for(int f : factors){
-                newUgly = curUgly * f;
-                if(!seen.contains(newUgly)){
-                    pq.add(newUgly);
-                    seen.add(newUgly);
-                }
-            }
-        }
-    }
-}
+because every number can only be divided by 2, 3, 5
+(1) 1×2, 2×2, 3×2, 4×2, 5×2, …
+(2) 1×3, 2×3, 3×3, 4×3, 5×3, …
+(3) 1×5, 2×5, 3×5, 4×5, 5×5, …
 
-
-class Solution {
-    public static Ugly ugly = new Ugly();
-    public int nthUglyNumber(int n) {
-          return ugly.nums[n-1];
-     }
-}
+we can find that every subsequence is the ugly-sequence itself(1, 2, 3, 4, 5) multiple 2, 3, 5
+Then we use similar merge method a merge sort, to get every ugly number from the three subsequence
+every step we choose the smallest one, and move one steps after, including nums with same value
 */
+

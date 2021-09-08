@@ -2,12 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="LeetCode">
-      <change afterPath="$PROJECT_DIR$/src/Design/_981_TimeBasedKeyValueStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/_CamelCaseSentence_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/_MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/_SelfDescriptiveNumber_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_1339_MaximumProductOfSplitted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Easy/_1287_ElementAppearingMoreThan25PercentInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Easy/_204_CountPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Easy/_263_UglyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_1539_KthMissingPositiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_287_FindTheDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_36_ValidSoduku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_565_ArrayNesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BINARYSEARCH_Web/BinarySearch/_CheckIfNumberIsPerfect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BINARYSEARCH_Web/TwoPointer/_RemoveDuplicateOccuringMoreThanTwice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_37_SodokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bitwise/_191_NumberOf1Bits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/Practice/OneLampLightendPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_994_RottingOrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/_284_PeekingIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/BreakPrison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/DisckSpaceAnalyse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/DivisibilityOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/GroupingDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/ProcessSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_1423_MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_CountAnalogousArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_DoubleOnMatch_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Hard/_330_PatchingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Stdin_and_Stdout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_234_PalindromeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/_25_ReverseNodesInKGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1043_PartitionArrayForMaximu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1395_CountNumberOfTeams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1465_MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1799_MaximumScoreAfterNOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_937_ReOrderDataInLogFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_973_KclosestPointsToOrigin_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_BoxWeight_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_ChooseAFlask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_CutOffRank_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_DemolitionRobot_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_EarliestTimeToCompleteDelivery_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FillTheTruck_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindAllCombinationOfNumbersThatSumToTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindCriticalConnection_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindHighestProfit_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindPairsCloseToTarget_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_LRUCache_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_LabelSystem_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MaximumAverageNode_HighestTenure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MergeTwoSortedList_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MinimumDifficultyOfAJobSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MusicPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_NearestCity_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_OptimalUtilization_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_RobotBoundedInCircleSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_ShoppingOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_ShoppingPatternMinimumDegreeOfAConnectedTrioInAGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_SlowestKey_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_SplitIntoTwo_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_SplitStringIntoPrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_UniqueDeviceName_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_WinningSequence_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_121_BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_191_NumberOf1Bits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_198_HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_204_CountPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_212_WordSearchII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_394_DecodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_468_ValidateIPAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_48_RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_53_MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_79_WordSearch_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_EqualLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_MeanAndMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_SumOfDigitEqualTarget_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/JPmorgan/_423_ReconstructOriginalDigitsFromEnglish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/JPmorgan/_CamelCaseSentence_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/_1288_RemoveCoveredIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/_435_NonOverlappingIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Medium/_468_ValidateIPAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_617_MergeTwoBinaryTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_199_BinaryTreeRightSideView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_75_SortColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/_633_SumOfSquareNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_154_FindMinimumInRotatedSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_154_FindMinimumInRotatedSortedArrayII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_264_UglyNumberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_264_UglyNumberII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/CompetitiveGaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/CompetitiveGaming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_ProfitTargets_twoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_ProfitTargets_twoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/CheckSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/JPmorgan/CheckSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/_CamelCaseSentence_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/_MaximumPointsYouCanObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/JPmorgan/_1423_MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/_SelfDescriptiveNumber_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/JPmorgan/_SelfDescriptiveNumber_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/numberAndPatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/JPmorgan/numberAndPatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/Easy/_696_CountBinarySubstrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Easy/_696_CountBinarySubstrings.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,19 +155,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application._CamelCaseSentence_">
-    <configuration name="CheckSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.CheckSum" />
-      <module name="LeetCode(New)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
@@ -91,11 +163,11 @@
       </method>
     </configuration>
     <configuration name="_CamelCaseSentence_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege._CamelCaseSentence_" />
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.JPmorgan._CamelCaseSentence_" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.JPmorgan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_SelfDescriptiveNumber_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege._SelfDescriptiveNumber_" />
+    <configuration name="_DoubleOnMatch_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Golden_Sach_21FallOA._DoubleOnMatch_" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.*" />
+          <option name="PATTERN" value="Golden_Sach_21FallOA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +188,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_getLengthOfRibbons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeSignal._getLengthOfRibbons" />
+    <configuration name="_EqualLevel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Cisco._EqualLevel" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodeSignal.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.Cisco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_WordCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Golden_Sach_21FallOA._WordCompression" />
+      <module name="LeetCode(New)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Golden_Sach_21FallOA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +215,11 @@
       </method>
     </configuration>
     <configuration name="numberAndPatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.numberAndPatter" />
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.JPmorgan.numberAndPatter" />
       <module name="LeetCode(New)" />
-      <option name="PROGRAM_PARAMETERS" value="1232 \n ab+cd " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.JPmorgan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,19 +229,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application._getLengthOfRibbons" />
-      <item itemvalue="Application.numberAndPatter" />
-      <item itemvalue="Application.CheckSum" />
-      <item itemvalue="Application._SelfDescriptiveNumber_" />
+      <item itemvalue="Application._EqualLevel" />
       <item itemvalue="Application._CamelCaseSentence_" />
+      <item itemvalue="Application.numberAndPatter" />
+      <item itemvalue="Application._DoubleOnMatch_" />
+      <item itemvalue="Application._WordCompression" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application._CamelCaseSentence_" />
-        <item itemvalue="Application._SelfDescriptiveNumber_" />
-        <item itemvalue="Application.CheckSum" />
+        <item itemvalue="Application._WordCompression" />
+        <item itemvalue="Application._DoubleOnMatch_" />
         <item itemvalue="Application.numberAndPatter" />
-        <item itemvalue="Application._getLengthOfRibbons" />
+        <item itemvalue="Application._EqualLevel" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +382,27 @@
       <workItem from="1629349776700" duration="4000" />
       <workItem from="1629395661643" duration="236000" />
       <workItem from="1629413888796" duration="1065000" />
-      <workItem from="1629487260189" duration="2618000" />
+      <workItem from="1629487260189" duration="2666000" />
+      <workItem from="1629551632271" duration="56000" />
+      <workItem from="1629574051019" duration="914000" />
+      <workItem from="1629654695472" duration="4573000" />
+      <workItem from="1629748352624" duration="12640000" />
+      <workItem from="1629816518769" duration="2507000" />
+      <workItem from="1629822426792" duration="2014000" />
+      <workItem from="1629952221797" duration="1611000" />
+      <workItem from="1629992029630" duration="16062000" />
+      <workItem from="1630066354261" duration="284000" />
+      <workItem from="1630067363184" duration="19617000" />
+      <workItem from="1630163940195" duration="15257000" />
+      <workItem from="1630245741264" duration="16755000" />
+      <workItem from="1630358403444" duration="4896000" />
+      <workItem from="1630422274292" duration="7456000" />
+      <workItem from="1630552056738" duration="623000" />
+      <workItem from="1630607022569" duration="843000" />
+      <workItem from="1630782717221" duration="4054000" />
+      <workItem from="1630860326389" duration="4172000" />
+      <workItem from="1630943415049" duration="1550000" />
+      <workItem from="1631079259997" duration="238000" />
     </task>
     <task id="LOCAL-00031" summary="LeetCode">
       <created>1612760178420</created>
@@ -683,6 +787,14 @@
           <url>file://$PROJECT_DIR$/src/Array/Medium/_907_SumOfSubarrayMinimums.java</url>
           <line>38</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Golden_Sach_21FallOA/_DoubleOnMatch_.java</url>
+          <line>20</line>
+          <properties class="Golden_Sach_21FallOA._DoubleOnMatch_" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,9 +1,9 @@
-package OnlineCodingChallege;
+package OnlineCodingChallege.JPmorgan;
 
 /**
  * Created by Shuhua Song
  */
-public class _MaximumPointsYouCanObtainFromCards {
+public class _1423_MaximumPointsYouCanObtainFromCards {
 
     public int maxScore(int[] card, int k) {
         if(card==null || card.length==0 || k<=0) return 0;

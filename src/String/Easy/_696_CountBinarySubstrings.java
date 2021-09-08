@@ -4,7 +4,7 @@ public class _696_CountBinarySubstrings {
 
 
     //Time = O(n) Space = O(1)
-    public int countBinarySubstrings(String s) {
+    public static int countBinarySubstrings(String s) {
         int n = s.length();
         int prev = 0, cur = 1, result = 0;
         for(int i=1; i<n; i++){
@@ -19,6 +19,11 @@ public class _696_CountBinarySubstrings {
         }
         //System.out.println(prev + "* " + cur);
         return result + Math.min(prev, cur);
+    }
+
+    public static void main(String[] args) {
+        String s = "001100";
+        System.out.println(countBinarySubstrings(s));
     }
 
     /*

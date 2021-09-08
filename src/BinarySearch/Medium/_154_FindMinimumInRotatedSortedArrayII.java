@@ -2,7 +2,27 @@ package BinarySearch.Medium;
 
 public class _154_FindMinimumInRotatedSortedArrayII {
 
-    public int findMin(int[] nums){
+    public int findMin(int[] nums) {
+        int lo = 0, hi = nums.length-1;
+        int n = nums.length;
+        while(lo + 1 < hi){
+            while(lo < n-1 && nums[lo] == nums[lo+1]){
+                lo++;
+            }
+            while(hi > 0 && nums[hi] == nums[hi-1]){
+                hi--;
+            }
+            int mid = lo + (hi-lo)/2;
+            if(nums[mid] < nums[hi]){
+                hi = mid;
+            }else{
+                lo = mid;
+            }
+        }
+        return Math.min(nums[hi], nums[lo]);
+    }
+
+/*   public int findMin(int[] nums){
         if(nums==null || nums.length==0) return -1;
         int start = 0, end = nums.length-1;
         while(start +1  < end){
@@ -17,7 +37,7 @@ public class _154_FindMinimumInRotatedSortedArrayII {
 
         }
         return Math.min(nums[0], Math.min(nums[start], nums[end]));
-    }
+    } */
 }
 /*
 break it down concisely into three cases
