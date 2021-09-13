@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/BlackRock/CurrencyExhange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Hard/_224_BasicCalcultor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bitwise/Easy/_190_ReverseBits.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -320,14 +318,7 @@
       <workItem from="1631223353164" duration="417000" />
       <workItem from="1631313451543" duration="5831000" />
       <workItem from="1631363695442" duration="14158000" />
-      <workItem from="1631464744804" duration="1198000" />
-    </task>
-    <task id="LOCAL-00034" summary="LeetCode">
-      <created>1616124112982</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1616124112982</updated>
+      <workItem from="1631464744804" duration="1566000" />
     </task>
     <task id="LOCAL-00035" summary="LeetCode">
       <created>1616124284998</created>
@@ -665,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631386744204</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Stack">
+      <created>1631496740333</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1631496740334</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,7 +691,8 @@
     <MESSAGE value="LeetCode" />
     <MESSAGE value="Algorithm" />
     <MESSAGE value="Sliding Window" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sliding Window" />
+    <MESSAGE value="Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
