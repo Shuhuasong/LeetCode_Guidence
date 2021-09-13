@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Citadel/_BirithdayCardCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Citadel/_DiskSpaceAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Citadel/_DoTheyBelong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Citadel/_PortfolioBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Citadel/_PrimeFactorVisitation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Citadel/_ProfitTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Citadel/_SprintTraining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Citadel/_Triplets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Citadel/_WaysToSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_257_BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_437_PathSumIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/BlackRock/CurrencyExhange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Hard/_224_BasicCalcultor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -328,14 +319,8 @@
       <workItem from="1631160239787" duration="416000" />
       <workItem from="1631223353164" duration="417000" />
       <workItem from="1631313451543" duration="5831000" />
-      <workItem from="1631363695442" duration="14138000" />
-    </task>
-    <task id="LOCAL-00033" summary="LeetCode">
-      <created>1616049507172</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1616049507172</updated>
+      <workItem from="1631363695442" duration="14158000" />
+      <workItem from="1631464744804" duration="1198000" />
     </task>
     <task id="LOCAL-00034" summary="LeetCode">
       <created>1616124112982</created>
@@ -673,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631145143586</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Sliding Window">
+      <created>1631386744202</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1631386744204</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
