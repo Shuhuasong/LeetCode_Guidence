@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bitwise/Easy/_190_ReverseBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bitwise/Easy/Medium/_137_SingleNumberII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/_207_CourseSchedule_checkCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/BlackRock/_CurrencyExchange_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/BlackRock/_ESG_IssuerGraph_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/BlackRock/_StockAndBond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/BlackRock/CurrencyExhange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/BlackRock/_CoinChange_.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -318,14 +324,9 @@
       <workItem from="1631223353164" duration="417000" />
       <workItem from="1631313451543" duration="5831000" />
       <workItem from="1631363695442" duration="14158000" />
-      <workItem from="1631464744804" duration="1566000" />
-    </task>
-    <task id="LOCAL-00035" summary="LeetCode">
-      <created>1616124284998</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1616124284998</updated>
+      <workItem from="1631464744804" duration="2096000" />
+      <workItem from="1631566858104" duration="8213000" />
+      <workItem from="1631653626283" duration="629000" />
     </task>
     <task id="LOCAL-00036" summary="LeetCode">
       <created>1616124403820</created>
@@ -663,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631496740334</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Dijkstra">
+      <created>1631503072472</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1631503072472</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,7 +700,8 @@
     <MESSAGE value="Algorithm" />
     <MESSAGE value="Sliding Window" />
     <MESSAGE value="Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack" />
+    <MESSAGE value="Dijkstra" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dijkstra" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
