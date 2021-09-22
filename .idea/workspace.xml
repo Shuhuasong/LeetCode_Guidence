@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1091_ShortestPathInBinaryMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_130_SurroundedRegions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/_115_DistinctSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Easy/_1275_FindWinnerOnATicTacToeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_315_CountOfSmallerNumberAfterSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_227_BasicCalculatorII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -329,14 +329,8 @@
       <workItem from="1631843791598" duration="595000" />
       <workItem from="1631857772484" duration="15000" />
       <workItem from="1631894412740" duration="398000" />
-      <workItem from="1632087221897" duration="953000" />
-    </task>
-    <task id="LOCAL-00039" summary="LeetCode">
-      <created>1616697040895</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1616697040895</updated>
+      <workItem from="1632087221897" duration="1121000" />
+      <workItem from="1632253197181" duration="2015000" />
     </task>
     <task id="LOCAL-00040" summary="LeetCode">
       <created>1616697387605</created>
@@ -674,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631857785571</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Array">
+      <created>1632092069776</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1632092069777</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
