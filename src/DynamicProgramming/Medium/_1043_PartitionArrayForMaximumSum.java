@@ -18,6 +18,29 @@ public class _1043_PartitionArrayForMaximumSum {
         }
         return dp[n];
     }
+
+    /*
+    DFS + memorization
+     //DFS + memorization
+    int[] memo;
+    public int maxSumAfterPartitioning(int[] arr, int k) {
+        //dp[i] : the maximum sum we can get considering A[0]-A[i-1]
+        //Time = P(N*K), Space = O(n)
+       memo = new int[arr.length+1];
+       return dfs(arr, 0, k);
+    }
+
+    private int dfs(int[] arr, int start, int k){
+        if(start==arr.length) return 0;
+        if(memo[start] != 0) return memo[start];
+        int maxSum = 0, maxVal = 0;
+        for(int i=start, j=1; i<arr.length && j<=k; i++, j++){
+            maxVal = Math.max(maxVal, arr[i]);
+            maxSum = Math.max(maxSum, maxVal * j + dfs(arr, i+1, k));
+        }
+        return memo[start] = maxSum;
+    }
+     */
 }
 
 /*

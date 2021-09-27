@@ -8,7 +8,9 @@ import java.util.*;
 /*
 A robotic chemical delivery system for an Amazon laboratory has been configured to work using only one type of glass flask per day.
 For each chemical ordered, it will be filled to a mark that is at least equal to the volume ordered.
-There are multiple flasks available, each with markings at various levels. Given a list of order requirements and a list of flasks with their measurements, write an algorithm to determine the single type of flask that will result in minimal waste. Waste is the sum of marking - requirement for each order.
+There are multiple flasks available, each with markings at various levels. Given a list of order requirements and a list of flasks
+with their measurements, write an algorithm to determine the single type of flask that will result in minimal waste. Waste is the
+sum of marking - requirement for each order.
 Output the zero-based index of the flask type chosen. If there are multiple answers, output the minimum index.
 If no flask will satisfy the constraints, output -1.
 

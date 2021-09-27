@@ -18,7 +18,7 @@ package OnlineCodingChallege.Amazon;
 
    Time= O(n)  Space = O(1)
 */
-public class _RobotBoundedInCircleSolution {
+public class _1041_RobotBoundedInCircle {
 
     public boolean isRobotBounded(String instructions){
         int[][] directions = new int[][]{ {0, 1}, {1, 0}, {0, -1}, {-1, 0}};

@@ -32,3 +32,9 @@ public class _692_TopKFrequentWords {
         return results;
     }
 }
+
+/*
+if s1 > s2, it returns positive number
+if s1 < s2, it returns negative number
+if s1 == s2, it returns 0
+ */

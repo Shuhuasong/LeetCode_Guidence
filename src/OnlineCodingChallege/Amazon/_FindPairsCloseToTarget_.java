@@ -45,7 +45,7 @@ public class _FindPairsCloseToTarget_ {
          int[][] b2 = {{1, 8}, {2, 11}, {3, 12}};
          List<List<Integer>> results2 = findPair(a2, b2, 20);
         for(int i=0; i<results2.size(); i++){
-            System.out.println(results2.get(i));
+            //System.out.println(results2.get(i));
         }
     }
 }

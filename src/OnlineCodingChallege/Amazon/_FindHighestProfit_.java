@@ -5,9 +5,13 @@ import CodeSignal._getLengthOfRibbons;
 import java.util.PriorityQueue;
 /*
 Amazon Online Assessment (OA) - Find The Highest Profit
-An e-commerce company imports a type of fitness band from China and sell them in US for a higher price for a profit. The company has multiple suppliers for the product, each with their own inventory. The suppliers raise the price of their product when inventory gets small due to scarcity. More specifically, the profit the e-commerce company makes for each product sold is equal to the number of products left from the supplier.
+An e-commerce company imports a type of fitness band from China and sell them in US for a higher price for a profit.
+The company has multiple suppliers for the product, each with their own inventory. The suppliers raise the price of
+their product when inventory gets small due to scarcity. More specifically, the profit the e-commerce company makes
+for each product sold is equal to the number of products left from the supplier.
 
-Given a list of integers representing the number of products each supplier has and an integer representing the number of products sold, find the maximum profit the company can make.
+Given a list of integers representing the number of products each supplier has and an integer representing the number
+ of products sold, find the maximum profit the company can make.
 
 Examples
 Example 1:

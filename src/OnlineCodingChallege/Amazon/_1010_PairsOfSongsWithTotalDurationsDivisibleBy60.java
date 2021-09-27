@@ -16,7 +16,7 @@ Solutions:
  3) analyze the counts to find the valid pair
  Time = O(n) Space = O(n)
  */
-public class _MusicPairs {
+public class _1010_PairsOfSongsWithTotalDurationsDivisibleBy60 {
 
     private static int findPair(int[] nums){
         int[] count = new int[60];

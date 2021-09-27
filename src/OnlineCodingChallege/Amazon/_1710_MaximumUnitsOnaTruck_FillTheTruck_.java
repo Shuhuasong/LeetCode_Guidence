@@ -20,7 +20,7 @@ Example:
   input:  boxTypes = { {5, 10}, {2, 5}, {4, 7}, {3, 9} } , truckSize = 10
   output: 91
  */
-public class _FillTheTruck_ {
+public class _1710_MaximumUnitsOnaTruck_FillTheTruck_ {
 
   /*  public static int maximumUnits(int[][] boxTypes, int truckSize){
         Arrays.sort(boxTypes, (a, b)->b[1]-a[1]);

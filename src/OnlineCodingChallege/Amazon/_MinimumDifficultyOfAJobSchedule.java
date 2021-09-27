@@ -40,7 +40,7 @@ public class _MinimumDifficultyOfAJobSchedule {
         }
         return minDiff(jobDifficulty, 0, 1, d, dp);
     }
-
+    // n == currDay
     private static int minDiff(int[] jobs, int start, int n, int d, int[][] dp){
         if(n > d) return 0;
         if(dp[start][n] != -1){
