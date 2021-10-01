@@ -40,6 +40,19 @@ public class _80_RemoveDuplicatesInSortedArrayII {
         return arr;
     }
 
+    /*
+We define two pointers, l and r for our algorithm. The pointer r iterates of the array processing one element at a time and l keeps track of the next location in the array where we can overwrite an element.
+
+We also keep a variable count which keeps track of the count of a particular element in the array. Note that the minimum count would always be 1.
+
+We start with index 1 and process one element at a time in the array.
+
+If we find that the current element is the same as the previous element i.e. nums[i] == nums[i - 1], then we increment the count. If the value of count > 2, then we have encountered an unwanted duplicate element. In this case, we simply move forward i.e. we increment r but not l.
+
+However, if the count is <= 2, then we can move the element from index r to index l.
+*/
+
+
  /*   public int removeDuplicates(int[] nums) {
 
         // Initialize the counter and the array index.
