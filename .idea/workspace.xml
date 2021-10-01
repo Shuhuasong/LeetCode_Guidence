@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Hard/_1293_ShortestPathInaGridWithObstacles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1197_MinimumKnightMoves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_1135_ConnectingCitiesWithMinimumCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/_574_NumberOfProvince.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Medium/_1167_MinimumCostToConnectSticks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_1099_TwoSumLessThanK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_698_PartitionToKequalSumSubsets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1043_PartitionArrayForMaximumSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1043_PartitionArrayForMaximumSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_937_ReOrderDataInLogFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_937_ReOrderDataInLogFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_ChooseAFlask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_ChooseAFlask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_CutOffRank_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_CutOffRank_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FillTheTruck_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1710_MaximumUnitsOnaTruck_FillTheTruck_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindCriticalConnection_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindCriticalConnection_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindHighestProfit_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindHighestProfit_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindPairsCloseToTarget_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindPairsCloseToTarget_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_LabelSystem_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_LabelSystem_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MinimumDifficultyOfAJobSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MinimumDifficultyOfAJobSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MusicPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1010_PairsOfSongsWithTotalDurationsDivisibleBy60.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_RobotBoundedInCircleSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1041_RobotBoundedInCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pramp/Tree/LargestSmallerBST_key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pramp/Tree/LargestSmallerBST_key.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue/Medium/_692_TopKFrequentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue/Medium/_692_TopKFrequentWords.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -352,14 +333,8 @@
       <workItem from="1632425389153" duration="2751000" />
       <workItem from="1632493551484" duration="13836000" />
       <workItem from="1632584321209" duration="665000" />
-      <workItem from="1632689169445" duration="382000" />
-    </task>
-    <task id="LOCAL-00043" summary="LeetCode">
-      <created>1618033674828</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1618033674828</updated>
+      <workItem from="1632689169445" duration="408000" />
+      <workItem from="1633044628530" duration="692000" />
     </task>
     <task id="LOCAL-00044" summary="LeetCode">
       <created>1618113357065</created>
@@ -697,7 +672,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632462696798</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Dynamic Programming">
+      <created>1632721279530</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1632721279531</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
