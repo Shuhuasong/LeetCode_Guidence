@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BINARYSEARCH_Web/BFS_DFS/_Moo_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/Practice/_BoundedRatio_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/Practice/_ConstructorsNames_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/Practice/_MakeIncreasing_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/Practice/_SegmentsWithSum_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/Practice/_CountDecresingSubarray_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/Practice/_MutateTheArray_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/Practice/_TrafficMap_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/Practice/_alternatingSort_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_174_DungeonGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/_2024_MaximumTheConfusionofAnExam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -339,14 +340,9 @@
       <workItem from="1632584321209" duration="665000" />
       <workItem from="1632689169445" duration="408000" />
       <workItem from="1633044628530" duration="1140000" />
-      <workItem from="1633120019263" duration="2680000" />
-    </task>
-    <task id="LOCAL-00046" summary="LeetCode">
-      <created>1618701563776</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1618701563776</updated>
+      <workItem from="1633120019263" duration="2712000" />
+      <workItem from="1633199308612" duration="955000" />
+      <workItem from="1633404622689" duration="1500000" />
     </task>
     <task id="LOCAL-00047" summary="LeetCode">
       <created>1618897536656</created>
@@ -684,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633064967387</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="BFS">
+      <created>1633156527074</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1633156527075</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,7 +721,8 @@
     <MESSAGE value="graph" />
     <MESSAGE value="Dynamic Programming" />
     <MESSAGE value="Backtrack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backtrack" />
+    <MESSAGE value="BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="BFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
