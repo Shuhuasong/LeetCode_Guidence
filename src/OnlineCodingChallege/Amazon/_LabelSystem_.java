@@ -9,7 +9,7 @@ Return the alphabetically largest string that can be constructed respecting a li
 characters can be the same.
 
 Example:
-s='bacc'
+s='baccc'
 k=2
 
 The largest string, alphabetically, is 'cccba' but it is not allowed because it uses the character 'c' more than
@@ -55,15 +55,19 @@ public class _LabelSystem_ {
         int index = 25;
         int lastCount = 0;
         while(index >= 0) {
+            System.out.println("index_1 = " + index);
             if(board[index] == 0) {
                 index--;
+                System.out.println("index_2 = " + index);
                 lastCount = 0;
                 continue;
             }
+            //board[index] != 0
             if(lastCount < k) {
                 sb.append((char)('a'+index));
                 lastCount++;
                 board[index]--;
+                System.out.println("index_3 = " + index);
             } else {
                 for(int i=index-1; i>=0; i--) {
                     if(board[i] > 0) {
