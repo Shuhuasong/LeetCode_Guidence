@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_368_LargestDivisibleSubset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PreSum/_974_SubarraySumsDivisiablebyK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Medium/_208_ImplementTrie_PrefixTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Google/_LowestCostRemoveB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_LabelSystem_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_LabelSystem_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/_25_ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/_25_ReverseNodesInKGroup.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._LabelSystem_">
+  <component name="RunManager" selected="Application._LowestCostRemoveB">
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
@@ -128,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_PrimeFactorVisitation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Citadel._PrimeFactorVisitation" />
+    <configuration name="_LowestCostRemoveB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Google._LowestCostRemoveB" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.Citadel.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.Google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,19 +141,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application._PrimeFactorVisitation" />
       <item itemvalue="Application._DoTheyBelong" />
       <item itemvalue="Application._CutOffRank_" />
       <item itemvalue="Application._FindPairsCloseToTarget_" />
       <item itemvalue="Application._LabelSystem_" />
+      <item itemvalue="Application._LowestCostRemoveB" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._LowestCostRemoveB" />
         <item itemvalue="Application._LabelSystem_" />
         <item itemvalue="Application._FindPairsCloseToTarget_" />
         <item itemvalue="Application._CutOffRank_" />
         <item itemvalue="Application._DoTheyBelong" />
-        <item itemvalue="Application._PrimeFactorVisitation" />
       </list>
     </recent_temporary>
   </component>
@@ -342,14 +340,9 @@
       <workItem from="1633199308612" duration="955000" />
       <workItem from="1633404622689" duration="1626000" />
       <workItem from="1633572167081" duration="3809000" />
-      <workItem from="1633659750143" duration="2351000" />
-    </task>
-    <task id="LOCAL-00048" summary="LeetCode">
-      <created>1618962079917</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1618962079917</updated>
+      <workItem from="1633659750143" duration="2367000" />
+      <workItem from="1633734221395" duration="3484000" />
+      <workItem from="1633822459699" duration="1276000" />
     </task>
     <task id="LOCAL-00049" summary="LeetCode">
       <created>1619150815346</created>
@@ -687,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633409176430</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="PreSum">
+      <created>1633674719920</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1633674719921</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,7 +722,8 @@
     <MESSAGE value="Dynamic Programming" />
     <MESSAGE value="Backtrack" />
     <MESSAGE value="BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="BFS" />
+    <MESSAGE value="PreSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="PreSum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
