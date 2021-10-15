@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_1878_GetBiggestThreeRhombusSumsInaGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_606_ConstructStringFromBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_889_ConstructBinaryTreeFromPreorderAndPostorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_279_PerfectSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/CapitalOne/VerificationCodeSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/CapitalOne/_AddThreeBigNumber_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -347,14 +347,8 @@
       <workItem from="1633891568463" duration="1665000" />
       <workItem from="1633903000742" duration="4512000" />
       <workItem from="1633994777730" duration="1348000" />
-      <workItem from="1634184623030" duration="394000" />
-    </task>
-    <task id="LOCAL-00052" summary="LeetCode">
-      <created>1621571275128</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1621571275128</updated>
+      <workItem from="1634184623030" duration="422000" />
+      <workItem from="1634237296842" duration="5395000" />
     </task>
     <task id="LOCAL-00053" summary="LeetCode">
       <created>1622174541628</created>
@@ -692,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633997828414</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Construct Tree">
+      <created>1634191383810</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1634191383811</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -729,7 +730,8 @@
     <MESSAGE value="PreSum" />
     <MESSAGE value="Array" />
     <MESSAGE value="Matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matrix" />
+    <MESSAGE value="Construct Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Construct Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
