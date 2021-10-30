@@ -27,7 +27,7 @@ public class _AddThreeBigNumber_ {
        ListNode dummy = new ListNode(-1);
        ListNode head = dummy, temp = null;
        while(l1 != null || l2 != null || l3 != null){
-           sum += carry;
+           sum = carry;
            if(l1 != null){
                sum += l1.val;
                l1 = l1.next;
@@ -62,8 +62,8 @@ public class _AddThreeBigNumber_ {
        while(curr != null){
            num = rem * 1000 + curr.val;
            int newVal = num/3;
-           rem = num % newVal;
            curr.val = newVal;
+           rem = num % 3;
            curr = curr.next;
        }
        return dummy.next;
