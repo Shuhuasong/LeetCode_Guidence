@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Easy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1048_LongestStringChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1396_DesignUndergroundSystem_SystemDesign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Tiktok/JumpTotheFlag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pramp/String/Medium/_1209_RemoveAllAdjacentDuplicatesInStringII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PreSum/_RangeSumQuery2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/_MergeSort_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/_QuickSort_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Medium/_797_ReorganizeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Hard/_987_VerticalOrderTraversalOfABinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/_394_DecodeString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/CapitalOne/_AddThreeBigNumber_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/CapitalOne/_AddThreeBigNumber_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/Hard/_68_TextJustification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Hard/_68_TextJustification.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -368,14 +359,8 @@
       <workItem from="1635295081098" duration="5000" />
       <workItem from="1635376296511" duration="2362000" />
       <workItem from="1635485677155" duration="610000" />
-      <workItem from="1635537258300" duration="3414000" />
-    </task>
-    <task id="LOCAL-00056" summary="LeetCode">
-      <created>1622490480975</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1622490480975</updated>
+      <workItem from="1635537258300" duration="3481000" />
+      <workItem from="1635639869165" duration="2494000" />
     </task>
     <task id="LOCAL-00057" summary="LeetCode">
       <created>1622609917669</created>
@@ -713,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634531141050</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Dynamic Programming">
+      <created>1635572251338</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1635572251339</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

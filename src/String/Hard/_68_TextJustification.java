@@ -36,6 +36,7 @@ class _68_TextJusification {
                 int remind = (maxWidth-totalChars)%gaps;
                 for(int i=idx; i<right-1; i++){
                     sb.append(words[i]);
+                    //!!! reminder add one more space, which we have counted above
                     sb.append(' '); //in the above totalChars, we have count 1 space
                     for(int j=0; j<spaces+(i-idx<remind ? 1 : 0); j++){
                         sb.append(' ');
