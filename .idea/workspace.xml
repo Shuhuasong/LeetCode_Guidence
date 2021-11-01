@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/String/_394_DecodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_287_FindTheDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_528_RandomPickWithWeight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/Hard/_68_TextJustification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Hard/_68_TextJustification.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -360,14 +360,8 @@
       <workItem from="1635376296511" duration="2362000" />
       <workItem from="1635485677155" duration="610000" />
       <workItem from="1635537258300" duration="3481000" />
-      <workItem from="1635639869165" duration="2494000" />
-    </task>
-    <task id="LOCAL-00057" summary="LeetCode">
-      <created>1622609917669</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1622609917669</updated>
+      <workItem from="1635639869165" duration="2639000" />
+      <workItem from="1635805512418" duration="1154000" />
     </task>
     <task id="LOCAL-00058" summary="LeetCode">
       <created>1622759119788</created>
@@ -705,7 +699,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635572251339</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Array">
+      <created>1635659765412</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1635659765413</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,11 +740,11 @@
     <MESSAGE value="Backtrack" />
     <MESSAGE value="BFS" />
     <MESSAGE value="PreSum" />
-    <MESSAGE value="Array" />
     <MESSAGE value="Matrix" />
     <MESSAGE value="Construct Tree" />
     <MESSAGE value="Dynamic Programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dynamic Programming" />
+    <MESSAGE value="Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
