@@ -57,6 +57,7 @@ public class _543_DiameterOfBinaryTree {
         }
     }
 }
+
 /*
 idea: If we knew the maximum length(L & R) in left and right direction for each child,
 then the best path is: L + R + 1

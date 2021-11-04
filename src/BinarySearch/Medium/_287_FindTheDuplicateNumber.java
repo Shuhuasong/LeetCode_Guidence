@@ -36,6 +36,8 @@ public class _287_FindTheDuplicateNumber {
             for(int num : nums){
                 if(num <= mid) count++;
             }
+            //The count is greater than the actaual correct number order
+            //we need t0 move right to find smallest number
             if(count > mid){
                 res = mid;
                 right = mid - 1;
