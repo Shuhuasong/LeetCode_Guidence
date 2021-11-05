@@ -17,6 +17,7 @@ public class _114_FlattenBinaryTreeToLinkedList {
     }
 
     public void flatten(TreeNode root) {
+
         dfs(root);
     }
 
@@ -36,7 +37,29 @@ public class _114_FlattenBinaryTreeToLinkedList {
             root.right = root.left;
             root.left = null;
         }
+        //check the rightLast first,this node willconnect with root.right
         //Need to return the 'rightmost' node after we are done wiring the new connection
         return rightLast == null ? leftLast : rightLast;
     }
+
+    /*
+      //Iterative : Space Save
+    //Time = O(n), Space = O(1)
+    public void flatten(TreeNode root) {
+        if(root==null) return;
+        while(root != null){
+            if(root.left != null){
+               TreeNode rightMost = root.left;
+               while(rightMost.right != null){
+                    rightMost = rightMost.right;
+                }
+
+                rightMost.right = root.right;
+                root.right= root.left;
+                root.left = null;
+           }
+           root = root.right;
+       }
+    }
+     */
 }
