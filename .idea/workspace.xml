@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Design/_LRU_Cache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_230_KthSmallestElementInaBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_1477_FindTwoNonOverlapSubArrayWithTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Example/_01Knapsack_Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Example/_numOfWaysSumToN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Easy/_2062_CountVowelSubstringOfAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Hard/_726_NumbrOfAtoms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Medium/_2063_VowelsOfAllSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Medium/_616_AddBoldTagInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_298_BinaryTreeLongestConsecutiveSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Medium/_114_FlattenBinaryTreeToLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Medium/_114_FlattenBinaryTreeToLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._MergeSort_">
+  <component name="RunManager" selected="Application._numOfWaysSumToN">
     <configuration name="JumpTotheFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Tiktok.JumpTotheFlag" />
       <module name="LeetCode(New)" />
@@ -106,19 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_CountingArrayAnalogous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Tiktok._CountingArrayAnalogous" />
-      <module name="LeetCode(New)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.Tiktok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_MergeSort_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting._MergeSort_" />
       <module name="LeetCode(New)" />
@@ -145,21 +137,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_numOfWaysSumToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.Example._numOfWaysSumToN" />
+      <module name="LeetCode(New)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProgramming.Example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application._CountingArrayAnalogous" />
       <item itemvalue="Application._CountAnalogousArray" />
       <item itemvalue="Application.JumpTotheFlag" />
       <item itemvalue="Application._QuickSort_" />
       <item itemvalue="Application._MergeSort_" />
+      <item itemvalue="Application._numOfWaysSumToN" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._numOfWaysSumToN" />
         <item itemvalue="Application._MergeSort_" />
         <item itemvalue="Application._QuickSort_" />
         <item itemvalue="Application.JumpTotheFlag" />
         <item itemvalue="Application._CountAnalogousArray" />
-        <item itemvalue="Application._CountingArrayAnalogous" />
       </list>
     </recent_temporary>
   </component>
@@ -372,13 +377,9 @@
       <workItem from="1635881425990" duration="5338000" />
       <workItem from="1635982958599" duration="979000" />
       <workItem from="1636055066416" duration="7844000" />
-    </task>
-    <task id="LOCAL-00062" summary="LeetCode">
-      <created>1623102937832</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1623102937834</updated>
+      <workItem from="1636086195311" duration="15000" />
+      <workItem from="1636237517718" duration="2443000" />
+      <workItem from="1636338147624" duration="2138000" />
     </task>
     <task id="LOCAL-00063" summary="LeetCode">
       <created>1623195942662</created>
@@ -716,7 +717,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636061521036</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Binary Tree &amp;&amp; Divide and Conquer">
+      <created>1636086207915</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1636086207915</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
