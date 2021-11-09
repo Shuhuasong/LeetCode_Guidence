@@ -1,5 +1,6 @@
 package Array.Medium;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -11,31 +12,29 @@ public class _1477_FindTwoNonOverlapSubArrayWithTarget {
     public int minSumOfLengths(int[] arr, int target) {
         int n = arr.length;
         int[] preSum = new int[n+1];
-        int[] minLenArr = new int[n+1];
-        int minLen = Integer.MAX_VALUE;
-        int res = minLen;
-        preSum[0] = 0;
+        //dp[i] to keep the min Length of valid subarray ending at i-1
+        int[] dp = new int[n+1];
+        int minLen = Integer.MAX_VALUE, res = minLen;
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(0, 0);
         for(int i=0; i<n; i++){
             preSum[i+1] = preSum[i] + arr[i];
+            map.put(preSum[i+1], i+1);
         }
-        Map<Integer, Integer> map = new TreeMap<>();
-        for(int i=0;i<=n; i++){
-            map.put(preSum[i], i);
-        }
+
         for(int i=0; i<=n; i++){
             if(map.containsKey(preSum[i]-target)){
                 int preIdx = map.get(preSum[i]-target);
                 minLen = Math.min(minLen, i-preIdx);
-                if(minLenArr[preIdx] < Integer.MAX_VALUE){
-                    res = Math.min(res, i-preIdx+minLenArr[preIdx]);
+                if(dp[preIdx] < Integer.MAX_VALUE){
+                    res = Math.min(res, i-preIdx + dp[preIdx]);
                 }
             }
-            minLenArr[i] = minLen;
-            // System.out.println(i + " " + minLenArr[i] + " " + res);
+            dp[i] = minLen;
         }
-        //for(int i=0; i<=n ; i++){
-        //    System.out.println(i + " " + minLenArr[i]);
-        // }
+        for(int d : dp){
+            System.out.print(d + " ");
+        }
         return res < Integer.MAX_VALUE ? res : -1;
     }
 }
