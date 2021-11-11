@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="Top-Down DFS &amp;&amp; Bottom-Up DFS">
-      <change afterPath="$PROJECT_DIR$/src/Tree/BST/Medium/_333_LargestBSTSubtree.java" afterDir="false" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Design/_1352_ProductOfTheLastKNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_935_KnightDialer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Medium/_1477_FindTwoNonOverlapSubArrayWithTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Medium/_1477_FindTwoNonOverlapSubArrayWithTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_79_WordSearch_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_79_WordSearch_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BST/Medium/_333_LargestBSTSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BST/Medium/_333_LargestBSTSubtree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +16,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -375,14 +391,9 @@
       <workItem from="1636237517718" duration="2443000" />
       <workItem from="1636338147624" duration="2194000" />
       <workItem from="1636353711538" duration="12000" />
-      <workItem from="1636423858235" duration="1017000" />
-    </task>
-    <task id="LOCAL-00064" summary="LeetCode">
-      <created>1623209529664</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1623209529664</updated>
+      <workItem from="1636423858235" duration="1671000" />
+      <workItem from="1636515112598" duration="716000" />
+      <workItem from="1636582159901" duration="6736000" />
     </task>
     <task id="LOCAL-00065" summary="LeetCode">
       <created>1623448870678</created>
@@ -720,7 +731,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636353691328</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="Top-Down DFS &amp;&amp; Bottom-Up DFS">
+      <created>1636433612148</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1636433612148</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

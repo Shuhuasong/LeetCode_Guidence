@@ -29,22 +29,27 @@ public class _333_LargestBSTSubtree {
 
     //Time = O(N), Space = O(N)
     public int largestBSTSubtree(TreeNode root) {
+        if(root==null) return 0;
         Item result = dfs(root);
         return result.maxSize;
     }
-
+    //Bottome-Up DFS traversal
     private Item dfs(TreeNode root){
+        //An empty tree is a BST of size 0
         if(root==null){
             return new Item(Integer.MAX_VALUE, Integer.MIN_VALUE, 0);
         }
+        //get value from left and right subtree of current tree
         Item left = dfs(root.left);
         Item right = dfs(root.right);
-        //the current node is a BST
+        //currentNode.val greater than max in the left and smaller
+        //then min in right, then the current node is a BST
         if(left.maxNode < root.val && root.val < right.minNode){
             return new Item(Math.min(root.val, left.minNode),
                     Math.max(root.val, right.maxNode),
-                    left.maxSize + right.maxSize + 1);
+                    left.maxSize+right.maxSize+1);
         }
+        //Otherwise, return [-inf, inf], so that the parent can't be valid BST
         return new Item(Integer.MIN_VALUE, Integer.MAX_VALUE,
                 Math.max(left.maxSize, right.maxSize));
     }
@@ -82,7 +87,22 @@ public class _333_LargestBSTSubtree {
              return 1 + countNodes(root.left) + countNodes(root.right);
          }
 }
-     */
+
+/*
+Check BST using in-order traversal
+1) Traverse each node in the given tree one by one
+2) For Each node of the given tree:
+  --Perform th following steps to checks if the subtree rooted at the current node is a BST
+    * Check if the in-order traversal of the tree is in Sorted order
+    * Keep a previous variable to point to the previously visited node while performaning an in-order traversal of the tree
+    * Traverse the left subtree first
+    * Compare the current node with the previous node(if it is the first node of the traversal, then there is no need to compare). If the previousNode.val > currentNode.val==> in-order traversal is not increasing==> return false
+    * Update the previous with the current node
+    * Traverse the right substree of the current node
+    * get the count of all nodes
+3)
+*/
+
 
 
     /*
