@@ -92,3 +92,76 @@ class Solution {
     }
 }
  */
+
+/* Method #3
+ //Union Find (aka : Disjoint Set)
+  // Time Complexity = O(M * N), Union operation take essentially constant time when
+  // UnionFind is implemented with both path compression and union by rank
+  // Space Complexit = O(M * N)
+ class UnionFind{
+    public int count = 0;
+    int[] parent;
+    int[] rank;
+    public UnionFind(char[][] grid){
+        int rows = grid.length, cols = grid[0].length;
+        parent = new int[rows * cols];
+        rank = new int[rows * cols];
+        for(int i=0; i<rows; i++){
+            for(int j=0; j<cols; j++){
+                if(grid[i][j]=='1'){
+                    parent[i*cols+j] = i*cols+j;
+                    count++;
+                }
+                 //rank[i*cols+j] = 1;
+            }
+        }
+    }
+    public int find(int x){
+        if(parent[x] != x){
+            parent[x] = find(parent[x]);
+        }
+        return parent[x];
+    }
+    public void union(int x, int y){
+        int rootX = find(x);
+        int rootY = find(y);
+        if(rootX != rootY){
+            if(rank[rootX] > rank[rootY]){
+                parent[rootY] = rootX;
+            }else if(rank[rootX] < rank[rootY]){
+                parent[rootX] = rootY;
+            }else{
+                parent[rootY] = rootX;
+                rank[rootX] += 1;
+            }
+            count--;
+        }
+    }
+ }
+
+class Solution {
+   public int numIslands(char[][] grid) {
+         UnionFind  UF = new UnionFind(grid);
+         int rows = grid.length, cols = grid[0].length;
+         for(int i=0; i<rows; i++){
+             for(int j=0; j<cols; j++){
+                 if(grid[i][j] == '1'){
+                     if(i-1 >= 0 && grid[i-1][j]=='1'){
+                          UF.union(i*cols+j, (i-1)*cols+j);
+                     }
+                     if(i+1 < rows && grid[i+1][j]=='1'){
+                          UF.union(i*cols+j, (i+1)*cols+j);
+                     }
+                     if(j-1 >= 0 && grid[i][j-1]=='1'){
+                          UF.union(i*cols+j, i*cols+(j-1));
+                     }
+                     if(j+1 < cols && grid[i][j+1]=='1'){
+                          UF.union(i*cols+j, i*cols+(j+1));
+                     }
+                 }
+             }
+         }
+       return UF.count;
+    }
+}
+ */

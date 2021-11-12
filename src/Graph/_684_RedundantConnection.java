@@ -52,10 +52,13 @@ public class _684_RedundantConnection {
 
     /*
        //DFS traversal
-    //Time = O(n^2) Space = O(n)
+       // for each edge (u, v), traverse the graph with a DFS to see if we can
+       // connect u to v. If we can, then it must be the duplicate edge
+    //Time = O(n^2), n is the number of vertices. In the worst case, for every edge we include, we
+    //have to search every previously-occuring edge of the graph
+     //Space = O(n)
    public int[] findRedundantConnection(int[][] edges) {
         Map<Integer, List<Integer>> graph = new HashMap<>();
-
         for(int[] e : edges){
             int u = e[0];
             int v = e[1];
@@ -67,6 +70,7 @@ public class _684_RedundantConnection {
                 graph.put(u, new ArrayList<>());
             }
             graph.get(u).add(v);
+
             if(!graph.containsKey(v)){
                 graph.put(v, new ArrayList<>());
             }
