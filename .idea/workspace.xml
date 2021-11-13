@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_694_NumberOfDstinctIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_93_RestoreIPAddress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_200_NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_200_NumberOfIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/_684_RedundantConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/_684_RedundantConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MinimumDifficultyOfAJobSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_MinimumDifficultyOfAJobSchedule.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -393,14 +392,8 @@
       <workItem from="1636423858235" duration="1671000" />
       <workItem from="1636515112598" duration="716000" />
       <workItem from="1636582159901" duration="6947000" />
-      <workItem from="1636672165130" duration="3425000" />
-    </task>
-    <task id="LOCAL-00066" summary="LeetCode">
-      <created>1623453893998</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1623453893998</updated>
+      <workItem from="1636672165130" duration="3492000" />
+      <workItem from="1636757344844" duration="2622000" />
     </task>
     <task id="LOCAL-00067" summary="LeetCode">
       <created>1624559551624</created>
@@ -738,7 +731,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636610594826</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="DFS">
+      <created>1636698926825</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1636698926825</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -778,7 +778,8 @@
     <MESSAGE value="BinarySearch" />
     <MESSAGE value="Binary Tree &amp;&amp; Divide and Conquer" />
     <MESSAGE value="Top-Down DFS &amp;&amp; Bottom-Up DFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Top-Down DFS &amp;&amp; Bottom-Up DFS" />
+    <MESSAGE value="DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="DFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

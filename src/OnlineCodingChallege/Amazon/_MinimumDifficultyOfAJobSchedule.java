@@ -27,42 +27,50 @@ second day : 1 -----> 1
  */
 public class _MinimumDifficultyOfAJobSchedule {
 
-    private static int minDifficulty(int[] jobDifficulty, int d){
-        if(d > jobDifficulty.length){
-            return -1;
-        }
-        // dp[i][j] : the min difficulty for first i jobs in first j days.
-        int[][] dp = new int[jobDifficulty.length][d+1];
-        for(int i=0; i<dp.length; i++){
-            for(int j=0; j<dp[0].length; j++){
-                dp[i][j] = -1;
-            }
-        }
-        return minDiff(jobDifficulty, 0, 1, d, dp);
+    private static int minDifficulty(int[] jobs, int d){
+        if(jobs.length < d) return -1;
+        int[][] dp = new int[jobs.length][d+1];
+        int res = dfs(jobs, 0, d, dp);
+        return res;
     }
     // n == currDay
-    private static int minDiff(int[] jobs, int start, int n, int d, int[][] dp){
-        if(n > d) return 0;
-        if(dp[start][n] != -1){
-            return dp[start][n];
-        }
-        if(n==d){
-            int currMax = Integer.MIN_VALUE;
-            for(int i=start; i<jobs.length; i++){
-                currMax = Math.max(currMax, jobs[i]);
+    private static int dfs(int[] jobs, int start, int k, int[][] dp){
+        if(dp[start][k] > 0) return dp[start][k];
+        int maxDiff = -1;
+        int ans = Integer.MAX_VALUE;
+        if(k==1){
+            for(int i=start; i<=jobs.length-k; i++){
+                maxDiff = Math.max(maxDiff, jobs[i]);
             }
-            dp[start][n] = currMax;
-            return currMax;
+            dp[start][k] = maxDiff;
+            return maxDiff;
+        }else{
+            for(int i=start; i<=jobs.length-k; i++){
+                maxDiff = Math.max(maxDiff, jobs[i]);
+                ans = Math.min(ans, maxDiff + dfs(jobs, i+1,k-1, dp));
+            }
+            dp[start][k] = ans;
+            return ans;
         }
-        int min = Integer.MAX_VALUE;
-        int currMax = Integer.MIN_VALUE;
-        for(int i=start; i<jobs.length-(d-n); i++){
-            currMax = Math.max(currMax, jobs[i]);
-            min = Math.min(min, minDiff(jobs, i+1, n+1, d, dp) + currMax);
-        }
-        dp[start][n] = min;
-        return min;
     }
+
+    /*
+Recursion + Memorizaton
+Question: divide the array into k segement and then save the max difficulty
+for each segement. Return the minimum sum of max difficulties in the k segments.
+If we use brute force to try each position, it will LTE.
+Solution:
+--when we divide the array one time, the k will minus 1,the start position will be
+changed. In the second time, we can user recursion function repeat the process
+--when divide the array, the end position is end = jobs.length-k
+e.g [1, 2, 3,4 ,5,6], k = 2
+for the first time divide, the start should be [0, 4], end = job.length-k
+Implemention:
+--for the k==1, we just need to return the max in the current rest array
+--if k>1, we need to recursively invoke the recursion function to calculate
+each position that is divided, and return the minimum one
+--
+*/
 
     public static void main(String[] args) {
         int[] jobsDifficulty1 = {6, 5, 4, 3,2, 1};
