@@ -30,12 +30,12 @@ public class _207_CourseSchedule {
         if(visited[courNum]) return true;
 
         visited[courNum] = true;
-        //backtracking
         for(int i=0; i<graph[courNum].size(); i++){
             if(isCyclic(graph, visited, graph[courNum].get(i))){
                 return true;
             }
         }
+        //backtracking
         visited[courNum] = false;
         return false;
     }

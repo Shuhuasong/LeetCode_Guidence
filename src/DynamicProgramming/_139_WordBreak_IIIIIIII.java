@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class _139_WordBreak {
+public class _139_WordBreak_IIIIIIII {
 
     //Time = O(n^3) Space = O(n)
     public boolean wordBreak(String s, List<String> wordDict) {
