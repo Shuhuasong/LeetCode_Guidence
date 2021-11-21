@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Twilio/_ValidatePhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Twilio/simpleImageSizeValidatation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_56_MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Hard/_329_LongestIncreasingPathInAMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/_295_FindMedianFromDataStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_518_CoinChange2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_5_LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Tiktok/minTimeToSpreadViral.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/_139_WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/_139_WordBreak_IIIIIIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_494_TargetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_494_TargetSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Topological_Sort/_207_CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topological_Sort/_207_CourseSchedule.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._ValidatePhoneNumber">
+  <component name="RunManager" selected="Application.minTimeToSpreadViral">
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
@@ -97,19 +101,6 @@
     </configuration>
     <configuration name="_MergeSort_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting._MergeSort_" />
-      <module name="LeetCode(New)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_QuickSort_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting._QuickSort_" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
@@ -147,6 +138,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="minTimeToSpreadViral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Tiktok.minTimeToSpreadViral" />
+      <module name="LeetCode(New)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OnlineCodingChallege.Tiktok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="simpleImageSizeValidatation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Twilio.simpleImageSizeValidatation" />
       <module name="LeetCode(New)" />
@@ -162,19 +166,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application._QuickSort_" />
       <item itemvalue="Application._MergeSort_" />
       <item itemvalue="Application._numOfWaysSumToN" />
       <item itemvalue="Application.simpleImageSizeValidatation" />
       <item itemvalue="Application._ValidatePhoneNumber" />
+      <item itemvalue="Application.minTimeToSpreadViral" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.minTimeToSpreadViral" />
         <item itemvalue="Application._ValidatePhoneNumber" />
         <item itemvalue="Application.simpleImageSizeValidatation" />
         <item itemvalue="Application._numOfWaysSumToN" />
         <item itemvalue="Application._MergeSort_" />
-        <item itemvalue="Application._QuickSort_" />
       </list>
     </recent_temporary>
   </component>
@@ -398,13 +402,14 @@
       <workItem from="1636757344844" duration="2640000" />
       <workItem from="1636816747238" duration="4775000" />
       <workItem from="1636838699291" duration="3900000" />
-    </task>
-    <task id="LOCAL-00068" summary="LeetCode">
-      <created>1624576335526</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1624576335526</updated>
+      <workItem from="1636874618884" duration="21000" />
+      <workItem from="1636922020137" duration="1114000" />
+      <workItem from="1637015089671" duration="1237000" />
+      <workItem from="1637045295133" duration="284000" />
+      <workItem from="1637102988813" duration="5678000" />
+      <workItem from="1637199715535" duration="1668000" />
+      <workItem from="1637299752267" duration="667000" />
+      <workItem from="1637518564306" duration="4285000" />
     </task>
     <task id="LOCAL-00069" summary="LeetCode">
       <created>1624652448856</created>
@@ -742,7 +747,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636783602915</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="DFS">
+      <created>1636874632402</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1636874632402</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -13,6 +13,7 @@ public class _494_TargetSum {
         int N = nums.length;
         int sum = 0;
         for(int num: nums) sum += num;
+        //case : nums = {100}, target = -200
         if(Math.abs(S) > sum) return 0;
         /* Basic concept:
         Assume we have two subsets with sum of each => T & Y, we get two equations
@@ -124,3 +125,9 @@ public class _494_TargetSum {
     }
      */
 }
+
+/*
+The factor of total has been added as an offset to the sumsum value to map all the sumsums possible to positive integer range.
+corner case:
+nums = {100}, target = -200
+*/
