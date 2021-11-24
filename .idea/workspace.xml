@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_56_MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Hard/_329_LongestIncreasingPathInAMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design/_295_FindMedianFromDataStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_518_CoinChange2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_5_LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Tiktok/minTimeToSpreadViral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/_1146_SnapshotArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_494_TargetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_494_TargetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topological_Sort/_207_CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topological_Sort/_207_CourseSchedule.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -409,14 +402,8 @@
       <workItem from="1637102988813" duration="5678000" />
       <workItem from="1637199715535" duration="1668000" />
       <workItem from="1637299752267" duration="667000" />
-      <workItem from="1637518564306" duration="4285000" />
-    </task>
-    <task id="LOCAL-00069" summary="LeetCode">
-      <created>1624652448856</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1624652448856</updated>
+      <workItem from="1637518564306" duration="5469000" />
+      <workItem from="1637729738654" duration="573000" />
     </task>
     <task id="LOCAL-00070" summary="LeetCode">
       <created>1624824728293</created>
@@ -754,7 +741,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636874632402</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="DFS">
+      <created>1637529597407</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1637529597408</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
