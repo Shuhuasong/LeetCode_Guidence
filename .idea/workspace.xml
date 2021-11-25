@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Design/_1146_SnapshotArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_410_SplitArrayLargestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Google/_CopyBooks_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BST/Medium/_1110_DeleteNodesAndReturnForest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BST/Medium/_1110_DeleteNodesAndReturnForest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.minTimeToSpreadViral">
+  <component name="RunManager" selected="Application._CopyBooks_">
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
@@ -92,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_MergeSort_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting._MergeSort_" />
+    <configuration name="_CopyBooks_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Google._CopyBooks_" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.Google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,19 +161,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application._MergeSort_" />
       <item itemvalue="Application._numOfWaysSumToN" />
       <item itemvalue="Application.simpleImageSizeValidatation" />
       <item itemvalue="Application._ValidatePhoneNumber" />
       <item itemvalue="Application.minTimeToSpreadViral" />
+      <item itemvalue="Application._CopyBooks_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._CopyBooks_" />
         <item itemvalue="Application.minTimeToSpreadViral" />
         <item itemvalue="Application._ValidatePhoneNumber" />
         <item itemvalue="Application.simpleImageSizeValidatation" />
         <item itemvalue="Application._numOfWaysSumToN" />
-        <item itemvalue="Application._MergeSort_" />
       </list>
     </recent_temporary>
   </component>
@@ -403,14 +405,8 @@
       <workItem from="1637199715535" duration="1668000" />
       <workItem from="1637299752267" duration="667000" />
       <workItem from="1637518564306" duration="5469000" />
-      <workItem from="1637729738654" duration="573000" />
-    </task>
-    <task id="LOCAL-00070" summary="LeetCode">
-      <created>1624824728293</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1624824728294</updated>
+      <workItem from="1637729738654" duration="1364000" />
+      <workItem from="1637802323627" duration="4399000" />
     </task>
     <task id="LOCAL-00071" summary="LeetCode">
       <created>1625530823835</created>
@@ -748,7 +744,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637529597408</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="DFS">
+      <created>1637735567126</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1637735567127</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -816,6 +819,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/OnlineCodingChallege/Google/_CopyBooks_.java</url>
+          <line>118</line>
+          <properties class="OnlineCodingChallege.Google._CopyBooks_" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

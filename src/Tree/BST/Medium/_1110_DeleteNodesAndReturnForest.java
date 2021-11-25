@@ -22,6 +22,7 @@ public class _1110_DeleteNodesAndReturnForest {
         }
     }
 
+    //DFS : Time = O(n), Space = O(n)
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
         List<TreeNode> results = new ArrayList<>();
         if(root==null) return results;
@@ -51,4 +52,43 @@ public class _1110_DeleteNodesAndReturnForest {
 
         return root;
     }
+
+    /*
+     //BFS : Time = O(n), Space = O(n)
+    public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
+         List<TreeNode> results = new ArrayList<>();
+         if(root==null) return results;
+         HashSet<Integer> deletes = new HashSet<>();
+         for(int d : to_delete) deletes.add(d);
+
+         Queue<TreeNode> q = new LinkedList<>();
+         results.add(root);
+         q.add(root);
+         while(!q.isEmpty()){
+             TreeNode curr = q.remove();
+             if(deletes.contains(curr.val)){
+                 results.remove(curr);
+                 if(curr.left != null){
+                     results.add(curr.left);
+                 }
+                 if(curr.right != null){
+                     results.add(curr.right);
+                 }
+             }
+             if(curr.left != null){
+                 q.add(curr.left);
+                 if(deletes.contains(curr.left.val)){
+                     curr.left = null;
+                 }
+             }
+             if(curr.right != null){
+                 q.add(curr.right);
+                 if(deletes.contains(curr.right.val)){
+                     curr.right = null;
+                 }
+             }
+         }
+        return results;
+    }
+     */
 }
