@@ -69,6 +69,48 @@ public class _207_CourseSchedule_checkCycle {
         checked[node] = true;
         return isCycle;
     }
+
+    /*
+     Map<Integer, List<Integer>> graph;
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+ 	    graph = new HashMap<>();
+        int n = numCourses;
+ 	    int[] inDegree = new int[n];
+        for(int[] p  : prerequisites) {
+              int src = p[1];
+ 	          int dest = p[0];
+              if(!graph.containsKey(src)) {
+		         graph.put(src, new ArrayList<>());
+		      }
+             graph.get(src).add(dest);
+             inDegree[dest]++;
+        }
+
+          Queue<Integer>  q = new LinkedList<>();
+           for(int i=0; i<n; i++) {
+                if(inDegree[i]==0) {
+                  q.add(i);
+                }
+          }
+
+         while(!q.isEmpty()) {
+ 	      int node = q.poll();
+              if(graph.containsKey(node)) {
+	            for(int nei : graph.get(node)) {
+                    inDegree[nei]--;
+                   if(inDegree[nei] == 0) {
+                      q.add(nei);
+                   }
+               }
+	       }
+      }
+
+      for(int i=0; i<n; i++) {
+ 		if(inDegree[i] != 0) return false;
+	  }
+       return true;
+    }
+     */
 }
 
 /*

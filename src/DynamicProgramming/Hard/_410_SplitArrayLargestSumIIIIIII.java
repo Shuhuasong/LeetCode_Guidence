@@ -3,7 +3,7 @@ package DynamicProgramming.Hard;
 /**
  * Created by Shuhua Song
  */
-public class _410_SplitArrayLargestSum {
+public class _410_SplitArrayLargestSumIIIIIII {
     //Binary Search
     //Time = O(n*log(total))
     //Space = O(1)
@@ -83,9 +83,6 @@ public class _410_SplitArrayLargestSum {
     //Time = O(n^2*m), the total number of states O(m*n)
     //Space = O(n)
     public int splitArray(int[] nums, int m) {
-        if(nums.length==0){
-            return 0;
-        }
         int n = nums.length;
         //dp[i][j] : the minimum largest subarray sum for splitting nums[0...i] to parts
         int[][] dp = new int[n+1][m+1];
@@ -108,9 +105,74 @@ public class _410_SplitArrayLargestSum {
         }
         return dp[n][m];
     }
+    */
 
     /*
-Consider the jth subarray. We can split the array from a smaller index k to i to form it. Thus f[i][j] can be derived from max(f[k][j - 1], nums[k + 1] + ... + nums[i]). For all valid index k, f[i][j] should choose the minimum value of the above formula.
-*/
+      //Top Down : recursion + memorization
+    //Time = O(m*n^2), split n elements into m parts,
+    //Space = O(m*n)
+    int[][] memo;
+    int[] preSum;
+    public int splitArray(int[] nums, int m) {
+        int n = nums.length;
+        //dp[i][j] : the minimum largest subarray sum for splitting nums[0...i] to j parts
+        memo = new int[n][m+1];
+        preSum = new int[n+1];
+        for(int i=1; i<=n; i++){
+            preSum[i] = nums[i-1] + preSum[i-1];
+        }
+        for(int[] row : memo){
+            Arrays.fill(row, -1);
+        }
+        return dfs(nums, 0, m);
+    }
+    //min of largest sum of spliting nums[0]~nums[k] into m groups
+    private int dfs(int[] nums, int start, int m){
+        if(m==1){
+            return preSum[nums.length]-preSum[start];
+        }
+        if(memo[start][m] != -1){
+            return memo[start][m];
+        }
+        int maxSum = Integer.MAX_VALUE;
+        for(int i=start; i<nums.length-1; i++){
+            int currTotal = preSum[i+1]-preSum[start];
+            int rightIntervalMax = dfs(nums, i+1, m-1);
+            maxSum = Math.min(maxSum, Math.max(currTotal, rightIntervalMax));
+        }
+        memo[start][m] = maxSum;
+        return maxSum;
+    }
+     */
+
+
+
+
+/*
+Consider the jth subarray. We can split the array from a smaller index k to i to form it.
+Thus f[i][j] can be derived from max(f[k][j - 1], nums[k + 1] + ... + nums[i]).
+For all valid index k, f[i][j] should choose the minimum value of the above formula.
+
+Explaination:
+Subproblem : Shorter, fewer groups
+dp[m][j] =  answer of sub-problem, splitting nums[0]-nums[j] into m groups
+dp[1][j] = sum(0, j), the sum when split one group
+dp[i][j] = min { max(dp[i-1][k], sums(k+1, j)) } 0 <= k < j
+                      (a)          (b)
+ a[0]| a[1]| ...| a[k]| a[k+1] | a[k+2]| ...| a[n-1]
+|<---            ---->| |<---                  --->|
+max(split(a[0]~a[k], m-1), sum(a[k+1],..., a[n-1] )
+try all possible case and find the best case
+for example:
+          dp([7,2,5,10,8], 2)
+          /                  \
+        25                   23
+ max(dp([7],1)=7            max(dp[7, 2], 1) = 9
+ sum([2, 5, 10, 8])) = 25   sum([5, 10, 8)) = 23
+        /                           \
+       18                           24
+ map(dp[7, 2, 5), 1) = 14    max(dp[7,2,5,10], 1) = 24
+ sum([10, 8])) = 19          sum([8]) = 8
+ */
 
 }

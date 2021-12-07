@@ -16,6 +16,9 @@ public class _205_IsomorphicStrings {
      */
 
     public boolean isIsomorphic(String s, String t) {
+         /*
+       在 word 和 pattern 之间找一个双射函数
+       */
         if(s.length()==0 || t.length()==0) return false;
         Map<Character, Character> match = new HashMap<>();
         int m = s.length(), n = t.length();
@@ -39,4 +42,27 @@ public class _205_IsomorphicStrings {
         }
         return true;
     }
+
+    /*
+     public boolean isIsomorphic(String s, String t) {
+        if(s==null || t==null) return true;
+        int n = s.length();
+        HashMap<Character, Character> map1 = new HashMap<>();
+        HashMap<Character, Character> map2 = new HashMap<>();
+        for(int i=0; i<n; i++){
+           char a = s.charAt(i);
+           char b = t.charAt(i);
+           if(!map1.containsKey(a)){
+               map1.put(a, b);
+           }
+           if(!map2.containsKey(b)){
+               map2.put(b, a);
+           }
+           if(map1.get(a) != b || map2.get(b) != a){
+               return false;
+           }
+        }
+        return true;
+    }
+     */
 }
