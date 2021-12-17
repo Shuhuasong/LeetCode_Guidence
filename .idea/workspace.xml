@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_410_SplitArrayLargestSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Google/_CopyBooks_.java" afterDir="false" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="heap">
+      <change afterPath="$PROJECT_DIR$/src/Design/_2013_DetectSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/_729_MyCalendarI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1218_LongestArithmeticSubsequenceOfGivenDifference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/BST/Medium/_1110_DeleteNodesAndReturnForest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BST/Medium/_1110_DeleteNodesAndReturnForest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -406,21 +406,22 @@
       <workItem from="1637299752267" duration="667000" />
       <workItem from="1637518564306" duration="5469000" />
       <workItem from="1637729738654" duration="1364000" />
-      <workItem from="1637802323627" duration="4399000" />
-    </task>
-    <task id="LOCAL-00071" summary="LeetCode">
-      <created>1625530823835</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1625530823836</updated>
-    </task>
-    <task id="LOCAL-00072" summary="LeetCode">
-      <created>1625955261566</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1625955261566</updated>
+      <workItem from="1637802323627" duration="4429000" />
+      <workItem from="1637851912071" duration="5237000" />
+      <workItem from="1637935860148" duration="7719000" />
+      <workItem from="1638060766054" duration="1235000" />
+      <workItem from="1638159945424" duration="1801000" />
+      <workItem from="1638249057439" duration="980000" />
+      <workItem from="1638276357993" duration="2376000" />
+      <workItem from="1638417446415" duration="647000" />
+      <workItem from="1638457049072" duration="3424000" />
+      <workItem from="1638668822413" duration="446000" />
+      <workItem from="1638718671934" duration="8000" />
+      <workItem from="1638758938658" duration="611000" />
+      <workItem from="1638822711992" duration="7000" />
+      <workItem from="1638853180026" duration="378000" />
+      <workItem from="1639201720882" duration="281000" />
+      <workItem from="1639704542992" duration="204000" />
     </task>
     <task id="LOCAL-00073" summary="LeetCode">
       <created>1626153371178</created>
@@ -751,7 +752,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637735567127</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="DP">
+      <created>1637817386645</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1637817386646</updated>
+    </task>
+    <task id="LOCAL-00121" summary="heap">
+      <created>1638860836498</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1638860836500</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,7 +807,9 @@
     <MESSAGE value="Binary Tree &amp;&amp; Divide and Conquer" />
     <MESSAGE value="Top-Down DFS &amp;&amp; Bottom-Up DFS" />
     <MESSAGE value="DFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="DFS" />
+    <MESSAGE value="DP" />
+    <MESSAGE value="heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
