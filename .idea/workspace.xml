@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="heap">
-      <change afterPath="$PROJECT_DIR$/src/Design/_2013_DetectSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design/_729_MyCalendarI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1218_LongestArithmeticSubsequenceOfGivenDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -421,14 +416,7 @@
       <workItem from="1638822711992" duration="7000" />
       <workItem from="1638853180026" duration="378000" />
       <workItem from="1639201720882" duration="281000" />
-      <workItem from="1639704542992" duration="204000" />
-    </task>
-    <task id="LOCAL-00073" summary="LeetCode">
-      <created>1626153371178</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1626153371180</updated>
+      <workItem from="1639704542992" duration="398000" />
     </task>
     <task id="LOCAL-00074" summary="LeetCode">
       <created>1626243790803</created>
@@ -766,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638860836500</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Design">
+      <created>1639722163847</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1639722163847</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -809,7 +804,8 @@
     <MESSAGE value="DFS" />
     <MESSAGE value="DP" />
     <MESSAGE value="heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="heap" />
+    <MESSAGE value="Design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
