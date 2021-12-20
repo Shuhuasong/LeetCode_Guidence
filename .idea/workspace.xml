@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_659_SplitArrayIntoConsecutiveSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -416,14 +419,9 @@
       <workItem from="1638822711992" duration="7000" />
       <workItem from="1638853180026" duration="378000" />
       <workItem from="1639201720882" duration="281000" />
-      <workItem from="1639704542992" duration="398000" />
-    </task>
-    <task id="LOCAL-00074" summary="LeetCode">
-      <created>1626243790803</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1626243790804</updated>
+      <workItem from="1639704542992" duration="453000" />
+      <workItem from="1639838632964" duration="6000" />
+      <workItem from="1639981683458" duration="215000" />
     </task>
     <task id="LOCAL-00075" summary="LeetCode">
       <created>1626464109795</created>
@@ -761,7 +759,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639722163847</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="String">
+      <created>1639724513910</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1639724513911</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -805,7 +810,8 @@
     <MESSAGE value="DP" />
     <MESSAGE value="heap" />
     <MESSAGE value="Design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design" />
+    <MESSAGE value="String" />
+    <option name="LAST_COMMIT_MESSAGE" value="String" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
