@@ -7,9 +7,13 @@
 #1. [Two Sum](./src/Array/Easy/_1_twoSum.java) <br />
 #167. [Two SumII](./src/Array/Easy/_167_twoSumII.java) <br />
 #169. [Majority Element](./src/Array/Easy/_169_MajorityElement.java) <br />
+#204. [Count Primes](./src/Array/Easy/_204_CountPrimes.java) <br />
+#263. [Ugly Number](./src/Array/Easy/_350_IntersectionOfTwoArraysII.java) <br />
 #350. [Intersection of Two Arrays II](./src/Array/Easy/_350_IntersectionOfTwoArraysII.java) <br />
 #448. [Find Al lNumbers Disappeared In an Array](./src/Array/Easy/_448_FindAllNumbersDisappearedInanArray.java) <br />
-#663. [Maximum Average Subarray](./src/Array/Easy/_643_MaximumAverageSubarray.java) <br />
+#643. [Maximum Average Subarray](./src/Array/Easy/_643_MaximumAverageSubarray.java) <br />
+#1275. [Find Winner On Tic Tac Toe Game](./src/Array/Easy/_204_FindWinnerOnTicTacToeGame.java) <br />
+#test. [Test](./src/Array/Easy/test.java)
 
 #### Medium
 #15. [3 Sum](./src/Array/Easy/_15_3Sum.java) <br />

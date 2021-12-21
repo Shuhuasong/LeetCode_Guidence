@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_659_SplitArrayIntoConsecutiveSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -421,14 +421,8 @@
       <workItem from="1639201720882" duration="281000" />
       <workItem from="1639704542992" duration="453000" />
       <workItem from="1639838632964" duration="6000" />
-      <workItem from="1639981683458" duration="215000" />
-    </task>
-    <task id="LOCAL-00075" summary="LeetCode">
-      <created>1626464109795</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1626464109796</updated>
+      <workItem from="1639981683458" duration="242000" />
+      <workItem from="1640111494084" duration="494000" />
     </task>
     <task id="LOCAL-00076" summary="LeetCode">
       <created>1627706429566</created>
@@ -766,7 +760,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639724513911</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Greedy">
+      <created>1639982409970</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1639982409971</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -811,7 +812,8 @@
     <MESSAGE value="heap" />
     <MESSAGE value="Design" />
     <MESSAGE value="String" />
-    <option name="LAST_COMMIT_MESSAGE" value="String" />
+    <MESSAGE value="Greedy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Greedy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
