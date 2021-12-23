@@ -151,7 +151,8 @@ public class _1631_PathWithMinimumEffort {
 
 
 
-    //1. BackTrack:
+    //1. BackTrack-brute force: traverse all the possible paths from the source cell to destination cell
+    //and track with minimum efforts
     //Time = O(3^(mn)), considering 3 possible for every cell
     //Space = O(m*n), recursion stack
 /*    int minRes = Integer.MAX_VALUE;
@@ -171,18 +172,22 @@ public class _1631_PathWithMinimumEffort {
             return diff;
         }
         int currHight = grid[r][c];
+        //mark the current cell as visited
         grid[r][c] = 0;
         int minEffort = Integer.MAX_VALUE;
         for(int[] dir : dirs){
             int nx = r+dir[0], ny = c+dir[1];
             if(nx<0 || nx>=rows || ny<0 || ny>=cols || grid[nx][ny]==0) continue;
             int currMaxDiff = Math.max(diff, Math.abs(grid[nx][ny]-currHight));
+            //if the current effor is less than the minRes, then we go into this path
             if(currMaxDiff < minRes){
                 int nextRes = backtrack(nx, ny, currMaxDiff);
                 minEffort = Math.min(minEffort, nextRes);
             }
 
         }
+        //update the cell back to previous value, because the
+        //cell must be visited again for the other paths
         grid[r][c] = currHight;
         return minEffort;
     } */
