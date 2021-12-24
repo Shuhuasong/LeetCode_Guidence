@@ -1,6 +1,8 @@
 package DFS_and_BFS.Medium;
 
+import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 /**
@@ -11,7 +13,7 @@ public class _1631_PathWithMinimumEffort {
     //4.Binary Search Using BFS
     //Time = O(m*n)
     //Space = O(m*n)
-    int[][] dirs = {{0,1},{0,-1},{1,0},{-1,0}};
+/*    int[][] dirs = {{0,1},{0,-1},{1,0},{-1,0}};
     int[][] grid;
     public int minimumEffortPath(int[][] grid) {
         this.grid = grid;
@@ -52,7 +54,7 @@ public class _1631_PathWithMinimumEffort {
             }
         }
         return false;
-    }
+    } */
 
     /*
       //3.Binary Search Using DFS
@@ -106,7 +108,7 @@ public class _1631_PathWithMinimumEffort {
      */
 
 
-    /*
+
      //2. Dijkstra's Algorithm: finding the shortest path from a source cell to a destination cell
     // shortest path == with minimum absolute difference between the cells
     // Math.abs(A-B) == the weight of (A, B)
@@ -146,7 +148,7 @@ public class _1631_PathWithMinimumEffort {
         }
          return diffGrid[rows-1][cols-1];
     }
-     */
+
 
 
 

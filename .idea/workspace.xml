@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_1706_WhereWillTheBallFall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1376_TimeNeededToInformAllEmployees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/_2034_StockPriceFluctuation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1631_PathWithMinimumEffort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1631_PathWithMinimumEffort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -424,14 +426,8 @@
       <workItem from="1639981683458" duration="242000" />
       <workItem from="1640111494084" duration="1993000" />
       <workItem from="1640214115943" duration="4657000" />
-      <workItem from="1640273250701" duration="2681000" />
-    </task>
-    <task id="LOCAL-00082" summary="Sliding Window">
-      <created>1631386744202</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1631386744204</updated>
+      <workItem from="1640273250701" duration="3011000" />
+      <workItem from="1640357580656" duration="4497000" />
     </task>
     <task id="LOCAL-00083" summary="Stack">
       <created>1631496740333</created>
@@ -769,7 +765,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640302713850</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Simulation">
+      <created>1640316954147</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1640316954147</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +793,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Two Pointer" />
     <MESSAGE value="LeetCode" />
     <MESSAGE value="Algorithm" />
     <MESSAGE value="Stack" />
@@ -815,7 +817,8 @@
     <MESSAGE value="DFS" />
     <MESSAGE value="DFS + BFS" />
     <MESSAGE value="Geometry" />
-    <option name="LAST_COMMIT_MESSAGE" value="Geometry" />
+    <MESSAGE value="Simulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
