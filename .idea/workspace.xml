@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Math/Geometry/Easy/_1266_MinimumTimeVisitingAllPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/Geometry/Easy/_892_SurfaceAreaOf3DShapes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/Geometry/_1401_CircleAndRectangleOverlap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_1706_WhereWillTheBallFall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -426,14 +424,7 @@
       <workItem from="1639981683458" duration="242000" />
       <workItem from="1640111494084" duration="1993000" />
       <workItem from="1640214115943" duration="4657000" />
-      <workItem from="1640273250701" duration="1728000" />
-    </task>
-    <task id="LOCAL-00081" summary="Sliding Window">
-      <created>1631145143585</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1631145143586</updated>
+      <workItem from="1640273250701" duration="2681000" />
     </task>
     <task id="LOCAL-00082" summary="Sliding Window">
       <created>1631386744202</created>
@@ -771,7 +762,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640280550952</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Geometry">
+      <created>1640302713849</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1640302713850</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
