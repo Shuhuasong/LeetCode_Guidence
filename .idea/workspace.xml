@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1376_TimeNeededToInformAllEmployees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design/_2034_StockPriceFluctuation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1138_AlphabetBoardPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1711_CountGoodMeals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Topological_Sort/_2115_FindAllPossibleRecipeFromGivenSupplies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_777_SwapAdacentInLRString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/_990_SatisfiabilityOfEquality.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1631_PathWithMinimumEffort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1631_PathWithMinimumEffort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design/_284_PeekingIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design/_284_PeekingIterator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -427,14 +430,8 @@
       <workItem from="1640111494084" duration="1993000" />
       <workItem from="1640214115943" duration="4657000" />
       <workItem from="1640273250701" duration="3011000" />
-      <workItem from="1640357580656" duration="4497000" />
-    </task>
-    <task id="LOCAL-00083" summary="Stack">
-      <created>1631496740333</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1631496740334</updated>
+      <workItem from="1640357580656" duration="5305000" />
+      <workItem from="1640456735503" duration="2335000" />
     </task>
     <task id="LOCAL-00084" summary="Dijkstra">
       <created>1631503072472</created>
@@ -772,7 +769,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640316954147</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="design">
+      <created>1640376602297</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1640376602298</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -793,7 +797,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="LeetCode" />
     <MESSAGE value="Algorithm" />
     <MESSAGE value="Stack" />
     <MESSAGE value="Dijkstra" />
@@ -818,7 +821,8 @@
     <MESSAGE value="DFS + BFS" />
     <MESSAGE value="Geometry" />
     <MESSAGE value="Simulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simulation" />
+    <MESSAGE value="design" />
+    <option name="LAST_COMMIT_MESSAGE" value="design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

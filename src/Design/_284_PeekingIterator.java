@@ -7,7 +7,7 @@ import java.util.Iterator;
  */
 class PeekingIterator implements Iterator<Integer> {
     private Iterator<Integer> iter;
-    private Integer peekedValue = null;
+    private Integer peekedVal = null;
     public PeekingIterator(Iterator<Integer> iterator) {
         // initialize any member here.
         iter = iterator;
@@ -20,14 +20,13 @@ class PeekingIterator implements Iterator<Integer> {
      * but in an interview you should definitely ask! This is the kind of
      * thing they expect you to ask about. */
     public Integer peek() {
-        if(peekedValue==null){
-            if(!iter.hasNext()){
-                // throw new NoSuchElementException();
-                return null;
-            }
-            peekedValue = iter.next();
+        if(peekedVal != null){
+            return peekedVal;
         }
-        return peekedValue;
+        if(iter.hasNext()){
+            peekedVal = iter.next();
+        }
+        return peekedVal;
     }
 
     // hasNext() and next() should behave the same as in the Iterator interface.
@@ -38,25 +37,66 @@ class PeekingIterator implements Iterator<Integer> {
      * isn't returned again. */
     @Override
     public Integer next() {
-        if(peekedValue != null){
-            Integer results = peekedValue;
-            peekedValue = null;
-            return results;
+        if(peekedVal != null){
+            Integer res = peekedVal;
+            peekedVal = null;
+            return res;
         }
-        /* As per the Java Iterator specs, we should throw a NoSuchElementException
-         * if the next element doesn't exist. */
-        if(!iter.hasNext()){
-            return null;
-            //throw new NoSuchElementException();
+        if(iter.hasNext()){
+            return iter.next();
         }
-        /* Otherwise, we need to return a new value. */
-        return iter.next();
+        return peekedVal;
     }
 
     @Override
     public boolean hasNext() {
         /* If there's a value waiting in peekedValue, or if there are values
          * remaining in the iterator, we should return true. */
-        return peekedValue != null || iter.hasNext();
+        return peekedVal != null || iter.hasNext();
     }
+
+    /*
+
+    Intuition
+     Instead of only storing the next value after we've peeked at it, we can store it immediately in
+     the constructor and then again in the next(...) method. This greatly simplifies the code,
+      because we no longer need conditionals to check whether or not we are currently storing
+      a peeked at value.
+    Iterator<Integer> iter;
+    Integer next = null;
+    public PeekingIterator(Iterator<Integer> iterator) {
+        // initialize any member here.
+        if(iterator.hasNext()){
+            next = iterator.next();
+        }
+        this.iter = iterator;
+    }
+
+    // Returns the next element in the iteration without advancing the iterator.
+    public Integer peek() {
+        return next;
+    }
+
+    // hasNext() and next() should behave the same as in the Iterator interface.
+    // Override them if needed.
+    @Override
+    public Integer next() {
+        Integer res = null;
+        if(next != null){
+            res = next;
+            next = null;
+        }
+        if(iter.hasNext()){
+            next = iter.next();
+        }
+        return res;
+    }
+
+    @Override
+    public boolean hasNext() {
+        return next != null;
+    }
+     */
+
+
 }
