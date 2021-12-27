@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bitwise/Medium/_1680_ConcatenationOfConsecutiveBinaryNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_854_HandOfStraights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Medium/_1554_StringDifferByOneCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_447_NumberOfBoomerangs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/Medium/_1642_FurtherBuildingYouCanReach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Medium/_1996_TheNumberOfWeakCharactersInTheGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitwise/Easy/Medium/_137_SingleNumberII.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitwise/Easy/_190_ReverseBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitwise/Medium/_190_ReverseBits.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -432,13 +430,9 @@
       <workItem from="1640357580656" duration="5305000" />
       <workItem from="1640456735503" duration="2831000" />
       <workItem from="1640551250476" duration="3486000" />
-    </task>
-    <task id="LOCAL-00086" summary="Sliding Window">
-      <created>1631746479014</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1631746479027</updated>
+      <workItem from="1640587607569" duration="17000" />
+      <workItem from="1640587629203" duration="8000" />
+      <workItem from="1640622997512" duration="1217000" />
     </task>
     <task id="LOCAL-00087" summary="Array">
       <created>1631857785570</created>
@@ -776,7 +770,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640569049517</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="HashTable">
+      <created>1640587618755</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1640587618755</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -797,7 +798,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Dijkstra" />
     <MESSAGE value="Sliding Window" />
     <MESSAGE value="graph" />
     <MESSAGE value="Backtrack" />
@@ -822,7 +822,8 @@
     <MESSAGE value="design" />
     <MESSAGE value="Union Find" />
     <MESSAGE value="Recursion + memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion + memoization" />
+    <MESSAGE value="HashTable" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashTable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
