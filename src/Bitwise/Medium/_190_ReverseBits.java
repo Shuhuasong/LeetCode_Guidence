@@ -1,4 +1,4 @@
-package Bitwise.Easy;
+package Bitwise.Medium;
 
 /**
  * Created by Shuhua Song
@@ -20,5 +20,20 @@ public class _190_ReverseBits {
             n >>= 1;
         }
         return ans;
+    }
+
+    /**
+     * Created by Shuhua Song
+     */
+    public static class _137_SingleNumberII {
+
+        public int singleNumber(int[] nums) {
+            int seen_once = 0, seen_twice = 0;
+            for(int x : nums){
+                seen_once = ~seen_twice & (seen_once ^ x);
+                seen_twice = ~seen_once & (seen_twice ^ x);
+            }
+            return seen_once;
+        }
     }
 }
