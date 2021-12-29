@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_447_NumberOfBoomerangs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Medium/_1642_FurtherBuildingYouCanReach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/Medium/_1996_TheNumberOfWeakCharactersInTheGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1778_ShortestPathInAhidden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_417_PacificAtlanticWaterFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/_919_CompleteBinaryTreeInserter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/Medium/_1882_ProcessTasksUsingServers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/SegmentTree/_309_RangeSumQuery_Mutable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -432,14 +434,8 @@
       <workItem from="1640551250476" duration="3486000" />
       <workItem from="1640587607569" duration="17000" />
       <workItem from="1640587629203" duration="8000" />
-      <workItem from="1640622997512" duration="1217000" />
-    </task>
-    <task id="LOCAL-00087" summary="Array">
-      <created>1631857785570</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1631857785571</updated>
+      <workItem from="1640622997512" duration="2221000" />
+      <workItem from="1640719059171" duration="3466000" />
     </task>
     <task id="LOCAL-00088" summary="Array">
       <created>1632092069776</created>
@@ -777,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640587618755</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Heap">
+      <created>1640647149777</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1640647149778</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -798,7 +801,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sliding Window" />
     <MESSAGE value="graph" />
     <MESSAGE value="Backtrack" />
     <MESSAGE value="BFS" />
@@ -823,7 +825,8 @@
     <MESSAGE value="Union Find" />
     <MESSAGE value="Recursion + memoization" />
     <MESSAGE value="HashTable" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashTable" />
+    <MESSAGE value="Heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
