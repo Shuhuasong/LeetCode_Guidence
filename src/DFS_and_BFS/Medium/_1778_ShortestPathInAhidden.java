@@ -108,4 +108,8 @@ Then the key to solve these type of questions is to reconstruct the board using 
 1810. Minimum Path Cost in a Hidden Grid
 1778. Shortest Path in a Hidden Grid
 Note: if we don't know the size of board, we may use the technique in 489. Robot Room Cleaner: use a HashMap to store the visited "coordinates".
+
+
+reference:
+https://leetcode.com/problems/shortest-path-in-a-hidden-grid/discuss/1265824/Easy-understanding-of-why-dfs-%2B-bfs-and-the-start-position-by-images
 */
