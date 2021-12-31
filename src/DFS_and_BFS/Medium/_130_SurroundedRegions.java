@@ -49,57 +49,56 @@ public class _130_SurroundedRegions {
 
 
 /* //BFS
-    Queue<int[]> q;
-    int m,n;
+     char[][] board;
+    int rows, cols;
     public void solve(char[][] board) {
-        m = board.length; n = board[0].length;
-        q = new LinkedList<>();
-        for(int i=0; i<m; i++){
-            q.add(new int[]{i, 0});
-            q.add(new int[]{i, n-1});
-        }
-        for(int j=0; j<n; j++){
-            q.add(new int[]{0, j});
-            q.add(new int[]{m-1, j});
-        }
-        for(int[] cell : q){
-            if(board[cell[0]][cell[1]]=='O'){
-                bfs(cell[0], cell[1], board);
-            }
 
+        this.board = board;
+        rows = board.length; cols = board[0].length;
+        Queue<int[]> q = new LinkedList<>();
+
+        for(int i=0; i<rows; i++){
+           if(board[i][0]=='O'){
+               q.add(new int[]{i, 0});
+           }
+           if(board[i][cols-1]=='O'){
+               q.add(new int[]{i, cols-1});
+           }
         }
-        for(int i=0; i<m; i++){
-            for(int j=0; j<n; j++){
-                if(board[i][j] == 'O'){
+        for(int j=0; j<cols; j++){
+             if(board[0][j]=='O'){
+                 q.add(new int[]{0, j});
+             }
+            if(board[rows-1][j]=='O'){
+                q.add(new int[]{rows-1, j});
+            }
+        }
+
+        bfs(q);
+
+        for(int i=0; i<rows; i++){
+            for(int j=0; j<cols; j++){
+                if(board[i][j]=='O'){
                     board[i][j] = 'X';
                 }
-                if(board[i][j] == 'Y'){
+                if(board[i][j]=='C'){
                     board[i][j] = 'O';
                 }
             }
         }
     }
 
-    private void bfs(int i, int j, char[][] board){
-        Queue<int[]> q = new LinkedList<>();
-        q.add(new int[]{i, j});
+    private void bfs(Queue<int[]> q){
+       int[][] dirs = { {0, 1}, {0, -1}, {1, 0}, {-1, 0}};
         while(!q.isEmpty()){
             int[] cell = q.poll();
-            int x = cell[0];
-            int y = cell[1];
-            if(board[x][y] != 'O') continue;
-            board[x][y] = 'Y';
-            if(x+1 < m){
-                q.add(new int[]{x+1, y});
-            }
-            if(x > 0){
-                q.add(new int[]{x-1, y});
-            }
-            if(y+1 < n){
-                q.add(new int[]{x, y+1});
-            }
-            if(y > 0){
-                q.add(new int[]{x, y-1});
+            int x = cell[0], y = cell[1];
+            board[x][y] = 'C';
+            for(int[] dir : dirs){
+                int nx = x + dir[0], ny = y + dir[1];
+                if(nx<0 || nx>=rows || ny<0 || ny>=cols || board[nx][ny] != 'O') continue;
+                board[nx][ny] = 'C';
+                q.add(new int[]{nx, ny});
             }
         }
     }

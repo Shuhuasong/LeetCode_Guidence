@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tree/BST/Medium/_894_AllPossibleFullBinaryTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1618_MaximumFontToFitASentenceInAScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1870_MinimumSpeedToArriveOnTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_365_WaterAndJugProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_947_MostStonesRemovedWithSameRowOrCol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_670_MaximumSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Easy/_246_StrobogrammaticNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_1055_ShortestWayToFormString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_130_SurroundedRegions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_130_SurroundedRegions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_375_GuessNumberHigherOrLowerII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_375_GuessNumberHigherOrLowerII.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -431,14 +439,9 @@
       <workItem from="1640587607569" duration="17000" />
       <workItem from="1640587629203" duration="8000" />
       <workItem from="1640622997512" duration="2221000" />
-      <workItem from="1640719059171" duration="5345000" />
-    </task>
-    <task id="LOCAL-00090" summary="graph">
-      <created>1632287065744</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1632287065744</updated>
+      <workItem from="1640719059171" duration="5511000" />
+      <workItem from="1640815765866" duration="1384000" />
+      <workItem from="1640885927274" duration="3506000" />
     </task>
     <task id="LOCAL-00091" summary="Dynamic Programming">
       <created>1632462696796</created>
@@ -776,7 +779,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640753200748</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="DFS + BFS">
+      <created>1640755717700</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1640755717700</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
