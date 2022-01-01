@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_143_ReorderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_671_SecondMinimumNodeInABinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_662_MaximumWidthOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashTable/Medium/_1711_CountGoodMeals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1711_CountGoodMeals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/Medium/_1642_FurtherBuildingYouCanReach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Medium/_1642_FurtherBuildingYouCanReach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/Medium/_1996_TheNumberOfWeakCharactersInTheGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/Medium/_1996_TheNumberOfWeakCharactersInTheGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/BST/Medium/_894_AllPossibleFullBinaryTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BST/Medium/_894_AllPossibleFullBinaryTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Medium/_777_SwapAdacentInLRString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_777_SwapAdacentInLRString.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -438,14 +436,8 @@
       <workItem from="1640719059171" duration="5511000" />
       <workItem from="1640815765866" duration="1384000" />
       <workItem from="1640885927274" duration="3902000" />
-      <workItem from="1640965099623" duration="7434000" />
-    </task>
-    <task id="LOCAL-00092" summary="Dynamic Programming">
-      <created>1632721279530</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1632721279531</updated>
+      <workItem from="1640965099623" duration="7670000" />
+      <workItem from="1641063382098" duration="1394000" />
     </task>
     <task id="LOCAL-00093" summary="Backtrack">
       <created>1633047350435</created>
@@ -783,7 +775,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640922155610</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="DFS + BFS">
+      <created>1641010392123</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1641010392124</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
