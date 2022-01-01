@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1618_MaximumFontToFitASentenceInAScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1870_MinimumSpeedToArriveOnTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_365_WaterAndJugProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_947_MostStonesRemovedWithSameRowOrCol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_670_MaximumSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Easy/_246_StrobogrammaticNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_1055_ShortestWayToFormString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_130_SurroundedRegions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_130_SurroundedRegions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_375_GuessNumberHigherOrLowerII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_375_GuessNumberHigherOrLowerII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/Medium/_1711_CountGoodMeals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1711_CountGoodMeals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap/Medium/_1642_FurtherBuildingYouCanReach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Medium/_1642_FurtherBuildingYouCanReach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/Medium/_1996_TheNumberOfWeakCharactersInTheGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/Medium/_1996_TheNumberOfWeakCharactersInTheGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BST/Medium/_894_AllPossibleFullBinaryTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BST/Medium/_894_AllPossibleFullBinaryTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Medium/_777_SwapAdacentInLRString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_777_SwapAdacentInLRString.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -441,14 +437,8 @@
       <workItem from="1640622997512" duration="2221000" />
       <workItem from="1640719059171" duration="5511000" />
       <workItem from="1640815765866" duration="1384000" />
-      <workItem from="1640885927274" duration="3506000" />
-    </task>
-    <task id="LOCAL-00091" summary="Dynamic Programming">
-      <created>1632462696796</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1632462696798</updated>
+      <workItem from="1640885927274" duration="3902000" />
+      <workItem from="1640965099623" duration="7434000" />
     </task>
     <task id="LOCAL-00092" summary="Dynamic Programming">
       <created>1632721279530</created>
@@ -786,7 +776,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640755717700</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="DFS + BFS">
+      <created>1640922155610</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1640922155610</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -851,6 +848,11 @@
           <url>file://$PROJECT_DIR$/src/DynamicProgramming/Medium/_322_CoinChange.java</url>
           <line>13</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoPointer/Medium/_777_SwapAdacentInLRString.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Golden_Sach_21FallOA/_DoubleOnMatch_.java</url>

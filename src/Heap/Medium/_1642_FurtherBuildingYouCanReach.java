@@ -78,7 +78,7 @@ public class _1642_FurtherBuildingYouCanReach {
         return right;
     }
 
-    private boolean isReachable(int[] ht, bricks, int ladders, int end){
+    private boolean isReachable(int[] ht, int bricks, int ladders, int end){
         List<Integer> climbs = new ArrayList<>();
         for(int i=0; i<end; i++){
             if(ht[i+1]-ht[i] <= 0) continue;

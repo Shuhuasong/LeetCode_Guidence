@@ -28,3 +28,12 @@ public class _1996_TheNumberOfWeakCharactersInTheGame {
         return res;
     }
 }
+
+/*
+[[5,5], [5,2] ,[6,3], [6,5] ,[3,6]]
+
+[[6,3], [6,5],[5,2],[5,5],[3,6]]
+                |
+output = 1
+
+*/

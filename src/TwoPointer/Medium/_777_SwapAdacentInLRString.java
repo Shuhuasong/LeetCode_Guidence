@@ -93,7 +93,7 @@ We count the number of 'L' and 'R' as follows:
 So once find left > 0, will return false;
 2) the value of right could only be zero or positive, but not negative. Because 'R' can move to right,
 so 'R' may appear later in end-string thank in start-string, so return false when right < 0
-3)  when left < 0, right == 0. Because when left < 0, one 'L' appear earlier in the end-string, all 'R'
+3)  when left < 0, right must be 0. Because when left < 0, one 'L' appear earlier in the end-string, all 'R'
     before the current 'L' in the end-string should also be visited in start
 4) when right > 0, left must be 0
 
