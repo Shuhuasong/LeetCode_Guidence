@@ -21,7 +21,7 @@ public class _662_MaximumWidthOfBinaryTree {
     }
 
     //Note: the value for each node are not useful, so we will change it to index
-    //Time = o(N), Space = O(n)
+    //BFS: Time = o(N), Space = O(n)
     public int widthOfBinaryTree(TreeNode root) {
         if(root==null) return 0;
         LinkedList<TreeNode> q = new LinkedList<>();
@@ -77,6 +77,27 @@ public class _662_MaximumWidthOfBinaryTree {
              maxW = Math.max(maxW, currW);
          }
         return maxW;
+    }
+     */
+
+    /*
+    //DFS: Time = o(N), Space = O(n)
+    //use a map to store the first col for each level
+     Map<Integer, Integer> firstColIdxMap = new HashMap<>();
+    int maxW = 0;
+    public int widthOfBinaryTree(TreeNode root) {
+        dfs(root, 0, 0);
+        return maxW;
+    }
+    private void dfs(TreeNode root, int depth, int col){
+        if(root==null) return;
+        if(!firstColIdxMap.containsKey(depth)){
+            firstColIdxMap.put(depth, col);
+        }
+        int firstColIdx = firstColIdxMap.get(depth);
+        maxW = Math.max(maxW, col-firstColIdx+1);
+        dfs(root.left, depth+1, 2*col);
+        dfs(root.right, depth+1, 2*col+1);
     }
      */
 }

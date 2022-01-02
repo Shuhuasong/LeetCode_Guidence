@@ -7,32 +7,44 @@ import java.util.Stack;
  */
 public class _84_LargestRectangleInHistogram {
 
-    //Time = O(n)
-    public int largestRectangleArea(int[] heights) {
-        if(heights==null || heights.length==0) return 0;
-        int maxArea = 0, n = heights.length;
+    //Time = O(n), Space = O(n)
+    public int largestRectangleArea(int[] ht) {
+        int n = ht.length;
+        int maxArea = 0, width = 0;
         Stack<Integer> stack = new Stack<>();
+        stack.push(-1);
         for(int i=0; i<n; i++){
-            if(stack.isEmpty() || heights[stack.peek()] <= heights[i]){
-                stack.push(i);
-            }else{
-                int right = i;
-                int index = stack.pop();
-                while(!stack.isEmpty() && heights[index] == heights[i]){
-                    index = stack.pop();
-                }
-                int leftMost = (stack.isEmpty() ? -1 : stack.peek());
-                maxArea = Math.max(maxArea, heights[index] *(right-leftMost-1));
-                i--;
+            //once the elem <= top, we pop the elem from stack, and calculate area
+            while(stack.peek()!=-1 && ht[stack.peek()] >= ht[i]){
+                int currH = ht[stack.pop()];
+                width = i-stack.peek()-1;
+                maxArea = Math.max(maxArea, currH*width);
             }
+            //keep push the index when elem is increasing
+            stack.push(i);
         }
-        int rightMost = stack.peek()+1;
-        while(!stack.isEmpty()){
-            int right = stack.pop();
-            int left = (stack.isEmpty() ? -1 : stack.peek());
-            maxArea = Math.max(maxArea, heights[right] *(rightMost-left-1));
+        while(stack.peek()!=-1){
+            int currH = ht[stack.pop()];
+            width = n - stack.peek()-1;
+            maxArea = Math.max(maxArea, currH*width);
         }
         return maxArea;
     }
+    /*
+      //Time = O(n^2) TLE
+    public int largestRectangleArea(int[] ht) {
+        int n = ht.length;
+        int maxArea = 0, width = 0;
+        for(int i=0; i<n; i++){
+            int minH = ht[i];
+            for(int j=i; j<n; j++){
+                minH = Math.min(minH, ht[j]);
+                width = j-i+ 1;
+                maxArea = Math.max(maxArea, minH*width);
+            }
+        }
+        return maxArea;
+    }
+     */
 
 }

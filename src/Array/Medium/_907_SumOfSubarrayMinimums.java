@@ -80,6 +80,8 @@ O(n) time, O(n) space
 Eg.  nums = {2, 9, 7, 8, 3, 4, 6, 1}
   hom many subarray with minimum value 3?  since there are 3 numbers(9,7,8) on left of 3 and two numbers(4, 6) greater than 3
   so: (left+1) * (right+1) = (3+1) * (2+1) = 4 * 3 = 12(subarray)
+  2 is the 3 prev smaller element, 1 is the 3 next smaller element
+  here we can use a monotonik stack to count how many element
   9, 7, 8, 3,
   9, 7, 8, 3, 4
   9, 7, 8, 3, 4, 6
@@ -92,4 +94,13 @@ Eg.  nums = {2, 9, 7, 8, 3, 4, 6, 1}
   3,
   3, 4
   3, 4, 6
+
+  Note: what should we do when we have same numbers
+  we can set a rule:
+  1 6 5 [ 7 5 6 5 8 ] 2
+            |
+  for any nums[i] :  next --> find smaller element
+                    previous-> smaller or equal element
+  X 0 [X X 3 2 4 X X 5] 1 X X X
+
  */

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_143_ReorderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_671_SecondMinimumNodeInABinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_662_MaximumWidthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_735_AsteroidCollision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Medium/_907_SumOfSubarrayMinimums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Medium/_907_SumOfSubarrayMinimums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/Hard/_84_LargestRectangleInHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Hard/_84_LargestRectangleInHistogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Medium/_662_MaximumWidthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Medium/_662_MaximumWidthOfBinaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -437,14 +438,8 @@
       <workItem from="1640815765866" duration="1384000" />
       <workItem from="1640885927274" duration="3902000" />
       <workItem from="1640965099623" duration="7670000" />
-      <workItem from="1641063382098" duration="1394000" />
-    </task>
-    <task id="LOCAL-00093" summary="Backtrack">
-      <created>1633047350435</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1633047350436</updated>
+      <workItem from="1641063382098" duration="5531000" />
+      <workItem from="1641141553600" duration="4053000" />
     </task>
     <task id="LOCAL-00094" summary="Backtrack">
       <created>1633064967387</created>
@@ -782,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641010392124</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="Tree">
+      <created>1641081543425</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1641081543426</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -803,7 +805,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="graph" />
     <MESSAGE value="Backtrack" />
     <MESSAGE value="BFS" />
     <MESSAGE value="PreSum" />
@@ -828,7 +829,8 @@
     <MESSAGE value="HashTable" />
     <MESSAGE value="Heap" />
     <MESSAGE value="DFS + BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="DFS + BFS" />
+    <MESSAGE value="Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
