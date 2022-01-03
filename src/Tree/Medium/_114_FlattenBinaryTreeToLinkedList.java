@@ -31,13 +31,13 @@ public class _114_FlattenBinaryTreeToLinkedList {
         }
         TreeNode leftLast = dfs(root.left); //Recursively flatten the left substree
         TreeNode rightLast = dfs(root.right);//Recursively flatten the right substree
-        //if there is a left substree, we shuffle the connections around so that there is noting on the left side
+        //if there is a left substree, we shuffle the connections around so that there is nothing on the left side
         if(leftLast!=null){
             leftLast.right = root.right;
             root.right = root.left;
             root.left = null;
         }
-        //check the rightLast first,this node willconnect with root.right
+        //check the rightLast first,this node will connect with root.right
         //Need to return the 'rightmost' node after we are done wiring the new connection
         return rightLast == null ? leftLast : rightLast;
     }

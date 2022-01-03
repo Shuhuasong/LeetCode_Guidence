@@ -6,6 +6,18 @@ package String.Medium;
 public class _848_ShiftingLetters {
 
     public String shiftingLetters(String s, int[] shifts) {
+        int n= shifts.length;
+        StringBuilder sb = new StringBuilder(s);
+        for(int i=n-2; i>=0; i--){
+            shifts[i] = (shifts[i] + shifts[i+1])%26;
+        }
+        for(int i=0; i<n; i++){
+            sb.setCharAt(i, (char)((s.charAt(i)-'a'+shifts[i])%26+'a'));
+        }
+        return sb.toString();
+    }
+    /*
+    public String shiftingLetters(String s, int[] shifts) {
         if(s.length()==0) return "";
         int n = shifts.length;
         int move = 0;
@@ -22,5 +34,5 @@ public class _848_ShiftingLetters {
             System.out.println(move);
         }
         return sb.toString();
-    }
+    } */
 }

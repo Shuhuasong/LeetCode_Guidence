@@ -122,5 +122,6 @@ is a DAG (Directed Acyclic Graph), i.e. there is no cycle existed in the graph.
 
 How to check if a graph if cyclic ??
 1) backtracking
-   we incrementally follow the dependencies until either there is no more dependency or we come across a previously visited course along the path.
+   we incrementally follow the dependencies until either there is no more dependency or we come across a previously
+   visited course along the path.
 */
