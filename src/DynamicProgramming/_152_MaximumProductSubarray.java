@@ -43,10 +43,12 @@ public class _152_MaximumProductSubarray {
   max_so_far is updated by taking the maximum value among:
 
 Current number.
-This value will be picked if the accumulated product has been really bad (even compared to the current number). This can happen when the current number has a preceding zero (e.g. [0,4]) or is preceded by a single negative number (e.g. [-3,5]).
+This value will be picked if the accumulated product has been really bad (even compared to the current number).
+This can happen when the current number has a preceding zero (e.g. [0,4]) or is preceded by a single negative number (e.g. [-3,5]).
 Product of last max_so_far and current number.
 This value will be picked if the accumulated product has been steadily increasing (all positive numbers).
 Product of last min_so_far and current number.
-This value will be picked if the current number is a negative number and the combo chain has been disrupted by a single negative number before (In a sense, this value is like an antidote to an already poisoned combo chain).
+This value will be picked if the current number is a negative number and the combo chain has been disrupted
+by a single negative number before (In a sense, this value is like an antidote to an already poisoned combo chain).
   */
 }

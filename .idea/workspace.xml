@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_111_MinimumDepthOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_337_HouseRobberIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Easy/_70_ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_983_MinimumCostForTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Hard/_85_MaximalRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_1130_MinimumCostTreeFromLeafValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/_207_CourseSchedule_checkCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/_207_CourseSchedule_checkCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/Medium/_848_ShiftingLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Medium/_848_ShiftingLetters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Medium/_114_FlattenBinaryTreeToLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Medium/_114_FlattenBinaryTreeToLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_309_BestTimeToBuyAndSellStockWithCoolDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_309_BestTimeToBuyAndSellStockWithCoolDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_5_LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_5_LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/_152_MaximumProductSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/_152_MaximumProductSubarray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -440,14 +442,9 @@
       <workItem from="1640885927274" duration="3902000" />
       <workItem from="1640965099623" duration="7670000" />
       <workItem from="1641063382098" duration="5531000" />
-      <workItem from="1641141553600" duration="8325000" />
-    </task>
-    <task id="LOCAL-00095" summary="BFS">
-      <created>1633156527074</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1633156527075</updated>
+      <workItem from="1641141553600" duration="8666000" />
+      <workItem from="1641225434596" duration="383000" />
+      <workItem from="1641237350097" duration="8323000" />
     </task>
     <task id="LOCAL-00096" summary="BFS">
       <created>1633409176429</created>
@@ -785,7 +782,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641162936908</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="Stack">
+      <created>1641189059566</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1641189059566</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

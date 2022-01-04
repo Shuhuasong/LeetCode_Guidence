@@ -11,7 +11,7 @@ public class _5_LongestPalindrome {
         boolean[][] isPalin = new boolean[n][n];
         for(int j=1; j<n; j++){
             for(int i=0; i<j; i++){
-                boolean isInnerPa = isPalin[i+1][j-1] || j-i<=2;
+                boolean isInnerPa = isPalin[i+1][j-1] || j-i<=2; // i i+1 ....j-1 j  at least has two character between i and j
                 if(s.charAt(i)==s.charAt(j) && isInnerPa){
                     isPalin[i][j] = true;
                     if(j-i > right-left){
@@ -25,4 +25,18 @@ public class _5_LongestPalindrome {
     }
 }
 
+/*
+b a b a b   ========> b  x  x  x  x  x  x  b
+                      i i+1            j-1 j
+
+  j
+     end     b   a   b   a   b
+i    start
+       b     T
+       a         T
+       b             T
+       a                 T
+       b                     T
+
+ */
 
