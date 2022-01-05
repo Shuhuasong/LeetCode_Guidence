@@ -134,14 +134,14 @@ public class _410_SplitArrayLargestSumIIIIIII {
         if(memo[start][m] != -1){
             return memo[start][m];
         }
-        int maxSum = Integer.MAX_VALUE;
+        int minSum = Integer.MAX_VALUE;
         for(int i=start; i<nums.length-1; i++){
             int currTotal = preSum[i+1]-preSum[start];
             int rightIntervalMax = dfs(nums, i+1, m-1);
-            maxSum = Math.min(maxSum, Math.max(currTotal, rightIntervalMax));
+            minSum = Math.min(maxSum, Math.max(currTotal, rightIntervalMax));
         }
-        memo[start][m] = maxSum;
-        return maxSum;
+        memo[start][m] = minSum;
+        return minSum;
     }
      */
 
@@ -172,7 +172,7 @@ for example:
         /                           \
        18                           24
  map(dp[7, 2, 5), 1) = 14    max(dp[7,2,5,10], 1) = 24
- sum([10, 8])) = 19          sum([8]) = 8
+ sum([10, 8])) = 18          sum([8]) = 8
  */
 
 }

@@ -6,10 +6,7 @@ package Tree.SegmentTree;
 public class _309_RangeSumQuery_Mutable {
     SegmentTreeNode root;
 
-    public
-
-
-    _309_RangeSumQuery_Mutable(int[] nums) {
+    public _309_RangeSumQuery_Mutable(int[] nums) {
         this.root = buildTree(nums, 0, nums.length-1);
 
     }

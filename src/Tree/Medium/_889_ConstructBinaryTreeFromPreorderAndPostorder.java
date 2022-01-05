@@ -45,10 +45,16 @@ public class _889_ConstructBinaryTreeFromPreorderAndPostorder {
         if(preS > preE || end < 0) return null;
         TreeNode root = new TreeNode(pre[preS]);
         if(preS==preE) return root;
-        int preIdx = preMap.get(post[end-1]);
-        int postIdx = postMap.get(pre[preS+1]);
+        int preIdx = preMap.get(post[end-1]); // 4
+        int postIdx = postMap.get(pre[preS+1]); //2
         root.left = buildTree(pre, preS+1, preIdx-1, post, postIdx);
+        //                                  1            3               2
         root.right = buildTree(pre, preIdx, preE, post, end-1);
+        //                            4      n-1             
         return root;
     }
 }
+
+//root.left = buildTree(pre, preS+1, preIdx-1, post, postIdx);
+
+//root.right = buildTree(pre, preIdx, preE, post, end-1);
