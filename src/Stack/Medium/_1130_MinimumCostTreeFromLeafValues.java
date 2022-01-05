@@ -68,6 +68,68 @@ public class _1130_MinimumCostTreeFromLeafValues {
  */
 
 /*
+  DP
+    int[][]  maxGrid;
+     int[][] dp;
+     public int mctFromLeafValues(int[] A) {
+          int n = A.length;
+          maxGrid = new int[n][n];
+          dp = new int[n][n];
+          for(int i=0; i<n; i++){
+             for(int j=0; j<n; j++){
+              maxGrid[i][j] = getMax(A, i, j);
+             }
+          }
+
+         for(int j=0; j<n; j++){ //j = end
+	       for(int i=j; i>=0; i--){ //i = start
+		      for(int k=i; k<j; k++){
+                   int  val = dp[i][k] + dp[k+1][j] + maxGrid[i][k] * maxGrid[k+1][j];
+                   if(dp[i][j] == 0)
+                       dp[i][j] = val;
+                   else
+			           dp[i][j] = Math.min(dp[i][j], val);
+		      }
+	       }
+	    }
+         return dp[0][n-1];
+    }
+
+    private int getMax(int[] A, int s, int e) {
+	    int res = Integer.MIN_VALUE;
+	  for(int i=s; i<=e; i++){
+ 	  	 res = Math.max(res, A[i]);
+	  }
+      return res;
+   }
+
+ */
+
+   /*
+   //DFS + memoization
+   int n = A.length;
+		int[][] dp = new int[n][n];
+		return dfs(A, 0, n-1, memo);
+	}
+
+	private int dfs(int[] A, int start, int end, int[][] memo){
+	   if(start==end) return 0;
+	  if(memo[start][end] != 0) return memo[start][end];
+	  int res = Integer.MAX_VALUE;
+	  for(int i=start; i<end; i++){
+		int left = dfs(A, start, i, memo);
+		int right = dfs(A, i+1, end, memo);
+	        int leftMax = 0, rightMax = 0;
+		for(int j=start; j<=i; j++) leftMax = Math.max(leftMax, A[j]);
+		for(int j=i+1; j<=end; j++) rightMax = Math.max(rightMax, A[j]);
+                res = Math.min(res, left+right+leftMax*rightMax);
+	  }
+	  memo[start][end]  = res;
+	  return res;
+
+    */
+
+/*
 intuition:
 The problem can be translate as following:
 Given an array A, choose two neighbors in the array a and b,
@@ -87,5 +149,11 @@ for each element a, cost = min(left, right) * a
 
 Time : O(n^2)
 Space: O(n)
+
+interval DP solution:
+
+[X X X X X X k] [k+1 X X X X X X X]
+       X1               X2
+dp[i][j] =  min {max[i][k] * max[k+1][j] + dp[i][k] + d[k+1][j] } over k (i, j-1)
 
 */
