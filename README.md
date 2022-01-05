@@ -54,7 +54,6 @@
 #Kadanes's_Algorithm [Kadanes's_Algorithm](./src/Array/Kadanes's_Algorithm) <br />
 #Prefix_Sum. [Prefix_Sum](./src/Array/Prefix_Sum.java) <br />
 
-
 #88. (https://gist.github.com/Shuhuasong/3f5810c268c3a0ccc0d8c9cb6cd2d00b) <br />
 
 #### Hard
@@ -63,13 +62,50 @@
 
 
 ### Backtrack
+
 #### Medium
-#22. [GenerateParentheses](./src/Backtrack/Medium/_22_GenerateParentheses) <br />
-#39. [CombinationSum](./src/Backtrack/Medium/_39_CombinationSum) <br />
-#46. [Permutation](./src/Backtrack/Medium/_46_Permutation) <br />
+#22. [Generate Parentheses](./src/Backtrack/Medium/_22_GenerateParentheses) <br />
+#39. [Combination Sum](./src/Backtrack/Medium/_39_CombinationSum) <br />
+#40. [Combination Sum II](./src/Backtrack/Medium/_40_CombinationSumII) <br />
+#46. [Permutation](./src/Backtrack/Medium/_46_Permutations) <br />
+#47. [PermutationII](./src/Backtrack/Medium/_47_PermutationII) <br />
+#77. [Subsets](./src/Backtrack/Medium/_77_Combinations) <br />
 #78. [Subsets](./src/Backtrack/Medium/_78_Subsets) <br />
 #79. [WordSearch](./src/Backtrack/Medium/_79_WordSearch) <br />
 #90. [SubsetsII](./src/Backtrack/Medium/_90_SubsetsII) <br />
-#131. [PalindromePartition](./src/Backtrack/Medium/_131_PalindromePartition) <br />
-#131. [PalindromPartition](./src/Backtrack/Medium/_131_PalindromPartition) <br />
-#473. [MatchsticksToSquare](./src/Backtrack/Medium/_473_MatchsticksToSquare) <br />
+#93. [Restore IP Address](./src/Backtrack/Medium/_93_RestoreIPAddress) <br />
+#131. [Palindrome Partition](./src/Backtrack/Medium/_131_PalindromePartition) <br />
+#131. [Palindrom Partition](./src/Backtrack/Medium/_131_PalindromPartition) <br />
+#473. [Match sticks To Square](./src/Backtrack/Medium/_473_MatchsticksToSquare) <br />
+#494. [Target Sum](./src/Backtrack/Medium/_494_TargetSum) <br />
+#698. [Partition To K equal Sum Subsets](./src/Backtrack/Medium/_698_PartitionToKequalSumSubsets) <br />
+#1239. [Maximum Length Of a Concatenated String With Unique Characters](./src/Backtrack/Medium/_1239_MaximumLengthOfaConcatenatedStringWithUniqueCharacters) <br />
+#backtracking. [backtracking_algorithm](./src/Backtrack/backtracking_algorithm.dox) <br />
+
+#### Hard
+#37. [Subsets](./src/Backtrack/Hard/_37_SodokuSolver) <br />
+
+### Binary Search
+#### Easy
+#78. [Special Array With X Element Greater Than Or Equal X](./src/BinarySearch/Easy/_1608_SpecialArrayWithXElementGreaterThanOrEqualX) <br />
+
+#### Medium
+#29. [Divide Two Integers](./src/BinarySearch/Medium/_29_DivideTwoIntegers) <br />
+#33. [Search In Rotated Sorted Array](./src/BinarySearch/Medium/_33_SearchInRotatedSortedArray) <br />
+#34. [Find First Last Element](./src/BinarySearch/Medium/_34_FindFirstLastElement) <br />
+#50. [Pow X N](./src/BinarySearch/Medium/_50_PowXN) <br />
+#74. [Search A 2D Matrix](./src/BinarySearch/Medium/_74_SearchA2DMatrix) <br />
+#153. [Find Minimum In Rotated Sorted Array](./src/BinarySearch/Medium/_153_FindMinimumInRotatedSortedArray) <br />
+#154. [Find Minimum In Rotated Sorted Array II](./src/BinarySearch/Medium/_154_FindMinimumInRotatedSortedArrayII) <br />
+#162. [Find Peak Element](./src/BinarySearch/Medium/_162_FindPeakElement) <br />
+#240. [Search A 2D Matrix II](./src/BinarySearch/Medium/_240_SearchA2DMatrixII) <br />
+#287. [Find The Duplicate Number](./src/BinarySearch/Medium/_287_FindTheDuplicateNumber) <br />
+#528. [Random Pick With Weight](./src/BinarySearch/Medium/_528_RandomPickWithWeight) <br />
+#658. [Find K Closest Element](./src/BinarySearch/Medium/_658_FindKClosestElement) <br />
+#685. [Find K Closest Element](./src/BinarySearch/Medium/_685_FindKClosestElement) <br />
+#875. [KoKoEatingBananas](./src/BinarySearch/Medium/_875_KoKoEatingBananas) <br />
+#1482. [Minimum Number Of Days To Makem Bouques](./src/BinarySearch/Medium/_1482_MinimumNumberOfDaysToMakemBouques) <br />
+#1618. [KoKoEatingBananas](./src/BinarySearch/Medium/_1618_MaximumFontToFitASentenceInAScreen) <br />
+#1870. [Minimum Speed To Arrive On Time](./src/BinarySearch/Medium/_1870_MinimumSpeedToArriveOnTime) <br />
+
+#### Hard

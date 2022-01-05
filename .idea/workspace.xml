@@ -4,9 +4,6 @@
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_410_SplitArrayLargestSumIIIIIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_410_SplitArrayLargestSumIIIIIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Medium/_889_ConstructBinaryTreeFromPreorderAndPostorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Medium/_889_ConstructBinaryTreeFromPreorderAndPostorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/SegmentTree/_309_RangeSumQuery_Mutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/SegmentTree/_309_RangeSumQuery_Mutable.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -444,14 +441,7 @@
       <workItem from="1641237350097" duration="8323000" />
       <workItem from="1641275267125" duration="17000" />
       <workItem from="1641311253782" duration="10481000" />
-      <workItem from="1641391739614" duration="11043000" />
-    </task>
-    <task id="LOCAL-00098" summary="PreSum">
-      <created>1633842405115</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1633842405116</updated>
+      <workItem from="1641391739614" duration="13908000" />
     </task>
     <task id="LOCAL-00099" summary="Array">
       <created>1633923202231</created>
@@ -789,7 +779,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641351005200</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="README.md update">
+      <created>1641415265039</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1641415265040</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,7 +807,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="PreSum" />
     <MESSAGE value="Matrix" />
     <MESSAGE value="Construct Tree" />
     <MESSAGE value="Dynamic Programming" />
@@ -835,7 +831,8 @@
     <MESSAGE value="Tree" />
     <MESSAGE value="Stack" />
     <MESSAGE value="Backtrack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backtrack" />
+    <MESSAGE value="README.md update" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
