@@ -16,6 +16,7 @@
 #test. [Test](./src/Array/Easy/test.java)
 
 #### Medium
+>  - Two Pointer
 #15. [3 Sum](./src/Array/Medium/_15_3Sum.java) <br />
 #18. [4 Sum](./src/Array/Medium/_15_4Sum.java) <br />
 #36. [Valid Soduku](./src/Array/Medium/_36_ValidSoduku.java) <br />
@@ -64,6 +65,7 @@
 ### Backtrack
 
 #### Medium
+>  - Combinatorics
 #22. [Generate Parentheses](./src/Backtrack/Medium/_22_GenerateParentheses) <br />
 #39. [Combination Sum](./src/Backtrack/Medium/_39_CombinationSum) <br />
 #40. [Combination Sum II](./src/Backtrack/Medium/_40_CombinationSumII) <br />
@@ -109,3 +111,8 @@
 #1870. [Minimum Speed To Arrive On Time](./src/BinarySearch/Medium/_1870_MinimumSpeedToArriveOnTime) <br />
 
 #### Hard
+
+
+### Dynamic Programming
+#### Medium
+#1641. [Count Sorted Vowel Strings](./src/Backtrack/Medium/_1641_CountSortedVowelStrings) <br />
