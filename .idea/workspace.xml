@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Hard/_2132_StampingTheGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_2131_LongestPalindromeByConcatenatingTwoLetterWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/Medium/_1381_DesignAStackWithIncrementOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Medium/_12_IntegerToRoman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,10 +86,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._CopyBooks_">
+  <component name="RunManager" selected="Application._SortRomanName">
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Test" />
+      <module name="LeetCode(New)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_ValidatePhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Twilio._ValidatePhoneNumber" />
+    <configuration name="_FindSmallestSubstringofSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Tiktok._FindSmallestSubstringofSizeK" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.Twilio.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.Tiktok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_numOfWaysSumToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.Example._numOfWaysSumToN" />
+    <configuration name="_SortRomanName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Tiktok._SortRomanName" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DynamicProgramming.Example.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.Tiktok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,34 +159,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simpleImageSizeValidatation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Twilio.simpleImageSizeValidatation" />
-      <module name="LeetCode(New)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.Twilio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application._numOfWaysSumToN" />
-      <item itemvalue="Application.simpleImageSizeValidatation" />
-      <item itemvalue="Application._ValidatePhoneNumber" />
       <item itemvalue="Application.minTimeToSpreadViral" />
       <item itemvalue="Application._CopyBooks_" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application._FindSmallestSubstringofSizeK" />
+      <item itemvalue="Application._SortRomanName" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._SortRomanName" />
+        <item itemvalue="Application._FindSmallestSubstringofSizeK" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application._CopyBooks_" />
         <item itemvalue="Application.minTimeToSpreadViral" />
-        <item itemvalue="Application._ValidatePhoneNumber" />
-        <item itemvalue="Application.simpleImageSizeValidatation" />
-        <item itemvalue="Application._numOfWaysSumToN" />
       </list>
     </recent_temporary>
   </component>
@@ -445,14 +446,8 @@
       <workItem from="1641391739614" duration="15619000" />
       <workItem from="1641487846120" duration="4591000" />
       <workItem from="1641568271134" duration="2080000" />
-      <workItem from="1641678385356" duration="953000" />
-    </task>
-    <task id="LOCAL-00102" summary="Construct Tree">
-      <created>1634278624226</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1634278624227</updated>
+      <workItem from="1641678385356" duration="3428000" />
+      <workItem from="1641746696470" duration="2798000" />
     </task>
     <task id="LOCAL-00103" summary="Dynamic Programming">
       <created>1634313517267</created>
@@ -790,7 +785,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641597141545</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="HashTable">
+      <created>1641686550209</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1641686550210</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,7 +829,6 @@
     <MESSAGE value="design" />
     <MESSAGE value="Union Find" />
     <MESSAGE value="Recursion + memoization" />
-    <MESSAGE value="HashTable" />
     <MESSAGE value="Heap" />
     <MESSAGE value="DFS + BFS" />
     <MESSAGE value="Tree" />
@@ -836,7 +837,8 @@
     <MESSAGE value="README.md update" />
     <MESSAGE value="DP" />
     <MESSAGE value="Graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph" />
+    <MESSAGE value="HashTable" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashTable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
