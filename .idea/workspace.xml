@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Easy/_219_ContainsDuplicateII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_2134_MinimumSwapsToGroupsAll1sTogetherII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_220_ContainsDuplicateIII_bucketSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Easy/_67_AddBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_1022_SumOfRootToLeafBinaryNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_718_MaximumLengthOfRepeatedSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_718_MaximumLengthOfRepeatedSubarray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -450,14 +446,8 @@
       <workItem from="1641568271134" duration="2080000" />
       <workItem from="1641678385356" duration="3428000" />
       <workItem from="1641746696470" duration="4008000" />
-      <workItem from="1641831901894" duration="4952000" />
-    </task>
-    <task id="LOCAL-00104" summary="Dynamic Programming">
-      <created>1634531141049</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1634531141050</updated>
+      <workItem from="1641831901894" duration="4966000" />
+      <workItem from="1641913328838" duration="437000" />
     </task>
     <task id="LOCAL-00105" summary="Dynamic Programming">
       <created>1635572251338</created>
@@ -795,7 +785,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641766623627</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="HashTable">
+      <created>1641878557938</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1641878557939</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
