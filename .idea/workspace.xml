@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design/Medium/_1381_DesignAStackWithIncrementOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Medium/_12_IntegerToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Easy/_219_ContainsDuplicateII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_2134_MinimumSwapsToGroupsAll1sTogetherII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_220_ContainsDuplicateIII_bucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Easy/_67_AddBinary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_718_MaximumLengthOfRepeatedSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_718_MaximumLengthOfRepeatedSubarray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._SortRomanName">
+  <component name="RunManager" selected="Application._220_ContainsDuplicateIII_bucketSort">
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
@@ -100,6 +102,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_220_ContainsDuplicateIII_bucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindow.Medium._220_ContainsDuplicateIII_bucketSort" />
+      <module name="LeetCode(New)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SlidingWindow.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,34 +161,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="minTimeToSpreadViral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Tiktok.minTimeToSpreadViral" />
-      <module name="LeetCode(New)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.Tiktok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application.minTimeToSpreadViral" />
       <item itemvalue="Application._CopyBooks_" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application._FindSmallestSubstringofSizeK" />
       <item itemvalue="Application._SortRomanName" />
+      <item itemvalue="Application._220_ContainsDuplicateIII_bucketSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._220_ContainsDuplicateIII_bucketSort" />
         <item itemvalue="Application._SortRomanName" />
         <item itemvalue="Application._FindSmallestSubstringofSizeK" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application._CopyBooks_" />
-        <item itemvalue="Application.minTimeToSpreadViral" />
       </list>
     </recent_temporary>
   </component>
@@ -447,14 +449,8 @@
       <workItem from="1641487846120" duration="4591000" />
       <workItem from="1641568271134" duration="2080000" />
       <workItem from="1641678385356" duration="3428000" />
-      <workItem from="1641746696470" duration="2798000" />
-    </task>
-    <task id="LOCAL-00103" summary="Dynamic Programming">
-      <created>1634313517267</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1634313517268</updated>
+      <workItem from="1641746696470" duration="4008000" />
+      <workItem from="1641831901894" duration="4952000" />
     </task>
     <task id="LOCAL-00104" summary="Dynamic Programming">
       <created>1634531141049</created>
@@ -792,7 +788,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641686550210</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="HashTable">
+      <created>1641766623625</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1641766623627</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
