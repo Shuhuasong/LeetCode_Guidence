@@ -8,11 +8,18 @@
 #26. [Remove Duplicates From Sorted Array](./src/TwoPointer/Easy/_26_RemoveDuplicatesFromSortedArray.java) <br />
 #28. [Implement Str_Str](./src/TwoPointer/Easy/_28_ImplementStr_Str.java) <br />
 #172. [Factorial Trailing Zeros](./src/TwoPointer/Easy/_172_FactorialTrailingZeros.java) <br />
-#844. [_Backspace String Compare](./src/TwoPointer/Easy/_844_BackspaceStringCompare.java) <br />
+#844. [Backspace String Compare](./src/TwoPointer/Easy/_844_BackspaceStringCompare.java) <br />
+#88. [MergeTwoSortedArray](./src/TwoPointer/Easy/_88_MergeTwoSortedArray.java) <br />
+#283. [MoveZeros](./src/TwoPointer/Easy/_283_MoveZeros.java) <br />
+#142. [LinkedListCycleII](./src/LinkedList/Medium/_142_LinkedListCycleII.java) <br />
+#141. [_141_LinkedListCycle](./src/LinkedList/Medium/_141_LinkedListCycle.java) <br />
 
 #### Medium
+#3. [Longest Substring Without Repeating Characters](./src/TwoPointer/Medium/_3_LongestSubstringWithoutRepeatingCharacters.java) <br />
 #11. [Container With Most Water](./src/TwoPointer/Medium/_11_ContainerWithMostWater.java) <br />
+#15. [3 Sum](./src/Array/Medium/_15_3Sum.java) <br />
 #16. [3 Sum Closest](./src/TwoPointer/Medium/_16_3SumClosest.java) <br />
+#18. [4 Sum](./src/Array/Medium/_15_4Sum.java) <br />
 #75. [Sort Color](./src/TwoPointer/Medium/_75_SortColor.java) <br />
 #80. [Remove Duplicates In Sorted Array II](./src/TwoPointer/Medium/_80_RemoveDuplicatesInSortedArrayII.java) <br />
 #259. [3 Sum Smaller](./src/TwoPointer/Medium/_259_3SumSmaller.java) <br />
@@ -20,7 +27,6 @@
 #1055. [_Shortest Way To Form String](./src/TwoPointer/Medium/_1055_ShortestWayToFormString.java) <br />
 #1099. [_Two Sum Less Than K](./src/TwoPointer/Medium/_1099_TwoSumLessThanK.java) <br />
 #1423. [_Maximum Points You Can Obtain From Cards](./src/TwoPointer/Medium/_1423_MaximumPointsYouCanObtainFromCards.java) <br />
-#3. [Longest Substring Without Repeating Characters](./src/TwoPointer/Medium/_3_LongestSubstringWithoutRepeatingCharacters.java) <br 
 #633. [Sum Of Square Numbers](./src/TwoPointer/Medium/_633_SumOfSquareNumbers.java) <br />
 #845. [Longest Mountainin Array](./src/TwoPointer/Medium/_845_LongestMountaininArray.java) <br />
 
