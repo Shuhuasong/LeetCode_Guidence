@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PreSum/Easy/_643_MaximumAverageSubarrayI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Easy/_1763_LongestNiceSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Easy/_1876_SubstringOfSizeThreeWithDistinctCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_1248_CountNumberOfNiceSubArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/BST/Medium/_701_InsertIntoABinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Easy/_26_RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Hard/_992_SubarraysWithKdifferentIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -455,21 +447,7 @@
       <workItem from="1641746696470" duration="4008000" />
       <workItem from="1641831901894" duration="4966000" />
       <workItem from="1641913328838" duration="3742000" />
-      <workItem from="1642002240387" duration="2913000" />
-    </task>
-    <task id="LOCAL-00106" summary="Array">
-      <created>1635659765412</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1635659765413</updated>
-    </task>
-    <task id="LOCAL-00107" summary="BinarySearch">
-      <created>1635810459988</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1635810459989</updated>
+      <workItem from="1642002240387" duration="3156000" />
     </task>
     <task id="LOCAL-00108" summary="BinarySearch">
       <created>1635828668085</created>
@@ -800,7 +778,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641925388792</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="README.MD">
+      <created>1642015867080</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1642015867081</updated>
+    </task>
+    <task id="LOCAL-00156" summary="README.MD">
+      <created>1642015972358</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1642015972358</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -821,7 +813,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Construct Tree" />
     <MESSAGE value="Dynamic Programming" />
     <MESSAGE value="Array" />
     <MESSAGE value="BinarySearch" />
@@ -846,7 +837,8 @@
     <MESSAGE value="Graph" />
     <MESSAGE value="HashTable" />
     <MESSAGE value="Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tree" />
+    <MESSAGE value="README.MD" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.MD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
