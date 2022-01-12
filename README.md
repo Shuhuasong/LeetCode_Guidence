@@ -2,6 +2,32 @@
 
 # LeetCode Solution & Explaination
 
+### Two Pointer
+
+#### Easy
+#26. [Remove Duplicates From Sorted Array](./src/Two Pointer/Easy/_26_RemoveDuplicatesFromSortedArray.java) <br />
+#28. [Implement Str_Str](./src/Two Pointer/Easy/_28_ImplementStr_Str.java) <br />
+#172. [Factorial Trailing Zeros](./src/Two Pointer/Easy/_172_FactorialTrailingZeros.java) <br />
+#844. [_Backspace String Compare](./src/Two Pointer/Easy/_844_BackspaceStringCompare.java) <br />
+
+#### Medium
+#11. [Container With Most Water](./src/Two Pointer/Medium/_11_ContainerWithMostWater.java) <br />
+#16. [3 Sum Closest](./src/Two Pointer/Medium/_16_3SumClosest.java) <br 
+#75. [Sort Color](./src/Two Pointer/Medium/_75_SortColor.java) <br 
+#80. [Remove Duplicates In Sorted Array II](./src/Two Pointer/Medium/_80_RemoveDuplicatesInSortedArrayII.java) <br 
+#259. [3 Sum Smaller](./src/Two Pointer/Medium/_259_3SumSmaller.java) <br 
+#777. [Swap Adacent In LR String](./src/Two Pointer/Medium/_777_SwapAdacentInLRString.java) <br 
+#1055. [_Shortest Way To Form String](./src/Two Pointer/Medium/_1055_ShortestWayToFormString.java) <br 
+#1099. [_Two Sum Less Than K](./src/Two Pointer/Medium/_1099_TwoSumLessThanK.java) <br 
+#1423. [_Maximum Points You Can Obtain From Cards](./src/Two Pointer/Medium/_1423_MaximumPointsYouCanObtainFromCards.java) <br 
+#3. [Longest Substring Without Repeating Characters](./src/Two Pointer/Medium/_3_LongestSubstringWithoutRepeatingCharacters.java) <br 
+#633. [Sum Of Square Numbers](./src/Two Pointer/Medium/_633_SumOfSquareNumbers.java) <br 
+#845. [Longest Mountainin Array](./src/Two Pointer/Medium/_845_LongestMountaininArray.java) <br 
+
+#### Hard
+#259. [Substring With Concatenation Of Al lWords](./src/Two Pointer/Hard/_30_SubstringWithConcatenationOfAllWords.java) <br 
+#259. [Subarrays With K different Integers](./src/Two Pointer/Hard/_992_SubarraysWithKdifferentIntegers.java) <br 
+
 ### Array
 #### Easy
 #1. [Two Sum](./src/Array/Easy/_1_twoSum.java) <br />
