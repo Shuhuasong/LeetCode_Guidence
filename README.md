@@ -12,7 +12,7 @@
 #88. [MergeTwoSortedArray](./src/TwoPointer/Easy/_88_MergeTwoSortedArray.java) <br />
 #283. [MoveZeros](./src/TwoPointer/Easy/_283_MoveZeros.java) <br />
 #142. [LinkedListCycleII](./src/LinkedList/Medium/_142_LinkedListCycleII.java) <br />
-#141. [_141_LinkedListCycle](./src/LinkedList/Medium/_141_LinkedListCycle.java) <br />
+#141. [LinkedListCycle](./src/LinkedList/Medium/_141_LinkedListCycle.java) <br />
 
 #### Medium
 #3. [Longest Substring Without Repeating Characters](./src/TwoPointer/Medium/_3_LongestSubstringWithoutRepeatingCharacters.java) <br />
@@ -21,9 +21,13 @@
 #16. [3 Sum Closest](./src/TwoPointer/Medium/_16_3SumClosest.java) <br />
 #18. [4 Sum](./src/Array/Medium/_15_4Sum.java) <br />
 #75. [Sort Color](./src/TwoPointer/Medium/_75_SortColor.java) <br />
+#80. [RemovDuplicatFroSorteArrayII](./src/Array/Medium/_80_RemoveDuplicateFromSortedArrayII.java) <br />
 #80. [Remove Duplicates In Sorted Array II](./src/TwoPointer/Medium/_80_RemoveDuplicatesInSortedArrayII.java) <br />
 #259. [3 Sum Smaller](./src/TwoPointer/Medium/_259_3SumSmaller.java) <br />
+#360. [Sort Transformed Array](./src/Array/Medium/_360_SortTransformedArray.java) <br />
+#713. [SubarrayProductLessThanK](./src/Array/Medium/_713_SubarrayProductLessThanK.java) <br />
 #777. [Swap Adacent In LR String](./src/TwoPointer/Medium/_777_SwapAdacentInLRString.java) <br />
+#923. [3 Sum With Multiplicity](./src/Array/Medium/__923_3SumWithMultiplicity.java) <br />
 #1055. [_Shortest Way To Form String](./src/TwoPointer/Medium/_1055_ShortestWayToFormString.java) <br />
 #1099. [_Two Sum Less Than K](./src/TwoPointer/Medium/_1099_TwoSumLessThanK.java) <br />
 #1423. [_Maximum Points You Can Obtain From Cards](./src/TwoPointer/Medium/_1423_MaximumPointsYouCanObtainFromCards.java) <br />
@@ -121,7 +125,8 @@
 
 ### Binary Search
 #### Easy
-#78. [Special Array With X Element Greater Than Or Equal X](./src/BinarySearch/Easy/_1608_SpecialArrayWithXElementGreaterThanOrEqualX) <br />
+#1608. [Special Array With X Element Greater Than Or Equal X](./src/BinarySearch/Easy/_1608_SpecialArrayWithXElementGreaterThanOrEqualX) <br />
+#704. [Binary Search](./src/BinarySearch/Easy/_704_BinarySearch.java) <br />
 
 #### Medium
 #29. [Divide Two Integers](./src/BinarySearch/Medium/_29_DivideTwoIntegers) <br />
@@ -134,6 +139,7 @@
 #162. [Find Peak Element](./src/BinarySearch/Medium/_162_FindPeakElement) <br />
 #240. [Search A 2D Matrix II](./src/BinarySearch/Medium/_240_SearchA2DMatrixII) <br />
 #287. [Find The Duplicate Number](./src/BinarySearch/Medium/_287_FindTheDuplicateNumber) <br />
+#362. [Find The Duplicate Number](./src/BinarySearch/Medium/_362_DesignHitCounter.java) <br />
 #528. [Random Pick With Weight](./src/BinarySearch/Medium/_528_RandomPickWithWeight) <br />
 #658. [Find K Closest Element](./src/BinarySearch/Medium/_658_FindKClosestElement) <br />
 #685. [Find K Closest Element](./src/BinarySearch/Medium/_685_FindKClosestElement) <br />
@@ -143,7 +149,7 @@
 #1870. [Minimum Speed To Arrive On Time](./src/BinarySearch/Medium/_1870_MinimumSpeedToArriveOnTime) <br />
 
 #### Hard
-
+#4. [Median Of Two Sorted Arrays](./src/BinarySearch/Hard/_4_MedianOfTwoSortedArrays.java) <br />
 
 ### Dynamic Programming
 #### Medium
