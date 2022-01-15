@@ -35,8 +35,8 @@
 #845. [Longest Mountainin Array](./src/TwoPointer/Medium/_845_LongestMountaininArray.java) <br />
 
 #### Hard
-#259. [Substring With Concatenation Of Al lWords](./src/TwoPointer/Hard/_30_SubstringWithConcatenationOfAllWords.java) <br />
-#259. [Subarrays With K different Integers](./src/TwoPointer/Hard/_992_SubarraysWithKdifferentIntegers.java) <br />
+#30. [Substring With Concatenation Of Al lWords](./src/TwoPointer/Hard/_30_SubstringWithConcatenationOfAllWords.java) <br />
+#992. [Subarrays With K different Integers](./src/TwoPointer/Hard/_992_SubarraysWithKdifferentIntegers.java) <br />
 
 ### Array
 #### Easy
@@ -44,17 +44,18 @@
 #167. [Two SumII](./src/Array/Easy/_167_twoSumII.java) <br />
 #169. [Majority Element](./src/Array/Easy/_169_MajorityElement.java) <br />
 #204. [Count Primes](./src/Array/Easy/_204_CountPrimes.java) <br />
-#263. [Ugly Number](./src/Array/Easy/_350_IntersectionOfTwoArraysII.java) <br />
+#263. [Ugly Number](./src/Array/Easy/_263_UglyNumber.java) <br />
 #350. [Intersection of Two Arrays II](./src/Array/Easy/_350_IntersectionOfTwoArraysII.java) <br />
 #448. [Find Al lNumbers Disappeared In an Array](./src/Array/Easy/_448_FindAllNumbersDisappearedInanArray.java) <br />
 #643. [Maximum Average Subarray](./src/Array/Easy/_643_MaximumAverageSubarray.java) <br />
-#1275. [Find Winner On Tic Tac Toe Game](./src/Array/Easy/_204_FindWinnerOnTicTacToeGame.java) <br />
+#1275. [Find Winner On Tic Tac Toe Game](./src/Array/Easy/_1275_FindWinnerOnATicTacToeGame.java) <br />
+#1287. [Element Appearing More Than 25P ercent In Sorted Array](./src/Array/Easy/_1287_ElementAppearingMoreThan25PercentInSortedArray.java) <br />
 #test. [Test](./src/Array/Easy/test.java)
 
 #### Medium
 >  - Two Pointer
 #15. [3 Sum](./src/Array/Medium/_15_3Sum.java) <br />
-#18. [4 Sum](./src/Array/Medium/_15_4Sum.java) <br />
+#18. [4 Sum](./src/Array/Medium/_18_4Sum.java) <br />
 #36. [Valid Soduku](./src/Array/Medium/_36_ValidSoduku.java) <br />
 #54. [Spiral Matrix](./src/Array/Medium/_54_SpiralMatrix.java) <br />
 #56. [Merge Intervals](./src/Array/Medium/_56_MergeIntervals.java) <br />

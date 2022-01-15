@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Easy/_704_BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Hard/_4_MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_362_DesignHitCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_452_MinimumNumberOfArrowsToBurstBalloons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_360_SortTransformedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_713_SubarrayProductLessThanK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_80_RemoveDuplicateFromSortedArrayII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_923_3SumWithMultiplicity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Hard/_1231_DivideChocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Hard/_410_SplitArrayLargestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1011_CapacityToShipPackageWithinDdays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1283_FindTheSmallestDivisorGivenAThreshold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_540_SingleElementInASortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_532_K_diffPairsInAArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Medium/_8_StringToInteger_atoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_34_FindFirstLastElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_34_FindFirstLastElement.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -458,14 +458,8 @@
       <workItem from="1641913328838" duration="3742000" />
       <workItem from="1642002240387" duration="6067000" />
       <workItem from="1642088876802" duration="1363000" />
-      <workItem from="1642136822836" duration="267000" />
-    </task>
-    <task id="LOCAL-00110" summary="Binary Tree &amp;&amp; Divide and Conquer">
-      <created>1636061521036</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1636061521036</updated>
+      <workItem from="1642136822836" duration="2147000" />
+      <workItem from="1642174818861" duration="4840000" />
     </task>
     <task id="LOCAL-00111" summary="Binary Tree &amp;&amp; Divide and Conquer">
       <created>1636086207915</created>
@@ -803,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642017078384</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="README.MD">
+      <created>1642137340351</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1642137340352</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
