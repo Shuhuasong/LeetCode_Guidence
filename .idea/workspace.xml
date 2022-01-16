@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="Binary Search">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_2140_SolvingQuestionsWithBrainPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Hard/_1345_JumpGameIV.java" afterDir="false" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_133_CloneGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Hard/_1353_MaximumNumberOfEventsThatCanBeAttend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_2139_MinimumMovesToResearchTargetScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_849_MaximumDistanceToClosestPerson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/_574_NumberOfProvince.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/_574_NumberOfProvince.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -453,14 +456,8 @@
       <workItem from="1642088876802" duration="1363000" />
       <workItem from="1642136822836" duration="2147000" />
       <workItem from="1642174818861" duration="4858000" />
-      <workItem from="1642291574025" duration="2236000" />
-    </task>
-    <task id="LOCAL-00112" summary="Top-Down DFS &amp;&amp; Bottom-Up DFS">
-      <created>1636353691327</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1636353691328</updated>
+      <workItem from="1642291574025" duration="2392000" />
+      <workItem from="1642346334054" duration="2190000" />
     </task>
     <task id="LOCAL-00113" summary="Top-Down DFS &amp;&amp; Bottom-Up DFS">
       <created>1636433612148</created>
@@ -798,7 +795,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642230221341</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="Dynamic Programming">
+      <created>1642310815156</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1642310815157</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -819,7 +823,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Array" />
     <MESSAGE value="BinarySearch" />
     <MESSAGE value="Binary Tree &amp;&amp; Divide and Conquer" />
     <MESSAGE value="Top-Down DFS &amp;&amp; Bottom-Up DFS" />
@@ -844,7 +847,8 @@
     <MESSAGE value="Tree" />
     <MESSAGE value="README.MD" />
     <MESSAGE value="Binary Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search" />
+    <MESSAGE value="Dynamic Programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic Programming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -31,6 +31,62 @@ public class _574_NumberOfProvince {
             }
         }
     }
+
+    /*
+     public int findCircleNum(int[][] isConnected) {
+        int cities = isConnected.length;
+        Set<Integer> visited = new HashSet<>();
+        int count = 0;
+        for(int i=0; i<cities; i++){
+            if(visited.contains(i)) continue;
+            dfs(isConnected, i, visited);
+            count++;
+        }
+        return count;
+    }
+
+    private void dfs(int[][] isConnected, int i, Set<Integer> visited){
+        visited.add(i);
+        for(int j=0; j<isConnected[i].length; j++){
+            if(isConnected[i][j]==1){
+                if(visited.contains(j)) continue;
+                dfs(isConnected, j, visited);
+            }
+        }
+    }
+
+     */
+
+    /*
+    //BFS
+     public int findCircleNum(int[][] isConnected) {
+        int cities = isConnected.length;
+        Set<Integer> visited = new HashSet<>();
+        Queue<Integer> q = new LinkedList<>();
+        int count = 0;
+        for(int i=0; i<cities; i++){
+            if(visited.contains(i)) continue;
+            visited.add(i);
+            q.add(i);
+            bfs(isConnected, q, visited);
+            count++;
+        }
+        return count;
+    }
+
+    private void bfs(int[][] isConnected, Queue<Integer> q, Set<Integer> visited){
+        while(!q.isEmpty()){
+            int node = q.poll();
+            for(int j=0; j<isConnected[node].length; j++){
+                if(isConnected[node][j]==1 && !visited.contains(j)){
+                    q.add(j);
+                    visited.add(j);
+                }
+            }
+        }
+    }
+
+     */
 }
 
 
