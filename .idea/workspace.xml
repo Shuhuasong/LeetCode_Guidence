@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Hard/_1231_DivideChocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Hard/_410_SplitArrayLargestSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1011_CapacityToShipPackageWithinDdays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1283_FindTheSmallestDivisorGivenAThreshold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_540_SingleElementInASortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_532_K_diffPairsInAArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Medium/_8_StringToInteger_atoi.java" afterDir="false" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="Binary Search">
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_2140_SolvingQuestionsWithBrainPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Hard/_1345_JumpGameIV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_34_FindFirstLastElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_34_FindFirstLastElement.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -459,14 +452,8 @@
       <workItem from="1642002240387" duration="6067000" />
       <workItem from="1642088876802" duration="1363000" />
       <workItem from="1642136822836" duration="2147000" />
-      <workItem from="1642174818861" duration="4840000" />
-    </task>
-    <task id="LOCAL-00111" summary="Binary Tree &amp;&amp; Divide and Conquer">
-      <created>1636086207915</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1636086207915</updated>
+      <workItem from="1642174818861" duration="4858000" />
+      <workItem from="1642291574025" duration="2236000" />
     </task>
     <task id="LOCAL-00112" summary="Top-Down DFS &amp;&amp; Bottom-Up DFS">
       <created>1636353691327</created>
@@ -804,7 +791,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642137340352</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="Binary Search">
+      <created>1642230221338</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1642230221341</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -825,7 +819,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Dynamic Programming" />
     <MESSAGE value="Array" />
     <MESSAGE value="BinarySearch" />
     <MESSAGE value="Binary Tree &amp;&amp; Divide and Conquer" />
@@ -850,7 +843,8 @@
     <MESSAGE value="HashTable" />
     <MESSAGE value="Tree" />
     <MESSAGE value="README.MD" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.MD" />
+    <MESSAGE value="Binary Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
