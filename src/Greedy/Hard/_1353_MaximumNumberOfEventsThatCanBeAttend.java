@@ -32,27 +32,32 @@ public class _1353_MaximumNumberOfEventsThatCanBeAttend {
 
     /*
     //Time = O(d + nlogn)
-     public int maxEvents(int[][] A) {
-       int n = A.length;
-       if(n==0) return 0;
-       int res = 0;
-       Arrays.sort(A, (a, b)->Integer.compare(a[0], b[0]));
+       public int maxEvents(int[][] events) {
+       //Sort events increase by start time
+       Arrays.sort(events, (a, b)->a[0]-b[0]);
+       //pq keeps the current open events
        PriorityQueue<Integer> pq = new PriorityQueue<>();
-       int i = 0;
+       int count =0, i = 0;
+       int n = events.length;
+       //iterate the day from 1 to 100000
        for(int d=1; d<=100000; d++){
+           //remove the events that already closed
            while(!pq.isEmpty() && pq.peek() < d){
                pq.poll();
            }
-           while(i < n && A[i][0]==d){
-               pq.offer(A[i][1]);
+           //each day, we add new events starting on day 'd'
+           while(i<n && events[i][0]==d){
+               pq.offer(events[i][1]);
                i++;
            }
+           //greedily attend the event that ends soonest
+           //if we can attend the meeting, we increment the result
            if(!pq.isEmpty()){
                pq.poll();
-               res++;
+               count++;
            }
        }
-        return res;
+       return count;
     }
      */
 }

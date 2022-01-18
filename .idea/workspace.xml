@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_133_CloneGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Hard/_1353_MaximumNumberOfEventsThatCanBeAttend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_2139_MinimumMovesToResearchTargetScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_849_MaximumDistanceToClosestPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_291_WordPatternII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Easy/_290_WordPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/_574_NumberOfProvince.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/_574_NumberOfProvince.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy/Hard/_1353_MaximumNumberOfEventsThatCanBeAttend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/Hard/_1353_MaximumNumberOfEventsThatCanBeAttend.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -457,14 +455,8 @@
       <workItem from="1642136822836" duration="2147000" />
       <workItem from="1642174818861" duration="4858000" />
       <workItem from="1642291574025" duration="2392000" />
-      <workItem from="1642346334054" duration="2190000" />
-    </task>
-    <task id="LOCAL-00113" summary="Top-Down DFS &amp;&amp; Bottom-Up DFS">
-      <created>1636433612148</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1636433612148</updated>
+      <workItem from="1642346334054" duration="2203000" />
+      <workItem from="1642430105380" duration="2429000" />
     </task>
     <task id="LOCAL-00114" summary="Top-Down DFS &amp;&amp; Bottom-Up DFS">
       <created>1636610594824</created>
@@ -802,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642310815157</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Greedy">
+      <created>1642370906691</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1642370906692</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -829,7 +828,6 @@
     <MESSAGE value="heap" />
     <MESSAGE value="Design" />
     <MESSAGE value="String" />
-    <MESSAGE value="Greedy" />
     <MESSAGE value="DFS" />
     <MESSAGE value="Geometry" />
     <MESSAGE value="Simulation" />
@@ -848,7 +846,8 @@
     <MESSAGE value="README.MD" />
     <MESSAGE value="Binary Search" />
     <MESSAGE value="Dynamic Programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dynamic Programming" />
+    <MESSAGE value="Greedy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Greedy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
