@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_291_WordPatternII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Easy/_290_WordPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_256_PaintHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_921_MinimumAddToMakeParentheseValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/_605_CanPlaceFlowers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/Medium/_1492_TheKthFactorOfn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_1475_FinalPricesWithASpecialDiscountInAShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Medium/_1347_MinimumNumberOfStepsToMakeTwoStringsAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_1868_ProductOfTwoRunLengthEncodedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Greedy/Hard/_1353_MaximumNumberOfEventsThatCanBeAttend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/Hard/_1353_MaximumNumberOfEventsThatCanBeAttend.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -456,14 +460,8 @@
       <workItem from="1642174818861" duration="4858000" />
       <workItem from="1642291574025" duration="2392000" />
       <workItem from="1642346334054" duration="2203000" />
-      <workItem from="1642430105380" duration="2429000" />
-    </task>
-    <task id="LOCAL-00114" summary="Top-Down DFS &amp;&amp; Bottom-Up DFS">
-      <created>1636610594824</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1636610594826</updated>
+      <workItem from="1642430105380" duration="2620000" />
+      <workItem from="1642517969930" duration="2628000" />
     </task>
     <task id="LOCAL-00115" summary="DFS">
       <created>1636698926825</created>
@@ -801,7 +799,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642370906692</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="Greedy">
+      <created>1642482451128</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1642482451129</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
