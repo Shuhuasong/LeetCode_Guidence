@@ -19,7 +19,7 @@ public class _142_LinkedListCycleII {
  phase-1: determine whether a cycle is exist in the list, if no cycle is present, return null directly
           otherwise, uses the located "intersection node" to find the entrance of the cycle via slow and fast pointer
  phase-2: given finding the intersection, set a pointer fast pointer to the head of list, and slow stay original place,
-          then advance them by 1 until they meet. Then the node is the entrance of the cycel.
+          then advance them by 1 until they meet. Then the node is the entrance of the cycle.
 */
 
     public ListNode detectCycle(ListNode head) {

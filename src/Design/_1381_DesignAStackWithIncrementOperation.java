@@ -1,4 +1,4 @@
-package Design.Medium;
+package Design;
 
 /**
  * Created by Shuhua Song
