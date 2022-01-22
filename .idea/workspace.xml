@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_134_GasStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_249_GroupShiftedStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Medium/_215_KthLargestElementInAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_636_ExclusiveTimeOfFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_721_AccountsMerge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -461,14 +458,7 @@
       <workItem from="1642517969930" duration="2648000" />
       <workItem from="1642610842346" duration="1689000" />
       <workItem from="1642720313815" duration="3155000" />
-      <workItem from="1642779968601" duration="1712000" />
-    </task>
-    <task id="LOCAL-00119" summary="DFS">
-      <created>1637735567126</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1637735567127</updated>
+      <workItem from="1642779968601" duration="2629000" />
     </task>
     <task id="LOCAL-00120" summary="DP">
       <created>1637817386645</created>
@@ -806,7 +796,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642745712505</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="Stack">
+      <created>1642807966912</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1642807966913</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -839,7 +836,6 @@
     <MESSAGE value="Recursion + memoization" />
     <MESSAGE value="Heap" />
     <MESSAGE value="DFS + BFS" />
-    <MESSAGE value="Stack" />
     <MESSAGE value="Backtrack" />
     <MESSAGE value="README.md update" />
     <MESSAGE value="DP" />
@@ -852,7 +848,8 @@
     <MESSAGE value="Greedy" />
     <MESSAGE value="Design" />
     <MESSAGE value="two pointer" />
-    <option name="LAST_COMMIT_MESSAGE" value="two pointer" />
+    <MESSAGE value="Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
