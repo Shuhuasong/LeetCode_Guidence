@@ -98,4 +98,59 @@ public class _677_MapSumPairs {
         return score.getOrDefault(prefix, 0);
     }
      */
+
+
+    /*
+     class TrieNode {
+        String word = "";
+        TrieNode[] children = new TrieNode[26];
+
+        public void insert(String word){
+            TrieNode curr = this;
+            for(char c : word.toCharArray()){
+                if(curr.children[c-'a']==null){
+                    curr.children[c-'a'] = new TrieNode();
+                }
+                curr = curr.children[c-'a'];
+            }
+            curr.word = word;
+        }
+    }
+    public String longestWord(String[] words) {
+        TrieNode root = new TrieNode();
+        root.word = "$";
+        for(String word : words){
+             root.insert(word);
+        }
+        return dfs(root, "");
+    }
+
+    private String dfs(TrieNode node, String currSt){
+        if(node==null || node.word.length()==0){
+            return currSt;
+        }
+        if(!node.word.equals("$")){
+            currSt = node.word;
+        }
+        String res = "";
+        for(TrieNode child : node.children){
+             String childRes = dfs(child, currSt);
+            if(childRes.length() > res.length() || (childRes.length()==res.length() && childRes.compareTo(res) < 0)){
+                res = childRes;
+            }
+        }
+        return res;
+    }
+     */
+
+
 }
+
+/*
+Trie Solution:
+Since the question is about find the prefix, so we can use trie(prefix Tree).
+Build a trie in a general way, then do dfs to find the longes (continuous) downward path from
+root.
+*/
+
+

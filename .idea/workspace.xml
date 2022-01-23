@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_2145_CountTheHiddenSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_2146_KHighestRankedItemsWithinAPriceRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_1510_StoneGameIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bitwise/Medium/_2128_RemoveAllOnesWithRowAndColumnFlips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/Enumeration/_1291_SequentialDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trie/Medium/_720_LongestWordInDictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trie/Medium/_677_MapSumPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie/Medium/_677_MapSumPairs.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -461,14 +462,8 @@
       <workItem from="1642610842346" duration="1689000" />
       <workItem from="1642720313815" duration="3155000" />
       <workItem from="1642779968601" duration="2637000" />
-      <workItem from="1642863687182" duration="2413000" />
-    </task>
-    <task id="LOCAL-00121" summary="heap">
-      <created>1638860836498</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1638860836500</updated>
+      <workItem from="1642863687182" duration="2538000" />
+      <workItem from="1642955879319" duration="4410000" />
     </task>
     <task id="LOCAL-00122" summary="Design">
       <created>1639722163847</created>
@@ -806,7 +801,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642824610111</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="DP">
+      <created>1642878196504</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1642878196506</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -841,7 +843,6 @@
     <MESSAGE value="DFS + BFS" />
     <MESSAGE value="Backtrack" />
     <MESSAGE value="README.md update" />
-    <MESSAGE value="DP" />
     <MESSAGE value="Graph" />
     <MESSAGE value="HashTable" />
     <MESSAGE value="Tree" />
@@ -852,7 +853,8 @@
     <MESSAGE value="Design" />
     <MESSAGE value="two pointer" />
     <MESSAGE value="Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack" />
+    <MESSAGE value="DP" />
+    <option name="LAST_COMMIT_MESSAGE" value="DP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
