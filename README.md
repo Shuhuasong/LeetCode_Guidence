@@ -152,6 +152,59 @@
 #### Hard
 #4. [Median Of Two Sorted Arrays](./src/BinarySearch/Hard/_4_MedianOfTwoSortedArrays.java) <br />
 
+## Trie
+  * Standard Trie
+    * Search Word
+      #211 [Design Add And Search Words Data Structure](./src/Trie/Medium/_211_DesignAddAndSearchWordsDataStructure.java) <br />
+      #212 [Word Search II](./src/OnlineCodingChallege/Cisco/_212_WordSearchII.java) <br />
+      #642 [Design Search Autocomplete System]
+  * Bitwise Trie
+      #421 [Maximum XOR of Two Numbers in an Array](./src/Bitwise/Medium/_421_MaximumXORofTwoNumbersInArray_IIIIIII.java) <br />
+## Graphs
+  * BFS/DFS
+    * Island variants | Connected components
+        - [Number of islands](https://leetcode.com/problems/number-of-islands/)
+        - [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)
+        - [Max-Area-island](https://leetcode.com/problems/max-area-of-island/)
+        - [Coloring-border](https://leetcode.com/problems/coloring-a-border/)
+        - [Flood-fill](https://leetcode.com/problems/flood-fill/)
+    * Traverse from boundary
+        - [surrounded-regions](https://leetcode.com/problems/surrounded-regions/)
+        - [number-of-encalves](https://leetcode.com/problems/number-of-enclaves/)
+        - [Pacific-Atlantic-Water-flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+    * Simultaneous BFS variants
+        - [Rotting-oranges](https://leetcode.com/problems/rotting-oranges/)
+        - [As Far from land as possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
+        - [01-matrix](https://leetcode.com/problems/01-matrix/)
+        - [The Meeting Place](https://binarysearch.com/problems/The-Meeting-Place)
+        - [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
+        - [WallsAndGate](https://leetcode.com/problems/walls-and-gates/)
+    * Graph coloring
+        - [Possible-bipartition](https://leetcode.com/problems/possible-bipartition/)
+        - [Is-graph-Bipartite](https://leetcode.com/problems/is-graph-bipartite/)    
+  * Topological sort
+    - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+    - [Parallel courses](https://leetcode.com/problems/parallel-courses/)
+    - [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) (Premium)
+    - [Sort items by groups respecting dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/) (challenging)
+    - [Flight Itinerary](https://binarysearch.com/problems/Flight-Itinerary)
+  * Union Find
+    - [Friend-circle](https://leetcode.com/problems/friend-circles/)
+    - [Redundant-connection](https://leetcode.com/problems/redundant-connection/)
+    - [Satisfiability-of-Equality-Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)
+    - [Connecting-cities-with-minimum-cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) (minimum spanning tree)
+    - [Number of Operations to make netWork connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
+    - [Most Stones Removed with Same Row Or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+  * Eulerian path/circle variants
+    - [Eulerian path/cycle theory](https://www.youtube.com/watch?v=xR4sGgwtR2I) | [Algorithms to find Eulerian path/cycle](https://www.youtube.com/watch?v=xR4sGgwtR2I)
+    - [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+    - [Flight itinerary](https://binarysearch.com/problems/Flight-Itinerary-Sequel) (General version)
+   * Dijkstra
+     - [Path minimum effort](https://leetcode.com/problems/path-with-minimum-effort/)
+     - [Swim rising water](https://leetcode.com/problems/swim-in-rising-water/)
+
+
+
 ### Dynamic Programming
 #### Medium
 #1641. [Count Sorted Vowel Strings](./src/Backtrack/Medium/_1641_CountSortedVowelStrings) <br />

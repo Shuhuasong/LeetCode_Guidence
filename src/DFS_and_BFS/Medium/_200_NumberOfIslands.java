@@ -95,6 +95,7 @@ class Solution {
 
 /* Method #3
  //Union Find (aka : Disjoint Set)
+ //Union Two diffent points with different (x*cols + y)
   // Time Complexity = O(M * N), Union operation take essentially constant time when
   // UnionFind is implemented with both path compression and union by rank
   // Space Complexit = O(M * N)

@@ -21,33 +21,45 @@ public class _152_MaximumProductSubarray {
 
     // Time = O(n)   Space =  O(1)
     public int maxProduct(int[] nums) {
-        if(nums==null || nums.length==0) return 0;
         int maxP = Integer.MIN_VALUE;
-        int max = 1, min = 1;
-
-        for(int n : nums){
-            if(n<1){
-                int temp = max;
-                max = min;
-                min = temp;
+        //use min and max to save the combo chain of
+        //min value and max value
+        int min = 1, max = 1;
+        for(int num : nums){
+            if(num < 1){
+                int temp = min;
+                min = max;
+                max = temp;
             }
-            max = Math.max(n, max * n);
-            min = Math.min(n, min * n);
+            max = Math.max(num, max*num);
+            min = Math.min(num, min*num);
             maxP = Math.max(maxP, max);
+            System.out.println(min + " "+ max + " " + maxP);
         }
         return maxP;
     }
 
-  /*
+/*
   Approach 2: Dynamic Programming
   max_so_far is updated by taking the maximum value among:
 
-Current number.
+
+A problem get highest combo chain, which is build up from
+prvious combo chains getting.
+Two things can disrup the combo chain:
+1) zeros ==> reset the combo chain,
+2) negative numbers ==> can flip highest num to smallest num
+   but if there is a second negative==> become a positive num again
+
+
+Algorithm:
+
+1)  Current number.
 This value will be picked if the accumulated product has been really bad (even compared to the current number).
 This can happen when the current number has a preceding zero (e.g. [0,4]) or is preceded by a single negative number (e.g. [-3,5]).
-Product of last max_so_far and current number.
+2) Product of last max_so_far and current number.
 This value will be picked if the accumulated product has been steadily increasing (all positive numbers).
-Product of last min_so_far and current number.
+3) Product of last min_so_far and current number.
 This value will be picked if the current number is a negative number and the combo chain has been disrupted
 by a single negative number before (In a sense, this value is like an antidote to an already poisoned combo chain).
   */
