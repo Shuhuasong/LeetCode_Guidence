@@ -1,4 +1,4 @@
-package SlidingWindow.Medium;
+package RollingHash;
 
 import java.util.*;
 

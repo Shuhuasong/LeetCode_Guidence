@@ -26,7 +26,6 @@ public class _205_IsomorphicStrings {
         while(i < m && j < n){
             char u = s.charAt(i++);
             char v = t.charAt(j++);
-
             if(match.containsKey(u)){
                 if(v==match.get(u))
                     continue;

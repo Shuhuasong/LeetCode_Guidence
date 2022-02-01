@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_526_BeautifulArrangement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_364_NestedListWeightSumII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_529_Minesweeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_690_EmployeeImportance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DivideAndConquer/_50_Pow_x_n.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1066_CampusBikesII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Medium/_973_K_ClosestPointToOrigin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PreSum/Medium/_560_SubarraySumEqualsK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RollingHash/_2156_FindSubstringWithGivenHashValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_678_ValidParenthesisString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Easy/_243_ShortestWordDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Easy/_244_ShortestWordDistanceII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_156_BinaryTreeUpsideDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Medium/_211_DesignAddAndSearchWordsDataStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_809_ExpressiveWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_200_NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_200_NumberOfIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/_152_MaximumProductSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/_152_MaximumProductSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/Medium/_215_KthLargestElementInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Medium/_215_KthLargestElementInAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/Medium/_373_FindKPairsWithSmallestSums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Medium/_373_FindKPairsWithSmallestSums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/Hard/_84_LargestRectangleInHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Hard/_84_LargestRectangleInHistogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/_205_IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/_205_IsomorphicStrings.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +110,7 @@
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SlidingWindow.Medium.*" />
+          <option name="PATTERN" value="RollingHash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -490,13 +470,8 @@
       <workItem from="1643436730393" duration="657000" />
       <workItem from="1643473004087" duration="5059000" />
       <workItem from="1643564607150" duration="4607000" />
-    </task>
-    <task id="LOCAL-00128" summary="Geometry">
-      <created>1640222795484</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1640222795485</updated>
+      <workItem from="1643613845483" duration="20000" />
+      <workItem from="1643684707021" duration="1841000" />
     </task>
     <task id="LOCAL-00129" summary="Geometry">
       <created>1640280550951</created>
@@ -834,7 +809,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643328193760</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="Bit Manipulation">
+      <created>1643613858668</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1643613858669</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
