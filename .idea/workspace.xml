@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_361_BombEnemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Easy/_1046_LastStoneWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue/Medium/_622_DesignCircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_1541_MinimumInsertionsToBalanceAParenthesesString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_655_PrintBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1010_PairsOfSongsWithTotalDurationsDivisibleBy60.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PreSum/Medium/_238_ProductOfArrayExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PreSum/Medium/_304_RangeSumQuery2D_Immutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PreSum/Medium/_525_ContiguousArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trie/Medium/_1268_SearchSuggestionSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Medium/_277_FindTheCelebrity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Medium/_277_FindTheCelebrity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Medium/_611_ValidTriangleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Medium/_611_ValidTriangleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_698_PartitionToKequalSumSubsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_698_PartitionToKequalSumSubsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/_438_FindAllAnagramInaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/_438_FindAllAnagramInaString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Medium/_235_LowestCommonAncestorOfABinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Medium/_235_LowestCommonAncestorOfABinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy/_605_CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/_605_CanPlaceFlowers.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -484,14 +480,8 @@
       <workItem from="1643762410121" duration="1798000" />
       <workItem from="1643815753135" duration="2075000" />
       <workItem from="1643835931443" duration="2405000" />
-      <workItem from="1643930977432" duration="1071000" />
-    </task>
-    <task id="LOCAL-00130" summary="Geometry">
-      <created>1640302713849</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1640302713850</updated>
+      <workItem from="1643930977432" duration="2775000" />
+      <workItem from="1643989042266" duration="3172000" />
     </task>
     <task id="LOCAL-00131" summary="Simulation">
       <created>1640316954147</created>
@@ -829,7 +819,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643692981952</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="Queue">
+      <created>1643935532858</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1643935532859</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -850,7 +847,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DFS" />
     <MESSAGE value="Geometry" />
     <MESSAGE value="Simulation" />
     <MESSAGE value="design" />
@@ -875,7 +871,8 @@
     <MESSAGE value="Sliding Window" />
     <MESSAGE value="Binary Tree" />
     <MESSAGE value="Bit Manipulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bit Manipulation" />
+    <MESSAGE value="Queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
