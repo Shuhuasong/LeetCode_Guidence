@@ -64,4 +64,29 @@ p and q will exist in the BST.
   */
 
 
+ /*
+  Map<TreeNode, TreeNode> parents;
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+         parents = new HashMap<>();
+         findParent(root, null);
+         Set<Integer> pSet = new HashSet<>();
+         while(p != null){
+             pSet.add(p.val);
+             p = parents.get(p);
+         }
+         while(!pSet.contains(q.val)){
+             q = parents.get(q);
+         }
+         return q;
+    }
+
+    private void findParent(TreeNode root, TreeNode parent){
+        if(root==null) return;
+        parents.put(root, parent);
+        findParent(root.left, root);
+        findParent(root.right, root);
+    }
+  */
+
+
 }

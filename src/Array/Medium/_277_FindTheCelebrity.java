@@ -98,3 +98,21 @@ public class _277_FindTheCelebrity {
     }
      */
 }
+
+/*
+/*
+directed Graph problem
+Relationship: A knows B ? one side relation
+1) Brute force:
+   1> iterate one by one(e.g kth ) to ask other n-1 people if they know kth people by call (isCelebrity(i, n))
+      if return false, means the current candidate is not a celebrity
+      if return true, mean the ccurrent candidate is a celebrity
+   time complexity : O(2*(n-1)) * n = O(n^2)
+
+2) keep an candidate varible, each time when iterate others, and check if knows(candidate, i) is true
+    if true, then i is the potencial celebrith, so transfer the candidate to i
+   Finally, check if the candidate is the celebrity by using O(n) time
+
+   */
+
+ 

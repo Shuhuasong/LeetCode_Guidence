@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_361_BombEnemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/Easy/_1046_LastStoneWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/Medium/_622_DesignCircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_1541_MinimumInsertionsToBalanceAParenthesesString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_655_PrintBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashTable/_205_IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/_205_IsomorphicStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Medium/_277_FindTheCelebrity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Medium/_277_FindTheCelebrity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Medium/_611_ValidTriangleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Medium/_611_ValidTriangleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_698_PartitionToKequalSumSubsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_698_PartitionToKequalSumSubsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/_438_FindAllAnagramInaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/_438_FindAllAnagramInaString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Medium/_235_LowestCommonAncestorOfABinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Medium/_235_LowestCommonAncestorOfABinarySearchTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -471,14 +480,11 @@
       <workItem from="1643473004087" duration="5059000" />
       <workItem from="1643564607150" duration="4607000" />
       <workItem from="1643613845483" duration="20000" />
-      <workItem from="1643684707021" duration="1841000" />
-    </task>
-    <task id="LOCAL-00129" summary="Geometry">
-      <created>1640280550951</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1640280550952</updated>
+      <workItem from="1643684707021" duration="2751000" />
+      <workItem from="1643762410121" duration="1798000" />
+      <workItem from="1643815753135" duration="2075000" />
+      <workItem from="1643835931443" duration="2405000" />
+      <workItem from="1643930977432" duration="1071000" />
     </task>
     <task id="LOCAL-00130" summary="Geometry">
       <created>1640302713849</created>
@@ -816,7 +822,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643613858669</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Bit Manipulation">
+      <created>1643692981951</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1643692981952</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
