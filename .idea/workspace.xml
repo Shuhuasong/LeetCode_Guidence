@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1010_PairsOfSongsWithTotalDurationsDivisibleBy60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PreSum/Medium/_238_ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PreSum/Medium/_304_RangeSumQuery2D_Immutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PreSum/Medium/_525_ContiguousArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Medium/_1268_SearchSuggestionSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/Medium/_2162_MinimumCostToSetCookingTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_2161_PartitionArrayAccordingToGivenPivot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Greedy/_605_CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/_605_CanPlaceFlowers.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -482,6 +478,7 @@
       <workItem from="1643835931443" duration="2405000" />
       <workItem from="1643930977432" duration="2775000" />
       <workItem from="1643989042266" duration="3172000" />
+      <workItem from="1644083436824" duration="588000" />
     </task>
     <task id="LOCAL-00131" summary="Simulation">
       <created>1640316954147</created>
