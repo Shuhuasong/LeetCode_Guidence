@@ -9,6 +9,8 @@ public class _90_SubsetsII {
     //decide whether or not choose that element(every level split into n branches)
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> results = new ArrayList<>();
+        //since there are duplicate number in nums, so we need to sort the array first.
+        //then to skip the same number when go into the for loop in dfs
         Arrays.sort(nums);
         if(nums==null || nums.length==0) return results;
         dfs(nums, 0, new ArrayList<>(), results);

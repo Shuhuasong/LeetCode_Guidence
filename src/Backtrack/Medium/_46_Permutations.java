@@ -7,7 +7,7 @@ import java.util.List;
 
 public class _46_Permutations {
 
-
+    //Time = O(N!)
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> results = new ArrayList<>();
         if(nums==null || nums.length==0) return results;
@@ -42,14 +42,17 @@ public class _46_Permutations {
         return results;
     }
 
-    private void backtrack(int n, List<Integer> list, List<List<Integer>> results, int first){
-        if(first == n){
-            results.add(new ArrayList<Integer>(list));
+      private void backtrack(List<Integer> list, int start, List<List<Integer>> res){
+        //when start == list.size, the permutaion is done for this list
+        if(start == list.size()){
+            res.add(new ArrayList<>(list));
+            return;
         }
-        for(int i=first; i<n; i++){
-            Collections.swap(list, first, i);
-            backtrack(n, list, results, first+1);
-            Collections.swap(list, first, i);
+        for(int i=start; i<list.size(); i++){
+            Collections.swap(list, start, i);
+            //next recursion need to start from next start
+            backtrack(list, start+1, res);
+            Collections.swap(list, start, i);
         }
     }
 

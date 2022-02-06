@@ -1,21 +1,48 @@
 package Backtrack.Medium;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by Shuhua Song
  */
 public class _47_PermutationII {
+
+     /*   Note:
+    1) check if the current elem is the same with previous one, and the previous
+          elem is not visited, then we will skip the elem
+    2) To make sure only use one first elem of the same group numbers        */
+
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        List<List<Integer>> results = new ArrayList<>();
+        Arrays.sort(nums);
+        backtrack(nums, 0, new ArrayList<>(), new boolean[nums.length], results);
+        return results;
+    }
+
+    private void backtrack(int[] nums, int start, List<Integer> list, boolean[] used, List<List<Integer>> res){
+        if(list.size()==nums.length){
+            res.add(new ArrayList<>(list));
+            return;
+        }
+        //when a number has the same value with its previous, we can use this number only
+        //if this previous is used
+        for(int i=0; i<nums.length; i++){
+            if(used[i] || i>0 && nums[i]==nums[i-1] && !used[i-1]) continue;
+            used[i] = true;
+            list.add(nums[i]);
+            backtrack(nums, i+1, list, used, res);
+            list.remove(list.size()-1);
+            used[i] = false;
+        }
+    }
+
    /*
     note:Algorithm
     Given the above insight, in order to find out all the unique numbers at each stage, we can build
     a hash table (denoted as counter), with each unique number as the key and its occurrence as
     the corresponding value. */
 
-    List<List<Integer>> results;
+ /*   List<List<Integer>> results;
     public List<List<Integer>> permuteUnique(int[] nums) {
         results = new ArrayList<>();
         if(nums==null || nums.length==0) return results;
@@ -41,6 +68,8 @@ public class _47_PermutationII {
             map.put(num, count);
         }
     }
+
+  */
 
 }
 
