@@ -1,5 +1,6 @@
 package Backtrack.Medium;
 
+import java.sql.Time;
 import java.util.*;
 
 /**
@@ -7,10 +8,21 @@ import java.util.*;
  */
 public class _47_PermutationII {
 
-     /*   Note:
+     /*
+     Note:
     1) check if the current elem is the same with previous one, and the previous
           elem is not visited, then we will skip the elem
-    2) To make sure only use one first elem of the same group numbers        */
+    2) To make sure only use one first elem of the same group numbers
+
+    The difficulty is to handle the duplicates, with inputs : {1a, 1b, 2a}
+    If we don't handle the duplicates, the results would be : {1a, 1b, 2a}, {1b, 1a, 2a}
+    So we need to make sure 1a goes before 1b to avoid duplicates by using
+       nums[i-1] == nums[i] && !used[i-1], this make sure that 1b cannot be chosen before 1a
+
+    Time = O(N*N!)
+    It takes N steps to generate a single permutation. Since there are in toal N! possible permutations,
+    at most it would take N*N! steps to generate all permutations
+    */
 
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> results = new ArrayList<>();

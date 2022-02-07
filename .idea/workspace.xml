@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_51_N_Queens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_52_N_Queens_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bitwise/Medium/_2166_DesignBitset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_2167_MinimumTimeToRemoveAllCarsContainingIllegalGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_144_BinaryTreePreOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_94_BinaryTreeInOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_1732_FindMinimumTimeToFinishAllJobs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1986_MinimumNumberOfWorkSessionsToFinishTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Hard/_37_SodokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_37_SodokuSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_46_Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_46_Permutations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_47_PermutationII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_47_PermutationII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_78_Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_78_Subsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_90_SubsetsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_90_SubsetsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/backtracking_algorithm.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/backtracking_algorithm.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -491,14 +482,7 @@
       <workItem from="1644083436824" duration="647000" />
       <workItem from="1644094853623" duration="3802000" />
       <workItem from="1644164995741" duration="1029000" />
-      <workItem from="1644174733509" duration="2109000" />
-    </task>
-    <task id="LOCAL-00132" summary="design">
-      <created>1640376602297</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1640376602298</updated>
+      <workItem from="1644174733509" duration="3143000" />
     </task>
     <task id="LOCAL-00133" summary="Union Find">
       <created>1640479163343</created>
@@ -836,7 +820,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644084761597</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="DFS">
+      <created>1644187768850</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1644187768851</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -857,7 +848,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Simulation" />
     <MESSAGE value="design" />
     <MESSAGE value="Union Find" />
     <MESSAGE value="Recursion + memoization" />
@@ -882,7 +872,8 @@
     <MESSAGE value="Bit Manipulation" />
     <MESSAGE value="Queue" />
     <MESSAGE value="Weekly Challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Weekly Challenge" />
+    <MESSAGE value="DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="DFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
