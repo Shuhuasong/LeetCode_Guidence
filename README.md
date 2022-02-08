@@ -208,3 +208,19 @@
 ### Dynamic Programming
 #### Medium
 #1641. [Count Sorted Vowel Strings](./src/Backtrack/Medium/_1641_CountSortedVowelStrings) <br />
+
+  * Stock Sell and Buy
+    *  DP - State Machine 
+        #Sell_Stock_Series. [Sell_Stock_Series](./src/DynamicProgramming/Sell_Stock_Series)
+        #121. [Best Time To Buy And Sell Stock](./src/DynamicProgramming/Medium/_121_BestTimeToBuyAndSellStock.java) <br />
+        #122. [Best Time To Buy And Sell Stock II](./src/DynamicProgramming/Medium/_122_BestTimeToBuyAndSellStockII.java) <br />
+        #174. [Best Time To Buy And Sell Stock with Transaction Fee](./src/DynamicProgramming/Medium/_714_BestTimeToBuySellStockWithFee.java) <br />
+        #309. [Best Time To Buy And Sell Stock With CoolDown](./src/DynamicProgramming/Medium/_309_BestTimeToBuyAndSellStockWithCoolDown.java) <br />
+        #123. [Best Time To Buy And Sell Stock III](./src/DynamicProgramming/Medium/_123_BestTimeToBuyAndSellStockIII.java) <br />
+        #188. [Best Time To Buy And Sell Stock IV](./src/DynamicProgramming/Medium/_188_BestTimeToBuyAndSellStockIV.java) <br />
+                              
+                                     
+               
+                               
+       
+                                

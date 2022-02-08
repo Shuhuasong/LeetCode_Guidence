@@ -1,0 +1,54 @@
+
+   State Machine
+
+ 3 status:
+ 1) the number of days
+ 2) the max number of transaction
+ 3) the current status (the status of rest, 1==hold stock, 0==no stock
+
+ We can us a 3D array to keep these three status
+ dp[i][k][0 or 1]
+ 0 <= i <= n-1, 1 <= k <= K
+ n = the number of days, K = the max number of transaction
+ the problem has total: n * K * 2 status, we can enumerate and exhaustion them
+
+ for 0 <= i < n:
+    for 1 <= k <= K
+        for s in {0, 1}
+           dp[i][k][s] = max {buy, sell, rest}
+--------------------------------------------------------------------------------
+           buy
+         /     \
+       /         \
+      0 ) rest   ( 1 rest
+       \          /
+         \ sell /
+
+dp[i][k][0] = max (dp[i-1][k][0],  dp[i-1][k][1] + prices[i])
+              max (choose 'rest',   choose 'sell')
+explain: today I don't have stock, which is from two case:
+1) I don't have stock yesterday, then today I take rest, so I keep without stock today(inherit yesterday)
+2) I do have stock yesterday, but I sell it today(increasing my money), so I don't have stock today
+_________________________________________________________________
+dp[i][k][1] = max (dp[i-1][k][1],  dp[i-1][k-1][0] - prices[i])
+              max (choose 'rest',   choose 'buy')
+explain: today I  have stock, which is from two case:
+1) I do have stock yesterday, then today I take rest, so I keep with stock today(inherit yesterday)
+2) I don't have stock yesterday, but I buy it today(decreasing my money), so I have stock today
+_________________________________________________________________
+Base case:
+dp[-1][k][0] = dp[i][0][0] = 0
+dp[-1][k][1] = dp[i][0][1] = -infinity
+there is impossible for us to have 1 stock in hand if there is no stock available or no transactions allowed
+if(i-1 == -1){
+   dp[i][0] = 0; // dp[i][0] = max {dp[-1][0], dp[-1][1]+prices[i] } = max {0, -infinity+prices[i] } = 0
+   dp[i][1] = -prices[i]; // dp[i][1] = max {dp[-1][1], dp[-1][0]-prices[i] } = max {-infinity, 0-prices[i]} = -prices[i]
+   continue;
+}
+________________________________________________________________
+Transition Function:
+dp[i][k][0] = max {dp[i-1][k][0], dp[i-1][k][1] + prices[i] }
+dp[i][k][1] = max {dp[i-1][k][1], dp[i-1][k-1][0] - prices[i] }
+
+
+
