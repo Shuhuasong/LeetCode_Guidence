@@ -10,7 +10,13 @@ public class _1986_MinimumNumberOfWorkSessionsToFinishTasks {
     Note: Usually, we will think to start from a session(worker) to brute force(iterate) all the
           tasks, and if the session time is full, we start a new session(find a new worker);
           However, this will cause TLE, because the dfs search tree is very broad on each level.
-          which is not good for Depth first searching.  */
+          which is not good for Depth first searching.
+
+Similar Queuetion:
+1125
+1434
+
+\  */
 
     int res;
     int[] session;

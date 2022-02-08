@@ -19,6 +19,8 @@ public class _152_MaximumProductSubarray {
    */
 
 
+    /*      Kadane Algorithm    */
+
     // Time = O(n)   Space =  O(1)
     public int maxProduct(int[] nums) {
         int maxP = Integer.MIN_VALUE;

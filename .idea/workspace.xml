@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_1732_FindMinimumTimeToFinishAllJobs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1986_MinimumNumberOfWorkSessionsToFinishTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_47_PermutationII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_47_PermutationII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bitwise/Medium/_2166_DesignBitset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitwise/Medium/_2166_DesignBitset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Easy/_53_MaximumSubarrray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Easy/_53_MaximumSubarrray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1986_MinimumNumberOfWorkSessionsToFinishTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1986_MinimumNumberOfWorkSessionsToFinishTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/_152_MaximumProductSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/_152_MaximumProductSubarray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -482,14 +483,9 @@
       <workItem from="1644083436824" duration="647000" />
       <workItem from="1644094853623" duration="3802000" />
       <workItem from="1644164995741" duration="1029000" />
-      <workItem from="1644174733509" duration="3143000" />
-    </task>
-    <task id="LOCAL-00133" summary="Union Find">
-      <created>1640479163343</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1640479163344</updated>
+      <workItem from="1644174733509" duration="3333000" />
+      <workItem from="1644252643522" duration="449000" />
+      <workItem from="1644290265772" duration="153000" />
     </task>
     <task id="LOCAL-00134" summary="Recursion + memoization">
       <created>1640569049516</created>
@@ -827,7 +823,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644187768851</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="DFS">
+      <created>1644196607136</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1644196607137</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

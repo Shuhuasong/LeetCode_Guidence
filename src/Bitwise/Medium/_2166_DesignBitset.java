@@ -60,13 +60,14 @@ public class _2166_DesignBitset {
 
     /*
       //Time = O(n)
-    char[] bits;
-    int size;
-    boolean isFlip;
+      char[] bits;
+    int size, count;
+    boolean isFlip; // if isFlip is true, then treat '1' as '0', and '0' as '1'
     public Bitset(int size) {
         bits = new char[size];
         this.size = size;
         isFlip = false;
+        count = 0;
         Arrays.fill(bits, '0');
     }
 
@@ -113,7 +114,12 @@ public class _2166_DesignBitset {
     }
 
     public String toString() {
-        return new String(bits);
+        if(!isFlip) return new String(bits);
+        StringBuilder sb = new StringBuilder();
+        for(char c : bits){
+            sb.append(c=='1' ? '0' : '1');
+        }
+        return sb.toString();
     }
      */
 }

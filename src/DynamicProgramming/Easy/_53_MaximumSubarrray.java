@@ -16,6 +16,8 @@ curSum       -2   1   -2   4   3    5   6    1   5
 maxSum       -2   1   1    4   4    5   6    6   6
 */
 
+    /*      Kadane Algorithm    */
+
     public int maxSubArray(int[] nums) {
         if(nums==null || nums.length==0) return -1;
         int n = nums.length;
