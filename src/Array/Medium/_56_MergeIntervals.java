@@ -8,6 +8,26 @@ import java.util.List;
  * Created by Shuhua Song
  */
 public class _56_MergeIntervals {
+
+    public int[][] merge(int[][] intervals) {
+
+        Arrays.sort(intervals, (a, b)-> a[0]-b[0]);
+
+        List<int[]> list = new ArrayList<>();
+        int[] curr = intervals[0];
+        for(int[] next : intervals){
+            //overlap
+            if(curr[1] >= next[0]) curr[1] = Math.max(curr[1], next[1]);
+            else{
+                list.add(curr);
+                curr = next;
+            }
+        }
+        list.add(curr);
+        return list.toArray(new int[list.size()][]);
+    }
+
+    /*
     public int[][] merge(int[][] intervals) {
 
         Arrays.sort(intervals, (a, b)-> a[0]-b[0]);
@@ -35,7 +55,7 @@ public class _56_MergeIntervals {
             results[i++] = item;
         }
         return results;
-    }
+    } */
 }
 
 

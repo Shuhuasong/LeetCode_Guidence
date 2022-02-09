@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_122_BestTimeToBuyAndSellStockII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_123_BestTimeToBuyAndSellStockIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_188_BestTimeToBuyAndSellStockIV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_714_BestTimeToBuySellStockWithFee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Sell_Stock_Series" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Easy/_252_MeetingRooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Hard/_352_DataStreamAsDisjoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_1272_RemoveInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_1288_RemoveCoveredIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_231_MeetingRoomsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_391_NumberOfAirplaneInTheSky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_435_Non_overlapping_Intervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_57_InsertInterval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_309_BestTimeToBuyAndSellStockWithCoolDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_309_BestTimeToBuyAndSellStockWithCoolDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_121_BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_121_BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Medium/_56_MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Medium/_56_MergeIntervals.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -490,14 +492,8 @@
       <workItem from="1644174733509" duration="3333000" />
       <workItem from="1644252643522" duration="449000" />
       <workItem from="1644290265772" duration="3856000" />
-      <workItem from="1644301948456" duration="1375000" />
-    </task>
-    <task id="LOCAL-00135" summary="HashTable">
-      <created>1640587618755</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1640587618755</updated>
+      <workItem from="1644301948456" duration="1529000" />
+      <workItem from="1644353163179" duration="4522000" />
     </task>
     <task id="LOCAL-00136" summary="Heap">
       <created>1640647149777</created>
@@ -835,7 +831,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644295295872</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="Dynamic Programming - Buy and Sell Stocks">
+      <created>1644304375955</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1644304375956</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -856,7 +859,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="design" />
     <MESSAGE value="Union Find" />
     <MESSAGE value="Recursion + memoization" />
     <MESSAGE value="Heap" />
@@ -881,7 +883,8 @@
     <MESSAGE value="Queue" />
     <MESSAGE value="Weekly Challenge" />
     <MESSAGE value="DFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="DFS" />
+    <MESSAGE value="Dynamic Programming - Buy and Sell Stocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic Programming - Buy and Sell Stocks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

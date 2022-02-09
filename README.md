@@ -53,6 +53,18 @@
 #test. [Test](./src/Array/Easy/test.java)
 
 #### Medium
+  * Scan Line
+    *  Meeting Room
+      #391. [Number Of Airplane In The Sky](./src/Array/Medium/_391_NumberOfAirplaneInTheSky.java) <br /> 
+      #252. [Meeting Rooms](./src/Array/Easy/_252_MeetingRooms.java) <br />
+      #231. [Meeting Rooms II](./src/Array/Medium/_231_MeetingRoomsII.java) <br /> 
+      #56. [Merge Intervals](./src/Array/Medium/_56_MergeIntervals.java) <br /> 
+      #57. [Insert Interval](./src/Array/Medium/_57_InsertInterval.java) <br /> 
+      #1272. [Remove Interval](./src/Array/Medium/_1272_RemoveInterval.java) <br /> 
+      #435. [Non overlapping Intervals](./src/Array/Medium/_435_Non_overlapping_Intervals.java) <br /> 
+      #1288. [Remove Covered Intervals](./src/Array/Medium/_1288_RemoveCoveredIntervals.java) <br /> 
+      #352. [Data Stream As Disjoint](./src/Array/Medium/_352_DataStreamAsDisjoint.java) <br /> 
+
 >  - Two Pointer
 #15. [3 Sum](./src/Array/Medium/_15_3Sum.java) <br />
 #18. [4 Sum](./src/Array/Medium/_18_4Sum.java) <br />
