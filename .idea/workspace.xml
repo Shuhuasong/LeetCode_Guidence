@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Easy/_252_MeetingRooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Hard/_352_DataStreamAsDisjoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_1272_RemoveInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_1288_RemoveCoveredIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_231_MeetingRoomsII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_391_NumberOfAirplaneInTheSky.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_435_Non_overlapping_Intervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_57_InsertInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Easy/_13_RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_692_TopKFrequentWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Medium/_56_MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Medium/_56_MergeIntervals.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -493,14 +485,9 @@
       <workItem from="1644252643522" duration="449000" />
       <workItem from="1644290265772" duration="3856000" />
       <workItem from="1644301948456" duration="1529000" />
-      <workItem from="1644353163179" duration="4522000" />
-    </task>
-    <task id="LOCAL-00136" summary="Heap">
-      <created>1640647149777</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1640647149778</updated>
+      <workItem from="1644353163179" duration="4818000" />
+      <workItem from="1644422190994" duration="556000" />
+      <workItem from="1644474874975" duration="475000" />
     </task>
     <task id="LOCAL-00137" summary="DFS + BFS">
       <created>1640750880807</created>
@@ -838,7 +825,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644304375956</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Array--Meeting Rooms Series">
+      <created>1644367973012</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1644367973013</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -859,7 +853,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Union Find" />
     <MESSAGE value="Recursion + memoization" />
     <MESSAGE value="Heap" />
     <MESSAGE value="DFS + BFS" />
@@ -884,7 +877,8 @@
     <MESSAGE value="Weekly Challenge" />
     <MESSAGE value="DFS" />
     <MESSAGE value="Dynamic Programming - Buy and Sell Stocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dynamic Programming - Buy and Sell Stocks" />
+    <MESSAGE value="Array--Meeting Rooms Series" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array--Meeting Rooms Series" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
