@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Design/Hard/_588_DesignInMemoryFileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_12_IntegerToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_567_PermutationInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/_127_WordLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/Hard/_460_LFU_Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_697_DegreeOfAnArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashTable/Medium/_49_GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/Medium/_49_GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashTable/Medium/_692_TopKFrequentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/Medium/_692_TopKFrequentWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design/_LRU_Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design/_LRU_Cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/_127_WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/_127_WordLadder.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -492,14 +490,8 @@
       <workItem from="1644353163179" duration="4818000" />
       <workItem from="1644422190994" duration="556000" />
       <workItem from="1644474874975" duration="475000" />
-      <workItem from="1644515009693" duration="3470000" />
-    </task>
-    <task id="LOCAL-00138" summary="DFS + BFS">
-      <created>1640753200747</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1640753200748</updated>
+      <workItem from="1644515009693" duration="3852000" />
+      <workItem from="1644601577134" duration="1980000" />
     </task>
     <task id="LOCAL-00139" summary="DFS + BFS">
       <created>1640755717700</created>
@@ -837,7 +829,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644515040519</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="HashTable">
+      <created>1644556707442</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1644556707442</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
