@@ -30,4 +30,13 @@ public class _692_TopKFrequentWords {
         }
         return list;
     }
+
+    public static void main(String[] args) {
+        String s = "/a/b/c/d";
+        String[] splits = s.split("/");
+        System.out.println(splits.length);
+        for(String sp : splits){
+            System.out.print(sp + " ");;
+        }
+    }
 }

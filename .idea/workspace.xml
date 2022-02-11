@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Easy/_13_RomanToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_692_TopKFrequentWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/Hard/_588_DesignInMemoryFileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_12_IntegerToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_567_PermutationInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/_127_WordLadder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/Medium/_49_GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/Medium/_49_GroupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/Medium/_692_TopKFrequentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/Medium/_692_TopKFrequentWords.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._220_ContainsDuplicateIII_bucketSort">
+  <component name="RunManager" selected="Application._692_TopKFrequentWords">
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
@@ -119,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_CopyBooks_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Google._CopyBooks_" />
+    <configuration name="_692_TopKFrequentWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.Medium._692_TopKFrequentWords" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.Google.*" />
+          <option name="PATTERN" value="HashTable.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +164,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application._CopyBooks_" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application._FindSmallestSubstringofSizeK" />
       <item itemvalue="Application._SortRomanName" />
       <item itemvalue="Application._220_ContainsDuplicateIII_bucketSort" />
+      <item itemvalue="Application._692_TopKFrequentWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._692_TopKFrequentWords" />
         <item itemvalue="Application._220_ContainsDuplicateIII_bucketSort" />
         <item itemvalue="Application._SortRomanName" />
         <item itemvalue="Application._FindSmallestSubstringofSizeK" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application._CopyBooks_" />
       </list>
     </recent_temporary>
   </component>
@@ -488,13 +492,7 @@
       <workItem from="1644353163179" duration="4818000" />
       <workItem from="1644422190994" duration="556000" />
       <workItem from="1644474874975" duration="475000" />
-    </task>
-    <task id="LOCAL-00137" summary="DFS + BFS">
-      <created>1640750880807</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1640750880807</updated>
+      <workItem from="1644515009693" duration="3470000" />
     </task>
     <task id="LOCAL-00138" summary="DFS + BFS">
       <created>1640753200747</created>
@@ -832,7 +830,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644367973013</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="HashTable">
+      <created>1644515040518</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1644515040519</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -859,7 +864,6 @@
     <MESSAGE value="Backtrack" />
     <MESSAGE value="README.md update" />
     <MESSAGE value="Graph" />
-    <MESSAGE value="HashTable" />
     <MESSAGE value="Tree" />
     <MESSAGE value="README.MD" />
     <MESSAGE value="Binary Search" />
@@ -878,7 +882,8 @@
     <MESSAGE value="DFS" />
     <MESSAGE value="Dynamic Programming - Buy and Sell Stocks" />
     <MESSAGE value="Array--Meeting Rooms Series" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array--Meeting Rooms Series" />
+    <MESSAGE value="HashTable" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashTable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
