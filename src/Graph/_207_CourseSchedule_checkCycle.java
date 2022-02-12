@@ -1,18 +1,42 @@
 package Graph;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by Shuhua Song
  */
 public class _207_CourseSchedule_checkCycle {
 
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        if(prerequisites==null || prerequisites.length==0) return true;
+        Map<Integer, List<Integer>> graph = new HashMap<>();
+        int n = numCourses;
+        int[] inDegree = new int[numCourses];
+        for(int i=0; i<n; i++) graph.put(i, new ArrayList<>());
+        for(int[] p : prerequisites){
+            int start = p[1], end = p[0];
+            graph.get(start).add(end);
+            inDegree[end]++;
+        }
+        Queue<Integer> q = new LinkedList<>();
+        for(int i=0; i<n; i++){
+            if(inDegree[i]==0) q.add(i);
+        }
+        int count = 0;
+        while(!q.isEmpty()){
+            int node = q.poll();
+            count++;
+            for(int nei : graph.get(node)){
+                inDegree[nei]--;
+                if(inDegree[nei]==0) q.add(nei);
+            }
+        }
+        return count==n;
+    }
+
     //Backtracking
     //Time = O(V+E) , Space = O(V+E)
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
+ /*   public boolean canFinish(int numCourses, int[][] prerequisites) {
 
         HashMap<Integer, List<Integer>> graph = new HashMap<>();
         for(int[] p  : prerequisites){
@@ -68,7 +92,10 @@ public class _207_CourseSchedule_checkCycle {
         //we complete the check of this node
         checked[node] = true;
         return isCycle;
-    }
+    } */
+
+
+ //===============================================================
 
     /*
      Map<Integer, List<Integer>> graph;
