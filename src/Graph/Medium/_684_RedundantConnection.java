@@ -1,4 +1,4 @@
-package Graph;
+package Graph.Medium;
 
 public class _684_RedundantConnection {
     //Union Find

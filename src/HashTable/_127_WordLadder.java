@@ -16,31 +16,30 @@ public class _127_WordLadder {
     //Space = O(M*N)
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Set<String> wordSet = new HashSet<>(wordList);
-        if(!wordSet.contains(endWord) || beginWord.equals(endWord)) return 0;
+        if(beginWord.equals(endWord) || !wordSet.contains(endWord)) return 0;
         Set<String> beginSet = new HashSet<>();
         Set<String> endSet = new HashSet<>();
-        //wordSet.remove(beginWord);
-        //wordSet.remove(endWord);
-        beginSet.add(beginWord); endSet.add(endWord);
+        beginSet.add(beginWord);
+        endSet.add(endWord);
+        //initial step as 1, there are at least one step
         int step = 1;
         while(!beginSet.isEmpty() && !endSet.isEmpty()){
-            //minimize the search space by explore smaller set
             if(beginSet.size() > endSet.size()){
                 Set<String> temp = beginSet;
                 beginSet = endSet;
                 endSet = temp;
             }
             Set<String> newBeginSet = new HashSet<>();
-            //for each word in beginWord, look for its neighbor words
             for(String word : beginSet){
-                List<String> neighbors = getAllWords(word);
-                // if(neighbors.size()==0) return step;
-                for(String neig : neighbors){
-                    // System.out.println("step = " + step);
-                    if(endSet.contains(neig)) return step+1;
-                    if(wordSet.contains(neig)){
-                        wordSet.remove(neig);
-                        newBeginSet.add(neig);
+                List<String> neighbors = getAllNeighbors(word);
+                for(String nei : neighbors){
+                    if(endSet.contains(nei)){
+                        return step+1;
+                    }
+                    if(wordSet.contains(nei)){
+                        //System.out.println(word + " " + nei);
+                        wordSet.remove(nei);
+                        newBeginSet.add(nei);
                     }
                 }
             }
@@ -48,6 +47,22 @@ public class _127_WordLadder {
             beginSet = newBeginSet;
         }
         return 0;
+    }
+
+    private List<String> getAllNeighbors(String word){
+        char[] chs = word.toCharArray();
+        List<String> neighbors = new ArrayList<>();
+        for(int i=0; i<chs.length; i++){
+            char temp = chs[i];
+            for(char c='a'; c<='z'; c++){
+                // if(chs[i]==c) continue;
+                chs[i] = c;
+                String newWord = new String(chs);
+                neighbors.add(newWord);
+            }
+            chs[i] = temp;
+        }
+        return neighbors;
     }
 
     //repeated string concatenation is expensive
@@ -132,4 +147,16 @@ public class _127_WordLadder {
 hit-->hot               \
           \ lot-----------> log -----> cog
 
+
+ Solution-2:
+step     beginSet:      newBeginSet           endSet:
+  1   hit               hot                   cog
+  2   hot             dot, lot                cog
+     {dot, lot}   <------------->           {cog}
+  3   {cog}        {cog, log, dog}          {dot, lot}
+      {cog, log, dog} <---------->         {dot, lot}
+  4   {dot, lot}                           {cog, log, dog}
+      neighbors(lot) = {log......} ==> endSet.contains(log) ==> return steps+1
  */
+
+

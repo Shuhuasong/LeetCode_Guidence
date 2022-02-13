@@ -1,4 +1,4 @@
-package Graph;
+package Graph.Medium;
 
 /**
  * Created by Shuhua Song

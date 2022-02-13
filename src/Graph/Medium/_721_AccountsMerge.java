@@ -61,6 +61,56 @@ public class _721_AccountsMerge {
     }
 }
 
+/*  Union Find
+//Use map to store the node and its parent
+     class UnionFind {
+        Map<String, String> root = new HashMap<>();
+        public String find(String x){
+            String xParent = root.getOrDefault(x, x);
+            if(!xParent.equals(x)) xParent = find(xParent);
+            root.put(x, xParent);
+            return root.get(x);
+        }
+        public void union(String x, String y){
+            root.put(find(x), find(y));
+        }
+    }
+   //Seperate each unique email and store them into map with corresponding name
+    //And union each email with it primary email
+    public List<List<String>> accountsMerge(List<List<String>> accounts) {
+        UnionFind UF = new UnionFind();
+        Map<String, String> emailToName = new HashMap<>();
+        for(List<String> account : accounts){
+            String name = account.get(0);
+            String mainEmail = account.get(1);
+            for(int i=1; i<account.size(); i++){
+                String currEmail = account.get(i);
+                emailToName.put(currEmail, name);
+                UF.union(currEmail, mainEmail);
+            }
+        }
+        // key = primary email, value = email list under same account
+        Map<String, List<String>> mergeAccount = new HashMap<>();
+        for(String mail : emailToName.keySet()){
+            String mainEmail = UF.find(mail);
+            mergeAccount.putIfAbsent(mainEmail, new ArrayList<>());
+            mergeAccount.get(mainEmail).add(mail);
+        }
+        //Sort emails and add name for each list
+        List<List<String>> results = new ArrayList<>();
+        for(List<String> mails : mergeAccount.values()){
+            Collections.sort(mails);
+            String name = emailToName.get(mails.get(0));
+            List<String> listR = new ArrayList<>();
+            listR.add(name);
+            listR.addAll(mails);
+            results.add(listR);
+        }
+        return results;
+    }
+
+ */
+
 /*
 Method--Graph
 DFS Traversal:

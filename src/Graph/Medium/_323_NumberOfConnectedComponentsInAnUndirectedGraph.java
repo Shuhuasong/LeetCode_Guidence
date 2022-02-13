@@ -1,4 +1,4 @@
-package Graph;
+package Graph.Medium;
 
 import java.util.ArrayList;
 import java.util.List;

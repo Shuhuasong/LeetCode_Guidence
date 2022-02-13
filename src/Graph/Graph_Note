@@ -1,7 +1,18 @@
- adjacency list: the best graph representation when #Edges < #nodes
- adjacency matrix: the best graph representation when #Edges > #nodes
- linked representation: not commonly used in interview questions.
+ Graph Representation:
+ 1) adjacency list: the best graph representation when #Edges < #nodes
+    vertex     ajacency List
+      A -------> {B, C, D}
+      B -------> {C}
+      C -------> {A, B}
+      D -------> {E, B}
+ 2) adjacency matrix: the best graph representation when #Edges > #nodes
+ 3) linked representation: not commonly used in interview questions.
 
+            /'B<------E
+           / |
+ D <---- A   |
+         '\  |
+           \;C
 
 1. create a graph
 
@@ -17,7 +28,41 @@
         adjacencyList.get(edge[1]).add(edge[0]);
     }
 
-2. DFS a graph
+2.1 BFS a graph
+    //count the number of steps from start to target
+    int BFS(Node start, Node target)
+        Queue<Node> q;
+        Set<Node> visited;
+        q.offer(start);
+        visited.add(start);
+        int step = 0;
+        while(q not empty) {
+            int size = q.size();
+            for(int i=0; i<size; i++){
+               Node curr = q.poll();
+               if(curr is target) return step;
+               for(Node neighb : curr.adjacentList){
+                  if(neighb not in visited) {
+                     q.offer(neighb);
+                     visited.add(x);
+                  }
+               }
+            }
+            step++;
+        }
+
+2.2 DFS a graph
+
+    result = []
+    def backtrack（path, option list) :
+        if  condition satisfy:
+            result.add(path)
+            return
+        for choice in optionsList;
+            make choice
+            backtrack (path, option list)
+            cancel choice
+    ------------------------------------------------------
 
     // Use a stack to keep track of unexplored nodes.
     Stack<Integer> stack = new Stack<>();
@@ -91,5 +136,40 @@
              parent.put(neighbour, node);
          }
      }
+
+
+  Dijkstra - Shortest Path Algorithm
+    the same greedy algorithm, every step pick the path with smallest weight
+  (direction, weigh, cycle)]
+  1) single source shortest path
+     1. BFS/DFS(unweighted graph)
+     2. Dijikstra basic version(non-negative edge, weighted graph)
+     3. Dijikstra optimize version (non-negative edge) Dijikstra + heap
+     4. Bellman-Ford (negative-edge)
+     5. Bellman-Ford (negative-edge)
+  2) multi-source shortest path
+     Floyd-Warshall
+  -------------------------------------------------------
+  function Dijikstra (Graph, source) :
+        create vertex set Q
+
+        for each vertex v in Graph:
+            dist[v] = infinity
+            prev[v] = undefined
+            add v into Q
+         dist[source] = 0
+
+         while Q is not empty :
+             u <-- vertex in Q with min dist[u]
+             remove u from Q
+
+             for each neighbor v of u still in Q :  //edge relaxation = find the smallest path
+                 alt <-- dist[u] + length(u, v)
+                 if alt < dist[v]:
+                    dist[v] <-- alt
+                    prev[v] = u
+         return dfist[], prev[]
+
+
 
 

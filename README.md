@@ -172,8 +172,11 @@
       #642 [Design Search Autocomplete System]
   * Bitwise Trie
       #421 [Maximum XOR of Two Numbers in an Array](./src/Bitwise/Medium/_421_MaximumXORofTwoNumbersInArray_IIIIIII.java) <br />
+
 ## Graphs
   * BFS/DFS
+    * From source to Target
+      #4. [Find If Path Exists Graph](./src/Graph/Easy/_1971_FindIfPathExistsGraph.java) <br /> 
     * Island variants | Connected components
         - [Number of islands](https://leetcode.com/problems/number-of-islands/)
         - [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)
@@ -192,12 +195,13 @@
         - [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
         - [WallsAndGate](https://leetcode.com/problems/walls-and-gates/)
     * Graph coloring
-        - [Possible-bipartition](https://leetcode.com/problems/possible-bipartition/)
-        - [Is-graph-Bipartite](https://leetcode.com/problems/is-graph-bipartite/)    
+         #785. [Is Graph Bipartite](./src/Graph/Medium/_785_IsGraphBipartite.java) <br /> 
+         #885. [Possible Bipartition](./src/Graph/Medium/_886_PossibleBipartition.java) <br /> 
+          
   * Topological sort
-    - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
-    - [Parallel courses](https://leetcode.com/problems/parallel-courses/)
-    - [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) (Premium)
+       #207. [Course Schedule](./src/Topological_Sort/_207_CourseSchedule.java) <br /> 
+       #210. [Course Schedule II](./src/Topological_Sort/_210_CourseScheduleII.java) <br />
+       
     - [Sort items by groups respecting dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/) (challenging)
     - [Flight Itinerary](https://binarysearch.com/problems/Flight-Itinerary)
   * Union Find
@@ -212,8 +216,9 @@
     - [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
     - [Flight itinerary](https://binarysearch.com/problems/Flight-Itinerary-Sequel) (General version)
    * Dijkstra
-     - [Path minimum effort](https://leetcode.com/problems/path-with-minimum-effort/)
-     - [Swim rising water](https://leetcode.com/problems/swim-in-rising-water/)
+      #505. [The Maze II](./src/Graph/Medium/_505_TheMazeII.java) <br /> 
+      - [Path minimum effort](https://leetcode.com/problems/path-with-minimum-effort/)
+      - [Swim rising water](https://leetcode.com/problems/swim-in-rising-water/)
 
 
 

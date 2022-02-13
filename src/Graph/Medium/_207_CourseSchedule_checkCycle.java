@@ -1,4 +1,4 @@
-package Graph;
+package Graph.Medium;
 
 import java.util.*;
 
@@ -6,7 +6,7 @@ import java.util.*;
  * Created by Shuhua Song
  */
 public class _207_CourseSchedule_checkCycle {
-
+    //BFS
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         if(prerequisites==null || prerequisites.length==0) return true;
         Map<Integer, List<Integer>> graph = new HashMap<>();
@@ -33,6 +33,44 @@ public class _207_CourseSchedule_checkCycle {
         }
         return count==n;
     }
+
+    /*
+     //DFS
+    int[] visited;
+    boolean valid = true;
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        if(prerequisites==null || prerequisites.length==0) return true;
+ 	    Map<Integer, List<Integer>> graph = new HashMap<>();
+        int n = numCourses;
+        visited = new int[n];
+        //Build Graph
+        for(int i=0; i<n; i++) graph.put(i, new ArrayList<>());
+        for(int[] p : prerequisites){
+            int start = p[1], end = p[0];
+            graph.get(start).add(end);
+        }
+        //DFS traverse
+        for(int i=0; i<n; i++){
+            if(visited[i] != 0) continue;
+            dfs(i, graph);
+        }
+        return valid;
+    }
+
+    private void dfs(int node, Map<Integer, List<Integer>> graph){
+         visited[node] = 1;
+         for(int nei : graph.get(node)){
+            //when neighb hasn't been visited
+            if(visited[nei]==0) dfs(nei, graph);
+            else if(visited[nei]==1){
+                //if the neighb has been visited
+                valid = false;
+            }
+         }
+        //set the curr node to other value to indicate the node have finished check
+         visited[node] = 2;
+    }
+     */
 
     //Backtracking
     //Time = O(V+E) , Space = O(V+E)

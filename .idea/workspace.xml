@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_785_IsGraphBipartite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_490_TheMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_505_TheMazeII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind_Note" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/_207_CourseSchedule_checkCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/_207_CourseSchedule_checkCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topological_Sort/_210_CourseScheduleII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topological_Sort/_210_CourseScheduleII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Easy/_1971_FindIfPathExistsGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Easy/_1971_FindIfPathExistsGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Graph_Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Graph_Note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Medium/_721_AccountsMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_721_AccountsMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Medium/_785_IsGraphBipartite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_785_IsGraphBipartite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/_207_CourseSchedule_checkCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_207_CourseSchedule_checkCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/_261_GraphValidTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_261_GraphValidTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/_323_NumberOfConnectedComponentsInAnUndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_323_NumberOfConnectedComponentsInAnUndirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/_574_NumberOfProvince.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_574_NumberOfProvince.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/_684_RedundantConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_684_RedundantConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/_886_PossibleBipartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_886_PossibleBipartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/_127_WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/_127_WordLadder.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -492,13 +504,8 @@
       <workItem from="1644515009693" duration="3852000" />
       <workItem from="1644601577134" duration="1992000" />
       <workItem from="1644646418923" duration="1906000" />
-    </task>
-    <task id="LOCAL-00140" summary="DFS + BFS">
-      <created>1640922155610</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1640922155610</updated>
+      <workItem from="1644650484947" duration="22000" />
+      <workItem from="1644692108965" duration="7981000" />
     </task>
     <task id="LOCAL-00141" summary="DFS + BFS">
       <created>1641010392123</created>
@@ -836,7 +843,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644621075824</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="Graph">
+      <created>1644650501159</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1644650501160</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -862,7 +876,6 @@
     <MESSAGE value="DFS + BFS" />
     <MESSAGE value="Backtrack" />
     <MESSAGE value="README.md update" />
-    <MESSAGE value="Graph" />
     <MESSAGE value="Tree" />
     <MESSAGE value="README.MD" />
     <MESSAGE value="Binary Search" />
@@ -882,7 +895,8 @@
     <MESSAGE value="Dynamic Programming - Buy and Sell Stocks" />
     <MESSAGE value="Array--Meeting Rooms Series" />
     <MESSAGE value="HashTable" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashTable" />
+    <MESSAGE value="Graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

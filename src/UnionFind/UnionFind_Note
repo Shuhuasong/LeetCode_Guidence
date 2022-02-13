@@ -1,0 +1,48 @@
+
+Basic Implementation
+
+function makeSet(x)
+         x.parent := x
+
+function Find(x)
+      if x.parent == x
+         return x
+      else
+         return Find(x.parent)
+
+function Union(x, y)
+       xRoot := Find(x)
+       yRoot := Find(y)
+       xRoot.parent := yRoot
+------------------------------------------
+//Disjoint Set Union
+//rank : represent the depth of tree. We usually combine the Union with
+  less rank into higher rank, so that the whole tree will have less depth
+//Time Complexity : iterative logarithm = O( Log*n)  grow every slowly
+class DSU {
+    int[] parent;
+    int[] rank;
+    public DSU(int N){
+      parent = new int[N];
+      rank = new int[N];
+      for(int i=0; i<N; i++) parent[i] = i;
+      Arrays.fill(rank, 1);
+    }
+    public int find(int x){
+      if(parent[x] != x)
+          parent[x] = find(parent[x]);
+      return parent[x];
+    }
+    public void union(int x, int y){
+       int rootX = find(x), rootY = find(y);
+       if(rootX == rootY) return;
+       if(rank[rootX] < rank[rootY]){
+         parent[rootX] = rootY;
+       }else if(rank[rootX] > rank[rootY]){
+         parent[rootY] = rootX;
+       }else{
+          parent[rootX] = rootY;
+          rank[rootY]++;
+       }
+    }
+}
