@@ -63,7 +63,12 @@
       #1272. [Remove Interval](./src/Array/Medium/_1272_RemoveInterval.java) <br /> 
       #435. [Non overlapping Intervals](./src/Array/Medium/_435_Non_overlapping_Intervals.java) <br /> 
       #1288. [Remove Covered Intervals](./src/Array/Medium/_1288_RemoveCoveredIntervals.java) <br /> 
-      #352. [Data Stream As Disjoint](./src/Array/Medium/_352_DataStreamAsDisjoint.java) <br /> 
+      #352. [Data Stream As Disjoint](./src/Array/Medium/_352_DataStreamAsDisjoint.java) <br />     
+   * Left/Right Pass
+     * Find Maximum in a window
+      #239. [Sliding Window Maximum](./src/Array/Medium/_239_SlidingWindowMaximum.java) <br />    
+     
+     
 
 >  - Two Pointer
 #15. [3 Sum](./src/Array/Medium/_15_3Sum.java) <br />
