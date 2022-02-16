@@ -169,6 +169,37 @@
 #### Hard
 #4. [Median Of Two Sorted Arrays](./src/BinarySearch/Hard/_4_MedianOfTwoSortedArrays.java) <br />
 
+
+## DFS_and_BFS
+  * BFS 
+    * Bidirection Breadth First Search
+     #127. [Word Ladder](./src/HashTable/Medium/_127_WordLadder.java) <br />
+  
+
+
+
+## Greedy
+  * Jump Game 
+    * Greedy + DP 
+    #55. [Jump Game](./src/DynamicProgramming/Medium/_55_JumpGame.java) <br />
+    * Greedy + DP
+    #45. [Jump Game II](./src/Greed/Medium/_45_JumpGame_II.java) <br />
+    * BFS
+    #1306. [JumpGame_III](./src/DFS_and_BFS/Medium/_1306_JumpGame_III.java) <br />
+    * Single direction BFS + Bi-Direction BFS
+    #1345. [Jump Game IV](./src/Graph/Hard/_1345_JumpGameIV.java) <br />
+    * DFS+Memoization
+    #1340. [Jumap Game V](./src/DynamicProgramming/Hard/_1340_JumapGameV.java) <br />
+    * Sliding Window + Heap, Monotonik Stack
+    #1696. [Jump Game VI](./src/DynamicProgramming/Hard/1696_JumpGameVI.java) <br />
+    * Sliding Window + Heap, Monotonik Stack
+    #1871. [Jump Game VII](./src/Stack.MonotonicStack/_1871_JumpGameVII.java) <br />
+    
+    
+   
+    
+    
+
 ## Trie
   * Standard Trie
     * Search Word

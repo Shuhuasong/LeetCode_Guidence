@@ -1,4 +1,4 @@
-package PreSum.Easy;
+package Prefix_Sum.Easy;
 
 /**
  * Created by Shuhua Song

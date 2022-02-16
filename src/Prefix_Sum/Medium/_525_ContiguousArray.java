@@ -1,4 +1,4 @@
-package PreSum.Medium;
+package Prefix_Sum.Medium;
 
 import java.util.HashMap;
 import java.util.Map;

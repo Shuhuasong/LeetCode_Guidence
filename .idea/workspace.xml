@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="Graph + BFS/DFS + Dijikstra + Topology Order">
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_1888_MinimumNumberOfFlipsToMakeTheBinaryStringAlternating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_2170_MinimumOperationToMakeTheArrayAlternating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_2171_RemoveMinimumNumberOfMagicBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Hard/_239_SlidingWindowMaximum.java" afterDir="false" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1306_JumpGame_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_909_SnakesAndLadders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_994_RottingOranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_1340_JumapGameV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_403_FrogJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Greedy_note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_370_RangeAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_598_RangeAdditionII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_1871_JumpGameVII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_739_DailyTemperatures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_78_Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_78_Subsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1306_JumpGameIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1306_JumpGameIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_994_RottingOrange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1696_JumpGameVI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1696_JumpGameVI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_55_JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_55_JumpGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Hard/_1345_JumpGameIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Hard/_1345_JumpGameIV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy/Medium/_45_JumpGame_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/Medium/_45_JumpGame_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy/_45_JumpGameII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/_45_JumpGameII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/_127_WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/Medium/_127_WordLadder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreSum/Easy/_643_MaximumAverageSubarrayI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/Easy/_643_MaximumAverageSubarrayI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreSum/Medium/_2121_IntervalsBetweenIdenticalElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_2121_IntervalsBetweenIdenticalElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreSum/Medium/_238_ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_238_ProductOfArrayExceptSelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreSum/Medium/_304_RangeSumQuery2D_Immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_304_RangeSumQuery2D_Immutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreSum/Medium/_525_ContiguousArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_525_ContiguousArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreSum/Medium/_560_SubarraySumEqualsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_560_SubarraySumEqualsK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreSum/_974_SubarraySumsDivisiablebyK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/_974_SubarraySumsDivisiablebyK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreSum/_RangeSumQuery2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/_RangeSumQuery2D.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -498,14 +519,9 @@
       <workItem from="1644650484947" duration="22000" />
       <workItem from="1644692108965" duration="8555000" />
       <workItem from="1644773119983" duration="537000" />
-      <workItem from="1644816120736" duration="1321000" />
-    </task>
-    <task id="LOCAL-00142" summary="Tree">
-      <created>1641081543425</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1641081543426</updated>
+      <workItem from="1644816120736" duration="1358000" />
+      <workItem from="1644866251363" duration="2195000" />
+      <workItem from="1644947135302" duration="8860000" />
     </task>
     <task id="LOCAL-00143" summary="Stack">
       <created>1641162936907</created>
@@ -843,7 +859,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644727467435</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="Monotonik Stack">
+      <created>1644818633574</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1644818633576</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -864,7 +887,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Heap" />
     <MESSAGE value="DFS + BFS" />
     <MESSAGE value="Backtrack" />
     <MESSAGE value="README.md update" />
@@ -889,7 +911,8 @@
     <MESSAGE value="HashTable" />
     <MESSAGE value="Graph" />
     <MESSAGE value="Graph + BFS/DFS + Dijikstra + Topology Order" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph + BFS/DFS + Dijikstra + Topology Order" />
+    <MESSAGE value="Monotonik Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Monotonik Stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

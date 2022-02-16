@@ -3,8 +3,10 @@ package DFS_and_BFS.Medium;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class _1306_JumpGameIII {
-
+/**
+ * Created by Shuhua Song
+ */
+public class _1306_JumpGame_III {
     //BFS. Time = O(n), Space = O(n)
     public boolean canReach(int[] arr, int start) {
         if(start<0 || start >= arr.length || arr[start] < 0) return false;

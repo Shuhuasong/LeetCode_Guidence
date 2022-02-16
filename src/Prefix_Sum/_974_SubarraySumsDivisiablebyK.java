@@ -1,4 +1,4 @@
-package PreSum;
+package Prefix_Sum;
 
 /**
  * Created by Shuhua Song

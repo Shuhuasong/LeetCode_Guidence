@@ -1,4 +1,4 @@
-package PreSum.Medium;
+package Prefix_Sum.Medium;
 
 /**
  * Created by Shuhua Song
