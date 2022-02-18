@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Heap/Hard/_1235_MaximumProfitInJobScheduling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/Hard/_759_EmployeeFreeTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_403_FrogJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_403_FrogJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_39_CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_39_CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeSignal/_AlmostIncreasingSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeSignal/_AlmostIncreasingSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1696_JumpGameVI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1696_JumpGameVI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_55_JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_55_JumpGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Medium/_24_SwapNodeinPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_24_SwapNodeinPairs.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -495,14 +501,11 @@
       <workItem from="1644773119983" duration="537000" />
       <workItem from="1644816120736" duration="1358000" />
       <workItem from="1644866251363" duration="2195000" />
-      <workItem from="1644947135302" duration="10096000" />
-    </task>
-    <task id="LOCAL-00144" summary="Stack">
-      <created>1641189059566</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1641189059566</updated>
+      <workItem from="1644947135302" duration="10292000" />
+      <workItem from="1644991600502" duration="14000" />
+      <workItem from="1645032695736" duration="6110000" />
+      <workItem from="1645137700850" duration="167000" />
+      <workItem from="1645138151551" duration="799000" />
     </task>
     <task id="LOCAL-00145" summary="Stack">
       <created>1641275276687</created>
@@ -840,7 +843,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644987203339</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="Greedy + DP + BFS + DFS + Monotonik Stack + Sliding Window">
+      <created>1644988952837</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1644988952837</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -893,7 +903,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/Medium/_24_SwapNodeinPairs.java</url>
-          <line>54</line>
+          <line>59</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

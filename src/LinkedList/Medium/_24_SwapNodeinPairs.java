@@ -11,20 +11,22 @@ public class _24_SwapNodeinPairs {
             val = x;
             next = null;
         }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
     // iterative
     public ListNode swapPairs(ListNode head) {
         if(head == null || head.next == null) return head;
-        ListNode dummy = new ListNode(-1);
-        dummy.next = head;
+        ListNode dummy = new ListNode(-1, head);
         ListNode prev = dummy;
         while(head != null && head.next != null){
+            //assign the node
             ListNode firstNode = head;
             ListNode secondNode = head.next;
+            //swap
             prev.next = secondNode;
             firstNode.next = secondNode.next;
             secondNode.next = firstNode;
-
+            //go to next pari
             prev = firstNode;
             head = firstNode.next;
         }
@@ -34,10 +36,13 @@ public class _24_SwapNodeinPairs {
     /* Recursive
     public ListNode swapPairs(ListNode head) {
         if(head == null || head.next == null) return head;
+        //Assign Nodes to be swapped
         ListNode firstNode = head;
         ListNode secondNode = head.next;
+        //Swapping
         firstNode.next = swapPairs(secondNode.next);
         secondNode.next = firstNode;
+        //Now the head is the second node
         return secondNode;
     } */
 }
@@ -82,4 +87,12 @@ Algorithm:
              prevNode = firstNode
              head = firstNode.next
 
+*/
+
+
+/*
+1) set a 'prevNode' pointer to connect first pair and second pair
+2) use 'head' to store remaining list before swap the current pair
+3) move prevNode to firstNode (in the second position), to prepare connect next pair
+4) assign to next pair firstNode = head, secondNode = head.next;
 */

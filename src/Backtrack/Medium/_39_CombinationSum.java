@@ -1,31 +1,33 @@
 package Backtrack.Medium;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class _39_CombinationSum {
-
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+    //Time Complexity = O(2^n)
+    //Time Complexity: linear to the number of nodes of execution of backtracking tree
+    //Time = O(n^(T/M)), n = nums.length, T = target, M = minimal val
+    //Time = O(n^(T/M))
+    Set<List<Integer>> listSet;
+    public List<List<Integer>> combinationSum(int[] nums, int target) {
+        listSet = new HashSet<>();
+        Arrays.sort(nums);
+        backtrack(nums, 0, new ArrayList<>(), target);
         List<List<Integer>> results = new ArrayList<>();
-        if(candidates==null || candidates.length==0) return results;
-        Arrays.sort(candidates);
-        backtrack(candidates, target, 0,  new ArrayList<Integer>(),  results);
+        for(List<Integer> list : listSet){
+            results.add(list);
+        }
         return results;
     }
 
-    private void backtrack(int[] nums,  int remain, int start, ArrayList<Integer> list,  List<List<Integer>> results){
-        if(remain==0){
-            results.add(new ArrayList<Integer>(list));
-            return;
-        }else if(remain < 0){
+    private void backtrack(int[] nums, int start, List<Integer> currList, int remain){
+        if(remain==0 && listSet.add(new ArrayList<>(currList))){
             return;
         }
-
         for(int i=start; i<nums.length; i++){
-            list.add(nums[i]);
-            backtrack(nums, remain-nums[i], i, list, results);
-            list.remove(list.size()-1);
+            if(remain-nums[i] < 0) break;
+            currList.add(nums[i]);
+            backtrack(nums, i, currList, remain-nums[i]);
+            currList.remove(currList.size()-1);
         }
     }
 }

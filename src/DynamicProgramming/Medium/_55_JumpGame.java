@@ -77,11 +77,11 @@ public class _55_JumpGame {
     Integer[] memo;
     public boolean canJump(int[] nums) {
         memo = new Integer[nums.length];
-        //Arrays.fill(memo, -1);
+       //Must set last position with 1, since the positon not jump
         memo[nums.length-1] = 1;
         return canReach(0, nums)==1;
     }
-
+    //0 ==> reachable, 1 ==> unReachable
     private int canReach(int pos, int[] nums){
         if(memo[pos] != null) return memo[pos];
         int farthest = Math.min(pos+nums[pos], nums.length-1);
