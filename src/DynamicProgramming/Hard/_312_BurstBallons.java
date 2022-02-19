@@ -104,6 +104,18 @@ function maxCoin(nums) {
     return dp(nums, empty_memo_dict)
 }
 
+e.g
+
+C[i][j] = maxCoins(nums[i] ~ nums[j])
+ans = C[1][n]
+C[i][j] = max{C[i][k-1] + nums[i-1]*nums[k]*nums[j+1] + C[k+1][j] } , i<= k <= j
+
+i-1| i | i+1| ... | k-1| k | k+1 | ... | j-1 | j | j+1
+   |___________________|   |_____________________|
+        C[i][k-1]             C[k+1][j]
+
+
+
 Handle the special cases (all numbers are the same) if you want.
 
 Add one balloon at the start of nums and one at the end to handle edge cases.

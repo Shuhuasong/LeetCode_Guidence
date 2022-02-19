@@ -3,6 +3,7 @@ package OnlineCodingChallege.Cisco;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by Shuhua Song
@@ -11,67 +12,75 @@ public class _212_WordSearchII {
 
     class TrieNode{
         TrieNode[] children = new TrieNode[26];
+        // boolean isWord = false;
         String word = null;
+        public TrieNode(){}
     }
 
-    char[][] board;
-    int rows, cols;
-    List<String> results;
-    private static final int[][] dirs = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-    public List<String> findWords(char[][] board, String[] words) {
-        this.board = board;
-        this.rows = board.length;
-        this.cols = board[0].length;
-        results = new ArrayList<>();
-        HashSet<String> dict = new HashSet<>();
-        for(String w : words){
-            dict.add(w);
-        }
+    TrieNode root = new TrieNode();
 
-        TrieNode root = buildTrie(words);
+    public void insertTree(String word){
+        TrieNode curr = root;
+        for(char c : word.toCharArray()){
+            if(curr.children[c-'a']==null){
+                curr.children[c-'a'] = new TrieNode();
+            }
+            curr = curr.children[c-'a'];
+        }
+        //curr.isWord = true;
+        curr.word = word;
+    }
+    public boolean searchWord(String word){
+        TrieNode curr = root;
+        for(char c : word.toCharArray()){
+            if(curr.children[c-'a']==null) return false;
+            curr = curr.children[c-'a'];
+        }
+        return true;
+    }
+    int rows, cols;
+    public List<String> findWords(char[][] board, String[] words) {
+        int maxLen = 0;
+        for(String word : words){
+            insertTree(word);
+        }
+        Set<String> resSet = new HashSet<>();
+        List<String> results = new ArrayList<>();
+        rows = board.length; cols = board[0].length;
+        int[][] dirs = {{0, 1}, {0, -1}, {1, 0}, {-1,0}};
+        boolean[][] visited = new boolean[rows][cols];
         for(int i=0; i<rows; i++){
             for(int j=0; j<cols; j++){
-                boolean[][] visited = new boolean[rows][cols];
-                backtrack(dict, i, j, visited, root);
+                if(root.children[board[i][j]-'a'] == null) continue;
+                //find the first character of word
+                //then use dfs to find whole word
+                dfs(board, i, j, visited, results);
             }
         }
+        //for(String w : resSet) results.add(w);
         return results;
     }
 
-    private void backtrack(HashSet<String> dict, int i, int j, boolean[][] visited, TrieNode root){
-        char currChar = board[i][j];
-        if(root.children[currChar-'a'] != null){
-            visited[i][j] = true;
-            root = root.children[currChar-'a'];
-            if(root.word != null){
-                results.add(root.word);
-                dict.remove(root.word);
-                root.word = null;
-            }
-            for(int[] dir : dirs){
-                int x = i + dir[0];
-                int y = j + dir[1];
-                if(x < 0 || x >= rows || y < 0 || y >= cols || visited[x][y]) continue;
-                backtrack(dict, x, y, visited, root);
-            }
-            visited[i][j] = false;
+    private void dfs(char[][] board, int r, int c, boolean[][] visited, List<String> res){
+        //Base case
+        if(r<0 || r>=rows || c<0 || c>=cols || visited[r][c] || root.children[board[r][c]-'a']==null) return;
+        //mark
+        visited[r][c] = true;
+        TrieNode temp = root;
+        root = root.children[board[r][c]-'a'];
+        if(root.word!=null){
+            res.add(root.word);
+            // root.isWord = false;
+            root.word = null;
         }
-    }
-
-    private TrieNode buildTrie(String[] words){
-        TrieNode root = new TrieNode();
-        for(String word : words){
-            TrieNode node = root;
-            for(int i=0; i<word.length(); i++){
-                char c = word.charAt(i);
-                if(node.children[c-'a']==null){
-                    node.children[c-'a'] = new TrieNode();
-                }
-                node = node.children[c-'a'];
-            }
-            node.word = word;
-        }
-        return root;
+        //four direction traverse
+        dfs(board, r+1, c, visited, res);
+        dfs(board, r-1, c, visited, res);
+        dfs(board, r, c+1, visited, res);
+        dfs(board, r, c-1, visited, res);
+        //backtrack
+        visited[r][c] = false;
+        root = temp;
     }
 
     /*
