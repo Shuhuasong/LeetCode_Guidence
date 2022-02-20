@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1152_AnalyzeUserWebsiteVisitPatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_402_Remove_K_Digits_IIIIIIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/Hard/_1675_MinimizeDeviationInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/Medium/_2182_ConstructStringWithRepeatLimit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_312_BurstBallons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_312_BurstBallons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_212_WordSearchII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Cisco/_212_WordSearchII.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -504,13 +502,8 @@
       <workItem from="1645137700850" duration="167000" />
       <workItem from="1645138151551" duration="2330000" />
       <workItem from="1645208138929" duration="2778000" />
-    </task>
-    <task id="LOCAL-00146" summary="Backtrack">
-      <created>1641351005199</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1641351005200</updated>
+      <workItem from="1645248538950" duration="29000" />
+      <workItem from="1645294156528" duration="1289000" />
     </task>
     <task id="LOCAL-00147" summary="README.md update">
       <created>1641415265039</created>
@@ -848,7 +841,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645149318934</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="HashMap+Sort">
+      <created>1645248565372</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1645248565373</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -869,7 +869,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="README.md update" />
     <MESSAGE value="Tree" />
     <MESSAGE value="README.MD" />
     <MESSAGE value="Binary Search" />
@@ -894,7 +893,8 @@
     <MESSAGE value="Monotonik Stack" />
     <MESSAGE value="Greedy + DP + BFS + DFS + Monotonik Stack + Sliding Window" />
     <MESSAGE value="Heap + Sort + DP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heap + Sort + DP" />
+    <MESSAGE value="HashMap+Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashMap+Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
