@@ -27,4 +27,32 @@ public class _1275_FindWinnerOnATicTacToeGame {
         }
         return moves.length==n*n ? "Draw" : "Pending";
     }
+
+    /*
+     public String tictactoe(int[][] moves) {
+        int[] rowA = new int[3], rowB = new int[3];
+        int[] colA = new int[3], colB = new int[3];
+        int diagA = 0, diagB = 0, antiDirA = 0, antiDirB = 0;
+        for(int i=0; i<moves.length; i++){
+            int[] m = moves[i];
+            //A term
+            if(i%2==0){
+                rowA[m[0]]++;
+                colA[m[1]]++;
+                if(m[0]==m[1]) diagA++;
+                if(m[0]+m[1]==2) antiDirA++;
+                if(rowA[m[0]]==3 || colA[m[1]]==3 || diagA==3 || antiDirA==3) return "A";
+            }else{
+            //B term
+                rowB[m[0]]++;
+                colB[m[1]]++;
+                if(m[0]+m[1]==2) antiDirB += 1;
+                if(m[0]==m[1]) diagB++;
+                if(rowB[m[0]]==3 || colB[m[1]]==3 || diagB==3 || antiDirB==3) return "B";
+            }
+        }
+         if(moves.length < 9) return "Pending";
+        return "Draw";
+    }
+     */
 }

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_582_KillProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/Medium/_348_Design_Tic_Tac_Toe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1567_MaximumLengthOfSubarrayWithPositiveProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Hard/_1648_SellDiminishing_ValuedColoredBalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_1481_LeastNumberOfUniqueIntegersAfterKRemovals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_926_FlipStringToMonotoneIncreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_1732_LongestZigZagPathInABinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Easy/_1275_FindWinnerOnATicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Easy/_1275_FindWinnerOnATicTacToeGame.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -502,20 +512,8 @@
       <workItem from="1645294156528" duration="1326000" />
       <workItem from="1645378551447" duration="6000" />
       <workItem from="1645414275593" duration="876000" />
-    </task>
-    <task id="LOCAL-00149" summary="DP">
-      <created>1641536406071</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1641536406072</updated>
-    </task>
-    <task id="LOCAL-00150" summary="Graph">
-      <created>1641597141544</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1641597141545</updated>
+      <workItem from="1645505488430" duration="886000" />
+      <workItem from="1645550404677" duration="3844000" />
     </task>
     <task id="LOCAL-00151" summary="HashTable">
       <created>1641686550209</created>
@@ -846,7 +844,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645419798464</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="BFS+Sorting">
+      <created>1645505502396</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1645505502401</updated>
+    </task>
+    <task id="LOCAL-00199" summary="BFS+Sorting">
+      <created>1645505616785</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1645505616785</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
