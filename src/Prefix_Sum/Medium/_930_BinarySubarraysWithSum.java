@@ -7,6 +7,7 @@ import java.util.Map;
  * Created by Shuhua Song
  */
 public class _930_BinarySubarraysWithSum {
+    //key:preSum, value: the occurence of the preSum
     public int numSubarraysWithSum(int[] nums, int goal) {
         Map<Integer, Integer> map = new HashMap<>();
         int preSum = 0, res = 0;

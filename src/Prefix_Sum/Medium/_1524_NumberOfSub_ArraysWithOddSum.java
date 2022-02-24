@@ -4,6 +4,27 @@ package Prefix_Sum.Medium;
  * Created by Shuhua Song
  */
 public class _1524_NumberOfSub_ArraysWithOddSum {
+
+    //Time = o(n), Space = O(1)
+    //Note: odd-even = odd(15-4=11), even-odd=odd(14-7=7)
+    public int numOfSubarrays(int[] arr) {
+        int n = arr.length, preSum = 0;
+        int even = 1, odd = 0;//track the number of even or odd preSum
+        int res = 0, MOD = (int)1e9+7;
+        for(int i=0; i<n; i++){
+            preSum += arr[i];
+            if(preSum%2==0){
+                even++;
+                res = (res+odd)%MOD;
+            }else{
+                odd++;
+                res = (res+even)%MOD;
+            }
+        }
+        return res;
+    }
+
+    /*
     public int numOfSubarrays(int[] arr) {
         int n = arr.length;
         int res = 0, MOD = (int)1e9+7;
@@ -27,7 +48,7 @@ public class _1524_NumberOfSub_ArraysWithOddSum {
             }
         }
         return res;
-    }
+    }*/
 }
 
 /*

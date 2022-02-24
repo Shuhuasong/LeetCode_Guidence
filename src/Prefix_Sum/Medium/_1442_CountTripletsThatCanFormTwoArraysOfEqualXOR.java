@@ -10,7 +10,9 @@ public class _1442_CountTripletsThatCanFormTwoArraysOfEqualXOR {
 
     public int countTriplets(int[] arr) {
         int n = arr.length, res = 0;
+        //key: preSum, value : occurence
         Map<Integer, Integer> count = new HashMap<>();
+        //key: preSum, previous preSum's relative index for count the number of elem in between when there is nex same preSum
         Map<Integer, Integer> sumToPos = new HashMap<>();
         count.put(0, 1); sumToPos.put(0, -1);
         int sum = 0;

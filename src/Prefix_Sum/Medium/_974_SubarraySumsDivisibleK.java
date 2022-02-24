@@ -8,8 +8,10 @@ import java.util.Map;
  */
 public class _974_SubarraySumsDivisibleK {
     public int subarraysDivByK(int[] nums, int k) {
+        //if sum[i:j] can be divisible by k, then preSum[i-1]and
+        //preSum[j] must have the same reminder
         Map<Integer, Integer> map = new HashMap<>();
-        map.put(0, 1);
+        map.put(0, 1); //remember store an init state
         int preSum = 0, res = 0;
         for(int num : nums){
             preSum += num;

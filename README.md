@@ -187,7 +187,11 @@
       #1442. [Count Triplets That Can Form Two Arrays Of Equal XOR](./src/Prefix_Sum/Medium/_1442_CountTripletsThatCanFormTwoArraysOfEqualXOR.java) <br /> 
       #974. [Subarray Sums Divisible K](./src/Prefix_Sum/Medium/_974_SubarraySumsDivisibleK.java) <br /> 
       #1590. [Make Sum Divisible By P](./src/Prefix_Sum/Medium/_1590_MakeSumDivisibleByP.java) <br /> 
-      
+      #1658. [Minimum Operations To Reduce X to Zero](./src/Prefix_Sum/Medium/_1658_MinimumOperationsToReduceXtoZero.java) <br /> 
+      #1371. [Find The Longest Substring Containing Vowels In Even Counts](./src/Prefix_Sum/Medium/_1371_FindTheLongestSubstringContainingVowelsInEvenCounts.java) <br /> 
+      #1983. [Widest Pair Indices With Equal Range Sum](./src/Prefix_Sum/Medium/_1983_WidestPairIndicesWithEqualRangeSum.java) <br /> 
+     
+
 
 ## Greedy
   * Jump Game 
