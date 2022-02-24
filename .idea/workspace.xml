@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1442_CountTripletsThatCanFormTwoArraysOfEqualXOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1524_NumberOfSub_ArraysWithOddSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1915_NumberOfWonderfulSubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_930_BinarySubarraysWithSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1590_MakeSumDivisibleByP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_974_SubarraySumsDivisibleK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Medium/_133_CloneGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_133_CloneGraph.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -512,14 +509,7 @@
       <workItem from="1645414275593" duration="876000" />
       <workItem from="1645505488430" duration="886000" />
       <workItem from="1645550404677" duration="3865000" />
-      <workItem from="1645642679073" duration="3228000" />
-    </task>
-    <task id="LOCAL-00152" summary="HashTable">
-      <created>1641766623625</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1641766623627</updated>
+      <workItem from="1645642679073" duration="4061000" />
     </task>
     <task id="LOCAL-00153" summary="HashTable">
       <created>1641878557938</created>
@@ -857,7 +847,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645582410522</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="HashMap + Prefix Sum">
+      <created>1645678631298</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1645678631299</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -878,8 +875,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Binary Search" />
-    <MESSAGE value="Dynamic Programming" />
     <MESSAGE value="Greedy" />
     <MESSAGE value="Design" />
     <MESSAGE value="two pointer" />
@@ -903,7 +898,9 @@
     <MESSAGE value="HashMap+Sort" />
     <MESSAGE value="Heap" />
     <MESSAGE value="BFS+Sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="BFS+Sorting" />
+    <MESSAGE value="HashMap + PreSum" />
+    <MESSAGE value="HashMap + Prefix Sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashMap + Prefix Sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

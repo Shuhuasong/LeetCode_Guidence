@@ -182,14 +182,12 @@
       * HashMap + prefix
       #1915. [Number Of Wonderful Substrings](./src/Prefix_Sum/Medium/_1915_NumberOfWonderfulSubstrings.java) <br />    
       #525. [Contiguous Array](./src/Prefix_Sum/Medium/_525_ContiguousArray.java) <br /> 
+      #1524. [Number Of Sub_Array sWith Odd Sum](./src/Prefix_Sum/Medium/_1524_NumberOfSub_ArraysWithOddSum.java) <br /> 
+      #930. [Binary Subarrays With Sum](./src/Prefix_Sum/Medium/_930_BinarySubarraysWithSum.java) <br /> 
+      #1442. [Count Triplets That Can Form Two Arrays Of Equal XOR](./src/Prefix_Sum/Medium/_1442_CountTripletsThatCanFormTwoArraysOfEqualXOR.java) <br /> 
+      #974. [Subarray Sums Divisible K](./src/Prefix_Sum/Medium/_974_SubarraySumsDivisibleK.java) <br /> 
+      #1590. [Make Sum Divisible By P](./src/Prefix_Sum/Medium/_1590_MakeSumDivisibleByP.java) <br /> 
       
-      _1524_NumberOfSub_ArraysWithOddSum
-      _930_BinarySubarraysWithSum
-      _1442_CountTripletsThatCanFormTwoArraysOfEqualXOR   
-      _1915_NumberOfWonderfulSubstrings
-      
-
-
 
 ## Greedy
   * Jump Game 
@@ -208,10 +206,7 @@
     * Sliding Window + Heap, Monotonik Stack
     #1871. [Jump Game VII](./src/Stack.MonotonicStack/_1871_JumpGameVII.java) <br />
     
-    
-   
-    
-    
+  
 
 ## Trie
   * Standard Trie
