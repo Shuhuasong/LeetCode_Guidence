@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_148_SortList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1371_FindTheLongestSubstringContainingVowelsInEvenCounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1658_MinimumOperationsToReduceXtoZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1983_WidestPairIndicesWithEqualRangeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1442_CountTripletsThatCanFormTwoArraysOfEqualXOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1442_CountTripletsThatCanFormTwoArraysOfEqualXOR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1524_NumberOfSub_ArraysWithOddSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1524_NumberOfSub_ArraysWithOddSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_930_BinarySubarraysWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_930_BinarySubarraysWithSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_974_SubarraySumsDivisibleK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_974_SubarraySumsDivisibleK.java" afterDir="false" />
-    </list>
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -516,14 +506,7 @@
       <workItem from="1645550404677" duration="3865000" />
       <workItem from="1645642679073" duration="4206000" />
       <workItem from="1645686917571" duration="9000" />
-      <workItem from="1645720092479" duration="3284000" />
-    </task>
-    <task id="LOCAL-00154" summary="Tree">
-      <created>1641925388791</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1641925388792</updated>
+      <workItem from="1645720092479" duration="3533000" />
     </task>
     <task id="LOCAL-00155" summary="README.MD">
       <created>1642015867080</created>
@@ -861,7 +844,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645686869766</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="HashMap + Prefix Sum">
+      <created>1645736932486</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1645736932487</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
