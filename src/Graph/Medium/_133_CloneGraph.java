@@ -23,7 +23,50 @@ public class _133_CloneGraph {
             neighbors = _neighbors;
         }
     }
+    //BFS  //Time = (N+M), N = # of nodes, M = # of edges
+    public Node cloneGraph(Node node) {
+        if(node==null) return node;
+        Map<Node, Node> copyNodes = new HashMap<>();
+        Queue<Node> q = new LinkedList<>();
+        q.offer(node);
+        copyNodes.put(node, new Node(node.val, new ArrayList<>()));
+        while(!q.isEmpty()){
+            Node  curr = q.poll();
+            for(Node oldNei : curr.neighbors){
+                if(!copyNodes.containsKey(oldNei)){
+                    copyNodes.put(oldNei, new Node(oldNei.val, new ArrayList<>()));
+                    q.offer(oldNei);
+                }
+                copyNodes.get(curr).neighbors.add(copyNodes.get(oldNei));
+            }
+        }
+        return copyNodes.get(node);
+    }
 
+    /*
+     //DFS: Time = (N+M), N = # of nodes, M = # of edges
+    public Node cloneGraph(Node node) {
+        if(node==null) return node;
+        Map<Node, Node> copyNodes = new HashMap<>();
+        Set<Node> visited = new HashSet<>();
+        dfs(node, copyNodes, visited);
+        return copyNodes.get(node);
+    }
+    private void dfs(Node node, Map<Node, Node> copyNodes, Set<Node> visited){
+        if(visited.contains(node)) return;
+        visited.add(node);
+        copyNodes.put(node, new Node(node.val, new ArrayList<>()));
+        for(Node oldNei : node.neighbors){
+            if(!visited.contains(oldNei)){
+                copyNodes.put(oldNei, new Node(oldNei.val, new ArrayList<>()));
+                dfs(oldNei, copyNodes, visited);
+            }
+            copyNodes.get(node).neighbors.add(copyNodes.get(oldNei));
+        }
+    }
+     */
+
+    /*
     public Node cloneGraph(Node node) {
         if(node==null) return null;
         List<Node> list = collectAllNodes(node);
@@ -68,4 +111,6 @@ public class _133_CloneGraph {
             }
         }
     }
+
+     */
 }

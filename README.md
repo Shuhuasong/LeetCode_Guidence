@@ -174,7 +174,20 @@
   * BFS 
     * Bidirection Breadth First Search
      #127. [Word Ladder](./src/HashTable/Medium/_127_WordLadder.java) <br />
-  
+     
+     
+     
+## Prefix
+   * Medium
+      * HashMap + prefix
+      #1915. [Number Of Wonderful Substrings](./src/Prefix_Sum/Medium/_1915_NumberOfWonderfulSubstrings.java) <br />    
+      #525. [Contiguous Array](./src/Prefix_Sum/Medium/_525_ContiguousArray.java) <br /> 
+      
+      _1524_NumberOfSub_ArraysWithOddSum
+      _930_BinarySubarraysWithSum
+      _1442_CountTripletsThatCanFormTwoArraysOfEqualXOR   
+      _1915_NumberOfWonderfulSubstrings
+      
 
 
 

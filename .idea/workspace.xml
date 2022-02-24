@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_582_KillProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design/Medium/_348_Design_Tic_Tac_Toe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1567_MaximumLengthOfSubarrayWithPositiveProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Hard/_1648_SellDiminishing_ValuedColoredBalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_1481_LeastNumberOfUniqueIntegersAfterKRemovals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_926_FlipStringToMonotoneIncreasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_1732_LongestZigZagPathInABinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1442_CountTripletsThatCanFormTwoArraysOfEqualXOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1524_NumberOfSub_ArraysWithOddSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1915_NumberOfWonderfulSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_930_BinarySubarraysWithSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Easy/_1275_FindWinnerOnATicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Easy/_1275_FindWinnerOnATicTacToeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Medium/_133_CloneGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_133_CloneGraph.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -513,14 +511,8 @@
       <workItem from="1645378551447" duration="6000" />
       <workItem from="1645414275593" duration="876000" />
       <workItem from="1645505488430" duration="886000" />
-      <workItem from="1645550404677" duration="3844000" />
-    </task>
-    <task id="LOCAL-00151" summary="HashTable">
-      <created>1641686550209</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1641686550210</updated>
+      <workItem from="1645550404677" duration="3865000" />
+      <workItem from="1645642679073" duration="3228000" />
     </task>
     <task id="LOCAL-00152" summary="HashTable">
       <created>1641766623625</created>
@@ -858,7 +850,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645505616785</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="BFS+Sorting">
+      <created>1645582410521</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1645582410522</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
