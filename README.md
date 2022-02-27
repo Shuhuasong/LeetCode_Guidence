@@ -66,8 +66,9 @@
       #352. [Data Stream As Disjoint](./src/Array/Medium/_352_DataStreamAsDisjoint.java) <br />     
    * Left/Right Pass
      * Find Maximum in a window
-      #239. [Sliding Window Maximum](./src/Array/Medium/_239_SlidingWindowMaximum.java) <br />    
-     
+      #239. [Sliding Window Maximum](./src/Array/Medium/_239_SlidingWindowMaximum.java) <br /> 
+      #828. [Count Unique Characters Of All Substrings Of a Given String](./src/DynamicProgramming/Hard/_828_CountUniqueCharactersOfAllSubstringsOfaGivenString.java) <br />  
+      #42. [TrappingRainWater](./src/DynamicProgramming/Hard/_42_TrappingRainWater.java) <br />  
      
 
 >  - Two Pointer
@@ -245,6 +246,9 @@
     * Graph coloring
          #785. [Is Graph Bipartite](./src/Graph/Medium/_785_IsGraphBipartite.java) <br /> 
          #885. [Possible Bipartition](./src/Graph/Medium/_886_PossibleBipartition.java) <br /> 
+    * Repeatly visit node
+        #847. [Shortest Path Visiting All Nodes](./src/Graph/Medium/_847_ShortestPathVisitingAllNodes.java) <br /> 
+    
           
   * Topological sort
        #207. [Course Schedule](./src/Topological_Sort/_207_CourseSchedule.java) <br /> 

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_2187_MinimumTimeToCompleteTrips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_662_MaximumWidthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_863_AllNodesDistanceKinBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_42_TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_828_CountUniqueCharactersOfAllSubstringsOfaGivenString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Hard/_847_ShortestPathVisitingAllNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_165_CompareVersionNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -506,14 +516,9 @@
       <workItem from="1645550404677" duration="3865000" />
       <workItem from="1645642679073" duration="4206000" />
       <workItem from="1645686917571" duration="9000" />
-      <workItem from="1645720092479" duration="3533000" />
-    </task>
-    <task id="LOCAL-00155" summary="README.MD">
-      <created>1642015867080</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1642015867081</updated>
+      <workItem from="1645720092479" duration="3548000" />
+      <workItem from="1645805225136" duration="757000" />
+      <workItem from="1645905020403" duration="2307000" />
     </task>
     <task id="LOCAL-00156" summary="README.MD">
       <created>1642015972358</created>
@@ -851,7 +856,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645736932487</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="HashMap + Prefix Sum">
+      <created>1645736966868</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1645736966868</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
