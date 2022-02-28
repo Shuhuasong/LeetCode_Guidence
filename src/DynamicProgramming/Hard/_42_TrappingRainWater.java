@@ -53,3 +53,23 @@ public class _42_TrappingRainWater {
     }
      */
 }
+
+/*
+Solution-1: Brute force==>TLE
+iterate the array, and find leftMax and rightMax for each position.
+but this will take O(n^2)
+
+Solution-1: Dynamic Programming
+1) find the maximum height of bar from left_end(0) upto current index i
+2) find the maximum height of bar from right_end(n-1) upto index i
+3) iterate over the height array and update res:
+    res += min(leftMax[i], rightMax[i]) - height[i]
+
+e.g.
+heights = {0,1,0,2,1,0,1,3,2,1,2,1}
+left    = {0 1 1 2 2 2 2 3 3 3 3 3}
+right   = {3 3 3 3 3 3 3 3 2 2 2 1 } ==> Math.min(left[i], right[i]) - height[i]
+water.  = {0 0 1 0 1 2 1 0 0 1 0 0 }
+
+
+ */

@@ -33,6 +33,7 @@ public class _828_CountUniqueCharactersOfAllSubstringsOfaGivenString {
             int rightBound = rightPos[i]==-1 ? n-1 : rightPos[i]-1;
             //i-leftBound+1 : look at explain <1>
             //rightBound-i+1: look at explain <2>
+            //res += leftDistance * rightDistance
             res += (i-leftBound+1) * (rightBound-i+1);
         }
         return res;

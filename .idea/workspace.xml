@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_2187_MinimumTimeToCompleteTrips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_662_MaximumWidthOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_863_AllNodesDistanceKinBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_42_TrappingRainWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_828_CountUniqueCharactersOfAllSubstringsOfaGivenString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Hard/_847_ShortestPathVisitingAllNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_165_CompareVersionNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Easy/_228_SummaryRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode(New)/Graph/Graph_Note" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode(New)/Graph/Graph_Note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_42_TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_42_TrappingRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_828_CountUniqueCharactersOfAllSubstringsOfaGivenString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_828_CountUniqueCharactersOfAllSubstringsOfaGivenString.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,23 +89,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._692_TopKFrequentWords">
+  <component name="RunManager" selected="Application._MinimumDeleteInBinaryString">
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Test" />
-      <module name="LeetCode(New)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_FindSmallestSubstringofSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Tiktok._FindSmallestSubstringofSizeK" />
+    <configuration name="_MinimumDeleteInBinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Synopsys._MinimumDeleteInBinaryString" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.Tiktok.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.Synopsys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,21 +149,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Medium.test" />
+      <module name="LeetCode(New)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application._FindSmallestSubstringofSizeK" />
       <item itemvalue="Application._SortRomanName" />
       <item itemvalue="Application._220_ContainsDuplicateIII_bucketSort" />
       <item itemvalue="Application._692_TopKFrequentWords" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application._MinimumDeleteInBinaryString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._MinimumDeleteInBinaryString" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application._692_TopKFrequentWords" />
         <item itemvalue="Application._220_ContainsDuplicateIII_bucketSort" />
         <item itemvalue="Application._SortRomanName" />
-        <item itemvalue="Application._FindSmallestSubstringofSizeK" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -518,14 +516,8 @@
       <workItem from="1645686917571" duration="9000" />
       <workItem from="1645720092479" duration="3548000" />
       <workItem from="1645805225136" duration="757000" />
-      <workItem from="1645905020403" duration="2307000" />
-    </task>
-    <task id="LOCAL-00156" summary="README.MD">
-      <created>1642015972358</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1642015972358</updated>
+      <workItem from="1645905020403" duration="2375000" />
+      <workItem from="1645984338922" duration="5261000" />
     </task>
     <task id="LOCAL-00157" summary="README.MD">
       <created>1642016089577</created>
@@ -863,7 +855,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645736966868</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="Tree">
+      <created>1645940031439</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1645940031440</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -884,7 +883,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Greedy" />
     <MESSAGE value="Design" />
     <MESSAGE value="two pointer" />
     <MESSAGE value="Stack" />
@@ -909,7 +907,8 @@
     <MESSAGE value="BFS+Sorting" />
     <MESSAGE value="HashMap + PreSum" />
     <MESSAGE value="HashMap + Prefix Sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashMap + Prefix Sum" />
+    <MESSAGE value="Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
