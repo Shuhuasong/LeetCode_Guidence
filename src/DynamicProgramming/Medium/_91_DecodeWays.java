@@ -8,6 +8,8 @@ public class _91_DecodeWays {
         int n = s.length();
         //dp[i] : store the number of decode ways for substring of s from index 0 to index i-1
         int[] dp = new int[n+1];
+        //show nothing to deconde is one way
+        //Initialize dp array. dp[0] = 1 to provide the baton to be passed.
         dp[0] = 1;
         //ways to decode a string of size 1 is 1. '0' doesn't have a single digit secode
         dp[1] = s.charAt(0)=='0' ? 0 : 1;
