@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_1109_CorporateFlightBookings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_1339_MaximumProductOfSplitedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bitwise/Easy/_338_CountingBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_413_ArithmeticSlices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Easy/_392_IsSubSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_91_DecodeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_91_DecodeWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_238_ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_238_ProductOfArrayExceptSelf.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._MinimumDeleteInBinaryString">
+  <component name="RunManager" selected="Application._numOfWaysOnly1and0">
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
@@ -94,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_220_ContainsDuplicateIII_bucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindow.Medium._220_ContainsDuplicateIII_bucketSort" />
+    <configuration name="MergePackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022.MergePackage" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RollingHash.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.Amazon.Spring2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_692_TopKFrequentWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTable.Medium._692_TopKFrequentWords" />
+    <configuration name="_LogInformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022._LogInformation" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashTable.Medium.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.Amazon.Spring2022.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_MinimumClick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022._MinimumClick" />
+      <module name="LeetCode(New)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OnlineCodingChallege.Amazon.Spring2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,25 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_SortRomanName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Tiktok._SortRomanName" />
+    <configuration name="_numOfWaysOnly1and0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022._numOfWaysOnly1and0" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.Tiktok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Medium.test" />
-      <module name="LeetCode(New)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.Medium.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.Amazon.Spring2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,19 +163,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application._SortRomanName" />
-      <item itemvalue="Application._220_ContainsDuplicateIII_bucketSort" />
-      <item itemvalue="Application._692_TopKFrequentWords" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Application._MinimumDeleteInBinaryString" />
+      <item itemvalue="Application.MergePackage" />
+      <item itemvalue="Application._MinimumClick" />
+      <item itemvalue="Application._LogInformation" />
+      <item itemvalue="Application._numOfWaysOnly1and0" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._numOfWaysOnly1and0" />
+        <item itemvalue="Application._LogInformation" />
+        <item itemvalue="Application._MinimumClick" />
+        <item itemvalue="Application.MergePackage" />
         <item itemvalue="Application._MinimumDeleteInBinaryString" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application._692_TopKFrequentWords" />
-        <item itemvalue="Application._220_ContainsDuplicateIII_bucketSort" />
-        <item itemvalue="Application._SortRomanName" />
       </list>
     </recent_temporary>
   </component>
@@ -519,13 +521,9 @@
       <workItem from="1646164170174" duration="264000" />
       <workItem from="1646170083787" duration="54000" />
       <workItem from="1646196389681" duration="1697000" />
-    </task>
-    <task id="LOCAL-00160" summary="Binary Search">
-      <created>1642230221338</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1642230221341</updated>
+      <workItem from="1646202649984" duration="30000" />
+      <workItem from="1646243515674" duration="7087000" />
+      <workItem from="1646333817967" duration="1588000" />
     </task>
     <task id="LOCAL-00161" summary="Dynamic Programming">
       <created>1642310815156</created>
@@ -863,7 +861,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646196399535</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="Prefix Sum">
+      <created>1646202666526</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1646202666526</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -884,7 +889,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Stack" />
     <MESSAGE value="DP" />
     <MESSAGE value="Trie" />
     <MESSAGE value="Sliding Window" />
@@ -909,7 +913,8 @@
     <MESSAGE value="Tree" />
     <MESSAGE value="Array" />
     <MESSAGE value="Binary Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search" />
+    <MESSAGE value="Prefix Sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prefix Sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

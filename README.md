@@ -287,7 +287,11 @@
         #309. [Best Time To Buy And Sell Stock With CoolDown](./src/DynamicProgramming/Medium/_309_BestTimeToBuyAndSellStockWithCoolDown.java) <br />
         #123. [Best Time To Buy And Sell Stock III](./src/DynamicProgramming/Medium/_123_BestTimeToBuyAndSellStockIII.java) <br />
         #188. [Best Time To Buy And Sell Stock IV](./src/DynamicProgramming/Medium/_188_BestTimeToBuyAndSellStockIV.java) <br />
-                              
+  * Interval-DP
+      *  DP - State Machine     
+       #413. [Arithmetic Slices](./src/DynamicProgramming/Medium/_413_ArithmeticSlices.java) <br />
+      
+                           
                                      
                
                                
