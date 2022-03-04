@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bitwise/Easy/_338_CountingBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_413_ArithmeticSlices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Easy/_392_IsSubSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_238_ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_238_ProductOfArrayExceptSelf.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._numOfWaysOnly1and0">
+  <component name="RunManager" selected="Application._minimumNumberToDeliverBox">
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
@@ -96,8 +91,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergePackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022.MergePackage" />
+    <configuration name="MinDiffNetStockPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022.MinDiffNetStockPrice" />
+      <module name="LeetCode(New)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OnlineCodingChallege.Amazon.Spring2022.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingWordAddMInChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022.ShoppingWordAddMInChar" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
@@ -122,25 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_MinimumClick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022._MinimumClick" />
+    <configuration name="_minimumNumberToDeliverBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022._minimumNumberToDeliverBox" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OnlineCodingChallege.Amazon.Spring2022.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_MinimumDeleteInBinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Synopsys._MinimumDeleteInBinaryString" />
-      <module name="LeetCode(New)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.Synopsys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,19 +158,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application._MinimumDeleteInBinaryString" />
-      <item itemvalue="Application.MergePackage" />
-      <item itemvalue="Application._MinimumClick" />
       <item itemvalue="Application._LogInformation" />
       <item itemvalue="Application._numOfWaysOnly1and0" />
+      <item itemvalue="Application.MinDiffNetStockPrice" />
+      <item itemvalue="Application.ShoppingWordAddMInChar" />
+      <item itemvalue="Application._minimumNumberToDeliverBox" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._minimumNumberToDeliverBox" />
+        <item itemvalue="Application.ShoppingWordAddMInChar" />
+        <item itemvalue="Application.MinDiffNetStockPrice" />
         <item itemvalue="Application._numOfWaysOnly1and0" />
         <item itemvalue="Application._LogInformation" />
-        <item itemvalue="Application._MinimumClick" />
-        <item itemvalue="Application.MergePackage" />
-        <item itemvalue="Application._MinimumDeleteInBinaryString" />
       </list>
     </recent_temporary>
   </component>
@@ -523,14 +518,7 @@
       <workItem from="1646196389681" duration="1697000" />
       <workItem from="1646202649984" duration="30000" />
       <workItem from="1646243515674" duration="7087000" />
-      <workItem from="1646333817967" duration="1588000" />
-    </task>
-    <task id="LOCAL-00161" summary="Dynamic Programming">
-      <created>1642310815156</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1642310815157</updated>
+      <workItem from="1646333817967" duration="10566000" />
     </task>
     <task id="LOCAL-00162" summary="Greedy">
       <created>1642370906691</created>
@@ -868,7 +856,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646202666526</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="Prefix Sum">
+      <created>1646338943936</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1646338943937</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
