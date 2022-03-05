@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_740_DeleteAndEarn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_799_ChampagneToweer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_1856_MaximumSubarrayMin_Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_907_SumOfSubarryMinimum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/_496_NextGreaterElementI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_496_NextGreaterElementI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/_503_NextGreaterElementII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_503_NextGreaterElementII.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -518,14 +525,9 @@
       <workItem from="1646196389681" duration="1697000" />
       <workItem from="1646202649984" duration="30000" />
       <workItem from="1646243515674" duration="7087000" />
-      <workItem from="1646333817967" duration="10566000" />
-    </task>
-    <task id="LOCAL-00162" summary="Greedy">
-      <created>1642370906691</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1642370906692</updated>
+      <workItem from="1646333817967" duration="11782000" />
+      <workItem from="1646409609865" duration="423000" />
+      <workItem from="1646450992154" duration="2391000" />
     </task>
     <task id="LOCAL-00163" summary="Greedy">
       <created>1642482451128</created>
@@ -863,7 +865,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646338943937</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="Prefix Sum">
+      <created>1646368626990</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1646368626991</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

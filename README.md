@@ -211,7 +211,19 @@
     * Sliding Window + Heap, Monotonik Stack
     #1871. [Jump Game VII](./src/Stack.MonotonicStack/_1871_JumpGameVII.java) <br />
     
-  
+    
+ ## Stack
+   * Monotonic Stack
+     * Medium
+         #1856. [Maximum Subarray Min_Product](./src/Stack.MonotonicStack/_1856_MaximumSubarrayMin_Product.java) <br />
+         #907. [Sum Of Subarry Minimum](./src/Stack.MonotonicStack/_907_SumOfSubarryMinimum.java) <br />
+         #402. [Remove_K_Digits](./src/Stack.MonotonicStack/_402_Remove_K_Digits_IIIIIIII.java) <br />
+         #496. [Next Greater Element I](./src/Stack.MonotonicStack/_496_NextGreaterElementI.java) <br />
+         #503. [Next Greater Element II](./src/Stack.MonotonicStack/_503_NextGreaterElementII.java) <br />
+         #739. [Daily Temperatures](./src/Stack.MonotonicStack/_739_DailyTemperatures.java) <br />
+         #1475. [Final Prices With A Special Discount In A Shop](./src/Stack.MonotonicStack/_1475_FinalPricesWithASpecialDiscountInAShop.java) <br />
+         #1762. [Buildings With An Ocean View](./src/Stack.MonotonicStack/_1762_BuildingsWithAnOceanView.java) <br />
+         #1871. [Jump Game VII](./src/Stack.MonotonicStack/_1871_JumpGameVII.java) <br />
 
 ## Trie
   * Standard Trie
