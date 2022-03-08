@@ -18,6 +18,14 @@ public class _Efficient_Harvest_ {
             preSum[i+1] = preSum[i] + profit[i];
             preSum[i+n+2] = preSum[i+n+1] + profit[i];
         }
+        for(int ep : extendProf){
+            System.out.print(ep + " ");
+        }
+        System.out.println();
+        for(int ps : preSum){
+            System.out.print(ps + " ");
+        }
+        System.out.println();
         int idx = 0, currSum = 0, res = 0;
         while(idx <= n){
             currSum = (preSum[idx+k] - preSum[idx]) + (preSum[idx+k+pivot] - preSum[idx+pivot]);

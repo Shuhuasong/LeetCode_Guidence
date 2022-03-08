@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_740_DeleteAndEarn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_799_ChampagneToweer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_1856_MaximumSubarrayMin_Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_907_SumOfSubarryMinimum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_1359_CountAllValidPickupAndDeliveryOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_2192_AllAncestorsOfANodeInADirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_2191_SortTheJumbledNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Medium/_315__315_CountOfSmallerNumberAfterSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_2104_SumOfSubarrayRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Hard/_2193_MinimumNumberOfMovesToMakePalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_556_NextGreaterElement_III.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/_496_NextGreaterElementI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_496_NextGreaterElementI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/_503_NextGreaterElementII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_503_NextGreaterElementII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_Efficient_Harvest_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_Efficient_Harvest_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1043_PartitionArrayForMaximu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1043_PartitionArrayForMaximu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1799_MaximumScoreAfterNOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1799_MaximumScoreAfterNOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_937_ReOrderDataInLogFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_937_ReOrderDataInLogFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_ChooseAFlask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_ChooseAFlask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_CutOffRank_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_CutOffRank_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_DemolitionRobot_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_DemolitionRobot_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_EarliestTimeToCompleteDelivery_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_EarliestTimeToCompleteDelivery_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindHighestProfit_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindHighestProfit_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_OptimalUtilization_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_OptimalUtilization_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_WinningSequence_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_WinningSequence_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/MonotonicStack/_503_NextGreaterElementII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_503_NextGreaterElementII.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +84,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -90,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._minimumNumberToDeliverBox">
+  <component name="RunManager" selected="Application._1043_PartitionArrayForMaximu">
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
@@ -98,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinDiffNetStockPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022.MinDiffNetStockPrice" />
+    <configuration name="MaximumValueOfAllPossibleSubarrayofSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022.MaximumValueOfAllPossibleSubarrayofSizeK" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingWordAddMInChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022.ShoppingWordAddMInChar" />
+    <configuration name="MinLengthWithSumGreaterThanK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022.MinLengthWithSumGreaterThanK" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
@@ -124,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_LogInformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022._LogInformation" />
+    <configuration name="_1043_PartitionArrayForMaximu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon._1043_PartitionArrayForMaximu" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.Amazon.Spring2022.*" />
+          <option name="PATTERN" value="OnlineCodingChallege.Amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_minimumNumberToDeliverBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022._minimumNumberToDeliverBox" />
+    <configuration name="_Efficient_Harvest_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Golden_Sach_21FallOA._Efficient_Harvest_" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.Amazon.Spring2022.*" />
+          <option name="PATTERN" value="Golden_Sach_21FallOA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,8 +164,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_numOfWaysOnly1and0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022._numOfWaysOnly1and0" />
+    <configuration name="_TreasureIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022._TreasureIsland" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
@@ -165,19 +179,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application._LogInformation" />
-      <item itemvalue="Application._numOfWaysOnly1and0" />
-      <item itemvalue="Application.MinDiffNetStockPrice" />
-      <item itemvalue="Application.ShoppingWordAddMInChar" />
-      <item itemvalue="Application._minimumNumberToDeliverBox" />
+      <item itemvalue="Application._TreasureIsland" />
+      <item itemvalue="Application._Efficient_Harvest_" />
+      <item itemvalue="Application.MinLengthWithSumGreaterThanK" />
+      <item itemvalue="Application.MaximumValueOfAllPossibleSubarrayofSizeK" />
+      <item itemvalue="Application._1043_PartitionArrayForMaximu" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._minimumNumberToDeliverBox" />
-        <item itemvalue="Application.ShoppingWordAddMInChar" />
-        <item itemvalue="Application.MinDiffNetStockPrice" />
-        <item itemvalue="Application._numOfWaysOnly1and0" />
-        <item itemvalue="Application._LogInformation" />
+        <item itemvalue="Application._1043_PartitionArrayForMaximu" />
+        <item itemvalue="Application.MaximumValueOfAllPossibleSubarrayofSizeK" />
+        <item itemvalue="Application.MinLengthWithSumGreaterThanK" />
+        <item itemvalue="Application._Efficient_Harvest_" />
+        <item itemvalue="Application._TreasureIsland" />
       </list>
     </recent_temporary>
   </component>
@@ -527,14 +541,11 @@
       <workItem from="1646243515674" duration="7087000" />
       <workItem from="1646333817967" duration="11782000" />
       <workItem from="1646409609865" duration="423000" />
-      <workItem from="1646450992154" duration="2391000" />
-    </task>
-    <task id="LOCAL-00163" summary="Greedy">
-      <created>1642482451128</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1642482451129</updated>
+      <workItem from="1646450992154" duration="2418000" />
+      <workItem from="1646497637339" duration="12304000" />
+      <workItem from="1646588365920" duration="710000" />
+      <workItem from="1646622870448" duration="938000" />
+      <workItem from="1646659762231" duration="11709000" />
     </task>
     <task id="LOCAL-00164" summary="Greedy">
       <created>1642571801824</created>
@@ -872,7 +883,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646368626991</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="Monotonic Stack">
+      <created>1646462889502</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1646462889503</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -893,7 +911,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DP" />
     <MESSAGE value="Trie" />
     <MESSAGE value="Sliding Window" />
     <MESSAGE value="Binary Tree" />
@@ -918,7 +935,8 @@
     <MESSAGE value="Array" />
     <MESSAGE value="Binary Search" />
     <MESSAGE value="Prefix Sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prefix Sum" />
+    <MESSAGE value="Monotonic Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Monotonic Stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

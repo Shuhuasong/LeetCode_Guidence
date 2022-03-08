@@ -33,13 +33,14 @@ public class _937_ReOrderDataInLogFiles {
                     //log1==letter log, log2 = digit log
                     if (!isDigit1 && isDigit2) {
                         //the letter-log comes before digit-log
+                        //we want to order in this way: log1 log2
                         //want to make log1 as s2, so s1 < s2==-1
                         return -1;
                     } else if (isDigit1 && !isDigit2) {
                         //log1 = digit, log2 = letter
                         //if we want to order in this way : log2 log1
                         //we want to push log1 in the bottom
-                        //we consider log1 > log2, so ==>return 1, elem1 > element 1
+                        //we consider log2 > log1, so ==>return 1, elem1 > element 1
                         return 1;
                     } else {
                         //case3 : both logs are digit-log

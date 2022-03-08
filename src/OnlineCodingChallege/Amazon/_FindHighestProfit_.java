@@ -4,6 +4,8 @@ import CodeSignal._getLengthOfRibbons;
 
 import java.util.PriorityQueue;
 /*
+the same with ：LC _1648_Sell Diminishing_Valued Colored Balls
+
 Amazon Online Assessment (OA) - Find The Highest Profit
 An e-commerce company imports a type of fitness band from China and sell them in US for a higher price for a profit.
 The company has multiple suppliers for the product, each with their own inventory. The suppliers raise the price of
