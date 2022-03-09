@@ -1,18 +1,10 @@
 package LinkedList.Medium;
-
+import LinkedList.ListNode;
 /**
  * Created by Shuhua Song
  */
 public class _148_SortList {
 
-        class ListNode {
-            int val;
-            ListNode next;
-            ListNode(int x) {
-                val = x;
-                next = null;
-            }
-        }
 
         public ListNode sortList(ListNode head) {
             if(head==null || head.next==null) return head;

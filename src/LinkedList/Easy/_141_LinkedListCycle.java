@@ -1,18 +1,10 @@
 package LinkedList.Easy;
-
+import LinkedList.ListNode;
 /**
  * Created by Shuhua Song
  */
 public class _141_LinkedListCycle {
 
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
     public boolean hasCycle(ListNode head) {
         if(head==null) return false;
         ListNode slow = head, fast = head.next;

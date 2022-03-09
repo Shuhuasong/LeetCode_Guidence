@@ -1,19 +1,9 @@
 package LinkedList;
-
+import LinkedList.ListNode;
 /**
  * Created by Shuhua Song
  */
 public class _25_ReverseNodesInKGroup {
-
-    class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
 
     //recursive
     //Time = O(n), Space = O(n/k), for the recursion stack

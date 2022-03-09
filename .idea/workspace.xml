@@ -2,27 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_1359_CountAllValidPickupAndDeliveryOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_2192_AllAncestorsOfANodeInADirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_2191_SortTheJumbledNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/Medium/_315__315_CountOfSmallerNumberAfterSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_2104_SumOfSubarrayRanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Hard/_2193_MinimumNumberOfMovesToMakePalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_556_NextGreaterElement_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_206_ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_21_MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_237_DeleteNodeInALinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_328_OddEvenLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_445_AddTwoNumber_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_82_RemoveDuplicatesFromSortedListII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_535_ContinuousSubarraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_Efficient_Harvest_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Golden_Sach_21FallOA/_Efficient_Harvest_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1043_PartitionArrayForMaximu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1043_PartitionArrayForMaximu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1799_MaximumScoreAfterNOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_1799_MaximumScoreAfterNOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_937_ReOrderDataInLogFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_937_ReOrderDataInLogFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_ChooseAFlask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_ChooseAFlask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_CutOffRank_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_CutOffRank_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_DemolitionRobot_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_DemolitionRobot_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_EarliestTimeToCompleteDelivery_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_EarliestTimeToCompleteDelivery_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindHighestProfit_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_FindHighestProfit_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_OptimalUtilization_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_OptimalUtilization_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_WinningSequence_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCodingChallege/Amazon/_WinningSequence_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/MonotonicStack/_503_NextGreaterElementII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_503_NextGreaterElementII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Easy/_141_LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_141_LinkedListCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Easy/_160_IntersectionOfTwoLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_160_IntersectionOfTwoLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Easy/_234_PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_234_PalindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList-overview" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList-overview" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Medium/_143_ReorderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_143_ReorderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Medium/_148_SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_148_SortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Medium/_24_SwapNodeinPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_24_SwapNodeinPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Medium/_92_ReverseLinkedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_92_ReverseLinkedListII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/_142_LinkedListCycleII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/_142_LinkedListCycleII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/_19_RmeoveNthNodeFromEndOdList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/_19_RmeoveNthNodeFromEndOdList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/_206_ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/_206_ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/_25_ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/_25_ReverseNodesInKGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/_61_RotateList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_61_RotateList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/Medium/_1130_MinimumCostTreeFromLeafValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Medium/_1130_MinimumCostTreeFromLeafValues.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -545,14 +548,10 @@
       <workItem from="1646497637339" duration="12304000" />
       <workItem from="1646588365920" duration="710000" />
       <workItem from="1646622870448" duration="938000" />
-      <workItem from="1646659762231" duration="11709000" />
-    </task>
-    <task id="LOCAL-00164" summary="Greedy">
-      <created>1642571801824</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1642571801825</updated>
+      <workItem from="1646659762231" duration="12478000" />
+      <workItem from="1646754189937" duration="228000" />
+      <workItem from="1646798383138" duration="1448000" />
+      <workItem from="1646844030381" duration="6909000" />
     </task>
     <task id="LOCAL-00165" summary="Design">
       <created>1642655609879</created>
@@ -890,7 +889,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646462889503</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="Monotonic Stack">
+      <created>1646716483836</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1646716483838</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -943,7 +949,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/Medium/_24_SwapNodeinPairs.java</url>
-          <line>59</line>
+          <line>51</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

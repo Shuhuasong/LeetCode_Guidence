@@ -130,6 +130,15 @@ public class _1130_MinimumCostTreeFromLeafValues {
     */
 
 /*
+
+/*
+e.g
+arr =  [1, 15, 7, 9, 2, 5,  10]
+prevGreat: max  max 15  15  9  9   15
+nextGreat: 15   max  9  10  5  10  max
+res = 1 * 15 + 7 * 9 + 9 * 10 + 2 * 5 + 5 * 9 + 10 * 15
+
+
 intuition:
 The problem can be translate as following:
 Given an array A, choose two neighbors in the array a and b,

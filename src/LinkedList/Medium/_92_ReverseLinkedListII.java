@@ -1,15 +1,6 @@
 package LinkedList.Medium;
-
+import LinkedList.ListNode;
 public class _92_ReverseLinkedListII {
-
-    class ListNode {
-        int val;
-       ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 
     public ListNode reverseBetween(ListNode head, int left, int right) {
         if(head==null) return null;

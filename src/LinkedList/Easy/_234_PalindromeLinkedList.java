@@ -1,17 +1,10 @@
 package LinkedList.Easy;
-
+import LinkedList.ListNode;
 /**
  * Created by Shuhua Song
  */
 public class _234_PalindromeLinkedList {
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
+
 
     public boolean isPalindrome(ListNode head) {
         if(head==null) return false;

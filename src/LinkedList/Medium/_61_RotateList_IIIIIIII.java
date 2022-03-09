@@ -1,6 +1,8 @@
-package LinkedList;
+package LinkedList.Medium;
+import LinkedList.ListNode;
+public class _61_RotateList_IIIIIIII {
 
-public class _61_RotateList {
+
 
     //Time: O(n) Space = O(1)
     public ListNode rotateRight(ListNode head, int k) {
@@ -25,3 +27,14 @@ public class _61_RotateList {
         return new_head;
     }
 }
+
+/*
+Algorithm
+
+1) Find the old tail and connect it with the head old_tail.next = head to close the ring. Compute the length of the list n at the same time.
+
+2) Find the new tail, which is (n - k % n - 1)th node from the head and the new head, which is (n - k % n)th node.
+
+3) Break the ring new_tail.next = None and return new_head.
+*/
+

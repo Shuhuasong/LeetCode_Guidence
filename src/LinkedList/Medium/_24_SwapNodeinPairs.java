@@ -1,18 +1,10 @@
 package LinkedList.Medium;
-
+import LinkedList.ListNode;
 
 
 public class _24_SwapNodeinPairs {
 
-    class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
+
     // iterative
     public ListNode swapPairs(ListNode head) {
         if(head == null || head.next == null) return head;

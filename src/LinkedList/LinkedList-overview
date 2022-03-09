@@ -18,9 +18,9 @@
            ListNode prev = null;
            ListNode cur = head, temp = head;
            while(cur != null){
-               temp = cur.next;
-               cur.next = prev;
-               prev = cur;
+               temp = cur.next; //store
+               cur.next = prev; //revert pointer
+               prev = cur;      // move forward
                cur =  temp;
            }
            return prev;
@@ -58,15 +58,46 @@
                }
 
 
-5- Check if there is a Cycle in two list:
+5- Check if there is a Cycle in the list:
    Tips: if there is a cycle, the slow and fast pointer will encounter eventually
    public boolean hasCycle(ListNode head) {
            if(head==null) return false;
            ListNode slow = head, fast = head.next;
-           while(slow != fast){
-               if(fast==null || fast.next==null) return false;
+           while(fast==null || fast.next==null){
                slow = slow.next;
                fast = fast.next.next;
+               if(slow==fast) return true;
            }
-           return true;
+           return false;
        }
+
+6- Recursion VS Iteration
+   Recursion:
+   public int getLength(head){
+      if(head==null) return 0;
+      return getLength(head.next) + 1;
+   }
+
+   Iteration:
+   public int getLenth(head){
+     int len = 0;
+     while(head!=null){
+         len += 1;
+         head = head.next;
+     }
+     return len;
+   }
+
+
+
+7- LinkedList Common Technique
+   Easily build a linked list
+   Understand most common variants
+      cons:
+         We also don't like to store large amounts of information in linked lists because for every value you store you pay an extra storage penalty of Node object that decorates the item you want to store.
+   Feel comfortable with recursion
+   Two pointer technique
+   Dummy head technique
+   Comfort with pointer bookkeeping
+   Framework for approaching Linked List problems
+

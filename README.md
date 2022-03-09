@@ -226,6 +226,9 @@
          #1762. [Buildings With An Ocean View](./src/Stack.MonotonicStack/_1762_BuildingsWithAnOceanView.java) <br />
          #1871. [Jump Game VII](./src/Stack.MonotonicStack/_1871_JumpGameVII.java) <br />
          #2104. [Sum Of Subarray Ranges](./src/Stack.MonotonicStack/_2104_SumOfSubarrayRanges.java) <br/>
+         #1130. [Minimum Cost Tree From Leaf Values](./src/Stack.MonotonicStack/_1130_MinimumCostTreeFromLeafValues.java) <br/>
+         
+        
         
          
 
