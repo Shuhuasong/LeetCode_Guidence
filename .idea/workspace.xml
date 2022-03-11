@@ -2,30 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_206_ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_21_MergeTwoSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_237_DeleteNodeInALinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_328_OddEvenLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_445_AddTwoNumber_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_82_RemoveDuplicatesFromSortedListII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_535_ContinuousSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/Easy/_1603_DesignParkingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_2021_BrightestPositionOnStreet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Simulation/_1041_RobotBoundedInCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/BST/Medium/_669_TrimAbinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_1963_MinimumNumberOfSwapsToMakeStringBalanced.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Easy/_141_LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_141_LinkedListCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Easy/_160_IntersectionOfTwoLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_160_IntersectionOfTwoLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Easy/_234_PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Easy/_234_PalindromeLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList-overview" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList-overview" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Medium/_143_ReorderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_143_ReorderList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Medium/_148_SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_148_SortList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Medium/_24_SwapNodeinPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_24_SwapNodeinPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Medium/_92_ReverseLinkedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_92_ReverseLinkedListII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/_142_LinkedListCycleII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/_142_LinkedListCycleII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/_19_RmeoveNthNodeFromEndOdList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/_19_RmeoveNthNodeFromEndOdList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/_206_ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/_206_ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/_25_ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/_25_ReverseNodesInKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/_61_RotateList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Medium/_61_RotateList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/Medium/_1130_MinimumCostTreeFromLeafValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Medium/_1130_MinimumCostTreeFromLeafValues.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -551,14 +535,8 @@
       <workItem from="1646659762231" duration="12478000" />
       <workItem from="1646754189937" duration="228000" />
       <workItem from="1646798383138" duration="1448000" />
-      <workItem from="1646844030381" duration="6909000" />
-    </task>
-    <task id="LOCAL-00165" summary="Design">
-      <created>1642655609879</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1642655609880</updated>
+      <workItem from="1646844030381" duration="7262000" />
+      <workItem from="1646925994760" duration="5096000" />
     </task>
     <task id="LOCAL-00166" summary="Design">
       <created>1642737562567</created>
@@ -896,7 +874,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646716483838</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="LinkedList">
+      <created>1646857790624</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1646857790625</updated>
+    </task>
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -917,7 +902,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Trie" />
     <MESSAGE value="Sliding Window" />
     <MESSAGE value="Binary Tree" />
     <MESSAGE value="Bit Manipulation" />
@@ -942,7 +926,8 @@
     <MESSAGE value="Binary Search" />
     <MESSAGE value="Prefix Sum" />
     <MESSAGE value="Monotonic Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Monotonic Stack" />
+    <MESSAGE value="LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
