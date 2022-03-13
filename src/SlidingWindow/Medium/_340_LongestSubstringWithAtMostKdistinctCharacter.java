@@ -9,30 +9,24 @@ import java.util.Map;
 public class _340_LongestSubstringWithAtMostKdistinctCharacter {
 
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
-        int n = s.length();
         Map<Character, Integer> map = new HashMap<>();
-        int l = 0, maxLen = 0;
-        String res = "";
-        for(int r=0; r<n; r++){
-            char c = s.charAt(r);
-            map.put(c, map.getOrDefault(c, 0)+1);
-            //Once find the size of map is greater than k==> update the result
-            //when map.size()==k, it may have another same char in the next char
-            //So we need to update the result when map.size() > k
+        int maxLen = 0, left = 0;
+        for(int i=0; i<s.length(); i++){
+            char c = s.charAt(i);
+            map.put(c, map.getOrDefault(c, 0) +1);
             while(map.size() > k){
-                if(r-l > maxLen){
-                    maxLen = r-l;
-                }
-                char leftC = s.charAt(l);
-                l++;
+                //Once find the size of map is greater than k
+                //we narrow the window
+                char leftC = s.charAt(left);
                 map.put(leftC, map.get(leftC)-1);
                 if(map.get(leftC)==0) map.remove(leftC);
+                left++;
             }
+            //after while loop, it means map.size<=k, so we can update the result
+            maxLen = Math.max(maxLen, i-left+1);
         }
-        maxLen = Math.max(maxLen, n-l);
         return maxLen;
     }
-
 
     /* Option
     //Rabin-Karp

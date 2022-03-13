@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Design/Easy/_1603_DesignParkingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_2021_BrightestPositionOnStreet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Simulation/_1041_RobotBoundedInCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/BST/Medium/_669_TrimAbinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_1963_MinimumNumberOfSwapsToMakeStringBalanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch_note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Easy/_278_FirstBadVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1552_MagneticForceBetweenTwoBalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_209_MinimumSizeSubarraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode(New)/LinkedList/LinkedList-overview" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode(New)/LinkedList/LinkedList-overview" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Hard/_410_SplitArrayLargestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Hard/_410_SplitArrayLargestSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_300_LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_300_LongestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/Medium/_340_LongestSubstringWithAtMostKdistinctCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_340_LongestSubstringWithAtMostKdistinctCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Medium/_16_3SumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_16_3SumClosest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -536,14 +538,8 @@
       <workItem from="1646754189937" duration="228000" />
       <workItem from="1646798383138" duration="1448000" />
       <workItem from="1646844030381" duration="7262000" />
-      <workItem from="1646925994760" duration="5096000" />
-    </task>
-    <task id="LOCAL-00166" summary="Design">
-      <created>1642737562567</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1642737562568</updated>
+      <workItem from="1646925994760" duration="5332000" />
+      <workItem from="1647106992129" duration="7089000" />
     </task>
     <task id="LOCAL-00167" summary="two pointer">
       <created>1642745712504</created>
@@ -881,7 +877,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646857790625</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="LinkedList">
+      <created>1646973103023</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1646973103024</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

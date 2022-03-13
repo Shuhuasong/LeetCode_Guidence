@@ -47,6 +47,8 @@ public class _410_SplitArrayLargestSum {
         return numM;
     }
 
+
+
     /*
      //Brute Force
     //Time = O(n^m), split n elements into m parts,
@@ -139,7 +141,7 @@ public class _410_SplitArrayLargestSum {
         for(int i=start; i<nums.length-1; i++){
             int currTotal = preSum[i+1]-preSum[start];
             int rightIntervalMax = dfs(nums, i+1, m-1);
-            minSum = Math.min(maxSum, Math.max(currTotal, rightIntervalMax));
+            minSum = Math.min(minSum, Math.max(currTotal, rightIntervalMax));
         }
         memo[start][m] = minSum;
         return minSum;
@@ -174,6 +176,44 @@ for example:
        18                           24
  map(dp[7, 2, 5), 1) = 14    max(dp[7,2,5,10], 1) = 24
  sum([10, 8])) = 18          sum([8]) = 8
+ */
+
+
+
+/*
+ public int splitArray(int[] nums, int m) {
+        int left = Integer.MIN_VALUE, right = 0;
+        for(int num : nums){
+            right += num;
+            left = Math.max(left, num);
+        }
+       // int res = Integer.MAX_VALUE;
+        while(left <= right){
+            int mid = left + (right-left)/2;
+            boolean goodSub = getNumSubarray(nums, mid, m);
+            if(goodSub){
+                //res = mid;
+                right = mid - 1;
+            }else{
+                left = mid + 1;
+            }
+        }
+        return left;
+    }
+
+    private boolean getNumSubarray(int[] nums, int subSum, int m){
+        //initialize count as 1
+        int count = 1, sum = 0;
+        for(int num : nums){
+            sum += num;
+            if(sum > subSum){
+                sum = num;
+                count++;//we need cut at current position if sum > subSum
+                if(count > m) return false;
+            }
+        }
+        return true;
+    }
  */
 
 }

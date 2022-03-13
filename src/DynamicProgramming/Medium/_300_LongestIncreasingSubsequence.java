@@ -1,23 +1,26 @@
 package DynamicProgramming.Medium;
 
+import java.util.Arrays;
+
 public class _300_LongestIncreasingSubsequence {
 
-    //Time = O(m * n) Space = O(m*n)
-    public int findLength(int[] A, int[] B) {
-        if(A.length==0 || B.length==0) return 0;
-        int m = A.length, n = B.length;
-        int[][] dp = new int[m+1][n+1];
-        int res = 0;
-        for(int i=0; i<m; i++){
-            for(int j=0; j<n; j++){
-                if(A[i]==B[j]){
-                    dp[i+1][j+1] = dp[i][j] + 1;
-                    res = Math.max(res, dp[i+1][j+1]);
+    //Time = o(n)
+    public int lengthOfLIS(int[] nums) {
+        int n = nums.length;
+        int[] dp = new int[n];
+        Arrays.fill(dp, 1);
+        int res = 1;
+        for(int i=1; i<n; i++){
+            for(int j=0; j<=i; j++){
+                if(nums[j] < nums[i]){
+                    dp[i] = Math.max(dp[i], dp[j]+1);
+                    res = Math.max(res, dp[i]);
                 }
             }
         }
         return res;
     }
+
 
     /*
       //Time = O(n*log n) Space = O(n)
@@ -32,6 +35,8 @@ public class _300_LongestIncreasingSubsequence {
             if(nums[i] > num){
                 list.add(nums[i]);
             }else{
+              //append a smaller number, so that the list can have higher
+                //possibility to append more number
                 int index = binarySearch(list, nums[i]);
                 list.set(index, nums[i]);
                 System.out.println(index + " " + nums[i]);
@@ -56,4 +61,39 @@ public class _300_LongestIncreasingSubsequence {
         return left;
     }
     */
+
+
+
+    //Time = O(m * n) Space = O(m*n)
+ /*   public int findLength(int[] A, int[] B) {
+        if(A.length==0 || B.length==0) return 0;
+        int m = A.length, n = B.length;
+        int[][] dp = new int[m+1][n+1];
+        int res = 0;
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
+                if(A[i]==B[j]){
+                    dp[i+1][j+1] = dp[i][j] + 1;
+                    res = Math.max(res, dp[i+1][j+1]);
+                }
+            }
+        }
+        return res;
+    } */
+
+
+ /*
+exemple:
+nums = {5, 1, 2, 7, 6, 3, 2, 10}
+// 5
+//    1
+//    1, 2
+//    1, 2, 7
+//    1, 2,   6
+//    1, 2,     3
+//    1, 2,     3
+//    1, 2,     3, 10
+*/
+
+
 }
