@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch_note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Easy/_278_FirstBadVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1552_MagneticForceBetweenTwoBalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_209_MinimumSizeSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Hard/_76_MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Hard/_992_SubarrayWithKdifferentIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_159_LongestSubstringWithAtMostTwoDistinctCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_3_LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_424_LongestRepeatingCharacterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Sliding_winow_note" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode(New)/LinkedList/LinkedList-overview" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode(New)/LinkedList/LinkedList-overview" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Hard/_410_SplitArrayLargestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Hard/_410_SplitArrayLargestSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_300_LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_300_LongestIncreasingSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/Medium/_340_LongestSubstringWithAtMostKdistinctCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_340_LongestSubstringWithAtMostKdistinctCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Medium/_16_3SumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_16_3SumClosest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Kadane's algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Kadane's algorithm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Easy/_53_MaximumSubarrray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Easy/_53_MaximumSubarrray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/Medium/_395_LongestSubstringWithAtLeastKrepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_395_LongestSubstringWithAtLeastKrepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/Medium/_71_SimplifyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Medium/_71_SimplifyPath.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -539,14 +540,8 @@
       <workItem from="1646798383138" duration="1448000" />
       <workItem from="1646844030381" duration="7262000" />
       <workItem from="1646925994760" duration="5332000" />
-      <workItem from="1647106992129" duration="7089000" />
-    </task>
-    <task id="LOCAL-00167" summary="two pointer">
-      <created>1642745712504</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1642745712505</updated>
+      <workItem from="1647106992129" duration="7115000" />
+      <workItem from="1647271527292" duration="8558000" />
     </task>
     <task id="LOCAL-00168" summary="Stack">
       <created>1642807966912</created>
@@ -884,7 +879,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646973103024</updated>
     </task>
-    <option name="localTasksCounter" value="216" />
+    <task id="LOCAL-00216" summary="Two Pointer">
+      <created>1647146420014</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1647146420015</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -905,7 +907,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sliding Window" />
     <MESSAGE value="Binary Tree" />
     <MESSAGE value="Bit Manipulation" />
     <MESSAGE value="Queue" />
@@ -930,7 +931,8 @@
     <MESSAGE value="Prefix Sum" />
     <MESSAGE value="Monotonic Stack" />
     <MESSAGE value="LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList" />
+    <MESSAGE value="Two Pointer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two Pointer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

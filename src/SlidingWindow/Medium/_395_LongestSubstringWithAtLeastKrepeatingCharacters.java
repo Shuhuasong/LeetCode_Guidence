@@ -7,9 +7,37 @@ import java.util.*;
  */
 public class _395_LongestSubstringWithAtLeastKrepeatingCharacters {
 
+    //Note: all the character into the window must at least k
+    //Time = O(26*N)
+    public int longestSubstring(String s, int k) {
+        if(s==null || s.length()==0) return 0;
+        int res = 0;
+        for(int uniq=1; uniq<=26; uniq++){
+            Map<Character, Integer> map = new HashMap<>();
+            int left = 0, count = 0;
+            for(int i=0; i<s.length(); i++){
+                char curr = s.charAt(i);
+                map.put(curr, map.getOrDefault(curr, 0)+1);
+                if(map.get(curr)==k) count++;
+                while(map.size() > uniq){
+                    char c = s.charAt(left);
+                    if(map.getOrDefault(c, 0)==k) count--;
+                    map.put(c,map.getOrDefault(c, 0)-1);
+                    if(map.get(c)==0) map.remove(c);
+                    left++;
+                }
+                //all the character in the map has at least k occurence
+                int validCount = map.size();
+                if(validCount==uniq && validCount==count)
+                    res = Math.max(res, i-left+1);
+            }
+        }
+        return res;
+    }
+
     //Sliding Window
     //Time = O(n), Space= O(n)
-    public int longestSubstring(String s, int k) {
+ /*   public int longestSubstring(String s, int k) {
         if(s==null || s.length() < k) return 0;
         int n = s.length(), maxLen = 0;
         // totalUnique = numUniqueChar(s);
@@ -46,6 +74,8 @@ public class _395_LongestSubstringWithAtLeastKrepeatingCharacters {
         }
         return true;
     }
+
+  */
 
     /*
      //Brute Force--check each substring has each char's freq = k
