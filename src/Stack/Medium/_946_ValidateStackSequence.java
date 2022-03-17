@@ -23,4 +23,31 @@ public class _946_ValidateStackSequence {
         }
         return j==popped.length;
     }
+
+    /*
+     public boolean validateStackSequences(int[] pushed, int[] popped) {
+        Stack<Integer> stack = new Stack<>();
+        int n1 = pushed.length, n2 = popped.length;
+        int i = 0, j = 0;
+        while(i<n1 && j<n2){
+            if(pushed[i] == popped[j]){
+                i++;
+                j++;
+            }else if(!stack.isEmpty() && pushed[stack.peek()] == popped[j]){
+                stack.pop();
+                j++;
+            }
+            else{
+                stack.push(i);
+                i++;
+            }
+        }
+        while(!stack.isEmpty() && j < n2){
+            if(pushed[stack.peek()] != popped[j]) return false;
+            stack.pop();
+            j++;
+        }
+        return stack.isEmpty();
+    }
+     */
 }

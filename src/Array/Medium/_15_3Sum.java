@@ -7,36 +7,31 @@ public class _15_3Sum {
     //Idea: used the for loop to fix the first number, then used left pointer to fix
     //      the second number, and use right pointer to find the appropriate third number
     //      use set to check the duplicate element
+    List<List<Integer>> results;
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
-        if(nums==null || nums.length==0) return result;
-        Set<List<Integer>> set = new HashSet<>();
+        results = new ArrayList<>();
+        if(nums==null || nums.length < 3) return new ArrayList<>();
         Arrays.sort(nums);
-        int n = nums.length, l = 0, r = 0;
+        int n = nums.length;
         for(int i=0; i<n-2; i++){
-            l = i + 1; r = n-1;
-            while(l < r){
-                if(nums[l] + nums[r] < -nums[i]){
-                    l++;
-                }else if(nums[l] + nums[r] > -nums[i]){
-                    r--;
-                }else{
-                    List<Integer> curList = new ArrayList<>();
-                    curList.add(nums[i]);
-                    curList.add(nums[l]);
-                    curList.add(nums[r]);
-                    if(!set.contains(curList)){
-                        set.add(curList);
-                    }
-                    l++;
-                    r--;
-                }
+            if(i!=0 && nums[i]==nums[i-1]) continue;
+            twoSum(nums, i,  i+1, n-1);
+        }
+        return results;
+    }
+    private void twoSum(int[] nums, int i, int left, int right){
+        while(left < right){
+            int sum = nums[i] + nums[left] + nums[right];
+            if(sum==0){
+                results.add(Arrays.asList(nums[i], nums[left], nums[right]));
+                left++; right--;
+                while(left < right && nums[left]==nums[left-1]) left++;
+                while(left < right && nums[right]==nums[right+1]) right--;
+            }else if(sum < 0) left++;
+            else{
+                right--;
             }
         }
-        for(List<Integer> list : set){
-            result.add(list);
-        }
-        return result;
     }
 
     /*
