@@ -13,16 +13,19 @@ public class _32_LongestValidParentheses {
 */
 
     //Time = O(n) Space = O(n) ==> Time Limit Exceed
+    //Note: only when balance is 0, we need to add another start point
     public int longestValidParentheses(String s) {
         if(s==null || s.length()==0) return 0;
         int maxLen = 0, n = s.length();
         Stack<Integer> st = new Stack<>();
+        //
         st.push(-1);
         for(int i=0; i<n; i++){
             if(s.charAt(i)=='('){
                 st.push(i);
             }else{
                 st.pop();
+                // //add another start point
                 if(st.isEmpty()){
                     st.push(i);
                 }else{

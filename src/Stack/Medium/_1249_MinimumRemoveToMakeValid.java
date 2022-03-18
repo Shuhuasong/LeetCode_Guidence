@@ -37,7 +37,7 @@ public class _1249_MinimumRemoveToMakeValid {
     }
 
     /*
-     //Stack
+     //Two Pass
     public String minRemoveToMakeValid(String s) {
         if(s==null || s.length()==0) return "";
         Stack<Integer> stack = new Stack<>();
@@ -64,6 +64,39 @@ public class _1249_MinimumRemoveToMakeValid {
             sb.append(s.charAt(i));
         }
         return sb.toString();
+    }
+     */
+
+
+
+
+    /*
+   public String minRemoveToMakeValid(String s) {
+        //pass1 from left to right: remove all invalid ')'
+        StringBuilder sb = new StringBuilder();
+        int bal = 0;
+        for(int i=0; i<s.length(); i++){
+            char c = s.charAt(i);
+            if(c=='(') bal++;
+            else if(c==')'){
+                if(bal==0) continue;
+                bal--;
+            }
+            sb.append(c);
+        }
+        //pass2 from right to left: remove all invalid '('
+        StringBuilder result = new StringBuilder();
+        bal = 0;
+        for(int i=sb.length()-1; i>=0; i--){
+            char c = sb.charAt(i);
+            if(c==')') bal++;
+            else if(c=='('){
+                if(bal==0) continue;
+                bal--;
+            }
+            result.append(c);
+        }
+        return result.reverse().toString();
     }
      */
 }
