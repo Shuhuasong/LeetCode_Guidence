@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Easy/_1614_MaximumNestingDepthOfTheParenthese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_923_3SumWithMultiplicity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Easy/_20_ValidParenthese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Easy/_921_MinimumAddToMakeParentheseValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_856_ScoreOfParenthese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_316_RemoveDuplicateLetters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/Hard/_32_LongestValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Hard/_32_LongestValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/Medium/_1249_MinimumRemoveToMakeValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Medium/_1249_MinimumRemoveToMakeValid.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -540,14 +534,8 @@
       <workItem from="1647106992129" duration="7115000" />
       <workItem from="1647271527292" duration="8652000" />
       <workItem from="1647453382425" duration="5943000" />
-      <workItem from="1647544575671" duration="3008000" />
-    </task>
-    <task id="LOCAL-00170" summary="DP">
-      <created>1642878196504</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1642878196506</updated>
+      <workItem from="1647544575671" duration="3029000" />
+      <workItem from="1647667622142" duration="301000" />
     </task>
     <task id="LOCAL-00171" summary="Trie">
       <created>1642980837749</created>
@@ -885,7 +873,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647494310652</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="Stack">
+      <created>1647572433705</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1647572433705</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -906,7 +901,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Bit Manipulation" />
     <MESSAGE value="Queue" />
     <MESSAGE value="Weekly Challenge" />
     <MESSAGE value="DFS" />
@@ -931,7 +925,8 @@
     <MESSAGE value="LinkedList" />
     <MESSAGE value="Sliding Window" />
     <MESSAGE value="Two Pointer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Two Pointer" />
+    <MESSAGE value="Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
