@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_316_RemoveDuplicateLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_2212_MaximumPointsInArcheryCompetition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1143_LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_1007_MinimumDominoRotationForEqualRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/Medium/_2208_MinimumOperationToHalfArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Sort_Note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Medium/_2207_MaximumNumberOfSubsequenceInaString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_2211_CountCollisionsOnARoad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -535,14 +541,9 @@
       <workItem from="1647271527292" duration="8652000" />
       <workItem from="1647453382425" duration="5943000" />
       <workItem from="1647544575671" duration="3029000" />
-      <workItem from="1647667622142" duration="301000" />
-    </task>
-    <task id="LOCAL-00171" summary="Trie">
-      <created>1642980837749</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1642980837750</updated>
+      <workItem from="1647667622142" duration="318000" />
+      <workItem from="1647709354630" duration="1336000" />
+      <workItem from="1647803915807" duration="666000" />
     </task>
     <task id="LOCAL-00172" summary="Trie">
       <created>1642998086484</created>
@@ -880,7 +881,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647572433705</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="Stack">
+      <created>1647671068330</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1647671068331</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
