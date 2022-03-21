@@ -1,9 +1,6 @@
 package Tree.Medium;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.TreeMap;
+import java.util.*;
 
 /**
  * Created by Shuhua Song
@@ -23,8 +20,37 @@ public class _314_BinaryTreeVerticalOrderTraversal {
         }
     }
 
+    public List<List<Integer>> verticalOrder(TreeNode root) {
+        if(root==null) return new ArrayList<>();
+        Map<Integer, List<Integer>> colToNode = new HashMap<>();
+        Map<TreeNode, Integer> nodeCol = new HashMap<>();
+        Queue<TreeNode> q = new LinkedList<>();
+        int minCol = Integer.MAX_VALUE;
+        q.add(root);
+        nodeCol.put(root, 0);
+        while(!q.isEmpty()){
+            TreeNode node = q.poll();
+            int col = nodeCol.get(node);
+            colToNode.computeIfAbsent(col, k->new ArrayList<>()).add(node.val);
+            if(node.left != null){
+                nodeCol.put(node.left, col-1);
+                q.add(node.left);
+            }
+            if(node.right != null){
+                nodeCol.put(node.right, col+1);
+                q.add(node.right);
+            }
+            minCol = Math.min(minCol, col);
+        }
+        List<List<Integer>> res = new ArrayList<>();
+        while(colToNode.containsKey(minCol)){
+            res.add(colToNode.get(minCol++));
+        }
+        return res;
+    }
+
     //DFS: Time = O(n), Space = O(n)
-    TreeMap<Integer, List<int[]>> colMap = new TreeMap<>();
+ /*   TreeMap<Integer, List<int[]>> colMap = new TreeMap<>();
     public List<List<Integer>> verticalOrder(TreeNode root) {
         List<List<Integer>> results = new ArrayList<>();
         if(root==null) return results;
@@ -53,7 +79,7 @@ public class _314_BinaryTreeVerticalOrderTraversal {
 
         preOrder(root.left, row+1, col-1);
         preOrder(root.right, row+1, col+1);
-    }
+    } */
 
     /*
      //BFS

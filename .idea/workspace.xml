@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_2212_MaximumPointsInArcheryCompetition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_1143_LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_1007_MinimumDominoRotationForEqualRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Medium/_2208_MinimumOperationToHalfArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/Sort_Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Medium/_2207_MaximumNumberOfSubsequenceInaString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_2211_CountCollisionsOnARoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_102_BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_145_BinaryTreePostOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_107_BinaryTreeLevelOrderTraversal_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Easy/_144_BinaryTreePreOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Easy/_144_BinaryTreePreOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Medium/_103_BinaryTreeZigzagLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Medium/_103_BinaryTreeZigzagLevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Medium/_314_BinaryTreeVerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Medium/_314_BinaryTreeVerticalOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Medium/_94_BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Medium/_94_BinaryTreeInorderTraversal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -543,14 +543,7 @@
       <workItem from="1647544575671" duration="3029000" />
       <workItem from="1647667622142" duration="318000" />
       <workItem from="1647709354630" duration="1336000" />
-      <workItem from="1647803915807" duration="666000" />
-    </task>
-    <task id="LOCAL-00172" summary="Trie">
-      <created>1642998086484</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1642998086484</updated>
+      <workItem from="1647803915807" duration="4411000" />
     </task>
     <task id="LOCAL-00173" summary="Sliding Window">
       <created>1643051739234</created>
@@ -888,7 +881,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647671068331</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="Backtrack">
+      <created>1647810382060</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1647810382061</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -909,7 +909,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Queue" />
     <MESSAGE value="Weekly Challenge" />
     <MESSAGE value="DFS" />
     <MESSAGE value="Dynamic Programming - Buy and Sell Stocks" />
@@ -934,7 +933,8 @@
     <MESSAGE value="Sliding Window" />
     <MESSAGE value="Two Pointer" />
     <MESSAGE value="Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack" />
+    <MESSAGE value="Backtrack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backtrack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

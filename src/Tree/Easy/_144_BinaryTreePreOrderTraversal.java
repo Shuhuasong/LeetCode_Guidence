@@ -3,6 +3,7 @@ package Tree.Easy;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Created by Shuhua Song
@@ -28,20 +29,47 @@ public class _144_BinaryTreePreOrderTraversal {
         }
     }
 
-    //Iterate
+    //Iterate-1
     public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
-        if(root==null) return res;
-        LinkedList<TreeNode> stack = new LinkedList<>();
-        stack.add(root);
+        List<Integer> results = new ArrayList<>();
+        if(root==null) return results;
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
         while(!stack.isEmpty()){
-            TreeNode node = stack.pollLast();
-            res.add(node.val);
-            if(node.right != null) stack.add(node.right);
-            if(node.left != null) stack.add(node.left);
+            root = stack.pop();
+            results.add(root.val);
+            //need to push the right node first, so left is pop first,
+            //the make final order is : root->left->right
+            if(root.right!=null) stack.push(root.right);
+            if(root.left!=null) stack.push(root.left);
         }
-        return res;
+        return results;
     }
+
+    /* Iterative-2
+     public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> results = new ArrayList<>();
+        if(root==null) return results;
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode curr = root;
+        while(curr!=null || !stack.isEmpty()){
+            if(curr!=null){
+                //First, go from root to leftMost until null
+                results.add(curr.val);
+                stack.push(curr);
+                curr = curr.left;
+            }else{
+                //After reach leftMost, go back parent node, and
+                //go right
+                curr = stack.pop();
+                curr = curr.right;
+            }
+        }
+        return results;
+    }
+     */
+
+
     /*
      public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();

@@ -44,10 +44,12 @@ public class _94_BinaryTreeInorderTraversal {
         Stack<TreeNode> stack = new Stack<>();
         TreeNode curr = root;
         while(curr!=null || !stack.isEmpty()){
+        //go from root to left most until null
             while(curr!=null){
                 stack.push(curr);
                 curr = curr.left;
             }
+            //at leftMost, go back to parent, move to right
             curr = stack.pop();
             results.add(curr.val);
             curr = curr.right;
