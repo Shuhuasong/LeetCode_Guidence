@@ -93,6 +93,50 @@ class Solution {
 }
  */
 
+/* //Simple Union Find
+ class UnionFind{
+        int[] parents;
+        public UnionFind(int n){
+            parents = new int[n];
+            for(int i=0; i<n; i++){
+                parents[i] = i;
+            }
+        }
+        private int find(int x){
+            if(parents[x] != x){
+                parents[x] = find(parents[x]);
+            }
+            return parents[x];
+        }
+        private void union(int x, int y){
+            parents[find(x)] = find(y);
+        }
+    }
+    public int numIslands(char[][] grid) {
+        int rows = grid.length, cols = grid[0].length;
+        UnionFind UF = new UnionFind(rows * cols);
+        int[][] dirs = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+        int count = 0;
+        for(int i=0; i<rows; i++){
+            for(int j=0; j<cols; j++){
+                if(grid[i][j]=='0') continue;
+                count++; //add one island
+                for(int[] dir : dirs){
+                    int x = i+dir[0], y = j+dir[1];
+                    if(x<0 || x>=rows || y<0 || y>=cols || grid[x][y]=='0') continue;
+                    if(UF.find(i*cols+j) != UF.find(x*cols+y)) count--; //once two of island combined, substruct one island
+                    UF.union(i*cols+j, x*cols+y);
+                }
+            }
+        }
+        return count;
+    }
+ */
+
+
+
+
+
 /* Method #3
  //Union Find (aka : Disjoint Set)
  //Union Two diffent points with different (x*cols + y)

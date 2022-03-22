@@ -38,4 +38,31 @@ public class _490_TheMaze {
         }
         return false;
     }
+
+    /*
+     //DFS--faster
+    int[][] dirs = {{0, 1}, {0, -1}, {1, 0},{-1, 0}};
+    public boolean hasPath(int[][] maze, int[] start, int[] dest) {
+        int rows = maze.length, cols = maze[0].length;
+        boolean[][] visited = new boolean[rows][cols];
+        return dfs(maze, visited, start, dest);
+    }
+
+    private boolean dfs(int[][] maze, boolean[][] visited, int[] curr, int[] dest){
+        int M = maze.length, N = maze[0].length;
+        if(visited[curr[0]][curr[1]]) return false;
+        if(curr[0]==dest[0] && curr[1]==dest[1]) return true;
+        visited[curr[0]][curr[1]] = true;
+        for(int[] dir : dirs){
+            int x = curr[0] + dir[0], y = curr[1] + dir[1];
+            while(x>=0 && x<M && y>=0 && y<N && maze[x][y]==0){
+                x += dir[0];
+                y += dir[1];
+            }
+            x -= dir[0]; y -= dir[1];
+            if(dfs(maze, visited, new int[]{x, y}, dest)) return true;
+        }
+        return false;
+    }
+     */
 }
