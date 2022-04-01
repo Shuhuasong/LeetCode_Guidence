@@ -60,10 +60,10 @@ public class _207_CourseSchedule_checkCycle {
     private void dfs(int node, Map<Integer, List<Integer>> graph){
          visited[node] = 1;
          for(int nei : graph.get(node)){
-            //when neighb hasn't been visited
+            //when neigh hasn't been visited
             if(visited[nei]==0) dfs(nei, graph);
             else if(visited[nei]==1){
-                //if the neighb has been visited
+                //if the neigh has been visited
                 valid = false;
             }
          }

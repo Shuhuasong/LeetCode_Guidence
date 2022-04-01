@@ -156,6 +156,7 @@
 #153. [Find Minimum In Rotated Sorted Array](./src/BinarySearch/Medium/_153_FindMinimumInRotatedSortedArray) <br />
 #154. [Find Minimum In Rotated Sorted Array II](./src/BinarySearch/Medium/_154_FindMinimumInRotatedSortedArrayII) <br />
 #162. [Find Peak Element](./src/BinarySearch/Medium/_162_FindPeakElement) <br />
+#215. [Kth Largest Element In An Array](./src/Heap/Medium/_215_KthLargestElementInAnArray) <br />
 #240. [Search A 2D Matrix II](./src/BinarySearch/Medium/_240_SearchA2DMatrixII) <br />
 #287. [Find The Duplicate Number](./src/BinarySearch/Medium/_287_FindTheDuplicateNumber) <br />
 #362. [Find The Duplicate Number](./src/BinarySearch/Medium/_362_DesignHitCounter.java) <br />
@@ -166,6 +167,7 @@
 #1482. [Minimum Number Of Days To Makem Bouques](./src/BinarySearch/Medium/_1482_MinimumNumberOfDaysToMakemBouques) <br />
 #1618. [KoKoEatingBananas](./src/BinarySearch/Medium/_1618_MaximumFontToFitASentenceInAScreen) <br />
 #1870. [Minimum Speed To Arrive On Time](./src/BinarySearch/Medium/_1870_MinimumSpeedToArriveOnTime) <br />
+
 
 #### Hard
 #4. [Median Of Two Sorted Arrays](./src/BinarySearch/Hard/_4_MedianOfTwoSortedArrays.java) <br />

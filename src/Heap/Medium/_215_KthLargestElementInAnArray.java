@@ -18,6 +18,36 @@ public class _215_KthLargestElementInAnArray {
         }
         return pq.peek();
     }
+
+    /*
+     //BinarySearch: Time = O(n*logV)
+    public int findKthLargest(int[] nums, int k) {
+        int start = Integer.MAX_VALUE, end = Integer.MIN_VALUE;
+        for(int num : nums){
+            start = Math.min(num, start);
+            end = Math.max(num, end);
+        }
+        while(start <= end){
+            int mid = start + (end-start)/2;
+            //the mid is too small, so the count greater
+            //we need increase mid
+            if(countGreater(nums, mid) >= k){
+                start = mid+1;
+            }else{
+                end = mid-1;
+            }
+        }
+        return start;
+    }
+
+    private int countGreater(int[] nums, int mid){
+        int count = 0;
+        for(int num : nums){
+            count += (num > mid ? 1 : 0);
+        }
+        return count;
+    }
+     */
 }
 
 
