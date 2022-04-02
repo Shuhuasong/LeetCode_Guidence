@@ -239,6 +239,8 @@
     * Search Word
       #211 [Design Add And Search Words Data Structure](./src/Trie/Medium/_211_DesignAddAndSearchWordsDataStructure.java) <br />
       #212 [Word Search II](./src/OnlineCodingChallege/Cisco/_212_WordSearchII.java) <br />
+      #139 [WordBreak](./src/DynamicProgramming/Medium/_139_WordBreak.java) <br />
+      
       #642 [Design Search Autocomplete System]
   * Bitwise Trie
       #421 [Maximum XOR of Two Numbers in an Array](./src/Bitwise/Medium/_421_MaximumXORofTwoNumbersInArray_IIIIIII.java) <br />

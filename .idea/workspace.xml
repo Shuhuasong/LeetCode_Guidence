@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Hard/_668_KthSmallestNumberInMultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1891_CuttingRibbons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_378_KthSmallestElementInASortedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_81_SearchInRotatedSortedArray_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_1029_TwoCityScheduling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_881_BoatsToSavePeople.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pramp/BinarySearch/_10_FootballScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_901_OnlineStockSpan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_663_EqualTreePartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_287_FindTheDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Hard/_273_IntegerToEnglishWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trie/Hard/_140_WordBreak_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trie/Hard/_472_ConcatenatedWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_287_FindTheDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_287_FindTheDuplicateNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Medium/_207_CourseSchedule_checkCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_207_CourseSchedule_checkCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/Medium/_215_KthLargestElementInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Medium/_215_KthLargestElementInAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/Medium/_373_FindKPairsWithSmallestSums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Medium/_373_FindKPairsWithSmallestSums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_139_WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_139_WordBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/_139_WordBreak_IIIIIIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/_139_WordBreak_IIIIIIII.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -565,14 +555,8 @@
       <workItem from="1648595373894" duration="1368000" />
       <workItem from="1648658911402" duration="4045000" />
       <workItem from="1648696014054" duration="2077000" />
-      <workItem from="1648741485886" duration="8361000" />
-    </task>
-    <task id="LOCAL-00176" summary="Bit Manipulation">
-      <created>1643328193759</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1643328193760</updated>
+      <workItem from="1648741485886" duration="8388000" />
+      <workItem from="1648834410863" duration="3136000" />
     </task>
     <task id="LOCAL-00177" summary="Bit Manipulation">
       <created>1643613858668</created>
@@ -910,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648022194089</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="Binary Search">
+      <created>1648794166851</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1648794166852</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -946,7 +937,6 @@
     <MESSAGE value="HashMap + PreSum" />
     <MESSAGE value="HashMap + Prefix Sum" />
     <MESSAGE value="Array" />
-    <MESSAGE value="Binary Search" />
     <MESSAGE value="Prefix Sum" />
     <MESSAGE value="Monotonic Stack" />
     <MESSAGE value="LinkedList" />
@@ -956,7 +946,8 @@
     <MESSAGE value="Backtrack" />
     <MESSAGE value="Tree" />
     <MESSAGE value="DFS + BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="DFS + BFS" />
+    <MESSAGE value="Binary Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
