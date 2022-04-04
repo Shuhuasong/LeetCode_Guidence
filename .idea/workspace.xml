@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/String/Hard/_273_IntegerToEnglishWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Hard/_140_WordBreak_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Hard/_472_ConcatenatedWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_2226_MaximumCandiesAllocatedToKChildren.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_2222_NumberOfWaysToSelectBuildings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_31_NextPermutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_139_WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_139_WordBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/_139_WordBreak_IIIIIIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/_139_WordBreak_IIIIIIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/Medium/_127_WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/Medium/_127_WordLadder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Topological_Sort/_207_CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topological_Sort/_207_CourseSchedule.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -556,14 +555,10 @@
       <workItem from="1648658911402" duration="4045000" />
       <workItem from="1648696014054" duration="2077000" />
       <workItem from="1648741485886" duration="8388000" />
-      <workItem from="1648834410863" duration="3136000" />
-    </task>
-    <task id="LOCAL-00177" summary="Bit Manipulation">
-      <created>1643613858668</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1643613858669</updated>
+      <workItem from="1648834410863" duration="3156000" />
+      <workItem from="1648867017431" duration="16000" />
+      <workItem from="1648919884862" duration="158000" />
+      <workItem from="1649012048724" duration="4180000" />
     </task>
     <task id="LOCAL-00178" summary="Bit Manipulation">
       <created>1643692981951</created>
@@ -901,7 +896,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648794166852</updated>
     </task>
-    <option name="localTasksCounter" value="226" />
+    <task id="LOCAL-00226" summary="Trie">
+      <created>1648867000576</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1648867000577</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -922,7 +924,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DFS" />
     <MESSAGE value="Dynamic Programming - Buy and Sell Stocks" />
     <MESSAGE value="Array--Meeting Rooms Series" />
     <MESSAGE value="HashTable" />
@@ -947,7 +948,8 @@
     <MESSAGE value="Tree" />
     <MESSAGE value="DFS + BFS" />
     <MESSAGE value="Binary Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search" />
+    <MESSAGE value="Trie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
