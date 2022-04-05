@@ -8,6 +8,12 @@ import Tree.TreeNode;
  * Created by Shuhua Song
  */
 public class _297_SerializeAndDeserializeBinaryTree {
+
+     /*
+    Follow-up question: what if the original tree has String as TreeNode value?
+    Base64 encode the node.val when appending
+    */
+
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
         if(root==null) return "$";
