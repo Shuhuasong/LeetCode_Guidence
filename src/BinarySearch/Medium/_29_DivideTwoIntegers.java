@@ -20,7 +20,41 @@ Input: dividend = 0, divisor = 1
 Output: 0
  */
 
+
+
 public class _29_DivideTwoIntegers {
+
+
+    //Time = O((logn)^2)
+    public int divide(int dividend, int divisor) {
+        long x = (long)dividend;
+        long y = (long)divisor;
+        long sign = 1;
+        if(dividend < 0) sign *= -1;
+        if(divisor < 0) sign *= -1;
+
+        x = Math.abs(x);
+        y = Math.abs(y);
+        long quotient = 0;
+        while(x >= y){
+            long val = y;
+            long count = 1;
+            while((val << 1) < x){ //shifting move faster than substraction
+                val = val << 1;
+                count = count << 1;
+            }
+            quotient += count;
+            x -= val;
+        }
+        if(quotient * sign > Integer.MAX_VALUE){
+            return Integer.MAX_VALUE;
+        }
+        return (int)(quotient*sign);
+    }
+
+
+ /*
+
     private static int HALF_INF_MIN = -1073741824;
     public int divide(int dividend, int divisor) {
         if(dividend==Integer.MIN_VALUE && divisor==-1){
@@ -50,7 +84,7 @@ public class _29_DivideTwoIntegers {
             return -quotient;
         }
         return quotient;
-    }
+    }  */
 
     /*
      public int divide(int dividend, int divisor) {

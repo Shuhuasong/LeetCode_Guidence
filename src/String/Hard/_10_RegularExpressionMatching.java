@@ -11,44 +11,48 @@ public class _10_RegularExpressionMatching {
         if(p.length() == 0) return s.length()==0;
 
         boolean firstMatch = (s.length() > 0 && (s.charAt(0)==p.charAt(0) || p.charAt(0)=='.'));
-
+        //with '*'
         if(p.length()>=2 && p.charAt(1)=='*'){
+            //s = "aab", p = "c*a*b"
             return isMatch(s, p.substring(2)) ||
+                    //s = "aaaaa", p = "a*
                     (firstMatch && isMatch(s.substring(1),p));
         }else{
+            //no '*'
             return firstMatch && isMatch(s.substring(1), p.substring(1));
         }
     }
 
     /*
       //Time = O(m*n), Space = O(m*n)
-    public boolean isMatch(String s, String p) {
-         int m = s.length(), n = p.length();
-	  boolean[][] dp = new boolean[m+1][n+1];
-	  dp[0][0] = true;
- 	  for(int i=2; i<=n; i++){
- 		if(p.charAt(i-1)=='*'){
-			dp[0][i] = dp[0][i-2];
-		}
-	  }
+   public boolean isMatch(String s, String p) {
+        int m = s.length(), n = p.length();
+        //dp[i][j] : the lenght with i in s, and the length j in p are match
+        boolean[][] dp = new boolean[m+1][n+1];
+        //empty string for both
+        dp[0][0] = true;
+        for(int i=2; i<=n; i++){
+           if(p.charAt(i-1)=='*') dp[0][j] = dp[0][j-2];
+        }
 
-      	for(int i=1; i<=m; i++) {
-		  for(int j=1; j<=n; j++){
- 		    char sc = s.charAt(i-1);
-		    char pc = p.charAt(j-1);
-		    if(sc==pc || pc =='.') {
-			dp[i][j] = dp[i-1][j-1];
-		   }else if(pc =='*'){
- 			 if(dp[i][j-2]){
-				dp[i][j] = true;
-			 }else if(sc == p.charAt(j-2) || p.charAt(j-2)=='.') {
-				dp[i][j] = dp[i-1][j];
-			}
-		   }
-		}
-     	  }
-      	  return dp[m][n];
-
+        for(int i=1; i<=m; i++){
+            for(int j=1; j<=n; j++){
+                char sc = s.charAt(i-1), pc = p.charAt(j-1);
+                if(sc==pc || pc=='.'){
+                    dp[i][j] = dp[i-1][j-1];
+                }else if(pc=='*'){
+                    if(dp[i][j-2]){
+                        //not use preceeding char
+                        dp[i][j] = true;
+                    }else if(sc==p.charAt(j-2) || p.charAt(j-2)=='.'){
+                        //use multiple times
+                        //s = "aaaaa", p = "aa*aa"
+                        dp[i][j] = dp[i-1][j];
+                    }
+                }
+            }
+        }
+        return dp[m][n];
     }
      */
 }
@@ -57,10 +61,11 @@ public class _10_RegularExpressionMatching {
 case 1 : s = "aa", p = "a"==> false;
 case 2 : s = "aa", p = "a*"==> true;
 case 3 : s = "aab", p = "c*a*b"==> true; * repeat 0 time of c, * = a
-case 4 : s = "ab", p = ".*" ==> true; . = a, b = a
+case 4 : s = "ab", p = ".*" ==> with 2 dot,  true; . = a, . = a
 s = commitee
 p = com*te* ===> no i
-Solutio-1: DFS
+
+Solutio-1: DFS===> Time Complexity: exponencial
  s = "ab", p = ".*"
 1)  use first char
 firstMatch = s.charAt(0)==p.charAt(0) || p.charAt(0)=='.'
@@ -77,14 +82,14 @@ Summary:
    firstMatch = same || p.charAt(0)=='.'
 -- check the rest string
    if  (second char is '*')
-       1) use first char 0 times ==> isMatch(s.substring(2))
+       1) use first char 0 times ==> isMatch(s, p.substring(2))
        2) use first char multiple times
-                ==> firstMatch && isMatch(s.substring, p)
+                ==> firstMatch && isMatch(s.substring(1), p)
    else just check the rest
         firstMatch && isMatch(s.substring(1), p.substring(1))
 
 
-Solution-2: DP-kind like edit distance
+Solution-2: DP-kind like question edit distance
 s = length m
 p = length n
 boolean[][] dp = new boolean[m+1][n+1];
@@ -94,7 +99,7 @@ _* : use 0 preceding element
 essentially
 //match an empty string
      for(int i=2; i<=n; i++){
-        if(p.charAt(i-1)=='*'){
+        if(p.charAt(i-1)=='*'){//match a empty string in s
           dp[0][i] = dp[0][i-2];  //s = "aa", p = "a*"
         }
      }
