@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pramp/String/Medium/_DecriptyMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_1012_NumbersWithRepeatedDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_29_DivideTwoIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_29_DivideTwoIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/Hard/_10_RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Hard/_10_RegularExpressionMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/Medium/_8_StringToInteger_atoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Medium/_8_StringToInteger_atoi.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -558,14 +557,9 @@
       <workItem from="1648919884862" duration="158000" />
       <workItem from="1649012048724" duration="4284000" />
       <workItem from="1649095060920" duration="3713000" />
-      <workItem from="1649174515357" duration="8209000" />
-    </task>
-    <task id="LOCAL-00180" summary="Weekly Challenge">
-      <created>1644084761596</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1644084761597</updated>
+      <workItem from="1649174515357" duration="8807000" />
+      <workItem from="1649268022631" duration="1229000" />
+      <workItem from="1649456188253" duration="1196000" />
     </task>
     <task id="LOCAL-00181" summary="DFS">
       <created>1644187768850</created>
@@ -903,7 +897,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649119779999</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="LinkedList">
+      <created>1649219029948</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1649219029949</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -973,6 +974,11 @@
           <url>file://$PROJECT_DIR$/src/TwoPointer/Medium/_777_SwapAdacentInLRString.java</url>
           <line>17</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DynamicProgramming/Hard/_1012_NumbersWithRepeatedDigits.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Golden_Sach_21FallOA/_DoubleOnMatch_.java</url>

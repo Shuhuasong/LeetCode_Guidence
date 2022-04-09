@@ -40,35 +40,28 @@ public class _8_StringToInteger_atoi {
     /*
      public int myAtoi(String s) {
         s = s.trim();
-        int n = s.length();
-        if(n==0) return 0;
-        int sign = 1, i = 0;
-        long val = 0, base = 1;
-        char ch = s.charAt(0);
-        if(Character.isDigit(ch)) sign = 1;
-        else if(ch == '-'){
+        if(s==null || s.length()==0) return 0; //case0 = " "
+        int sign = 1, idx = 0;
+        if(s.charAt(0)=='-'){ //case1 = " -42"
             sign = -1;
-            i++;
-        }else if(ch == '+'){
+            idx++;
+        }else if(s.charAt(0)=='+'){ // case2 = "+1"
             sign = 1;
-            i++;
+            idx++;
         }
-        for(int j=i; j<n; j++){
-            char c = s.charAt(j);
-            if(!Character.isDigit(c)){
-                break;
-            }
-            else if(Character.isDigit(c)){
-                val = val * base + (c-'0');
-                System.out.println(val + " " + base + " " + i);
-                base = 10;
-                if(val > Integer.MAX_VALUE) return sign > 0 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
-                if(val < Integer.MIN_VALUE) return sign > 0 ? Integer.MIN_VALUE : Integer.MAX_VALUE;
+        System.out.println(s);
+        long res = 0;
+        while(idx < s.length()){
+            char c = s.charAt(idx);
+            if(!Character.isDigit(c)) break;
+            res = res * 10 + (c-'0');
+            idx++;
+            if(res > Integer.MAX_VALUE){
+                return sign==1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
             }
         }
-        return (int)val*sign;
+        return sign * (int)res;
     }
-
      */
 }
 
