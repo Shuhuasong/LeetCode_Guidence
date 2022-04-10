@@ -73,3 +73,17 @@ public class _238_ProductOfArrayExceptSelf {
         return results;
     } */
 }
+
+/*
+//Solution-1-prefix product
+  Time = O(n), Space = O(n)
+            0  1  2  3
+nums =     [1, 2, 3, 4]
+left_prod   1  1  2  6
+right_prod 24 12   4   1
+to calculate the product except the element nums[1]
+we need to get left product[0] and right product[2-3]
+left_product * right_product
+
+ */
+

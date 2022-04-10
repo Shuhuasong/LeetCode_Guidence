@@ -43,3 +43,23 @@ public class _165_CompareVersionNumbers {
 }
      */
 }
+/*
+Note: dot is a special character in Java's Regular Expression to match any single character
+So, we need to use "\\." to escape it
+e.g
+String filename = textfile.split("\\.");
+
+Shorthand Metacharacters:
+\w  : [a-zA-Z0-9] word characters
+\s  : whitespace character
+\d  : [0-9] digit character
+\W  : [^a-zA-Z0-9] word characters
+\S  : non-whitespace character
+\D  : [^0-9] digit character
+.   : any character
+\n  : newLine characters
+\t  : tab characters
+\r  : carriage-return character
+*/
+
+
