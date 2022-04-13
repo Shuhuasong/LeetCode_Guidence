@@ -24,6 +24,7 @@ public class _25_ReverseNodesInKGroup {
             ListNode reverseHead = reverse(head, k);
             //Now recurse on the remain list. since our recursion return the head of the overall processed list, we use that and the 'original' head of the "k" nodes to rewrited the connections
             head.next = reverseKGroup(curr, k);
+            head = head.next;
             return reverseHead;
         }
         return head;
