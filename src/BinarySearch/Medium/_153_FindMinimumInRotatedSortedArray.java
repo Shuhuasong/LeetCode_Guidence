@@ -3,6 +3,7 @@ package BinarySearch.Medium;
 public class _153_FindMinimumInRotatedSortedArray {
 
     //Two pointer : Time = O(logn)
+
     public int findMin(int[] nums) {
         if(nums==null || nums.length==0){
             return -1;
@@ -18,6 +19,7 @@ public class _153_FindMinimumInRotatedSortedArray {
         }
         return Math.min(nums[0], Math.min(nums[start], nums[end]));
     }
+
 
 /*
 A = { 4, 5, 7, 0, 1, 2}

@@ -4,6 +4,55 @@ package BinarySearch.Hard;
  * Created by Shuhua Song
  */
 public class _4_MedianOfTwoSortedArrays {
+
+    public double findMedianSortedArrays(int[] A, int[] B) {
+        int lenA = A.length, lenB = B.length;
+        if(lenA > lenB) return findMedianSortedArrays(B, A);
+        if(lenA==0){
+            return (double)(B[(lenB-1)/2] + B[lenB/2])/2;
+        }
+        int len = lenA + lenB;
+        int aStart = 0, aEnd = lenA;
+        int cutA = 0, cutB = 0;
+        while(aStart <= aEnd){
+            cutA = (aStart+aEnd)/2;
+            cutB = len/2-cutA;
+            double L1 = (cutA==0) ? Integer.MIN_VALUE : A[cutA-1];
+            double L2 = (cutB==0) ? Integer.MIN_VALUE :  B[cutB-1];
+            double R1 = (cutA==lenA) ? Integer.MAX_VALUE : A[cutA];
+            double R2 = (cutB==lenB) ? Integer.MAX_VALUE : B[cutB];
+            if(L1 > R2) aEnd = cutA-1;
+            else if(L2 > R1) aStart = cutA+1;
+            else{
+                if(len%2==0){
+                    return (Math.max(L1, L2)+Math.min(R1, R2))/2;
+                }else{
+                    return Math.min(R1, R2);
+                }
+            }
+        }
+        return -1;
+    }
+
+/*
+Solution: Binary Search
+Condition: L1 <= R1
+           L2 <= R2
+
+              L1 R1
+A = {2, 4, 6, 7, 10}
+                |
+           L2 R2
+B = {1, 3, 5, 8, 9, 11, 12, 13, 14}
+             |
+
+
+*/
+
+
+
+
+    /*
     //Time = O(min(n1, n2))
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n1 = nums1.length, n2 = nums2.length;
@@ -36,7 +85,7 @@ public class _4_MedianOfTwoSortedArrays {
         int rightMed = Math.min(m1 >= n1 ? Integer.MAX_VALUE : nums1[m1],
                 m2 >= n2 ? Integer.MAX_VALUE : nums2[m2]);
         return (leftMed+rightMed)*0.5;
-    }
+    } */
 }
 
 /*
