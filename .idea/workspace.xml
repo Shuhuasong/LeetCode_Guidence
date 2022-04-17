@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tree/BST/_700_SearchInABinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Hard/_2242_MaximumScoreOfANodeSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/BST/Medium/_538_ConvertBSTtoGreaaterTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Hard/_4_MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Hard/_4_MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_153_FindMinimumInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_153_FindMinimumInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design/_LRU_Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design/_LRU_Cache.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -566,14 +566,9 @@
       <workItem from="1649688312594" duration="1272000" />
       <workItem from="1649815792192" duration="1362000" />
       <workItem from="1649873187680" duration="736000" />
-      <workItem from="1649957609408" duration="5185000" />
-    </task>
-    <task id="LOCAL-00184" summary="Dynamic Programming - Buy and Sell Stocks">
-      <created>1644304375955</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1644304375956</updated>
+      <workItem from="1649957609408" duration="5204000" />
+      <workItem from="1650046985597" duration="3323000" />
+      <workItem from="1650129840454" duration="915000" />
     </task>
     <task id="LOCAL-00185" summary="Array--Meeting Rooms Series">
       <created>1644367973012</created>
@@ -911,7 +906,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649825730294</updated>
     </task>
-    <option name="localTasksCounter" value="233" />
+    <task id="LOCAL-00233" summary="Matrix">
+      <created>1649988842198</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1649988842198</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

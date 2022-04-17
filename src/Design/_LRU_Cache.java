@@ -81,7 +81,6 @@ class LRUCache {
             cache.put(key, newNode);
             addNode(newNode);
             size++;
-
             if (size > capacity) {
                 ListNode tail = removeTail();
                 cache.remove(tail.key);
