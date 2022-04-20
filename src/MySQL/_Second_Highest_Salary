@@ -1,0 +1,26 @@
+
+# This solution can't solve the problem of null when there is less than 2 record
+
+    select distinct salary as SecondHighestSalary
+    from Employee
+    order by salary desc
+    limit 1 offset 1
+
+ # Correct
+ # Solution-1
+ select
+       (select distinct salary
+         from Employee
+         order by salary desc
+         limit 1 offset 1
+       ) as SecondHighestSalary;
+
+
+# Solution-2
+select
+             IFNULL(
+             (select distinct salary
+               from Employee
+               order by salary desc
+               limit 1 offset 1
+             ), NULL )  as SecondHighestSalary;

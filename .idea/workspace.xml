@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graph/Hard/_2242_MaximumScoreOfANodeSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/BST/Medium/_538_ConvertBSTtoGreaaterTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_975_OddEvenJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_2246_LongestPathWithDifferentAdjacentCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_2244_MinimumRoundsToCompleteAllTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MySQL/_Second_Highest_Salary" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pramp/BinarySearch/_RootOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Hard/_2245_MaximumTrailingZerosInACorneredPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_897_IncreasingOrderSearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Design/_LRU_Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design/_LRU_Cache.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -568,14 +572,10 @@
       <workItem from="1649873187680" duration="736000" />
       <workItem from="1649957609408" duration="5204000" />
       <workItem from="1650046985597" duration="3323000" />
-      <workItem from="1650129840454" duration="915000" />
-    </task>
-    <task id="LOCAL-00185" summary="Array--Meeting Rooms Series">
-      <created>1644367973012</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1644367973013</updated>
+      <workItem from="1650129840454" duration="935000" />
+      <workItem from="1650221035378" duration="1473000" />
+      <workItem from="1650319873634" duration="3003000" />
+      <workItem from="1650408589443" duration="1193000" />
     </task>
     <task id="LOCAL-00186" summary="HashTable">
       <created>1644515040518</created>
@@ -913,7 +913,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649988842198</updated>
     </task>
-    <option name="localTasksCounter" value="234" />
+    <task id="LOCAL-00234" summary="Matrix">
+      <created>1650170595652</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1650170595653</updated>
+    </task>
+    <option name="localTasksCounter" value="235" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
