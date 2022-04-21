@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_975_OddEvenJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Medium/_2246_LongestPathWithDifferentAdjacentCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_2244_MinimumRoundsToCompleteAllTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MySQL/_Second_Highest_Salary" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pramp/BinarySearch/_RootOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Hard/_2245_MaximumTrailingZerosInACorneredPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_897_IncreasingOrderSearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/Easy/_705_DesignHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_904_FruitIntoBasket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Medium/_43_MultiplyStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_34_FindFirstLastElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_34_FindFirstLastElement.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,17 +53,21 @@
       </set>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="1lnubZJTsM53Bjk8BtROZw8jLBz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -72,8 +76,6 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -183,6 +185,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -576,6 +579,9 @@
       <workItem from="1650221035378" duration="1473000" />
       <workItem from="1650319873634" duration="3003000" />
       <workItem from="1650408589443" duration="1193000" />
+      <workItem from="1650425229490" duration="62000" />
+      <workItem from="1650425345766" duration="1335000" />
+      <workItem from="1650476030917" duration="3259000" />
     </task>
     <task id="LOCAL-00186" summary="HashTable">
       <created>1644515040518</created>
