@@ -10,7 +10,7 @@ public class _721_AccountsMerge {
     //Time = O(NK*log(NK)), N=#of acounts, K=#ofemails for each account
     //worst case: when all accounts are belong to one person
     //Space = O(NK)
-
+    //Graph: DFS/BFS
     Map<String, HashSet<String>> graph;
     Map<String, String> mailToName;
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
@@ -61,7 +61,68 @@ public class _721_AccountsMerge {
     }
 }
 
-/*  Union Find
+/*
+ class UnionFind{
+        int[] parents;
+        public UnionFind(int n){
+            parents = new int[n];
+            for(int i=0; i<n; i++){
+                parents[i] = i;
+            }
+        }
+        public int find(int x){
+            if(parents[x]!=x){
+                parents[x] = find(parents[x]);
+            }
+            return parents[x];
+        }
+        public void union(int x, int y){
+            int rootX = find(x), rootY = find(y);
+            parents[rootX] = rootY;
+        }
+    }
+
+    public List<List<String>> accountsMerge(List<List<String>> accounts) {
+       Map<String, Integer> mailToId = new HashMap<>();
+       int n = accounts.size();
+       UnionFind UF = new UnionFind(n);
+       for(int i=0; i<n; i++){
+           String name = accounts.get(i).get(0);
+           List<String> acc = accounts.get(i);
+           for(int j=1; j<acc.size(); j++){
+               String mail = acc.get(j);
+               if(!mailToId.containsKey(mail)){
+                  mailToId.put(mail, i);
+               }else{
+                   UF.union(i, mailToId.get(mail));
+               }
+           }
+       }
+
+       Map<Integer, List<String>> idToMails = new HashMap<>();
+       for(String mail : mailToId.keySet()){
+           int id = mailToId.get(mail);
+           int parentId = UF.find(id);
+           List<String> mails = idToMails.getOrDefault(parentId, new ArrayList<>());
+           mails.add(mail);
+           idToMails.put(parentId, mails);
+       }
+
+       List<List<String>> results = new ArrayList<>();
+       for(int id : idToMails.keySet()){
+           String name = accounts.get(id).get(0);
+           List<String> mails = idToMails.get(id);
+           Collections.sort(mails);
+           mails.add(0, name);
+           results.add(mails);
+       }
+
+       return results;
+    }
+ */
+
+/*
+  Union Find
 //Use map to store the node and its parent
      class UnionFind {
         Map<String, String> root = new HashMap<>();
@@ -137,4 +198,46 @@ DFS Traversal:
 ---Emails can be represented as nodes, and an edge between nodes will signify that they belong to the same
 person
 
+
+
+/*
+Solution-1: Graph(DFS/BFS)
+1) iterate each account, and view each email as a node to
+   build a bi-directed graph
+   connect email[i] with email[i+1] together
+   at the same time, store each email with is it's owner
+   in the map mailToName
+2) define a visited set, iterate each email(node) in the
+   keys of emailToName, if the email is not in the visited
+   set, we start dfs(email) from this email, and collection
+   all other emails in this sub-graph
+
+Solution-2: UnionFind
+1) use a map to store email to index if they not exist in map,
+   otherwise, union it with index i, and current email's id
+   e.g
+   {mail, index(group)}
+   Map<String, Integer> mailToId =
+   { {"johnsmith@mail.com", 0},
+     {"john_newyork@mail.com", 0},....
+     {"John","johnsmith@mail.com", 1},
+     {"john00@mail.com", 1}, ...   }
+  emailToId mapping {String, Integer, UF}
+
+2)  for each group, find all emails parent id (root) -> [emails]
+
+   iterate each key of mail in mailToId, find the parentId for
+   the current mail,
+   then check if there is already an entry
+   for this parentId, we get mails = idToMails.get(parentId);
+   and add this mail into mails, then put it into map again
+
+3) parentIdToEmails
+   --Sort
+   --add owner for each email list
+   --[keyName, emailList];
+
 */
+
+
+
