@@ -38,6 +38,36 @@ public class _14_LongestCommonPrefix {
 
    */
 
+  /*
+   //Divide and Conquer
+    //Time = O(S)
+    //Space = O(mlogn) recursion call
+    public String longestCommonPrefix(String[] strs) {
+        if(strs==null || strs.length==0) return "";
+        return commonPrefix(strs, 0, strs.length-1);
+    }
+
+    private String commonPrefix(String[] strs, int start, int end){
+        if(start==end) return strs[start];
+        else{
+            int mid = start + (end-start)/2;
+            String leftPrev = commonPrefix(strs, start, mid);
+            String rightPrev = commonPrefix(strs, mid+1, end);
+            return commonStr(leftPrev, rightPrev);
+        }
+    }
+
+    private String commonStr(String left, String right){
+        int len = Math.min(left.length(), right.length());
+        for(int i=0; i<len; i++){
+            if(left.charAt(i)!=right.charAt(i)){
+                return left.substring(0, i);
+            }
+        }
+        return left.substring(0, len);
+    }
+   */
+
 
 
   /*
@@ -47,9 +77,9 @@ public class _14_LongestCommonPrefix {
        if(strs==null || strs.length==0) return "";
         int minLen = Integer.MAX_VALUE;
         for(String str : strs){
-            minLen = Math.min(str.length(), minLen);
-        }
+            minLen = Math.min(str.length(), minLen);        }
         int low = 1, high = minLen;
+
         while(low <= high){
             int midLen = low + (high-low)/2;
             if(isCommonPrefix(strs, midLen)){

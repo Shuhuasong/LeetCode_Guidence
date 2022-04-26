@@ -129,3 +129,32 @@ public class _314_BinaryTreeVerticalOrderTraversal {
     }
      */
 }
+
+
+/*
+Note 1: Vertical order traversal
+        collecte data in column order==> use Map to store
+
+Note 2: row & column are the same ==>from left to right
+        consider the row number order in the same column
+        what happen if we don't sort according to row number ?
+
+        in example-2: inOrder result
+        Input
+            [3,9,8,4,0,1,7]
+            Output
+            [[4],[9],[0,3,1],[8],[7]]
+            Expected
+            [[4],[9],[3,0,1],[8],[7]]
+
+        in example-2: preOrder result
+        Input
+            [3,9,8,4,0,1,7,null,null,null,2,5]
+            Output
+            [[4],[9,5],[3,0,1],[2,8],[7]]
+            Expected
+            [[4],[9,5],[3,0,1],[8,2],[7]]
+
+Note-3:   DFS ==> Map<col, int[]{row, value}>
+          BFS ==> TreeMap<col, list>, or record minCol, maxCol (faster)
+*/

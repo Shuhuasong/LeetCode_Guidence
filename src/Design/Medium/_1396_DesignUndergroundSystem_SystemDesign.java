@@ -1,4 +1,4 @@
-package HashTable.Medium;
+package Design.Medium;
 
 import java.util.ArrayList;
 import java.util.HashMap;

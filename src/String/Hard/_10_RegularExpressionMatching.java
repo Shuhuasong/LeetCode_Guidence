@@ -27,12 +27,12 @@ public class _10_RegularExpressionMatching {
       //Time = O(m*n), Space = O(m*n)
    public boolean isMatch(String s, String p) {
         int m = s.length(), n = p.length();
-        //dp[i][j] : the lenght with i in s, and the length j in p are match
+        //dp[i][j] : the length with i in s, and the length j in p are match
         boolean[][] dp = new boolean[m+1][n+1];
         //empty string for both
         dp[0][0] = true;
-        for(int i=2; i<=n; i++){
-           if(p.charAt(i-1)=='*') dp[0][j] = dp[0][j-2];
+        for(int j=2; j<=n; j++){
+           if(p.charAt(j-1)=='*') dp[0][j] = dp[0][j-2];
         }
 
         for(int i=1; i<=m; i++){
