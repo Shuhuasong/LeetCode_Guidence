@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_465_OptimalAccountBalancing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design/Medium/_535_EncodeAndDecodeTinyURL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_334_IncreasingTripletSubSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1428_LeftMostColumnWithAtLeastAOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1400_Construct_K_PalindromeStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/MinimumSpanningTree/_1584_MinCostToConnectAllPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_1861_RotatingTheBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/_1202_SmallestStringWithSwaps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashTable/Medium/_1396_DesignUndergroundSystem_SystemDesign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design/Medium/_1396_DesignUndergroundSystem_SystemDesign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/Hard/_10_RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Hard/_10_RegularExpressionMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/_14_LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/_14_LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Medium/_314_BinaryTreeVerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Medium/_314_BinaryTreeVerticalOrderTraversal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -590,14 +588,9 @@
       <workItem from="1650751032761" duration="2697000" />
       <workItem from="1650761705618" duration="259000" />
       <workItem from="1650825145662" duration="2662000" />
-      <workItem from="1650917905874" duration="1405000" />
-    </task>
-    <task id="LOCAL-00188" summary="HashTable">
-      <created>1644621075818</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1644621075824</updated>
+      <workItem from="1650917905874" duration="1421000" />
+      <workItem from="1650948971501" duration="10000" />
+      <workItem from="1651012715775" duration="3387000" />
     </task>
     <task id="LOCAL-00189" summary="Graph">
       <created>1644650501159</created>
@@ -935,7 +928,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650672077555</updated>
     </task>
-    <option name="localTasksCounter" value="237" />
+    <task id="LOCAL-00237" summary="Design">
+      <created>1650948959280</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1650948959281</updated>
+    </task>
+    <option name="localTasksCounter" value="238" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
