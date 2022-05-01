@@ -149,6 +149,20 @@ public class _1631_PathWithMinimumEffort {
          return diffGrid[rows-1][cols-1];
     }
 
+    /*
+Solution:
+Dijkstra's Algorithm: finding the shortest path from a source cell to a destination cell
+shortest path == with minimum absolute difference between the cells
+Math.abs(A-B) == the weight of (A, B)
+Steps:
+0) use a minHeap to sort the data of a cell according to diff : {diff, x, y}
+1) create a 2D diffGrid array to record the difference for each cell(dest) from a source(previous)
+   cell. at the same time, remark the cell has been visited
+2) if the curr difference is less, update diffGrid[nx][ny] = currDiff
+3) pass the max current diff to the q
+
+*/
+
 
 
 

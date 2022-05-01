@@ -77,4 +77,24 @@ e.g Find the first non match and insert the corresponding relation
  "wrf", "er",  "ett",  "rftt"
  t->f    w->e   r->t   e->r
 
+
+
+Solution-topology order
+1) find each pair of letters' order:
+   compare words[i] and words[i+1],
+   only compare the first different
+   character.
+2) use these pair to build a graph
+3) then use BFS find topology order
+
+["wrt","wrf","er","ett","rftt"]
+"wrt"-"wrf" :  t < f
+"wrf"-"er"  :  w < e
+"er" -"ett" :  r < t
+"ett"-"rftt":  e < r
+
+w-->e-->r-->t--->f
 */
+
+
+

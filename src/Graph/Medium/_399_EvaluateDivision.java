@@ -45,6 +45,7 @@ public class _399_EvaluateDivision {
                 if(visited.contains(next)) continue;
                 double v = neighbors.get(next);
                 res = dfs(next, dest, val * v, visited);
+                //we can find a path from src to next, then break
                 if(res != -1) break;
             }
         }

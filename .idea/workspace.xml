@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_1428_LeftMostColumnWithAtLeastAOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1400_Construct_K_PalindromeStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/MinimumSpanningTree/_1584_MinCostToConnectAllPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_1861_RotatingTheBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/_1202_SmallestStringWithSwaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_2214_MinimumHealthToBeatGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_2100_FindGoodDaysToRobTheBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Easy/_1360_NumberOfDaysBetweenTwoDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Easy/_844_BackspaceStringCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_427_ConstructQuadTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1631_PathWithMinimumEffort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1631_PathWithMinimumEffort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Hard/_269_AlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Hard/_269_AlienDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Medium/_399_EvaluateDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_399_EvaluateDivision.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -590,14 +593,11 @@
       <workItem from="1650825145662" duration="2662000" />
       <workItem from="1650917905874" duration="1421000" />
       <workItem from="1650948971501" duration="10000" />
-      <workItem from="1651012715775" duration="3387000" />
-    </task>
-    <task id="LOCAL-00189" summary="Graph">
-      <created>1644650501159</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1644650501160</updated>
+      <workItem from="1651012715775" duration="3507000" />
+      <workItem from="1651117074757" duration="2683000" />
+      <workItem from="1651158994109" duration="1103000" />
+      <workItem from="1651268730563" duration="741000" />
+      <workItem from="1651356281642" duration="2907000" />
     </task>
     <task id="LOCAL-00190" summary="Graph + BFS/DFS + Dijikstra + Topology Order">
       <created>1644727467434</created>
@@ -935,7 +935,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650948959281</updated>
     </task>
-    <option name="localTasksCounter" value="238" />
+    <task id="LOCAL-00238" summary="Union Find">
+      <created>1651038637653</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1651038637654</updated>
+    </task>
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -956,7 +963,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="HashTable" />
     <MESSAGE value="Graph" />
     <MESSAGE value="Graph + BFS/DFS + Dijikstra + Topology Order" />
     <MESSAGE value="Monotonik Stack" />
@@ -981,7 +987,8 @@
     <MESSAGE value="LinkedList" />
     <MESSAGE value="Matrix" />
     <MESSAGE value="Design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design" />
+    <MESSAGE value="Union Find" />
+    <option name="LAST_COMMIT_MESSAGE" value="Union Find" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
