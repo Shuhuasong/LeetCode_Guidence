@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_2214_MinimumHealthToBeatGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prefix_Sum/Medium/_2100_FindGoodDaysToRobTheBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Easy/_1360_NumberOfDaysBetweenTwoDates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Easy/_844_BackspaceStringCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_427_ConstructQuadTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_2261_K_DivisibleElementSubarrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_2260_MinimumConsecutiveCardsToPickUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Hard/_2262_TotalAppealOfAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1631_PathWithMinimumEffort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1631_PathWithMinimumEffort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Hard/_269_AlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Hard/_269_AlienDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Medium/_399_EvaluateDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Medium/_399_EvaluateDivision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/Easy/_844_BackspaceStringCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Easy/_844_BackspaceStringCompare.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -597,14 +593,8 @@
       <workItem from="1651117074757" duration="2683000" />
       <workItem from="1651158994109" duration="1103000" />
       <workItem from="1651268730563" duration="741000" />
-      <workItem from="1651356281642" duration="2907000" />
-    </task>
-    <task id="LOCAL-00190" summary="Graph + BFS/DFS + Dijikstra + Topology Order">
-      <created>1644727467434</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1644727467435</updated>
+      <workItem from="1651356281642" duration="2928000" />
+      <workItem from="1651429243476" duration="853000" />
     </task>
     <task id="LOCAL-00191" summary="Monotonik Stack">
       <created>1644818633574</created>
@@ -942,7 +932,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651038637654</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="Union Find">
+      <created>1651378979652</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1651378979653</updated>
+    </task>
+    <option name="localTasksCounter" value="240" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
