@@ -92,3 +92,21 @@ public class _658_FindKClosestElement {
      */
 
 }
+
+
+/*
+Algorithm:
+Solution-Binary Search
+    nums = [1,2,3,3,3,3, 4,5, k = 4, x = 3}
+    Method #2: Binary Search to Find the left Bound
+    Time = O(log(n-k) + k)
+    Space = O(1)
+
+1) set left = 1, right = A.lenght-k
+2) perform a binary search. At each operation, calculate mid = (left+right)/2
+   and compare the two elements located at arr[mid] and arr[mid+k]. If the element
+   at arr[mid] is closer to x, then move the right pointer. If the element at arr[mid+k]
+   if arr[mid+k] closer to x, then move the left pointer. Remember, the smaller element always wins
+   when there is a tie.
+3) At the end, we have located the leftmost index for the final answer. return the subarray starting at this index that contains k elements.
+*/

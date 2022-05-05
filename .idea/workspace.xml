@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Medium/_2261_K_DivisibleElementSubarrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_2260_MinimumConsecutiveCardsToPickUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Hard/_2262_TotalAppealOfAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Hard/_864_ShortestPathToGetAllKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/Easy/_225_ImplementStackUsingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1679_MaxNumberOf_K_SumPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_581_ShortestUnsortedContinuousSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/Easy/_844_BackspaceStringCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Easy/_844_BackspaceStringCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/BinarySearch_note" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch_note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Easy/_278_FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Easy/_278_FirstBadVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_153_FindMinimumInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_153_FindMinimumInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_162_FindPeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_162_FindPeakElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_658_FindKClosestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_658_FindKClosestElement.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -595,13 +600,9 @@
       <workItem from="1651268730563" duration="741000" />
       <workItem from="1651356281642" duration="2928000" />
       <workItem from="1651429243476" duration="853000" />
-    </task>
-    <task id="LOCAL-00191" summary="Monotonik Stack">
-      <created>1644818633574</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1644818633576</updated>
+      <workItem from="1651558881623" duration="61000" />
+      <workItem from="1651610962701" duration="896000" />
+      <workItem from="1651700131752" duration="3662000" />
     </task>
     <task id="LOCAL-00192" summary="Greedy + DP + BFS + DFS + Monotonik Stack + Sliding Window">
       <created>1644987203339</created>
@@ -939,7 +940,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651378979653</updated>
     </task>
-    <option name="localTasksCounter" value="240" />
+    <task id="LOCAL-00240" summary="BFS">
+      <created>1651558936026</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1651558936027</updated>
+    </task>
+    <option name="localTasksCounter" value="241" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -960,7 +968,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Graph" />
     <MESSAGE value="Graph + BFS/DFS + Dijikstra + Topology Order" />
     <MESSAGE value="Monotonik Stack" />
     <MESSAGE value="Greedy + DP + BFS + DFS + Monotonik Stack + Sliding Window" />
@@ -985,7 +992,8 @@
     <MESSAGE value="Matrix" />
     <MESSAGE value="Design" />
     <MESSAGE value="Union Find" />
-    <option name="LAST_COMMIT_MESSAGE" value="Union Find" />
+    <MESSAGE value="BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="BFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
