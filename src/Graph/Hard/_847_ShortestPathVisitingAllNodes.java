@@ -1,12 +1,49 @@
 package Graph.Hard;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Created by Shuhua Song
  */
 public class _847_ShortestPathVisitingAllNodes {
+
+    public int shortestPathLength(int[][] graph) {
+        int n = graph.length;
+        //Need to add () for bit manipulation
+        int goalMask = (1<<n)-1; //2^3-1=7=111, represent visited all three nodes
+        boolean[][] visited = new boolean[n][goalMask];//TODO: add 1 for dimension, the result is the same
+        Queue<int[]> q = new LinkedList<>();
+        for(int i=0; i<n; i++){
+            q.offer(new int[]{i, 1<<i}); //put every node into queue, e.g i=2, 1<<i = 100, represent node2 has visited
+        }
+        int steps = 0;
+        while(!q.isEmpty()){
+            int size = q.size();
+            for(int i=0; i<size; i++){
+                int[] cell = q.poll();
+                int node = cell[0], mask = cell[1];
+                //means taking one more step to the neighbor will complete visiting all nodes
+                if(mask==goalMask) return steps;
+                if(visited[node][mask]) continue;
+                visited[node][mask] = true;
+                for(int next : graph[node]){
+                    //declare a new state
+                    int nextMask = mask | (1<<next);
+                    q.offer(new int[]{next, nextMask});
+                }
+            }
+            steps++;
+        }
+        return -1;
+    }
+
+
+
     //DFS+Memoization--Top Dawn
     //Time = O(N^2 * 2^n), the total number of possible states is O(N*2^N), each time when we explore each node, they all have these states
     //Space = O(N*2^N)
+    /*
     int[][] memo, graph;
     int res = 0;
     public int shortestPathLength(int[][] graph) {
@@ -45,41 +82,20 @@ public class _847_ShortestPathVisitingAllNodes {
         }
         return memo[node][goalMask];
     }
-
-    /*
-      public int shortestPathLength(int[][] graph) {
-        int n = graph.length;
-        int goalMask = (1<<n)-1;
-        boolean[][] visited = new boolean[n][goalMask];//TODO: add 1 for dimension, the result is the same
-        Queue<int[]> q = new LinkedList<>();
-        for(int i=0; i<n; i++){
-            q.offer(new int[]{i, 1<<i});
-        }
-        int steps = 0;
-        while(!q.isEmpty()){
-            int size = q.size();
-            for(int i=0; i<size; i++){
-                int[] cell = q.poll();
-                int node = cell[0], mask = cell[1];
-                //means taking one more step to the neighbor will complete visiting all nodes
-                if(mask==goalMask) return steps;
-                if(visited[node][mask]) continue;
-                visited[node][mask] = true;
-                for(int next : graph[node]){
-                    //declare a new state
-                    int nextMask = mask | (1<<next);
-                    q.offer(new int[]{next, nextMask});
-                }
-            }
-            steps++;
-        }
-        return -1;
-    }
      */
+
 }
 
 
 /*
+Problem：
+1）we can revisit nodes and reuse edges。
+2) use bitmasks to represent, if have n nodes, there are 2^n possible states
+   of nodes we have visited so far - for each node, we have either visited or haven't.
+   e.g    n = 8,  01001100
+   we can represent this as the binary number, this call bitmask==mask
+
+
 1.How to change the mask (flip certain bits, for example, if we visit
 the 4th node, how do we flip the 4th bit?)
 1) shift = 1<<i = 1<<4 = 10000

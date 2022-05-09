@@ -109,4 +109,14 @@ Solution-Binary Search
    if arr[mid+k] closer to x, then move the left pointer. Remember, the smaller element always wins
    when there is a tie.
 3) At the end, we have located the leftmost index for the final answer. return the subarray starting at this index that contains k elements.
+
+
+/*
+if use(left<=right), left = mid+1, right-1 ==>
+   Array Index Out of Bound Exception
+[1]
+1
+1
 */
+
+

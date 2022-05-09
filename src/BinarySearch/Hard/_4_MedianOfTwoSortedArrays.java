@@ -5,6 +5,7 @@ package BinarySearch.Hard;
  */
 public class _4_MedianOfTwoSortedArrays {
 
+    //Binary Search
     public double findMedianSortedArrays(int[] A, int[] B) {
         int lenA = A.length, lenB = B.length;
         if(lenA > lenB) return findMedianSortedArrays(B, A);

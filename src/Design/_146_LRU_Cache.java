@@ -37,13 +37,14 @@ class LRUCache {
         next.prev = prev;
     }
 
-    public void addNode(ListNode node) {
-        //  Add the new node right after head
+    public void addNode(ListNode node){
+        //be careful the order of this line and next line, this line must be the first
         node.prev = head;
-        node.next = head.next;
-        head.next.prev = node; //be careful the order of this line and next line, this line must be the first
-        head.next = node;
+        node.next = head.next; //  <---newNode--->
+        head.next.prev = node; //      newNode<---nextNode
+        head.next = node;  //   head--->newNode
     }
+
 
     public ListNode removeTail() {
         //pop the current tail
@@ -92,7 +93,7 @@ class LRUCache {
         }
     }
 }
-
+//-----------------------------------------------------------------------
 /*
  class _LRUCache_ {
 
@@ -164,11 +165,13 @@ class LRUCache {
 }
 
 
-/*
+
 class LRUCache extends LinkedHashMap<Integer, Integer>{
 
+
+    //This constructor is also used to initialize both the capacity and fill ratio for a LinkedHashMap
+    // along with whether to follow the insertion order or not.
     int capacity;
-    //This constructor is also used to initialize both the capacity and fill ratio for a LinkedHashMap along with whether to follow the insertion order or not.
     public LRUCache(int capacity) {
         super(capacity, 0.75F, true);
         this.capacity = capacity;
@@ -190,5 +193,43 @@ class LRUCache extends LinkedHashMap<Integer, Integer>{
 }
 
 */
+
+
+/*
+Normal thinking:
+Map <Key, Value> ==> get key/check key exist ===> O(1)
+Map<Integer, Integer>  key==key, value = usage times
+e.g  {{1, 2}, {2, 2}, {3, 1}}
+To find a key to kick out is O(n)
+
+How can we improve ?
+Map<Key, Node>
+front:keep recently used, end: least recently use
+Head-->{1, 1} ==> the new node(2,2)comes, put it in front of list  :  addAfterHead(node)
+Head-->{2, 2}-->{1, 1} ==> use a node, put it in front of list
+Head-->{1, 1}-->{2, 2}==> new node(3, 3) comes, put it in front of list, kick out (2,2) :  remove(node), addAfterHead(node)
+Head-->{3, 3}-->{1, 1}==> new node(4, 4) comes, put it in front of list, kick out (1,1) :
+Head-->{4, 4}-->{3, 3}
+
+1) node exist :
+e.g
+Head-->{1, 1}-->{3, 6}
+  ==> new node(3, 3) comes, update node, remove it and put it in front of list, kick out (2,2) :  remove(node), addAfterHead(node)
+Head-->{3, 3}-->{1, 1}
+   --update node's value
+   --moveToHead() = remove(node) + addAfterHead(node)
+
+2) node not exist:
+   --creat  a new node
+   --add the new node after head : addAfterHead(node)
+   --put in the cache (key, newNode)
+   --increase size: size++
+   --check size, if size > capacity ==> remove tail node and remove the tail node in the cache : removeTail()
+   --update size again: size--
+
+
+   https://www.hp.com/us-en/shop/tech-takes/what-is-cache-memory#:~:text=Computer%20cache%20definition,your%20computer's%20main%20hard%20drive.
+*/
+
 
 

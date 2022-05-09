@@ -17,16 +17,22 @@ public class _162_FindPeakElement {
     }
 
     /*
-     public int findPeakElement(int[] nums) {
+    public int findPeakElement(int[] nums) {
         int left = 0, right = nums.length-1;
         while(left < right){
             int mid = left + (right-left)/2;
-            if(nums[mid] > nums[mid+1]) right = mid;
-            else{
+            if(nums[mid] < nums[mid+1]){
                 left = mid+1;
+            }else{
+                right = mid;
             }
         }
         return left;
     }
      */
 }
+
+/*
+Case-1:
+nums = {1} ==> output : 0
+ */
