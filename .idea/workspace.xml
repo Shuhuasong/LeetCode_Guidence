@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Easy/_270_ClosestBinarySearchTreeValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Easy/_367_ValidPerfectSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Easy/_744_FindSmallestLetterGreaterThanTarget_circular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_702_SeachInASortedArrayOfUnknonSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Hard/_675_CutOffTreesForGolfEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_456_132Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_1676_LowestCommonAncestorOfABinaryTree_IV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Hard/_4_MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Hard/_4_MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_162_FindPeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_162_FindPeakElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Medium/_658_FindKClosestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Medium/_658_FindKClosestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Design/_LRU_Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design/_146_LRU_Cache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Hard/_847_ShortestPathVisitingAllNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Hard/_847_ShortestPathVisitingAllNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/MonotonicStack/_496_NextGreaterElementI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_496_NextGreaterElementI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pramp/String/Medium/_1209_RemoveAllAdjacentDuplicatesInStringII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pramp/String/Medium/_1209_RemoveAllAdjacentDuplicatesInStringII.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -611,14 +601,8 @@
       <workItem from="1651883403318" duration="413000" />
       <workItem from="1651938222471" duration="177000" />
       <workItem from="1651953796855" duration="3313000" />
-      <workItem from="1652026208570" duration="4385000" />
-    </task>
-    <task id="LOCAL-00193" summary="Greedy + DP + BFS + DFS + Monotonik Stack + Sliding Window">
-      <created>1644988952837</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1644988952837</updated>
+      <workItem from="1652026208570" duration="4407000" />
+      <workItem from="1652141554324" duration="1430000" />
     </task>
     <task id="LOCAL-00194" summary="Heap + Sort + DP">
       <created>1645149318933</created>
@@ -956,7 +940,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651720590863</updated>
     </task>
-    <option name="localTasksCounter" value="242" />
+    <task id="LOCAL-00242" summary="Binary Search">
+      <created>1652066853271</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1652066853271</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -996,13 +987,13 @@
     <MESSAGE value="Tree" />
     <MESSAGE value="DFS + BFS" />
     <MESSAGE value="Trie" />
-    <MESSAGE value="Binary Search" />
     <MESSAGE value="LinkedList" />
     <MESSAGE value="Matrix" />
     <MESSAGE value="Design" />
     <MESSAGE value="Union Find" />
     <MESSAGE value="BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="BFS" />
+    <MESSAGE value="Binary Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

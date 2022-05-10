@@ -85,4 +85,28 @@ public class _1209_RemoveAllAdjacentDuplicatesInStringII {
 
 }
 
-//delete(int start, int end) method of StringBuilder class removes the characters starting from index start to index end-1 from String contained by StringBuilder.
+
+/*
+Solution-Stack
+1) store array in stack: {character, occurence}
+
+ 0 1 2 3 4 5 6 7 8 9 10
+"d e e e d b b c c c b "
+ |
+
+[e, 3] remove
+[d, 1]
+
+2) Use StringBuilder to store the original String
+   store the occurence in the stack
+   remove substring from stringBuilder when top == k
+
+   sb = "d e e e d b b c c c b "
+               i
+   sb = "d d b b c c c b "
+         i
+
+*/
+
+//delete(int start, int end) method of StringBuilder class removes the characters
+// starting from index start to index end-1 from String contained by StringBuilder.
