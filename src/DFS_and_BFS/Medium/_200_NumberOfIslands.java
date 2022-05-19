@@ -29,7 +29,7 @@ public class _200_NumberOfIslands {
         if(i<0 || i>= ROWS || j<0 || j>= COLS || grid[i][j]=='0'){
             return 0;
         }
-        grid[i][j] = '0'; //marsk every visited node as '0' to mark as visited node
+        grid[i][j] = '0'; //mark every visited node as '0' to mark as visited node
         dfs(i+1, j, grid);
         dfs(i-1, j, grid);
         dfs(i, j+1, grid);

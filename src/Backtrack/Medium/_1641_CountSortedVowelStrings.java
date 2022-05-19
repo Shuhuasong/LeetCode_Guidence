@@ -66,6 +66,11 @@ public class _1641_CountSortedVowelStrings {
     /*
      //1-Backtrack
      //Time = O(n^5), Space = O(n)
+     1) Use an integer variable vowel to represent the charater:
+        1==a, 2=e, 3=i, 4=o, 5=u
+     2) Begin with n position and decrement n by 1 as we have used up
+        that position and continue passing the same vowel
+
     public int countVowelStrings(int n) {
         return count(n, 1);
     }

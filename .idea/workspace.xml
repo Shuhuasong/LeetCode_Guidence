@@ -5,9 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_1676_LowestCommonAncestorOfABinaryTree_IV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_679_24Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_1219_PathWithMaximumGold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1905_CountSubIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_216_CombinationSum_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Hard/_126_WordLadderII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_743_NetworkDelayTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_110_BalancedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_572_SubtreeOfAnotherTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Hard/_428_SerializeAndDeserialize_N_ary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_1302_DeepestLeavesSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_2096_Step_By_StepDirectionsFromABinaryTreeNodeToAnother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_366_FindLeavesOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pramp/String/Medium/_1209_RemoveAllAdjacentDuplicatesInStringII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pramp/String/Medium/_1209_RemoveAllAdjacentDuplicatesInStringII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode(New)/Array/Kadane's algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode(New)/Array/Kadane's algorithm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_1641_CountSortedVowelStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_1641_CountSortedVowelStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_200_NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_200_NumberOfIslands.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._1043_PartitionArrayForMaximu">
+  <component name="RunManager" selected="Application.Test3">
     <configuration name="LargestSmallerBST_key" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pramp.Tree.LargestSmallerBST_key" />
       <module name="LeetCode(New)" />
@@ -126,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1043_PartitionArrayForMaximu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon._1043_PartitionArrayForMaximu" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test1" />
       <module name="LeetCode(New)" />
       <extension name="coverage">
         <pattern>
@@ -135,6 +151,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test3" />
+      <module name="LeetCode(New)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,34 +175,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_TreasureIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlineCodingChallege.Amazon.Spring2022._TreasureIsland" />
-      <module name="LeetCode(New)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OnlineCodingChallege.Amazon.Spring2022.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.LargestSmallerBST_key" />
-      <item itemvalue="Application._TreasureIsland" />
       <item itemvalue="Application._Efficient_Harvest_" />
       <item itemvalue="Application.MinLengthWithSumGreaterThanK" />
       <item itemvalue="Application.MaximumValueOfAllPossibleSubarrayofSizeK" />
-      <item itemvalue="Application._1043_PartitionArrayForMaximu" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Test3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._1043_PartitionArrayForMaximu" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.MaximumValueOfAllPossibleSubarrayofSizeK" />
         <item itemvalue="Application.MinLengthWithSumGreaterThanK" />
         <item itemvalue="Application._Efficient_Harvest_" />
-        <item itemvalue="Application._TreasureIsland" />
       </list>
     </recent_temporary>
   </component>
@@ -602,14 +612,20 @@
       <workItem from="1651938222471" duration="177000" />
       <workItem from="1651953796855" duration="3313000" />
       <workItem from="1652026208570" duration="4407000" />
-      <workItem from="1652141554324" duration="1430000" />
-    </task>
-    <task id="LOCAL-00194" summary="Heap + Sort + DP">
-      <created>1645149318933</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1645149318934</updated>
+      <workItem from="1652141554324" duration="1756000" />
+      <workItem from="1652207072920" duration="850000" />
+      <workItem from="1652222514852" duration="1170000" />
+      <workItem from="1652310591236" duration="2252000" />
+      <workItem from="1652394701490" duration="3488000" />
+      <workItem from="1652400675120" duration="1604000" />
+      <workItem from="1652404188262" duration="915000" />
+      <workItem from="1652480201947" duration="1292000" />
+      <workItem from="1652584142402" duration="1717000" />
+      <workItem from="1652673569210" duration="494000" />
+      <workItem from="1652748013770" duration="1099000" />
+      <workItem from="1652832715714" duration="1621000" />
+      <workItem from="1652929765240" duration="429000" />
+      <workItem from="1652932163802" duration="226000" />
     </task>
     <task id="LOCAL-00195" summary="HashMap+Sort">
       <created>1645248565372</created>
@@ -947,7 +963,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652066853271</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary="Binary Search">
+      <created>1652155871798</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1652155871799</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
