@@ -9,6 +9,7 @@ public class _79_WordSearch {
         this.board = board;
         this.ROWS = board.length;
         this.COLS = board[0].length;
+        if(word.length()>ROWS*COLS) return false;
         boolean find = false;
         for(int i=0; i<ROWS; i++){
             for(int j=0; j<COLS; j++){

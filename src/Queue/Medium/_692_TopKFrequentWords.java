@@ -7,6 +7,7 @@ import java.util.*;
  */
 public class _692_TopKFrequentWords {
     public List<String> topKFrequent(String[] words, int k) {
+
         Map<String, Integer> freq = new HashMap<>();
         for(String w : words){
             freq.put(w, freq.getOrDefault(w, 0)+1);

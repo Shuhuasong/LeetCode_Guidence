@@ -84,12 +84,12 @@ public class _417_PacificAtlanticWaterFlow {
         boolean[][] atlant = new boolean[rows][cols];
          // Loop through each cell adjacent to the oceans and start a DFS
         for(int i=0; i<rows; i++){
-            dfs(i, 0, pacific);
-            dfs(i, cols-1, atlant);
+            dfs(i, 0, pacific);  //left column === pacific
+            dfs(i, cols-1, atlant); //right column == alantic
         }
         for(int j=0; j<cols; j++){
-            dfs(0, j, pacific);
-            dfs(rows-1, j, atlant);
+            dfs(0, j, pacific);  // top
+            dfs(rows-1, j, atlant); // bottome
         }
 
          // Find all cells that can reach both oceans
@@ -124,3 +124,43 @@ public class _417_PacificAtlanticWaterFlow {
 
      */
 }
+
+/*
+Solution-1: backtrack(dfs)
+        1. iterate each cell(node), we check
+        1) if there is a path to Pacific,  x < 0 && y < 0
+        2) if there is a path to Atlantic, x==row && y==col
+        will TLE ==> repeat visited
+        time complexity : 4^(mn)
+
+
+        2. think in oppsite direction
+        start from border, and remark visited cell(node)
+        the water can flow from lower height to higher height
+
+
+ */
+
+/*
+Solution-1: backtrack(dfs)
+1. iterate each cell(node), we check
+    1) if there is a path to Pacific,  x < 0 && y < 0
+    2) if there is a path to Atlantic, x==row && y==col
+   will TLE ==> repeat visited
+   time complexity : 4^(mn)
+
+
+2. think in oppsite direction
+   start from border, and remark visited cell(node) : visited[][]
+   the water can flow from lower height to higher height
+   start Height = 0,
+   dfs or bfs
+   new height[i][j] < old height[i][j]
+
+   https://docs.google.com/drawings/d/157Ee14FPBtUChv2Hs8fnUGxH18ouKVxOh4xVh83H8BU/edit
+
+   https://docs.google.com/drawings/d/1qdG8_fjf6hWfsUzXaUEYWzYNKkFsEdNHt_qTaAAmulE/edit
+   */
+
+
+

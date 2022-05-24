@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_679_24Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_1219_PathWithMaximumGold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_1905_CountSubIsland.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_216_CombinationSum_III.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Hard/_126_WordLadderII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_743_NetworkDelayTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_110_BalancedBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Easy/_572_SubtreeOfAnotherTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Hard/_428_SerializeAndDeserialize_N_ary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_1302_DeepestLeavesSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_2096_Step_By_StepDirectionsFromABinaryTreeNodeToAnother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Medium/_366_FindLeavesOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_474_OnesAndZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_647_PalindromicSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Hard/_1192_CriticalConnectionsInANetword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Medium/_2274_MaximumConsecutiveFloorsWithoutSpecialFloors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode(New)/Array/Kadane's algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode(New)/Array/Kadane's algorithm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_1641_CountSortedVowelStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_1641_CountSortedVowelStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_200_NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_200_NumberOfIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtrack/Hard/_465_OptimalAccountBalancing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_465_OptimalAccountBalancing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_79_WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_79_WordSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_417_PacificAtlanticWaterFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_417_PacificAtlanticWaterFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/Medium/_692_TopKFrequentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue/Medium/_692_TopKFrequentWords.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -626,6 +616,12 @@
       <workItem from="1652832715714" duration="1621000" />
       <workItem from="1652929765240" duration="429000" />
       <workItem from="1652932163802" duration="226000" />
+      <workItem from="1652934729988" duration="770000" />
+      <workItem from="1652998815355" duration="2068000" />
+      <workItem from="1653093582693" duration="736000" />
+      <workItem from="1653194680457" duration="187000" />
+      <workItem from="1653260874751" duration="1440000" />
+      <workItem from="1653348023189" duration="1808000" />
     </task>
     <task id="LOCAL-00195" summary="HashMap+Sort">
       <created>1645248565372</created>
@@ -1045,6 +1041,11 @@
           <url>file://$PROJECT_DIR$/src/DynamicProgramming/Hard/_1012_NumbersWithRepeatedDigits.java</url>
           <line>19</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Queue/Medium/_692_TopKFrequentWords.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Golden_Sach_21FallOA/_DoubleOnMatch_.java</url>

@@ -11,6 +11,7 @@ import java.util.Map;
 public class _465_OptimalAccountBalancing {
 
     public int minTransfers(int[][] transactions) {
+        // //map: record the debt
         Map<Integer, Integer> map = new HashMap<>();
         for(int[] t :  transactions){
             map.put(t[0], map.getOrDefault(t[0], 0)+t[2]);
@@ -22,7 +23,7 @@ public class _465_OptimalAccountBalancing {
         }
         return backtrack(0, list);
     }
-
+   //to settle up the debt from list.get(k) -> list.get(size-1)
     private int backtrack(int start, List<Integer> list){
         if(start==list.size()) return 0;
         int curr = list.get(start);
