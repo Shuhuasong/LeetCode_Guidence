@@ -5,37 +5,37 @@ package RollingHash;
  */
 public class _2156_FindSubstringWithGivenHashValue {
     public String subStrHash(String s, int power, int modulo, int k, int hashValue) {
-        int n = s.length();
-        //compute : 96^14 since it is very big
-        long bigPower = 1;
-        for(int i=1; i<k; i++){
-            bigPower = (bigPower * power) % modulo;
-        }
-        //compute last k character
-        long hash = 0;
+        int n = s.length(), start = 0;
+        long curr = 0, bigPow = 1;
+        // power of k
         for(int i=0; i<k; i++){
-            int charVal = s.charAt(n-i-1) - 'a' + 1;
-            hash = (hash * power + charVal) % modulo;
+            bigPow = bigPow * power % modulo;
         }
-        int resIdx = -1;
-        if(hash==hashValue){
-            resIdx = n-k;
-        }
-
-        for(int i=k; n-i-1 >= 0; i++){
-            int tailVal = s.charAt(n-i-1+k) - 'a' + 1;
-            hash = ((hash-tailVal * bigPower)%modulo+modulo)%modulo;
-            int headVal = s.charAt(n-i-1) - 'a' + 1;
-            hash = (hash * power + headVal)%modulo;
-            if(hash==hashValue){
-                resIdx = n-i-1;
+        for(int i=n-1; i>=0; i--){
+            char c = s.charAt(i);
+            curr = (c-'a' + 1 + curr * power) % modulo;
+            if(i<n-k){ // the window has more than k character, we need move last one char and add one
+                curr = (curr-(s.charAt(i+k)-'a'+1) * bigPow % modulo + modulo) % modulo;
+            }
+            if(i<=n-k && curr==hashValue){
+                start = i;
             }
         }
-        return s.substring(resIdx, resIdx+k);
+        return s.substring(start, start+k);
     }
 }
 
 /*
+hash(s, p, m) = (val(s[0] * p0 + val(s[1]) * p1) + ... + val(s[k-1]) * pk-1) mod m
+k = 3
+XXXXbcxXXXX---> XXXabcdXXXX---> XXXabcXXXXX
+add 'a' to the left   hash(s,10, 10) ---> "bcd" = 432%10
+sub 'd' to the right  hash(s, 10, 10)---> "abcd" = (1 + (432)*10)%10 = 4321
+                      hash(s, 10, 10)---> "abc" = ((1 + (432)*10)%10 - 4*10^3%10) = (4321-4000)%10
+Time complexity O(n)
+
+
+
 "xmmhdakfursinye"
 96
 45

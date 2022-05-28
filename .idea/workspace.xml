@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_474_OnesAndZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_647_PalindromicSubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Hard/_1192_CriticalConnectionsInANetword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/Medium/_2274_MaximumConsecutiveFloorsWithoutSpecialFloors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_354_RussianDollEnvelopes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1814_CountNicePairsInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Hard/_480_SlidingWindowMedian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Hard/_465_OptimalAccountBalancing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_465_OptimalAccountBalancing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_79_WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_79_WordSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_417_PacificAtlanticWaterFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Medium/_417_PacificAtlanticWaterFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue/Medium/_692_TopKFrequentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue/Medium/_692_TopKFrequentWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RollingHash/_2156_FindSubstringWithGivenHashValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RollingHash/_2156_FindSubstringWithGivenHashValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/Medium/_1438_LongestContinuousSubarrayWithAbsoluteDiffLessThanLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_1438_LongestContinuousSubarrayWithAbsoluteDiffLessThanLimit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Medium/_1423_MaximumPointsYouCanObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_1423_MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -621,14 +619,12 @@
       <workItem from="1653093582693" duration="736000" />
       <workItem from="1653194680457" duration="187000" />
       <workItem from="1653260874751" duration="1440000" />
-      <workItem from="1653348023189" duration="1808000" />
-    </task>
-    <task id="LOCAL-00195" summary="HashMap+Sort">
-      <created>1645248565372</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1645248565373</updated>
+      <workItem from="1653348023189" duration="2281000" />
+      <workItem from="1653414336196" duration="2170000" />
+      <workItem from="1653518788342" duration="1090000" />
+      <workItem from="1653529218148" duration="825000" />
+      <workItem from="1653605504759" duration="1708000" />
+      <workItem from="1653682406752" duration="1015000" />
     </task>
     <task id="LOCAL-00196" summary="Heap">
       <created>1645335826942</created>
@@ -966,7 +962,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652155871799</updated>
     </task>
-    <option name="localTasksCounter" value="244" />
+    <task id="LOCAL-00244" summary="Binary Search">
+      <created>1653364837236</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1653364837237</updated>
+    </task>
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

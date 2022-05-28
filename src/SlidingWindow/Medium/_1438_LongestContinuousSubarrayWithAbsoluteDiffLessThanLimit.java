@@ -25,6 +25,37 @@ public class _1438_LongestContinuousSubarrayWithAbsoluteDiffLessThanLimit {
         }
         return maxLen;
     }
+    /*
+     //Time = O(n)
+    public int longestSubarray(int[] nums, int limit) {
+        Deque<Integer> minDeq = new ArrayDeque<>();
+        Deque<Integer> maxDeq = new ArrayDeque<>();
+        int maxLen = 0, left = 0;
+        for(int i=0;i<nums.length; i++){
+            while(!minDeq.isEmpty() && nums[i] < nums[minDeq.peekLast()]){
+                minDeq.pollLast();
+            }
+            minDeq.addLast(i);
+
+            while(!maxDeq.isEmpty() && nums[i] > nums[maxDeq.peekLast()]){
+                maxDeq.pollLast();
+            }
+            maxDeq.addLast(i);
+
+            while(nums[maxDeq.peekFirst()]-nums[minDeq.peekFirst()] > limit){
+                if(minDeq.peekFirst()==left){
+                    minDeq.remove(left);
+                }
+                if(maxDeq.peekFirst()==left){
+                    maxDeq.remove(left);
+                }
+                left++;
+            }
+            maxLen = Math.max(maxLen, i-left+1);
+        }
+        return maxLen;
+    }
+     */
 }
 
 /*
@@ -38,5 +69,43 @@ Solution:
 minEle maxEle
 
 8 2 1 3 8 4 5 6 7
+
+
+
+Solution - 1: use treeset
+1) keep a sliding window by itereate numbers and add the index into treeset.
+2) check if the largest-smallest=diff is greater than limit. If it is, we need
+   to shrink the window size by move forward the left pointer
+3) once the diff is valid, we update the answer
+
+Solution - 2: use two queue
+1) use a increase queue and decreasing queue to keep the data
+
+[8, 2, 4, 7]  max-min=diff
+ |left
+i=0
+increase: 8
+decrease: 8
+-----------
+i=1
+increase: 2   (2 is smaller than 8, so 8 was kicked out)
+decrease: 8 2 (2 is add into decrease queue since 2 < 8)
+
+increase: 2
+decrease: 2
+since 8-2>limit, so we need to pop the value on the left pointer(8), and left++
+-----------
+i=2
+increase: 2 4 (4 is add into decrease queue since 4 > 2)
+decrease: 4   (2 is smaller than 4, so 2 was kicked out)
+i=3
+increase: 2 4 7 (7 is add into decrease queue since 7 > 2)
+decrease: 7     (4 is smaller than 7, so 7 was kicked out)
+since 7-2>limit, so we need to pop the value on the left pointer(2), and left++ (2)
+increase: 4 7 (7 is add into decrease queue since 7 > 2)
+decrease: 7     (4 is smaller than 7, so 7 was kicked out)
+since 7-4=3 < limit, so the answer is : n-2+1 = 4-2+1 = 3
 */
+
+
 
