@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_354_RussianDollEnvelopes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Medium/_1814_CountNicePairsInAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/Hard/_480_SlidingWindowMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bitwise/Medium/_318_MaximumProductOfWordLengths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_2289_StepsToMakeArrayNonDecreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Medium/_2288_ApplyDiscountToPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RollingHash/_2156_FindSubstringWithGivenHashValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RollingHash/_2156_FindSubstringWithGivenHashValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/Medium/_1438_LongestContinuousSubarrayWithAbsoluteDiffLessThanLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/Medium/_1438_LongestContinuousSubarrayWithAbsoluteDiffLessThanLimit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Medium/_1423_MaximumPointsYouCanObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_1423_MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -624,14 +621,8 @@
       <workItem from="1653518788342" duration="1090000" />
       <workItem from="1653529218148" duration="825000" />
       <workItem from="1653605504759" duration="1708000" />
-      <workItem from="1653682406752" duration="1015000" />
-    </task>
-    <task id="LOCAL-00196" summary="Heap">
-      <created>1645335826942</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1645335826947</updated>
+      <workItem from="1653682406752" duration="1279000" />
+      <workItem from="1653840011231" duration="932000" />
     </task>
     <task id="LOCAL-00197" summary="BFS+Sorting">
       <created>1645419798463</created>
@@ -969,7 +960,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653364837237</updated>
     </task>
-    <option name="localTasksCounter" value="245" />
+    <task id="LOCAL-00245" summary="Binary Search">
+      <created>1653716087901</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1653716087902</updated>
+    </task>
+    <option name="localTasksCounter" value="246" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
