@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bitwise/Medium/_318_MaximumProductOfWordLengths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/MonotonicStack/_2289_StepsToMakeArrayNonDecreasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Medium/_2288_ApplyDiscountToPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Hard/_564_FindTheCloestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_986_IntervalListIntersections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/_305_NumberOfIslands_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -622,14 +622,8 @@
       <workItem from="1653529218148" duration="825000" />
       <workItem from="1653605504759" duration="1708000" />
       <workItem from="1653682406752" duration="1279000" />
-      <workItem from="1653840011231" duration="932000" />
-    </task>
-    <task id="LOCAL-00197" summary="BFS+Sorting">
-      <created>1645419798463</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1645419798464</updated>
+      <workItem from="1653840011231" duration="1019000" />
+      <workItem from="1653932760806" duration="638000" />
     </task>
     <task id="LOCAL-00198" summary="BFS+Sorting">
       <created>1645505502396</created>
@@ -967,7 +961,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653716087902</updated>
     </task>
-    <option name="localTasksCounter" value="246" />
+    <task id="LOCAL-00246" summary="Monotonik Stack">
+      <created>1653847974173</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1653847974174</updated>
+    </task>
+    <option name="localTasksCounter" value="247" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -989,7 +990,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Graph + BFS/DFS + Dijikstra + Topology Order" />
-    <MESSAGE value="Monotonik Stack" />
     <MESSAGE value="Greedy + DP + BFS + DFS + Monotonik Stack + Sliding Window" />
     <MESSAGE value="Heap + Sort + DP" />
     <MESSAGE value="HashMap+Sort" />
@@ -1013,7 +1013,8 @@
     <MESSAGE value="Union Find" />
     <MESSAGE value="BFS" />
     <MESSAGE value="Binary Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search" />
+    <MESSAGE value="Monotonik Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Monotonik Stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
