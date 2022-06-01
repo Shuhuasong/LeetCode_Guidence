@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/String/Hard/_564_FindTheCloestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_986_IntervalListIntersections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/_305_NumberOfIslands_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RollingHash/_1461_CheckIfAStringContainsAllBinaryCodesOfSize_K.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/Medium/_678_ValidParenthesisString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Medium/_678_ValidParenthesisString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Medium/_1963_MinimumNumberOfSwapsToMakeStringBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_1963_MinimumNumberOfSwapsToMakeStringBalanced.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -623,14 +623,8 @@
       <workItem from="1653605504759" duration="1708000" />
       <workItem from="1653682406752" duration="1279000" />
       <workItem from="1653840011231" duration="1019000" />
-      <workItem from="1653932760806" duration="638000" />
-    </task>
-    <task id="LOCAL-00198" summary="BFS+Sorting">
-      <created>1645505502396</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1645505502401</updated>
+      <workItem from="1653932760806" duration="677000" />
+      <workItem from="1654041527357" duration="1833000" />
     </task>
     <task id="LOCAL-00199" summary="BFS+Sorting">
       <created>1645505616785</created>
@@ -968,7 +962,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653847974174</updated>
     </task>
-    <option name="localTasksCounter" value="247" />
+    <task id="LOCAL-00247" summary="Monotonik Stack">
+      <created>1653975601801</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1653975601803</updated>
+    </task>
+    <option name="localTasksCounter" value="248" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

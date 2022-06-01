@@ -63,10 +63,26 @@ public class _678_ValidParenthesisString {
 
 /*
 solution-Stack
+
+leftStack )
+starStack *
+step1: ( push to leftStack
+       * push to starStack
+       )  1) leftStack not empty poll means it's matching
+          2) starStack not empty *appear before ). treat * as left '(' --> eg: *)
+          3) ).  return false;
+step2:  * (   index > star
+
+        pair: (index, ( ) *)
+
+
 use one stack to collect index of '(',
 and one stack to collect index of '*'.
 when there is ')', we cancel one elem in charStack or starStack
 if both are empty, no char match with curr ')' then return false;
+
+if there exist pair :  * (
+charIdx > starIdx, then it can't match, return false;
 
 after iterate the whole string, check if elem in both stack are match
 if match, then pop; otherwise, return false;
