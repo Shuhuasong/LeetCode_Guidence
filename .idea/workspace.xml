@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RollingHash/_1461_CheckIfAStringContainsAllBinaryCodesOfSize_K.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Hard/_2267_Check_If_There_is_a_validParentheseStringPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Hard/_301_RemoveInvalidParenthese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_2116_CheckIfParentheseStringCanBeValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Simulation/_2232_MinimumResultByAddingParentheseToExpresson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_1190_ReverseSubstringsBetweenEachPairOfParenthese.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/Medium/_678_ValidParenthesisString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Medium/_678_ValidParenthesisString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Medium/_1963_MinimumNumberOfSwapsToMakeStringBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/Medium/_1963_MinimumNumberOfSwapsToMakeStringBalanced.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -625,13 +627,10 @@
       <workItem from="1653840011231" duration="1019000" />
       <workItem from="1653932760806" duration="677000" />
       <workItem from="1654041527357" duration="1833000" />
-    </task>
-    <task id="LOCAL-00199" summary="BFS+Sorting">
-      <created>1645505616785</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1645505616785</updated>
+      <workItem from="1654062989648" duration="52000" />
+      <workItem from="1654146889984" duration="570000" />
+      <workItem from="1654230959374" duration="2017000" />
+      <workItem from="1654305123049" duration="567000" />
     </task>
     <task id="LOCAL-00200" summary="BFS+Sorting">
       <created>1645582410521</created>
@@ -969,7 +968,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653975601803</updated>
     </task>
-    <option name="localTasksCounter" value="248" />
+    <task id="LOCAL-00248" summary="Monotonik Stack">
+      <created>1654063029551</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1654063029552</updated>
+    </task>
+    <option name="localTasksCounter" value="249" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
