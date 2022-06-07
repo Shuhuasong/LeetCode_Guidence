@@ -4,6 +4,7 @@ package Backtrack.Hard;
  * Created by Shuhua Song
  */
 public class _52_N_Queens_II {
+    //Time = O(n^2n)==> O(n * n!)
     int res = 0;
     public int totalNQueens(int n) {
         if(n<=1) return n;

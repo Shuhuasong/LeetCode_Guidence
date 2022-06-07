@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Hard/_2267_Check_If_There_is_a_validParentheseStringPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_and_BFS/Hard/_301_RemoveInvalidParenthese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Medium/_2116_CheckIfParentheseStringCanBeValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Simulation/_2232_MinimumResultByAddingParentheseToExpresson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Medium/_1190_ReverseSubstringsBetweenEachPairOfParenthese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_1216_ValidPalindrom_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RollingHash/_214_ShortestPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtrack/Hard/_51_N_Queens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_51_N_Queens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtrack/Hard/_52_N_Queens_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_52_N_Queens_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_647_PalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_647_PalindromicSubstring.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -630,14 +630,10 @@
       <workItem from="1654062989648" duration="52000" />
       <workItem from="1654146889984" duration="570000" />
       <workItem from="1654230959374" duration="2017000" />
-      <workItem from="1654305123049" duration="567000" />
-    </task>
-    <task id="LOCAL-00200" summary="BFS+Sorting">
-      <created>1645582410521</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1645582410522</updated>
+      <workItem from="1654305123049" duration="607000" />
+      <workItem from="1654403657823" duration="1331000" />
+      <workItem from="1654444571179" duration="725000" />
+      <workItem from="1654553280605" duration="3740000" />
     </task>
     <task id="LOCAL-00201" summary="HashMap + Prefix Sum">
       <created>1645678631298</created>
@@ -975,7 +971,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654063029552</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="Parentheses">
+      <created>1654320561506</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1654320561507</updated>
+    </task>
+    <option name="localTasksCounter" value="250" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -996,7 +999,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Graph + BFS/DFS + Dijikstra + Topology Order" />
     <MESSAGE value="Greedy + DP + BFS + DFS + Monotonik Stack + Sliding Window" />
     <MESSAGE value="Heap + Sort + DP" />
     <MESSAGE value="HashMap+Sort" />
@@ -1021,7 +1023,8 @@
     <MESSAGE value="BFS" />
     <MESSAGE value="Binary Search" />
     <MESSAGE value="Monotonik Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Monotonik Stack" />
+    <MESSAGE value="Parentheses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parentheses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

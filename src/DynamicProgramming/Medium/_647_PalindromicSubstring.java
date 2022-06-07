@@ -25,6 +25,30 @@ public class _647_PalindromicSubstring {
         }
         return res;
     }
+
+
+    /*
+      public int countSubstrings(String s) {
+        if(s.length() <= 0) return 0;
+        int count = 0;
+        for(int i=0; i<s.length(); i++){
+            count += find(s, i, i);
+            count += find(s, i, i+1);
+        }
+        return count;
+    }
+
+    private int find(String s, int left, int right){
+        int res = 0;
+        while(left >= 0 && right < s.length() && s.charAt(left)==s.charAt(right)){
+            res++;
+            left--;
+            right++;
+        }
+        return res;
+    }
+     */
+
     /*
     Time = O(n^3) Space = O(1)
      public int countSubstrings(String s) {
@@ -52,5 +76,8 @@ public class _647_PalindromicSubstring {
         return true;
     }
      */
+
+
+
 
 }

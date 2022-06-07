@@ -7,6 +7,8 @@ import java.util.List;
  * Created by Shuhua Song
  */
 public class _51_N_Queens {
+
+    //Time = O(N*N!), N = # of rows, each row has N! option
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> results = new ArrayList<>();
         char[][] board = new char[n][n];
