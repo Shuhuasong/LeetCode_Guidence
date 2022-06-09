@@ -50,29 +50,32 @@ public class _131_PalindromePartition {
     // Space = O(n)
     /*
     public List<List<String>> partition(String s) {
-        List<List<String>> results = new ArrayList<>();
-        if(s.length()==0) return results;
-        backtrack(s, 0, new ArrayList<>(), results);
-        return results;
+       List<List<String>> results = new ArrayList<>();
+       List<String> list = new ArrayList<>();
+       backtrack(s, 0, list, results);
+       return results;
     }
 
-    public void backtrack(String s, int start, List<String> list, List<List<String>> results){
-        if(start>=s.length() && list.size()>0){
-            results.add(new ArrayList<>(list));
+    private void backtrack(String s, int start, List<String> path, List<List<String>> results){
+        if(start==s.length()){
+            results.add(new ArrayList<>(path));
             return;
         }
+        String curr = "";
         for(int i=start; i<s.length(); i++){
-            if(isPalindrom(s, start, i)){
-                list.add(s.substring(start, i+1));
-                backtrack(s, i+1, list, results);
-                list.remove(list.size()-1);
+            curr = s.substring(start,i+1);
+            if(isPalindrom(curr)){
+                path.add(curr);
+                backtrack(s, i+1, path, results);
+                path.remove(path.size()-1);
             }
         }
     }
 
-    public boolean isPalindrom(String s, int l, int r ){
-        while(l<r){
-            if(s.charAt(l) != s.charAt(r)){
+    private boolean isPalindrom(String s){
+        int l = 0, r = s.length()-1;
+        while(l < r){
+            if(s.charAt(l)!=s.charAt(r)){
                 return false;
             }
             l++;

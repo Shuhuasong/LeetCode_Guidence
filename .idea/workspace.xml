@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Hard/_1216_ValidPalindrom_III.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RollingHash/_214_ShortestPalindrome.java" afterDir="false" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="Palindrome">
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Hard/_2193_MinimumNumberOfMovesToMakePalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Hard/_51_N_Queens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_51_N_Queens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Hard/_52_N_Queens_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Hard/_52_N_Queens_II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_647_PalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Medium/_647_PalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_131_PalindromePartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_131_PalindromePartition.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -633,14 +630,10 @@
       <workItem from="1654305123049" duration="607000" />
       <workItem from="1654403657823" duration="1331000" />
       <workItem from="1654444571179" duration="725000" />
-      <workItem from="1654553280605" duration="3740000" />
-    </task>
-    <task id="LOCAL-00201" summary="HashMap + Prefix Sum">
-      <created>1645678631298</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1645678631299</updated>
+      <workItem from="1654553280605" duration="3844000" />
+      <workItem from="1654661790828" duration="1557000" />
+      <workItem from="1654749345118" duration="48000" />
+      <workItem from="1654750125929" duration="1551000" />
     </task>
     <task id="LOCAL-00202" summary="HashMap + Prefix Sum">
       <created>1645686869766</created>
@@ -978,7 +971,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654320561507</updated>
     </task>
-    <option name="localTasksCounter" value="250" />
+    <task id="LOCAL-00250" summary="Palindrome">
+      <created>1654578569979</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1654578569980</updated>
+    </task>
+    <option name="localTasksCounter" value="251" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -999,7 +999,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Greedy + DP + BFS + DFS + Monotonik Stack + Sliding Window" />
     <MESSAGE value="Heap + Sort + DP" />
     <MESSAGE value="HashMap+Sort" />
     <MESSAGE value="Heap" />
@@ -1024,7 +1023,8 @@
     <MESSAGE value="Binary Search" />
     <MESSAGE value="Monotonik Stack" />
     <MESSAGE value="Parentheses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parentheses" />
+    <MESSAGE value="Palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="Palindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
