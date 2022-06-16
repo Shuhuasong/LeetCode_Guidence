@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="Palindrome">
-      <change afterPath="$PROJECT_DIR$/src/Greedy/Hard/_2193_MinimumNumberOfMovesToMakePalindrome.java" afterDir="false" />
+    <list default="true" id="c87ee166-697f-43ea-b3ae-a3a3f576d99d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Easy/_1332_RemovePalindromicSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Easy/_243_ShortestWordDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Easy/_245_ShortestWordDistance_III.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtrack/Medium/_131_PalindromePartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtrack/Medium/_131_PalindromePartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/_394_DecodeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/_394_DecodeString.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -633,14 +635,10 @@
       <workItem from="1654553280605" duration="3844000" />
       <workItem from="1654661790828" duration="1557000" />
       <workItem from="1654749345118" duration="48000" />
-      <workItem from="1654750125929" duration="1551000" />
-    </task>
-    <task id="LOCAL-00202" summary="HashMap + Prefix Sum">
-      <created>1645686869766</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1645686869766</updated>
+      <workItem from="1654750125929" duration="1630000" />
+      <workItem from="1654910908805" duration="639000" />
+      <workItem from="1655166805646" duration="1749000" />
+      <workItem from="1655356305448" duration="343000" />
     </task>
     <task id="LOCAL-00203" summary="HashMap + Prefix Sum">
       <created>1645736932486</created>
@@ -978,7 +976,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654578569980</updated>
     </task>
-    <option name="localTasksCounter" value="251" />
+    <task id="LOCAL-00251" summary="Greedy">
+      <created>1654752422595</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1654752422596</updated>
+    </task>
+    <option name="localTasksCounter" value="252" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -999,7 +1004,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Heap + Sort + DP" />
     <MESSAGE value="HashMap+Sort" />
     <MESSAGE value="Heap" />
     <MESSAGE value="BFS+Sorting" />
@@ -1024,7 +1028,8 @@
     <MESSAGE value="Monotonik Stack" />
     <MESSAGE value="Parentheses" />
     <MESSAGE value="Palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="Palindrome" />
+    <MESSAGE value="Greedy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Greedy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
