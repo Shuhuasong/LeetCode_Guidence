@@ -7,6 +7,30 @@ import java.util.Arrays;
  */
 public class _828_CountUniqueCharactersOfAllSubstringsOfaGivenString {
     //Time = O(n), Space = O(n)
+
+    public int uniqueLetterString(String s) {
+        int n = s.length();
+        int[] prev = new int[n], next = new int[n];
+        Arrays.fill(prev, -1);
+        Arrays.fill(next, n);
+        int[] lastIdx = new int[26];
+        Arrays.fill(lastIdx, -1);
+        for(int i=0; i<n; i++){
+            char c = s.charAt(i);
+            prev[i] = lastIdx[c-'A'];
+            lastIdx[c-'A'] = i;
+            if(prev[i]!=-1){
+                next[prev[i]] = i;
+            }
+        }
+        int result = 0;
+        for(int i=0; i<n; i++){
+            result += (i-prev[i]) * (next[i]-i);
+        }
+        return result;
+    }
+
+    /*
     public int uniqueLetterString(String s) {
         int[] letter = new int[26];
         int n = s.length(), res = 0;
@@ -38,6 +62,8 @@ public class _828_CountUniqueCharactersOfAllSubstringsOfaGivenString {
         }
         return res;
     }
+
+     */
 }
 
 /*
@@ -62,4 +88,27 @@ For E*:
 <1> 1 + Left amount of characters (or the number of characters between this current character and it's duplicate on the left, if any) to all the substrings from the left
 <2> 1 + right amount of characters (same number) to Right number of substrings to it's right (or the number of characters betwen this current character and it's duplicate on the right)
 
+
+
+
+/*
+Solution-1: Brute Force
+find each substring, and count how many unique char
+for each substring
+
+Solution-1: Hashtable
+1) define an array prev and next
+   prev[] : record the previous same char's index
+   next[] : record the next same char's index
+
+e.g
+      0  1  2  3  4  5  6
+      A  B  C  A  D  E  A
+            |
+prev -1 -1 -1  0  -1 -1  3
+next  3  7 -7  6   7  7  7
+ for char A at 3, it is in 3 * 3 = 9 total
+ substring
+ (3-0) * (6-3) = 9
  */
+ 
